@@ -16,6 +16,10 @@ def main():
          '-c', '--corrected', dest='corrected_filename', required=True,
          metavar='FILE',
          help='File to be passed as cor_file to ERRANT')
+    parser.add_argument(
+         '-r', '--reference', dest='reference_filename',
+         metavar='FILE',
+         help='Human-corrected version (e.g. for GLEU scoring)')
 
     args = parser.parse_args()
 
@@ -24,10 +28,12 @@ def main():
 
     corrected = []
     original = []
+    reference = []
 
     for item in data:
-        corrected.append(item['generated'].split('\n\n')[0].strip())
+        corrected.append(item['generated'][0].split('\n\n')[0].strip())
         original.append(item['item'].strip())
+        reference.append(item['target'].strip())
 
     with open(args.original_filename, 'w') as f:
         f.write('\n'.join(original))
@@ -35,6 +41,9 @@ def main():
     with open(args.corrected_filename, 'w') as f:
         f.write('\n'.join(corrected))
 
+    if args.reference_filename:
+        with open(args.reference_filename, 'w') as f:
+            f.write('\n'.join(reference))
 
 if __name__ == '__main__':
     main()

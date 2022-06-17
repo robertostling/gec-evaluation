@@ -63,6 +63,22 @@ if __name__ == "__main__":
         '-p', '--precision', dest='model_precision', type=int, default=16,
         metavar='N', choices={16, 32},
         help='Number of bits of precision for the language model')
+    parser.add_argument(
+        '--beam-size', dest='beam_size', type=int, default=1,
+        metavar='N',
+        help='Beam size for generation (defaults to greedy search)')
+    parser.add_argument(
+        '--n-sequences', dest='n_sequences', type=int, default=1,
+        metavar='N',
+        help='Number of returned sequences for each item')
+    parser.add_argument(
+        '--temperature', dest='temperature', type=float, default=0.0,
+        metavar='T',
+        help='Temperature parameter (non-zero value enables random sampling)')
+    parser.add_argument(
+        '--top-p', dest='top_p', type=float, default=1.0,
+        metavar='X',
+        help='Nucleus sampling parameter')
 
     args = parser.parse_args()
 
@@ -101,18 +117,27 @@ if __name__ == "__main__":
 
         generated_ids = model.generate(
                 input_ids,
-                num_beams=1,
-                do_sample=False,
-                temprature=0,
+                num_beams=args.beam_size,
+                do_sample=(args.temperature != 0 or args.top_p != 1),
+                temprature=args.temperature,
+                num_return_sequences=args.n_sequences,
                 max_length=input_ids.shape[1] + n_tokens,
                 pad_token_id=pad_token_id)
 
-        generated_text = tokenizer.decode(
-                generated_ids[0][input_ids.shape[1]:],
+        generated_texts = [
+            tokenizer.decode(
+                ids[input_ids.shape[1]:],
                 skip_special_tokens=True,
                 clean_up_tokenization_spaces=True)
+            for ids in generated_ids]
 
-        item['generated'] = generated_text
+        # This may be e.g. "\n\n" and anything after that is cut off
+        if 'terminator' in item:
+            generated_texts = [
+                    text.split(item['terminator'])[0]
+                    for text in generated_texts]
+
+        item['generated'] = generated_texts
         item.move_to_end('prompt')
         processed_data.append(item)
 
