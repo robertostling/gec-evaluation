@@ -24,8 +24,7 @@ def read_data(dataset):
     return pairs
 
 
-def create_prompt(train_data, test_sentence, max_tokens=2000,
-                  prompt_name='prompt1'):
+def create_prompt(train_data, test_sentence, max_tokens=2000, prompt_name='prompt1'):
     prompt_item, prompt_ask = PROMPTS[prompt_name]
     context = ''
     prompt = ''
