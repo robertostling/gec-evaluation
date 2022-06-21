@@ -42,3 +42,11 @@ def read_pairs(filename, coder_id=0):
         result.append((original_sent, cor_sent))
 
     return result
+
+
+if __name__ == '__main__':
+    import sys
+    for i, (original, cor) in enumerate(read_pairs(sys.argv[1])):
+        print('%5d' % i, ' '.join(original))
+        print('  COR', ' '.join(cor))
+

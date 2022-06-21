@@ -25,14 +25,18 @@ def read_data(dataset):
 
 
 def create_prompt(train_data, test_sentence, max_tokens=2000,
-                  prompt_name='prompt1'):
+                  prompt_name='prompt1', shuffle=True):
     prompt_item, prompt_ask = PROMPTS[prompt_name]
     context = ''
     prompt = ''
-    shuffled_data = train_data.copy()
-    random.shuffle(shuffled_data)
-    while True:
-        original, corrected = shuffled_data.pop()
+    data = train_data.copy()
+    if shuffle:
+        random.shuffle(data)
+    else:
+        data.reverse()
+
+    while data:
+        original, corrected = data.pop()
         new_context = (
             context +
             prompt_item + ' '.join(original) + '\n' +
@@ -61,15 +65,19 @@ def main():
     levels = ('A', 'B', 'C')
     # Levels to use as few-shot examples. Currently C is excluded because they
     # tend to contain few errors.
-    train_levels = ('A', 'B')
+    # train_levels = ('A', 'B')
     prompt_name = sys.argv[1]
     assert prompt_name in PROMPTS
 
     # Conforming with BEA 2019 guidelines, we are assumed to be unaware of
     # the CEFR level of the text we are correcting. For this reason we mix
     # few-shot examples from all levels deemed suitable for training.
-    train = sum(
-        [read_data(f'{level}.train.gold.bea19') for level in train_levels], [])
+    # train = sum(
+    #   [read_data(f'{level}.train.gold.bea19') for level in train_levels], [])
+
+    with open('prompts/eng-test1.corrupted') as f1:
+        with open('prompts/eng-test1.target') as f2:
+            train = list(zip(map(str.split, f1), map(str.split, f2)))
 
     for level in levels:
         # train = read_data(f'{level}.train.gold.bea19')
@@ -86,13 +94,16 @@ def main():
                     index=i,
                     item=' '.join(original),
                     target=' '.join(corrected),
+                    terminator='\n\n',
                     n_tokens=n_tokens,
                     prompt=prompt
                     )
             examples.append(item)
             print(f'Generated {i+1}/{len(dev)}')
 
-        with open(f'data/{level}-{prompt_name}.dev.gold.bea19.json', 'w') as f:
+        with open(
+                f'data/{level}-{prompt_name}-test1.dev.gold.bea19.json',
+                'w') as f:
             json.dump(examples, f, sort_keys=False, indent=4)
 
 
