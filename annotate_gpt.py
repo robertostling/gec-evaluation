@@ -36,7 +36,7 @@ def main():
         data = json.load(f)
 
         for item in data:
-            if item['index'] not in indexes:
+            if indexes is None or item['index'] not in indexes:
                 continue
             kwargs = {}
             if 'terminator' in item:
@@ -50,7 +50,10 @@ def main():
                     frequency_penalty=0.0,
                     presence_penalty=0.0,
                     **kwargs)
-            item['generated'] = response['choices'][0]['text']
+            # Note: the evaluation scripts are currently hard-coded to always
+            # use the first item of the list of generated corrections, so we
+            # put this in a dummy 1-item list
+            item['generated'] = [response['choices'][0]['text']]
             item['model'] = args.model_name
             processed_data.append(item)
             print(f'Annotated item {item["index"]}', flush=True)
