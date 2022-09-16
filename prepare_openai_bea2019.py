@@ -11,16 +11,18 @@ PROMPTS = {
         'prompt1': ('Original sentence:', 'Corrected sentence:'),
         }
 
-
-# Selected examples for *few*-shot prompts
-EXAMPLE_PRIORITY = {
-        'A.train.gold.bea19': [
-            # Many corrections:
-            9, 11,
-            #18, 33, 130, 644, 714, 824, 946,
-            # Without corrections:
-            679, 704, # Without corrections
-            ]
+# Many corrections:
+#9, 11, 18, 33, 130, 259, 644, 714, 824, 946,
+# Without corrections:
+#679, 704,
+EXAMPLE_SETS = {
+        'zero': {},
+        'four': {
+            'A.train.gold.bea19': [9, 11, 679, 704],
+            },
+        'six': {
+            'A.train.gold.bea19': [9, 679, 11, 644, 704, 259],
+            },
         }
 
 def read_data(dataset):
@@ -39,20 +41,43 @@ def create_prompt(train_data, test_sentence, prompt_name='prompt1'):
 
 
 def main():
+    prompt_name = sys.argv[1]
+    assert prompt_name in PROMPTS
+    example_set = sys.argv[2]
+    assert example_set in EXAMPLE_SETS
+
     train_data = []
-    for dataset, indexes in EXAMPLE_PRIORITY.items():
+    for dataset, indexes in EXAMPLE_SETS[example_set].items():
         pairs = read_data(dataset)
         for i in indexes:
             train_data.append(pairs[i])
 
     # Levels to generate data from (typically, all three)
     levels = ('A', 'B', 'C')
-    prompt_name = sys.argv[1]
-    assert prompt_name in PROMPTS
 
     #with open('prompts/eng-test1.corrupted') as f1:
     #    with open('prompts/eng-test1.target') as f2:
     #        train = list(zip(map(str.split, f1), map(str.split, f2)))
+
+    examples = []
+    with open('data/ABCN.test.bea19.orig', 'r') as f:
+        test = [line.strip() for line in f]
+        print(f'{len(test)} sentences in official test set')
+        for i, original in enumerate(test):
+            original = original.split()
+            prompt = create_prompt(
+                    train_data, original, prompt_name=prompt_name)
+            item = OrderedDict(
+                    index=i,
+                    item=' '.join(original),
+                    terminator='\n\n',
+                    n_tokens=len(original)*2,
+                    prompt=prompt)
+            examples.append(item)
+
+    with open(f'data/{prompt_name}-{example_set}.test.bea19.json', 'w') as f:
+        json.dump(examples, f, sort_keys=False, indent=4)
+
 
     for level in levels:
         dev = read_data(f'{level}.dev.gold.bea19')

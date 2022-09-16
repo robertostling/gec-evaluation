@@ -2,6 +2,7 @@ import openai
 import os
 import json
 import argparse
+import time
 
 def main():
     parser = argparse.ArgumentParser(
@@ -15,7 +16,10 @@ def main():
         help='JSON file to be written with `generated` attribute added')
     parser.add_argument(
         '--indexes', dest='indexes', metavar='LIST',
-        help='Comma-separated list of item indexes to annotate')
+        help='Comma-separated list of item indexes/ranges to annotate')
+    parser.add_argument(
+        '--add-skipped', dest='add_skipped', action='store_true',
+        help='Add all items to output, including ones not annotated')
     parser.add_argument(
         '-m', '--model', dest='model_name', default='text-babbage-001',
         metavar='MODEL',
@@ -23,10 +27,22 @@ def main():
 
     args = parser.parse_args()
 
+    sleep_time = 1.0
+
     #  'text-babbage-001' # 'text-davinci-002'
-    #indexes = [986]
-    indexes = [int(s) for s in args.indexes.split(',')] if args.indexes \
-            else None
+    if args.indexes:
+        indexes = []
+        for s in args.indexes.split(','):
+            if '-' in s:
+                lower, upper = list(map(int, s.split('-')))
+                for i in range(lower, upper+1):
+                    indexes.append(i)
+            else:
+                indexes.append(int(s))
+        print(f'Annotating up to {len(indexes)} items')
+    else:
+        indexes = None
+
 
     with open(os.path.join(os.getenv('HOME'), '.openai.key')) as f:
         openai.api_key = f.read().strip()
@@ -37,10 +53,19 @@ def main():
 
         for item in data:
             if indexes is None or item['index'] not in indexes:
+                if args.add_skipped:
+                    processed_data.append(item)
+                continue
+            if 'generated' in item:
+                print(f'Skipping item {item["index"]} (already annotated)',
+                        flush=True)
+                if args.add_skipped:
+                    processed_data.append(item)
                 continue
             kwargs = {}
             if 'terminator' in item:
                 kwargs['stop'] = [item['terminator']]
+            time.sleep(sleep_time)
             response = openai.Completion.create(
                     model=args.model_name,
                     prompt=item['prompt'],
