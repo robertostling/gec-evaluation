@@ -28,6 +28,8 @@ import numpy as np
 import random
 
 def get_gleu_stats(scores) :
+    if len(scores) < 2:
+        return ['%.3f' % scores[0]]
     mean = np.mean(scores)
     std = np.std(scores)
     ci = scipy.stats.norm.interval(0.95,loc=mean,scale=std)
