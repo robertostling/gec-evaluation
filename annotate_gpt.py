@@ -52,7 +52,7 @@ def main():
         data = json.load(f)
 
         for item in data:
-            if indexes is None or item['index'] not in indexes:
+            if indexes is not None and item['index'] not in indexes:
                 if args.add_skipped:
                     processed_data.append(item)
                 continue
