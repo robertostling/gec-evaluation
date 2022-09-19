@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#SBATCH -A SNIC2021-7-121 -p alvis
 #SBATCH --gpus-per-node=A40:1
 #SBATCH -t 0-04:00:00
 

@@ -27,7 +27,7 @@ def main():
 
     args = parser.parse_args()
 
-    sleep_time = 1.0
+    sleep_time = 4.0
 
     #  'text-babbage-001' # 'text-davinci-002'
     if args.indexes:
