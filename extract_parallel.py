@@ -33,7 +33,10 @@ def main():
     for item in data:
         corrected.append(item['generated'][0].split('\n\n')[0].strip())
         original.append(item['item'].strip())
-        reference.append(item['target'].strip())
+        if 'target' in item:
+            reference.append(item['target'].strip())
+
+    assert len(reference) in (0, len(original))
 
     with open(args.original_filename, 'w') as f:
         f.write('\n'.join(original))
@@ -41,7 +44,7 @@ def main():
     with open(args.corrected_filename, 'w') as f:
         f.write('\n'.join(corrected))
 
-    if args.reference_filename:
+    if args.reference_filename and reference:
         with open(args.reference_filename, 'w') as f:
             f.write('\n'.join(reference))
 
