@@ -27,6 +27,8 @@ import scipy.stats
 import numpy as np
 import random
 
+import spacy
+
 def get_gleu_stats(scores) :
     if len(scores) < 2:
         return ['%.3f' % scores[0]]
@@ -70,7 +72,16 @@ if __name__ == '__main__' :
                         type=int,
                         default=500,
                         help='the number of iterations to run')
-
+    parser.add_argument("--tokenizer",
+                        help="SpaCy tokenizer module",
+                        type=str,
+                        default=None)
+    parser.add_argument("--tokenize-reference",
+                        help="Tokenize not just hypothesis, but reference"
+                             "+source too",
+                        default=False,
+                        action="store_true")
+ 
     args = parser.parse_args()
 
     num_iterations = args.iter
@@ -79,14 +90,26 @@ if __name__ == '__main__' :
     if len(args.reference) == 1 :
         num_iterations = 1
 
-    gleu_calculator = GLEU(args.n)
+    nlp = None
+    if args.tokenizer is not None:
+        nlp = spacy.load(args.tokenizer)
+
+    def tokenize(s):
+        if nlp is None:
+            return s.split()
+        else:
+            doc = nlp.tokenizer(s.strip())
+            return [t.text for t in doc]
+
+    gleu_calculator = GLEU(n=args.n,
+            tokenizer=(tokenize if args.tokenize_reference else None))
 
     gleu_calculator.load_sources(args.source)
     gleu_calculator.load_references(args.reference)
 
     for hpath in args.hypothesis :
         instream = sys.stdin if hpath == '-' else open(hpath)
-        hyp = [line.split() for line in instream]
+        hyp = [tokenize(line) for line in instream]
 
         if not args.debug :
             print(os.path.basename(hpath), end=' ')

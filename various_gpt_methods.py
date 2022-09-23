@@ -3,6 +3,9 @@ import os
 import argparse
 import time
 
+SWE_PRELUDE = 'Dessa meningar är skrivna av en elev som lär sig svenska. ' \
+              'Meningarna är rättade av en lärare. Läraren har ändrat så ' \
+              'lite som möjligt i meningarna.\n\n'
 
 SWE_EXAMPLES = [
         ('föra vecka jag har fått ett brev från dig och du hade sagt du är liten huvudvärk . är du mår bra nu ?',
@@ -10,6 +13,17 @@ SWE_EXAMPLES = [
 
         ('På andra sidan mycket lättare man hitar bostad hit en på gransteder , man kan resa gratis med kollektivt trafik bra hela kommunen .',
          'Å andra sidan är det mycket lättare att hitta bostad här än i grannstäderna . Man kan resa gratis med bra kollektivtrafik i hela kommunen .'),
+
+        ('Livet är hård man måste kämpa för att man leva bättra .',
+         'Livet är hårt , man måste kämpa för att kunna leva bättre .'),
+
+        ('Kvinnorna måste jobba och skät barn i samtid .',
+         'Kvinnorna måste jobba och sköta barn samtidigt .'),
+
+        ('Det är svårt att ge råd för någon, om man har själv ekonomiska '
+         'problem .',
+         'Det är svårt att ge råd till någon om man själv har ekonomiska '
+         'problem .'),
         ]
 
 SWE_ENG_EXAMPLES = [
@@ -53,13 +67,22 @@ def openai_request(args, prompt, max_tokens):
 
 
 def process_sentence(line, args, logf):
-    if args.method_name == 'swe-2s':
-        prompt = ' '.join(
+    if args.method_name in ('swe-p2s', 'swe-2s', 'swe-p5s'):
+        if '2' in args.method_name:
+            n = 2
+        elif '5' in args.method_name:
+            n = 5
+        else:
+            raise NotImplementedError(args.method_name)
+        # NOTE: changed from ' '.join(...) after Nyberg.CEFR_A.manual_test.ps5
+        prompt = ''.join(
                      f'Elevens text: {SWE_EXAMPLES[i][0]}\n' \
                      f'Rättad text: {SWE_EXAMPLES[i][1]}\n\n'
-                     for i in range(2)) + \
+                     for i in range(n)) + \
                  f'Elevens text: {line}\n' \
                  f'Rättad text:'
+        if '-p' in args.method_name:
+            prompt = SWE_PRELUDE + prompt
         result = openai_request(args, prompt, 50+3*len(line.split()))
         print(prompt + '<<<' + result + '>>>', file=logf, flush=True)
         return result

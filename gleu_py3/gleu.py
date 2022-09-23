@@ -23,8 +23,15 @@ from collections import Counter
 
 class GLEU :
 
-    def __init__(self,n=4) :
+    def __init__(self,n=4, tokenizer=None) :
         self.order = 4
+        self.tokenizer = tokenizer
+
+    def tokenize(self, sentence):
+        if self.tokenizer is None:
+            return sentence.split()
+        else:
+            return self.tokenizer(sentence)
 
     def load_hypothesis_sentence(self,hypothesis) :
         self.hlen = len(hypothesis)
@@ -32,7 +39,7 @@ class GLEU :
                                for n in range(1,self.order+1) ]
 
     def load_sources(self,spath) :
-        self.all_s_ngrams = [ [ self.get_ngram_counts(line.split(),n)
+        self.all_s_ngrams = [ [ self.get_ngram_counts(self.tokenize(line),n)
                                 for n in range(1,self.order+1) ]
                               for line in open(spath) ]
 
@@ -41,8 +48,9 @@ class GLEU :
         self.rlens = [ [] for i in range(len(self.all_s_ngrams)) ]
         for rpath in rpaths :
             for i,line in enumerate(open(rpath)) :
-                self.refs[i].append(line.split())
-                self.rlens[i].append(len(line.split()))
+                tokens = self.tokenize(line)
+                self.refs[i].append(tokens)
+                self.rlens[i].append(len(tokens))
 
         # count number of references each n-gram appear sin
         self.all_rngrams_freq = [ Counter() for i in range(self.order) ]
