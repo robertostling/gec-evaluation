@@ -36,7 +36,7 @@ if __name__ == "__main__":
         metavar='FILE',
         help='JSON file to be written with `generated` attribute added')
     parser.add_argument(
-        '-m', '--model', dest='model', default='EleutherAI/gpt-j-6B',
+        '-m', '--model', dest='model', default='opt-175b',
         metavar='MODEL',
         help='Huggingface model name (WARNING: beware of hardcoded models in '
              'prepare_bea2019.py)')
@@ -44,10 +44,6 @@ if __name__ == "__main__":
         '-s', '--subsample', dest='subsample', type=int, default=None,
         metavar='N',
         help='If given, only process every Nth item')
-    parser.add_argument(
-        '-p', '--precision', dest='model_precision', type=int, default=16,
-        metavar='N', choices={16, 32},
-        help='Number of bits of precision for the language model')
     parser.add_argument(
         '--beam-size', dest='beam_size', type=int, default=1,
         metavar='N',
@@ -100,7 +96,7 @@ if __name__ == "__main__":
         n_tokens = item['n_tokens']
         input_ids = tokenizer(item['prompt'],
                               return_tensors="pt",
-                              padding="longest").input_ids.cuda()
+                              padding="longest").input_ids
 
         logging.info(f'Processing example {item_no+1}/{len(data)} with '
                      f'{input_ids.shape[1]} tokens')
@@ -124,8 +120,6 @@ if __name__ == "__main__":
         item.move_to_end('prompt')
         processed_data.append(item)
         bar.update()
-
-    torch.cuda.empty_cache()
 
     with open(args.output_filename, 'w', encoding='utf-8') as f:
         json.dump(processed_data, f, indent=4)
