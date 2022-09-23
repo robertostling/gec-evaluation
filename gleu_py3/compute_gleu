@@ -27,6 +27,9 @@ import scipy.stats
 import numpy as np
 import random
 
+import warnings
+warnings.simplefilter("ignore", UserWarning)
+
 import spacy
 
 def get_gleu_stats(scores) :
