@@ -124,16 +124,16 @@ if __name__ == "__main__":
         for idx, gen_text in enumerate(generated_texts):
             # This may be e.g. "\n\n" and anything after that is cut off
             if 'terminator' in gen_text:
-                generated_texts = [
+                gen_text = [
                     text.split(gen_text['terminator'])[0]
-                    for text in generated_texts]
+                    for text in gen_text]
 
-            batch[idx]['generated'] = generated_texts
+            batch[idx]['generated'] = gen_text
             batch[idx].move_to_end('prompt')
             processed_data.append(batch[idx])
-            print(batch[idx])
+            print(batch[idx], "\n\n")
             bar.update()
             print("\n")
 
-with open(args.output_filename, 'w', encoding='utf-8') as f:
-        json.dump(processed_data, f, indent=4)
+    with open(args.output_filename, 'w', encoding='utf-8') as f:
+            json.dump(processed_data, f, indent=4)
