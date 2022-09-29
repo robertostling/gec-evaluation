@@ -11,13 +11,13 @@ from llm_serving.model.wrapper import get_model
 # other versions have some issues. The 30B version works for all OPT models.
 
 
-def load_model(generate_params, model_name="opt-175b"):
+def load_model(generate_params, model_name="opt-175b", batch_size = 4):
     tokenizer = AutoTokenizer.from_pretrained("facebook/opt-30b", use_fast=False)
     tokenizer.add_bos_token = False
     if model_name == "opt-175b":
-        model = get_model(model_name="alpa/opt-175b", path="/mimer/NOBACKUP/groups/sweclarin/", **generate_params) # /cephyr/NOBACKUP/groups/smnlp/opt175b/other_weights/")
+        model = get_model(model_name="alpa/opt-175b", path="/mimer/NOBACKUP/groups/sweclarin/", batch_size=batch_size, **generate_params) # /cephyr/NOBACKUP/groups/smnlp/opt175b/other_weights/")
     else:
-        model = get_model(model_name=f"alpa/{model_name}", path="/cephyr/NOBACKUP/groups/smnlp/opt175b/other_weights", **generate_params) # /cephyr/NOBACKUP/groups/smnlp/opt175b/other_weights/")
+        model = get_model(model_name=f"alpa/{model_name}", path="/cephyr/NOBACKUP/groups/smnlp/opt175b/other_weights", batch_size=batch_size, **generate_params) # /cephyr/NOBACKUP/groups/smnlp/opt175b/other_weights/")
 
     return model, tokenizer
 
@@ -48,6 +48,10 @@ if __name__ == "__main__":
         '--beam-size', dest='beam_size', type=int, default=1,
         metavar='N',
         help='Beam size for generation (defaults to greedy search)')
+    parser.add_argument(
+        '--batch-size', dest='batch_size', type=int, default=4,
+        metavar='N',
+        help='Batch size for generation')
     parser.add_argument(
         '--n-sequences', dest='n_sequences', type=int, default=1,
         metavar='N',
@@ -83,43 +87,53 @@ if __name__ == "__main__":
     generate_params = {
         "do_sample": args.temperature != 0 or args.top_p != 1,
         "num_beams": args.beam_size,
-        "num_return_sequences": args.n_sequences
+        "num_return_sequences": args.n_sequences,
     }
 
-    model, tokenizer = load_model(generate_params, model_name)
+    model, tokenizer = load_model(generate_params, model_name, args.batch_size)
 
     processed_data = []
-    bar = tqdm(total=len(data))
-    for item_no, item in enumerate(data):
-        if args.subsample and (item_no % args.subsample != 0):
+    bar = tqdm(total=int(len(data)/args.batch_size)+1)
+    # for item_no, item in enumerate(data):
+    for ndx in range(0, len(data), args.batch_size):
+        if args.subsample and (ndx < args.subsample):
             continue
-        n_tokens = item['n_tokens']
-        input_ids = tokenizer(item['prompt'],
+        batch = data[ndx:min(ndx + args.batch_size, len(data))]
+        print(batch)
+        max_n_tokens = max([ex["n_tokens"] for ex in batch])
+
+        input_ids = tokenizer([ex["prompt"] for ex in batch],
                               return_tensors="pt",
                               padding="longest").input_ids
+        print(input_ids.shape)
 
-        logging.info(f'Processing example {item_no+1}/{len(data)} with '
-                     f'{input_ids.shape[1]} tokens')
+        logging.info(f'Processing batch {ndx + 1}/{int(len(data) / args.batch_size) + 1}')
         generated_ids = model.generate(input_ids=input_ids,
-                                max_length=input_ids.shape[1] + n_tokens,
-                                **generate_params)
-
+                                       max_length=input_ids.shape[1] + max_n_tokens,
+                                       **generate_params)
+        '''
         generated_texts = [tokenizer.decode(
                 ids[input_ids.shape[1]:],
                 skip_special_tokens=True,
                 clean_up_tokenization_spaces=True)
             for ids in generated_ids]
+        '''
+        generated_texts = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+        print(generated_texts)
 
-        # This may be e.g. "\n\n" and anything after that is cut off
-        if 'terminator' in item:
-            generated_texts = [
-                    text.split(item['terminator'])[0]
-                    for text in generated_texts]
+        for idx, gen_text in enumerate(generated_texts):
+            # This may be e.g. "\n\n" and anything after that is cut off
+            if 'terminator' in gen_text:
+                gen_text = [
+                    text.split(gen_text['terminator'])[0]
+                    for text in gen_text]
 
-        item['generated'] = generated_texts
-        item.move_to_end('prompt')
-        processed_data.append(item)
-        bar.update()
+            batch[idx]['generated'] = gen_text
+            batch[idx].move_to_end('prompt')
+            processed_data.append(batch[idx])
+            print(batch[idx], "\n\n")
+            bar.update()
+            print("\n")
 
     with open(args.output_filename, 'w', encoding='utf-8') as f:
-        json.dump(processed_data, f, indent=4)
+            json.dump(processed_data, f, indent=4)

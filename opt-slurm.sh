@@ -5,13 +5,13 @@
 #SBATCH --job-name=opt
 #SBATCH --output=slurm-logs/opt.log
 ### This script works for any number of nodes, Ray will find and manage all resources
-#SBATCH --nodes=1
 ##  SBATCH --exclusive
 ### Give all resources to a single Ray task, ray can manage the resources internally
 #SBATCH --ntasks-per-node=1
 #SBATCH --gpus-per-node=A100fat:1
+#SBATCH --nodes=1
 #SBATCH -A SNIC2021-7-121
-#SBATCH -t 0-12:00:00
+#SBATCH -t 0-2:00:00
 
 # Load modules or your own conda environment here
 # module load pytorch/v1.4.0-gpu
@@ -22,6 +22,7 @@ export TRANSFORMERS_CACHE="/cephyr/NOBACKUP/groups/smnlp/.hg_cache"
 
 module load Python/3.9.5-GCCcore-10.3.0
 module load CUDA/11.3.1
+module load  cuDNN/8.2.1.32-CUDA-11.3.1
 
 source  /cephyr/NOBACKUP/groups/smnlp/working_env/bin/activate
 
