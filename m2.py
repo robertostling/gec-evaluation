@@ -46,7 +46,18 @@ def read_pairs(filename, coder_id=0):
 
 if __name__ == '__main__':
     import sys
-    for i, (original, cor) in enumerate(read_pairs(sys.argv[1])):
-        print('%5d' % i, ' '.join(original))
-        print('  COR', ' '.join(cor))
+    import os.path
+    in_filename = sys.argv[1]
+    assert os.path.exists(in_filename)
+    out_prefix = sys.argv[2]
+    orig_filename = out_prefix + '.orig.txt'
+    corr_filename = out_prefix + '.corr.txt'
+    assert not os.path.exists(orig_filename)
+    assert not os.path.exists(corr_filename)
+    with open(orig_filename, 'w') as orig_f, open(corr_filename, 'w') as corr_f:
+        for i, (original, cor) in enumerate(read_pairs(in_filename)):
+            print(' '.join(original), file=orig_f)
+            print(' '.join(cor), file=corr_f)
+            #print('%5d' % i, ' '.join(original))
+            #print('  COR', ' '.join(cor))
 

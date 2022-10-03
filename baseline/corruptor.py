@@ -96,7 +96,7 @@ class Dalaj:
                 reverse=True)
 
 
-    def corrupt_word_order(self, sentence, p_move=0.1, distance_std=3):
+    def corrupt_word_order(self, sentence, p_move=0.1, distance_std=1.5):
         tokens = sentence.split()
         non_punct = [i for i, token in enumerate(tokens) if token.isalnum()]
         if len(tokens) < 2:
@@ -131,34 +131,34 @@ class Dalaj:
             tokens.insert(j, item)
         return ' '.join(tokens)
 
-    def corrupt_word_choice(sentence):
-        def corrupt_ngram(target, temp=1):
+    def corrupt_word_choice(self, sentence, temp=1):
+        def corrupt_ngram(target):
             if target not in self.ngram_alternatives:
                 return target
             alternatives = list(self.ngram_alternatives[target].items())
             alternatives.append(
-                    (target, self.target_ngram_freq[target]-sum(alternatives)))
-            ps = np.array([c for _, c in alternatives])
+                    (target, self.target_ngram_freq[target]-
+                                sum(c for _, c in alternatives)))
+            ps = np.array([c for _, c in alternatives], dtype=np.float)
             ps /= ps.sum()
             if temp != 1:
                 ps = np.pow(ps, 1.0/temp)
                 ps /= ps.sum()
             i = np.random.choice(len(alternatives), p=ps)
-            # TODO: continue debugging here...
-            if target == ('i',):
-                print(alternatives, ps)
             return alternatives[i][0]
 
-        tokens = tuple(sentence.split())
+        tokens = sentence.split()
 
         for n in self.ngram_alternatives_lens:
             for i in range(len(tokens)-n+1):
-                ngram = tokens[i:i+n]
+                ngram = tuple(tokens[i:i+n])
                 new_ngram = corrupt_ngram(ngram)
                 if new_ngram != ngram:
+                    # TODO: restore capitalization
                     tokens[i:i+n] = new_ngram
-                    print('**** Replacing', ngram, 'with', new_ngram)
+                    #print('**** Replacing', ngram, 'with', new_ngram)
 
+        return ' '.join(tokens)
 
     #def corrupt_sentence(self, sentence):
     #    tokens = sentence.split()
@@ -180,9 +180,15 @@ if __name__ == '__main__':
     dalaj.compute_statistics([1, 2, 3], [1, 2, 3, 4, 5])
 
     for row in dalaj.rows[:10]:
-        print(row['corrected sentence'])
-        print(dalaj.corrupt_word_order(row['corrected sentence']))
+        sentence = row['corrected sentence']
+        print(sentence)
+        sentence = dalaj.corrupt_word_order(sentence)
+        print(sentence)
+        sentence = dalaj.corrupt_word_choice(sentence)
+        print(sentence)
         print()
+
+    #pprint.pprint(dalaj.ngram_alternatives)
 
     #pprint.pprint([(' '.join(ngram1), ' '.join(ngram2), c)
     #               for (ngram1, ngram2), c in

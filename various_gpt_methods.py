@@ -86,6 +86,11 @@ def process_sentence(line, args, logf):
         result = openai_request(args, prompt, 50+3*len(line.split()))
         print(prompt + '<<<' + result + '>>>', file=logf, flush=True)
         return result
+    elif args.method_name == 'eng-zs':
+        prompt = f'Original sentence: {line}\nCorected sentence:'
+        result = openai_request(args, prompt, 50+3*len(line.split()))
+        print(prompt + '<<<' + result + '>>>', file=logf, flush=True)
+        return result
     elif args.method_name == 'swe-eng-swe-2s':
         prompt1 = ' '.join(
                      f'Elevens text på svenska: {SWE_ENG_EXAMPLES[i][0]}\n' \
