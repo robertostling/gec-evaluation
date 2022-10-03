@@ -38,21 +38,22 @@ class Dalaj:
             self.rows = list(reader)
 
     def compute_statistics(self, ns, char_ns):
-        self.source_ngram_freq = {n: Counter() for n in ns}
+        self.target_ngram_freq = Counter()
         self.ngram_substitutions = Counter()
         self.letter_substitutions = defaultdict(Counter)
         self.letter_substitutions_pre = defaultdict(Counter)
         self.letter_substitutions_post = defaultdict(Counter)
         self.letter_ngram_freq = Counter()
+        self.ngram_alternatives = defaultdict(Counter)
 
         original_sentences = {row['original sentence'] for row in self.rows}
 
-        for source in original_sentences:
-            source_sent = tuple(source.split())
+        for target in original_sentences:
+            target_sent = tuple(target.casefold().split())
             for n in ns:
-                self.source_ngram_freq[n].update(ngrams(source_sent, n))
+                self.target_ngram_freq.update(ngrams(target_sent, n))
             for n in char_ns:
-                self.letter_ngram_freq.update(ngrams(source, n))
+                self.letter_ngram_freq.update(ngrams(target, n))
 
         for row in self.rows:
             original = row['original sentence']
@@ -64,8 +65,8 @@ class Dalaj:
             error_label = row['error label']
             source = original[err_idx[0]:err_idx[1]+1]
             target = corrected[cor_idx[0]:cor_idx[1]+1]
-            source_toks = tuple(source.split())
-            target_toks = tuple(target.split())
+            source_toks = tuple(source.casefold().split())
+            target_toks = tuple(target.casefold().split())
             self.ngram_substitutions[(source_toks, target_toks)] += 1
 
         for (source, target), n in self.ngram_substitutions.most_common():
@@ -85,17 +86,91 @@ class Dalaj:
                             source[s0:s1+1]][target[t0:t1+1]] += 1
 
 
-    def corrupt_sentence(self, sentence):
+        for (source, target), n in self.ngram_substitutions.most_common():
+            if n < 3:
+                break
+            self.ngram_alternatives[target][source] = n
+
+        self.ngram_alternatives_lens = sorted(
+                {len(target) for target in self.ngram_alternatives.keys()},
+                reverse=True)
+
+
+    def corrupt_word_order(self, sentence, p_move=0.1, distance_std=3):
         tokens = sentence.split()
-        p_permute = 0.1
-        p_permute_size = [0.5, 0.2, 0.1, 0.1, 0.1]
-        p_permute_range = list(range(2, 2+len(p_permute_size)))
-        for i in range(len(tokens)):
-            if random.random() < p_permute:
-                k = np.random.choice(p_permute_range, p=p_permute_size)
-                k = min(len(tokens)-i, k)
-                tokens[i:i+k] = random.sample(tokens[i:i+k], k=k)
+        non_punct = [i for i, token in enumerate(tokens) if token.isalnum()]
+        if len(tokens) < 2:
+            return sentence
+        n_moves = int(np.random.binomial(len(non_punct), p_move))
+
+        def punct_span(center):
+            start = center
+            end = center
+            while start > 0 and tokens[start-1].isalnum():
+                start -= 1
+            while end < len(tokens)-1 and tokens[end+1].isalnum():
+                end += 1
+            return start, end
+
+        for _ in range(n_moves):
+            i = random.randint(0, len(tokens)-1)
+            while not tokens[i].isalnum():
+                i = random.randint(0, len(tokens)-1)
+            item = tokens.pop(i)
+            j = -1
+            start, end = punct_span(i)
+            while not start <= j <= end:
+                j = int(np.random.normal(loc=i, scale=distance_std))
+                if j == i:
+                    j += 1
+            if i == 0 and j != 0:
+                item = item.lower()
+            elif i != 0 and j == 0:
+                item = item[0].upper() + item[1:]
+                tokens[0] = tokens[0].lower()
+            tokens.insert(j, item)
         return ' '.join(tokens)
+
+    def corrupt_word_choice(sentence):
+        def corrupt_ngram(target, temp=1):
+            if target not in self.ngram_alternatives:
+                return target
+            alternatives = list(self.ngram_alternatives[target].items())
+            alternatives.append(
+                    (target, self.target_ngram_freq[target]-sum(alternatives)))
+            ps = np.array([c for _, c in alternatives])
+            ps /= ps.sum()
+            if temp != 1:
+                ps = np.pow(ps, 1.0/temp)
+                ps /= ps.sum()
+            i = np.random.choice(len(alternatives), p=ps)
+            # TODO: continue debugging here...
+            if target == ('i',):
+                print(alternatives, ps)
+            return alternatives[i][0]
+
+        tokens = tuple(sentence.split())
+
+        for n in self.ngram_alternatives_lens:
+            for i in range(len(tokens)-n+1):
+                ngram = tokens[i:i+n]
+                new_ngram = corrupt_ngram(ngram)
+                if new_ngram != ngram:
+                    tokens[i:i+n] = new_ngram
+                    print('**** Replacing', ngram, 'with', new_ngram)
+
+
+    #def corrupt_sentence(self, sentence):
+    #    tokens = sentence.split()
+    #    p_permute = 0.1
+    #    p_permute_size = [0.5, 0.2, 0.1, 0.1, 0.1]
+    #    p_permute_range = list(range(2, 2+len(p_permute_size)))
+    #    for i in range(len(tokens)):
+    #        if random.random() < p_permute:
+    #            k = np.random.choice(p_permute_range, p=p_permute_size)
+    #            k = min(len(tokens)-i, k)
+    #            tokens[i:i+k] = random.sample(tokens[i:i+k], k=k)
+    #    return ' '.join(tokens)
 
 
 if __name__ == '__main__':
@@ -104,7 +179,15 @@ if __name__ == '__main__':
     dalaj.read_data(sys.argv[1])
     dalaj.compute_statistics([1, 2, 3], [1, 2, 3, 4, 5])
 
-    print(dalaj.corrupt_sentence('Det här är en liten testmening !'))
+    for row in dalaj.rows[:10]:
+        print(row['corrected sentence'])
+        print(dalaj.corrupt_word_order(row['corrected sentence']))
+        print()
+
+    #pprint.pprint([(' '.join(ngram1), ' '.join(ngram2), c)
+    #               for (ngram1, ngram2), c in
+    #               dalaj.ngram_substitutions.most_common()
+    #               if c >= 3])
 
     #print('INSERTIONS')
     #pprint.pprint(dalaj.letter_substitutions_pre['#'])
