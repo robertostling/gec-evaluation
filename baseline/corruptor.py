@@ -122,17 +122,24 @@ class Corruptor:
 
         if self.saldom is not None:
             self.paradigms = []
-            self.paradigm_index = defaultdict(list)
+            self.paradigm_index = defaultdict(set)
             for lexicalentry in self.saldom.iter('LexicalEntry'):
+                lemma = lexicalentry.find('Lemma')
+                fr = lemma.find('FormRepresentation')
+                feats = {feat.get('att'): feat.get('val')
+                         for feat in fr.findall('feat')}
+                if feats['partOfSpeech'] not in ('nn', 'vb', 'av'):
+                    continue
+
                 paradigm = []
                 for wordform in lexicalentry.findall('WordForm'):
                     feats = {feat.get('att'): feat.get('val')
                              for feat in wordform.findall('feat')}
                     paradigm.append((feats['writtenForm'], feats['msd']))
                 self.paradigms.append(paradigm)
-            for paradigm in self.paradigms:
+            for i, paradigm in enumerate(self.paradigms):
                 for form, msd in paradigm:
-                    self.paradigm_index[form].append(paradigm)
+                    self.paradigm_index[form].add(i)
 
     def corrupt_word_order(self, sentence, p_move=0.1, distance_std=1.5):
         tokens = sentence.split()
@@ -246,8 +253,8 @@ class Corruptor:
                 if suffix_paradigms and prefix_paradigms:
                     #print('prefix_paradigms', prefix_paradigms)
                     if any(form == prefix and tag in ('ci', 'cm')
-                           for paradigm in prefix_paradigms
-                           for form, tag in paradigm):
+                           for paradigm_idx in prefix_paradigms
+                           for form, tag in self.paradigms[paradigm_idx]):
                         return (prefix, suffix)
             return (token,)
 
@@ -256,10 +263,21 @@ class Corruptor:
             if random.random() < p_reinflect:
                 # TODO: something weird going on here, e.g. är -> smid,
                 # mamma -> gosse
-                if parts[-1] in self.paradigm_index:
-                    paradigms = self.paradigm_index[parts[-1]]
-                    parts = parts[:-1] + \
-                        (random.choice(random.choice(paradigms))[0],)
+                if len(parts[-1]) >= 4 and parts[-1] in self.paradigm_index:
+                    #print('to be destroyed:', parts)
+                    paradigm_idxs = self.paradigm_index[parts[-1]]
+                    #print('indexes:', paradigm_idxs)
+                    #print('available:')
+                    #for paradigm_idx in paradigm_idxs:
+                    #    print(self.paradigms[paradigm_idx])
+                    #print()
+                    paradigm_idx = random.choice(list(paradigm_idxs))
+                    paradigm = self.paradigms[paradigm_idx]
+                    paradigm = [form for form, msd in paradigm
+                                if msd not in ('c', 'ci', 'cm', 'sms')]
+                    #print('chosen:', paradigm)
+                    parts = parts[:-1] + (random.choice(paradigm),)
+                    #print('replacement:', parts)
             if random.random() < p_split:
                 return ' '.join(parts)
             else:
