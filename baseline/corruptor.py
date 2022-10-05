@@ -111,6 +111,8 @@ class Corruptor:
                 break
             self.ngram_alternatives[target][source] = n
 
+        #print('kristna stage 1', self.ngram_alternatives.get(('kristna',)))
+
         for ngram, c in self.target_ngram_freq.items():
             if c/n_tokens >= 0.001:
                 self.ngram_alternatives[ngram][tuple()] = int(
@@ -164,6 +166,8 @@ class Corruptor:
             #item = tokens.pop(i)
             j = -1
             start, end = punct_span(i)
+            if end - start <= 2:
+                continue
             while not start <= j <= end:
                 j = int(np.random.normal(loc=i, scale=distance_std))
                 if j == i:
@@ -186,6 +190,9 @@ class Corruptor:
             alternatives.append(
                     (target, self.target_ngram_freq[target]-
                                 sum(c for _, c in alternatives)))
+            if alternatives[-1][1] <= 0:
+                # This happens in a couple of cases, not sure why
+                return target_original
             ps = np.array([c for _, c in alternatives], dtype=float)
             ps /= ps.sum()
             if temp != 1:
@@ -285,57 +292,38 @@ class Corruptor:
 
         return ' '.join(destroy_token(token) for token in sentence.split())
 
+    def corrupt_capitalization(self, sentence):
+        p_lowercase = 0.2
+        if random.random() < p_lowercase:
+            sentence = sentence.lower()
+        return sentence
+
 
 if __name__ == '__main__':
-    import sys, pprint
-    dalaj = Corruptor()
-    dalaj.read_data(*sys.argv[1:])
-    dalaj.compute_statistics([1, 2, 3], [1, 2, 3, 4, 5])
+    import sys, pprint, os.path
 
-    for row in dalaj.rows[:50]:
-        sentence = row['corrected sentence']
-        print(sentence)
-        sentence = dalaj.corrupt_word_order(sentence)
-        print(sentence)
-        sentence = dalaj.corrupt_word_choice(sentence)
-        print(sentence)
-        sentence = dalaj.corrupt_inflection(
-                sentence, p_reinflect=0.1, p_split=0.25)
-        print(sentence)
-        sentence = dalaj.corrupt_forms(sentence, temp=1.75)
-        print(sentence)
-        print()
+    in_filename = sys.argv[1]
+    out_filename = sys.argv[2]
+    assert os.path.exists(in_filename)
+    assert not os.path.exists(out_filename)
 
+    corruptor = Corruptor()
+    corruptor.read_data('datasetDaLAJsplit.csv', 'saldom.xml')
+    corruptor.compute_statistics([1, 2, 3], [1, 2, 3, 4, 5])
 
-    #n_tokens = sum(len(row['corrected sentence'].split()) for row in dalaj.rows)
-    #pprint.pprint(
-    #        [(ngram, c/n_tokens)
-    #            for ngram, c in dalaj.target_ngram_freq.most_common()
-    #         if c >= 100])
-    #print(n_tokens, 'tokens')
-
-
-    #pprint.pprint(dalaj.ngram_alternatives)
-
-    #pprint.pprint([(' '.join(ngram1), ' '.join(ngram2), c)
-    #               for (ngram1, ngram2), c in
-    #               dalaj.ngram_substitutions.most_common()
-    #               if c >= 3])
-
-    #print('INSERTIONS')
-    #pprint.pprint(dalaj.letter_substitutions_pre['#'])
-    #print('REPLACEMENTS')
-    #for ngram, c in dalaj.letter_ngram_freq.most_common():
-    #    if ngram in dalaj.letter_substitutions:
-    #        print(ngram, c)
-    #        pprint.pprint(dalaj.letter_substitutions[ngram])
-    #    #else:
-    #    #    print(ngram, c)
-
-
-    #print(len(dalaj.letter_substitutions))
-    #pprint.pprint(dalaj.letter_substitutions)
-
-    #pprint.pprint(dalaj.letter_substitutions_pre)
-    #pprint.pprint(dalaj.letter_substitutions_post.most_common())
-
+    n_sentences = 0
+    with open(in_filename) as f, open(out_filename, 'w') as outf:
+        for sentence in f:
+            sentence = sentence.strip()
+            sentence = corruptor.corrupt_word_order(
+                    sentence, p_move=0.1, distance_std=1.5)
+            sentence = corruptor.corrupt_word_choice(sentence)
+            sentence = corruptor.corrupt_inflection(
+                    sentence, p_reinflect=0.1, p_split=0.25)
+            sentence = corruptor.corrupt_forms(sentence, temp=1.5)
+            sentence = corruptor.corrupt_capitalization(sentence)
+            print(sentence, file=outf)
+            n_sentences += 1
+            if n_sentences % 1000 == 0:
+                print(n_sentences, '...', flush=True)
+ 
