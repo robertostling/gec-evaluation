@@ -8,7 +8,8 @@ with open('saldo.txt') as f:
 def clean_sentences(bf, inf, outf, dupf=None, rejf=None, strictness=0):
     re_multipunct = re.compile(r'[.,!?]\s*[.,!?]')
     re_url = re.compile(r'\.(se|nu|com|net|org)')
-    blacklist = set('haha iaf <3 :) :D hihi imorrn'.split())
+    blacklist = set(
+            'haha iaf <3 :) :D hihi imorrn o oxo va dom å e mej dej go'.split())
     re_forbidden = re.compile(r'''[^a-zåäöüéæø0-9–.,!?():\-“”"/'\s]''')
     re_accept = re.compile(
             r'[–.,!?():\-“”"/]|([a-zåäöüéæø0-9]+(-[a-zåäöüé0-9]+)?(:[a-z]+)?)|'
@@ -62,6 +63,7 @@ def clean_sentences(bf, inf, outf, dupf=None, rejf=None, strictness=0):
                 and n_oov < n_accept*0.05 \
                 and n_upper < n_accept*0.05 \
                 and tokens[-1] in punct \
+                and not tokens[0][0].islower() \
                 and n_blacklisted == 0 \
                 and 2 <= len(tokens) <= 60 \
                 and not has_multipunct \
@@ -115,7 +117,8 @@ if __name__ == '__main__':
             strictness = 0
             if any(substr in name for substr in scrub_extra):
                 strictness = 1
-            print(f'Processing {os.path.basename(in_filename)}...',
+            print(f'Processing {os.path.basename(in_filename)} with '
+                  f'strictness {strictness}...',
                     flush=True)
             with open_any(in_filename) as inf:
                 clean_sentences(bf, inf, outf, strictness=strictness)

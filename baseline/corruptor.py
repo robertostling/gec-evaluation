@@ -2,6 +2,8 @@ import csv
 from collections import Counter, defaultdict
 import random
 from xml.etree import ElementTree as ET
+import time
+import multiprocessing
 
 import numpy as np
 import Levenshtein
@@ -30,7 +32,7 @@ def get_edit_spans(source, target):
 
 
 def capitalize_like(s, ref):
-    if ref[0].isupper():
+    if s and ref and ref[0].isupper():
         return s[0].upper() + s[1:]
     else:
         return s
@@ -79,11 +81,11 @@ class Corruptor:
         for row in self.rows:
             original = row['original sentence']
             corrected = row['corrected sentence']
-            l1 = row['l1']
-            level = row['Approximate level']
+            # l1 = row['l1']
+            # level = row['Approximate level']
             err_idx = tuple(map(int, row['error indices'].split('-')))
             cor_idx = tuple(map(int, row['corrected indices'].split('-')))
-            error_label = row['error label']
+            # error_label = row['error label']
             source = original[err_idx[0]:err_idx[1]+1]
             target = corrected[cor_idx[0]:cor_idx[1]+1]
             source_toks = tuple(source.casefold().split())
@@ -110,8 +112,6 @@ class Corruptor:
             if n < 3:
                 break
             self.ngram_alternatives[target][source] = n
-
-        #print('kristna stage 1', self.ngram_alternatives.get(('kristna',)))
 
         for ngram, c in self.target_ngram_freq.items():
             if c/n_tokens >= 0.001:
@@ -142,6 +142,8 @@ class Corruptor:
             for i, paradigm in enumerate(self.paradigms):
                 for form, msd in paradigm:
                     self.paradigm_index[form].add(i)
+
+            del self.saldom
 
     def corrupt_word_order(self, sentence, p_move=0.1, distance_std=1.5):
         tokens = sentence.split()
@@ -258,7 +260,6 @@ class Corruptor:
                 suffix_paradigms = self.paradigm_index.get(suffix, None)
                 prefix_paradigms = self.paradigm_index.get(prefix, None)
                 if suffix_paradigms and prefix_paradigms:
-                    #print('prefix_paradigms', prefix_paradigms)
                     if any(form == prefix and tag in ('ci', 'cm')
                            for paradigm_idx in prefix_paradigms
                            for form, tag in self.paradigms[paradigm_idx]):
@@ -268,23 +269,13 @@ class Corruptor:
         def destroy_token(token):
             parts = split_compound(token)
             if random.random() < p_reinflect:
-                # TODO: something weird going on here, e.g. är -> smid,
-                # mamma -> gosse
                 if len(parts[-1]) >= 4 and parts[-1] in self.paradigm_index:
-                    #print('to be destroyed:', parts)
                     paradigm_idxs = self.paradigm_index[parts[-1]]
-                    #print('indexes:', paradigm_idxs)
-                    #print('available:')
-                    #for paradigm_idx in paradigm_idxs:
-                    #    print(self.paradigms[paradigm_idx])
-                    #print()
                     paradigm_idx = random.choice(list(paradigm_idxs))
                     paradigm = self.paradigms[paradigm_idx]
                     paradigm = [form for form, msd in paradigm
                                 if msd not in ('c', 'ci', 'cm', 'sms')]
-                    #print('chosen:', paradigm)
                     parts = parts[:-1] + (random.choice(paradigm),)
-                    #print('replacement:', parts)
             if random.random() < p_split:
                 return ' '.join(parts)
             else:
@@ -294,9 +285,55 @@ class Corruptor:
 
     def corrupt_capitalization(self, sentence):
         p_lowercase = 0.2
+        p_uppercase = 0.025
+        p_uppercase_token = 0.1
+        p_uppercase_all = 0.01
         if random.random() < p_lowercase:
+            # often, lower-case everytihng
             sentence = sentence.lower()
+        if random.random() < p_uppercase:
+            # sometimes, make every few words upper-case
+            sentence = ' '.join(
+                    token.upper() if random.random() < p_uppercase_token
+                            else token
+                    for token in sentence.split())
+        if random.random() < p_uppercase_all:
+            # rarely, EVERYTHING SHOULD BE IN CAPS
+            sentence = sentence.upper()
         return sentence
+
+
+global_corruptor = None
+
+def initializer(corruptor):
+    global global_corruptor
+    global_corruptor = corruptor
+
+
+def corrupt_sentences(sentence_batch):
+    corrupted_batch = []
+    for sentence in sentence_batch:
+        sentence = sentence.strip()
+        sentence = global_corruptor.corrupt_word_order(
+                sentence, p_move=0.1, distance_std=1.5)
+        sentence = global_corruptor.corrupt_word_choice(sentence)
+        sentence = global_corruptor.corrupt_inflection(
+                sentence, p_reinflect=0.1, p_split=0.25)
+        sentence = global_corruptor.corrupt_forms(sentence, temp=1.5)
+        sentence = global_corruptor.corrupt_capitalization(sentence)
+        corrupted_batch.append(sentence)
+    return corrupted_batch
+
+
+def iter_batches(f, max_size):
+    batch = []
+    for line in f:
+        batch.append(line)
+        if len(batch) >= max_size:
+            yield batch
+            batch = []
+    if batch:
+        yield batch
 
 
 if __name__ == '__main__':
@@ -313,17 +350,27 @@ if __name__ == '__main__':
 
     n_sentences = 0
     with open(in_filename) as f, open(out_filename, 'w') as outf:
-        for sentence in f:
-            sentence = sentence.strip()
-            sentence = corruptor.corrupt_word_order(
-                    sentence, p_move=0.1, distance_std=1.5)
-            sentence = corruptor.corrupt_word_choice(sentence)
-            sentence = corruptor.corrupt_inflection(
-                    sentence, p_reinflect=0.1, p_split=0.25)
-            sentence = corruptor.corrupt_forms(sentence, temp=1.5)
-            sentence = corruptor.corrupt_capitalization(sentence)
-            print(sentence, file=outf)
-            n_sentences += 1
-            if n_sentences % 1000 == 0:
-                print(n_sentences, '...', flush=True)
+        with multiprocessing.Pool(
+                initializer=initializer, initargs=[corruptor]) as p:
+            for corrupted in p.imap(
+                    corrupt_sentences, iter_batches(f, 100), 100):
+                for s in corrupted:
+                    n_sentences += 1
+                    print(s, file=outf)
+                    if n_sentences % 10000 == 0:
+                        print(time.asctime(), n_sentences, '...', flush=True)
+        # Old single-processing code:
+        #for sentence in f:
+        #    sentence = sentence.strip()
+        #    sentence = corruptor.corrupt_word_order(
+        #            sentence, p_move=0.1, distance_std=1.5)
+        #    sentence = corruptor.corrupt_word_choice(sentence)
+        #    sentence = corruptor.corrupt_inflection(
+        #            sentence, p_reinflect=0.1, p_split=0.25)
+        #    sentence = corruptor.corrupt_forms(sentence, temp=1.5)
+        #    sentence = corruptor.corrupt_capitalization(sentence)
+        #    print(sentence, file=outf)
+        #    n_sentences += 1
+        #    if n_sentences % 10000 == 0:
+        #        print(time.asctime(), n_sentences, '...', flush=True)
  
