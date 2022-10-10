@@ -10,6 +10,14 @@ import Levenshtein
 #import spacy
 
 
+def sample_from_counts(counts):
+    elements, n = list(zip(*counts))
+    p = np.array(n, dtype=float)
+    p /= p.sum()
+    i = np.random.choice(len(elements), p=p)
+    return elements[i]
+
+
 def ngrams(seq, n):
     for i in range(len(seq)-n+1):
         yield seq[i:i+n]
@@ -61,6 +69,7 @@ class Corruptor:
         self.letter_substitutions_post = defaultdict(Counter)
         self.letter_ngram_freq = Counter()
         self.ngram_alternatives = defaultdict(Counter)
+        self.spurious_ngrams = Counter()
 
         # Common n-grams (relative frequency >= 0.001) will be dropped with
         # this probability, adjusted by the temp parameter in
@@ -114,6 +123,9 @@ class Corruptor:
             self.ngram_alternatives[target][source] = n
 
         for ngram, c in self.target_ngram_freq.items():
+            if c/n_tokens >= 0.001:
+                if ''.join(ngram).isalpha() or ngram == (',',):
+                    self.spurious_ngrams[ngram] = c
             if c/n_tokens >= 0.001:
                 self.ngram_alternatives[ngram][tuple()] = int(
                         max(1, c*drop_ratio))
@@ -302,6 +314,15 @@ class Corruptor:
             sentence = sentence.upper()
         return sentence
 
+    def corrupt_insert(self, sentence, p_insert=0.025):
+        tokens = sentence.split()
+        n = int(np.random.binomial(len(tokens), p_insert))
+        for _ in range(n):
+            i = random.randint(0, len(tokens))
+            ngram = sample_from_counts(self.spurious_ngrams.items())
+            tokens.insert(' '.join(ngram), i)
+        return ' '.join(tokens)
+
 
 global_corruptor = None
 
@@ -316,6 +337,7 @@ def corrupt_sentences(sentence_batch):
         sentence = sentence.strip()
         sentence = global_corruptor.corrupt_word_order(
                 sentence, p_move=0.1, distance_std=1.5)
+        sentence = global_corruptor.corrupt_insert(sentence, p_insert=0.025)
         sentence = global_corruptor.corrupt_word_choice(sentence)
         sentence = global_corruptor.corrupt_inflection(
                 sentence, p_reinflect=0.1, p_split=0.25)
