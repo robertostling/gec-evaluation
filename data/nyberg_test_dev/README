@@ -1,0 +1,46 @@
+These are the test and development sets of the SweLL corpus, selected and
+processed by Nyberg (2022).
+
+Nyberg, Martina (2022). "Grammatical Error Correction for Learners of Swedish
+    as a Second Language"
+    https://www.diva-portal.org/smash/record.jsf?pid=diva2:1666233
+
+Code and instructions for reproducing the experiments can be found here:
+
+    https://github.com/MartinaNyberg/GEC-swedish
+
+Files with the suffix .orig.txt contain sentences from original student texts,
+and the corresponding .corr.txt files contain line-aligned normalized
+versions.
+
+The data is divided into three CEFR levels (A, B and C). The following files
+are needed to compare to the GLEU evaluation (Nyberg 2022, Section 4.1):
+
+    Nyberg.CEFR_A.test.corr.txt
+    Nyberg.CEFR_A.test.orig.txt
+    Nyberg.CEFR_B.test.corr.txt
+    Nyberg.CEFR_B.test.orig.txt
+    Nyberg.CEFR_C.test.corr.txt
+    Nyberg.CEFR_C.test.orig.txt
+
+Subsets of these files have been used in the manual evaluation (Nyberg 2022,
+Section 4.2):
+
+    Nyberg.CEFR_A.manual_test.corr.txt
+    Nyberg.CEFR_A.manual_test.orig.txt
+    Nyberg.CEFR_B.manual_test.corr.txt
+    Nyberg.CEFR_B.manual_test.orig.txt
+    Nyberg.CEFR_C.manual_test.corr.txt
+    Nyberg.CEFR_C.manual_test.orig.txt
+
+Development set, only available with all levels merged:
+
+    Nyberg.CEFR_ABC.dev.corr.txt
+    Nyberg.CEFR_ABC.dev.orig.txt
+
+Finally, the following files contain references to the SweLL corpus, in case
+further metadata is desired:
+
+    Nyberg.CEFR_ABC.id_test.corr.txt
+    Nyberg.CEFR_ABC.id_test.orig.txt
+
