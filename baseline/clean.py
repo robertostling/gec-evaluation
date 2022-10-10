@@ -63,7 +63,7 @@ def clean_sentences(bf, inf, outf, dupf=None, rejf=None, strictness=0):
                 and n_oov < n_accept*0.05 \
                 and n_upper < n_accept*0.05 \
                 and tokens[-1] in punct \
-                and not tokens[0][0].islower() \
+                and not line[0].islower() \
                 and n_blacklisted == 0 \
                 and 2 <= len(tokens) <= 60 \
                 and not has_multipunct \
