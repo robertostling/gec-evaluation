@@ -15,7 +15,17 @@ python3 gleu_py3/compute_gleu \
     -r "$ref1" -s "$src" -o "$src" --tokenizer sv_core_news_sm
 echo '------------------'
 
-echo "== TEST SET RESULTS =="
+echo "== FULL TEST SET RESULTS =="
+for level in A B C ABC; do
+    for target in `ls data/experiments/Nyberg.CEFR_"$level".test.*`; do
+        ref1=data/nyberg_test_dev/Nyberg.CEFR_"$level".test.corr.txt
+        src=data/nyberg_test_dev/Nyberg.CEFR_"$level".test.orig.txt
+        python3 gleu_py3/compute_gleu \
+            -r "$ref1" -s "$src" -o "$target" --tokenizer sv_core_news_sm
+    done
+done
+
+echo "== MANUAL TEST SET RESULTS =="
 for level in A B C; do
     for target in `ls data/experiments/Nyberg.CEFR_"$level".manual_test.*`; do
         if [[ ! $target =~ \.log$ ]]; then
