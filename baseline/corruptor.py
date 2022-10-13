@@ -40,8 +40,13 @@ def get_edit_spans(source, target):
 
 
 def capitalize_like(s, ref):
-    if s and ref and ref[0].isupper():
-        return s[0].upper() + s[1:]
+    if s and ref:
+        if ref.isupper():
+            return s.upper()
+        elif ref[0].isupper():
+            return s[0].upper() + s[1:]
+        else:
+            return s
     else:
         return s
 
@@ -253,9 +258,8 @@ class Corruptor:
             return c
 
         def corrupt_spelling(original_token):
-            token = original_token.lower()
-            new_token = ''.join(corrupt_letter(c) for c in token)
-            return capitalize_like(new_token, original_token)
+            return ''.join(capitalize_like(corrupt_letter(c.lower()), c)
+                           for c in original_token)
 
         return ' '.join(corrupt_spelling(token) for token in sentence.split())
 
@@ -320,7 +324,7 @@ class Corruptor:
         for _ in range(n):
             i = random.randint(0, len(tokens))
             ngram = sample_from_counts(self.spurious_ngrams.items())
-            tokens.insert(' '.join(ngram), i)
+            tokens.insert(i, ' '.join(ngram))
         return ' '.join(tokens)
 
 
