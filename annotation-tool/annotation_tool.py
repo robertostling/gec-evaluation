@@ -1,29 +1,47 @@
 import os
+import random
 import tkinter as tk
 import json
-
-### files ###
 from collections import defaultdict
+import sys
 
+
+if len(sys.argv) <3:
+    print("Please provide an annotator name and the target folder where your annotations will be saved.")
+    print("The folder will be created automatically if it does not exist.")
+    print("e.g. python annotation_tool.py murathan /home/murathan/Desktop/gec")
+
+    quit()
+annotator_name = sys.argv[1]
+output_folder = sys.argv[2]
+if not os.path.exists(output_folder):
+    os.makedirs(output_folder)
+output_file_name =f"{output_folder}/{annotator_name}.json"
+
+
+random.seed(3)
+### files ###
+accepted_extensions = sorted([".s2", ".granska", ".mt-base"])
 show_it = True
-sentence_count = 1
+sentence_count = 0
 filename = ""
 counter_text = "Sentence %i/%i"
 tf_config = {"height": 0.1, "width": 100, "font": ("helvetica", "18"), "wrap": "word"}
-model_output_folder = "../data/playing/"
-human_corrected_file = "../data/playing/Nyberg.CEFR_ABC.dev.corr.0-100"
+model_output_folder = "data/playing/"
+human_corrected_file = "data/playing/Nyberg.CEFR_ABC.dev.corr.0-100"
 human_corrected = [l.strip() for l in open(human_corrected_file, "r").readlines()]
-
-model_outputs = defaultdict(list)
-for file in os.listdir(model_output_folder):
-    extension = os.path.splitext(file)[1]
-    if extension not in [".granska", ".s2", ".mt-base"]: continue
-    model_outputs[extension] = [line.strip() for line in open(os.path.join(model_output_folder, file))]
-
-
 limit = len(human_corrected)
+seen_extensions = []
+model_outputs = []
+for file in sorted(os.listdir(model_output_folder)):
+    extension = os.path.splitext(file)[1]
+    if extension not in accepted_extensions: continue
+    seen_extensions.append(extension)
+    model_outputs.extend([line.strip() for line in open(os.path.join(model_output_folder, file))])
 
-output_file_name = model_output_file + ".json"
+randomized_order = list(range(limit*len(seen_extensions)))
+random.shuffle(randomized_order)
+
 
 if os.path.exists(output_file_name):
     annotations = json.load(open(output_file_name))
@@ -34,12 +52,22 @@ else:
 
 ###
 
+def get_random_index():
+    global sentence_count
+    #print(sentence_count,  randomized_order[sentence_count])
+    #print(seen_extensions[int(randomized_order[sentence_count]/limit)],  randomized_order[sentence_count]% limit)
+
+    return randomized_order[sentence_count]
+
+
 # Functions
 def hide_widget(widget):
-    global show_it
+    global show_it, sentence_count
+    randomized_index = get_random_index()
+    randomized_index = randomized_index % limit
     widget.config(state=tk.NORMAL)
     if show_it:
-        widget.insert(0.0, human_corrected[sentence_count - 1])
+        widget.insert(0.0, human_corrected[randomized_index])
         show_it = False
     else:
         widget.delete(0.0, "end")
@@ -47,21 +75,25 @@ def hide_widget(widget):
     widget.config(state=tk.DISABLED)
 
 
+def reset_tf(widget, text,disable=False):
+    if disable:
+        widget.config(state=tk.NORMAL)
+    widget.delete(0.0, "end")
+    widget.insert(0.0, text)
+    if disable:
+        widget.config(state=tk.DISABLED)
+
+
 def reset(sentence_count):
-    tf_human.config(state=tk.NORMAL)
-    tf_model.config(state=tk.NORMAL)
-    tf_model.delete(0.0, "end")
-    tf_human.delete(0.0, "end")
-    tf_entry.delete(0.0, "end")
-    tf_model.insert(0.0, model_outputs[sentence_count - 1])
-    tf_human.config(state=tk.DISABLED)
-    tf_model.config(state=tk.DISABLED)
+    reset_tf(tf_human, "", disable=True)
+    randomized_index = get_random_index()
 
-    if len(annotations) >= sentence_count:
-        tf_entry.insert(0.0, annotations[sentence_count - 1]["corrected_prediction"])
+    reset_tf(tf_model, model_outputs[randomized_index ], disable=True)
+    if len(annotations) > sentence_count:
+        tf_entry_initial = annotations[sentence_count]["corrected_prediction"]
     else:
-        tf_entry.insert(0.0, model_outputs[sentence_count - 1])
-
+        tf_entry_initial = model_outputs[randomized_index ]
+    reset_tf(tf_entry, tf_entry_initial, disable=False)
     global show_it
     show_it = True
 
@@ -74,6 +106,7 @@ def save():
 
 def pop_up_control(sentence_count, corrected_sentence):
     # Create a Toplevel window
+
     top = tk.Toplevel(window)
     top.grid_rowconfigure(0, weight=1)
 
@@ -88,7 +121,10 @@ def pop_up_control(sentence_count, corrected_sentence):
 
     tk.Label(top, text="Original annotator's version", font=("helvetica", "16")).grid(row=2)
     tf_human_pop = tk.Text(top, height=5, font=("helvetica", "16"))
-    tf_human_pop.insert(0.0, human_corrected[sentence_count - 1])
+
+    randomized_index = get_random_index()
+    randomized_index = randomized_index % limit
+    tf_human_pop.insert(0.0, human_corrected[randomized_index ])
     tf_human_pop.grid(row=2, column=1)
 
     # Create a Button to print something in the Entry widget
@@ -102,8 +138,6 @@ def pop_up_control(sentence_count, corrected_sentence):
 
 
 def disable_rb(radiobuttons, selected):
-    print(selected)
-
     for key in radiobuttons:
         if key["text"] != selected:
             key["variable"] = None
@@ -124,7 +158,7 @@ def pop_up_annotate(prev_window):
         "Grammaticality": [(1, "Incomprehensible"), (2, "Somewhat comprehensible"), (3, "Comprehensible"), (4, "Perfect"),
                            (0, "Other")],
         "Fluency": [(1, "Extremely unnatural"), (2, "Somewhat unnatural"), (3, "Somewhat natural"),
-                    (4, "Extremely natural")],
+                    (4, "Extremely natural"),  (0, "Other")],
         "Meaning Preservation": [(1, "Substantially different"), (2, "Moderate differences"), (3, "Minor differences"),
                                  (4, "Identical"), (0, "Other")]}
     vars_list = []
@@ -174,23 +208,24 @@ def save_and_next(top, vars_list):
     global sentence_count
     corrected_sentence = tf_entry.get("1.0", "end").strip()
     annotation = {
-        "system_prediction": model_outputs[sentence_count - 1],
+        "system": seen_extensions[int(randomized_order[sentence_count]/limit)],
+        "sentence-no": int(randomized_order[sentence_count]/limit),
+        "system_prediction": tf_model.get("1.0", "end").strip(),
         "corrected_prediction": corrected_sentence,
-        "human_reference": human_corrected[sentence_count - 1],
+        "human_reference": tf_human.get("1.0", "end").strip(),
     }
     annotation.update({v[0]: f"{v[1]} ({v[2]})" for v in vars_list})
-    if len(annotations) >= sentence_count:
-        annotations[sentence_count - 1] = annotation
+    if len(annotations) > sentence_count:
+        annotations[sentence_count] = annotation
     else:
         annotations.append(annotation)
     save()
     if sentence_count < limit:
         sentence_count += 1
-        label_counter["text"] = counter_text % (sentence_count, limit)
+        label_counter["text"] = counter_text % (sentence_count+1, limit)
         reset(sentence_count)
     if sentence_count == limit:
         next["text"] = "Finish"
-        next["command"] = save
 
 
 def get_next():
@@ -203,13 +238,13 @@ def get_prev():
     global sentence_count
     if sentence_count != 1:
         sentence_count -= 1
-        label_counter["text"] = counter_text % (sentence_count, limit)
+        label_counter["text"] = counter_text % (sentence_count+1, limit)
         reset(sentence_count)
 
 
 window = tk.Tk()
 
-label_counter = tk.Label(text=counter_text % (sentence_count, limit))
+label_counter = tk.Label(text=counter_text % (sentence_count+1, limit))
 
 label_model = tk.Label(text="Automatically corrected sentence")
 tf_model = tk.Text(window, **tf_config)
