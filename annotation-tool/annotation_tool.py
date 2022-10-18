@@ -5,6 +5,7 @@ import json
 from collections import defaultdict
 import sys
 import Levenshtein
+import glob
 
 if len(sys.argv) <3:
     print("Please provide an annotator name and the target folder where your annotations will be saved.")
@@ -19,25 +20,33 @@ if not os.path.exists(output_folder):
 output_file_name =f"{output_folder}/{annotator_name}.json"
 
 
+def read_file_lines(filename):
+    with open(filename) as f:
+        return [line.strip() for line in f]
+
+
 random.seed(3)
 ### files ###
-accepted_extensions = sorted([".s2", ".granska", ".mt-base"])
+accepted_extensions = sorted(
+        [".s2", ".granska", ".mt-base", ".mt-large", ".mystery"])
 show_it = True
 sentence_count = 0
 filename = ""
 counter_text = "Sentence %i/%i"
 tf_config = {"height": 0.1, "width": 100, "font": ("helvetica", "18"), "wrap": "word"}
-model_output_folder = "data/playing/"
-human_corrected_file = "data/playing/Nyberg.CEFR_ABC.dev.corr.0-100"
-human_corrected = [l.strip() for l in open(human_corrected_file, "r").readlines()]
+model_output_pattern = "data/playing/Nyberg.CEFR_ABC.dev.orig.round1.*"
+human_corrected_file = "data/playing/Nyberg.CEFR_ABC.dev.corr.round1"
+human_corrected = read_file_lines(human_corrected_file)
 limit = len(human_corrected)
 seen_extensions = []
 model_outputs = []
-for file in sorted(os.listdir(model_output_folder)):
-    extension = os.path.splitext(file)[1]
-    if extension not in accepted_extensions: continue
+for filename in sorted(glob.glob(model_output_pattern)):
+    extension = os.path.splitext(os.path.basename(filename))[1]
+    if extension not in accepted_extensions:
+        print(f'WARNING: unexpected extension ({extension}), skipping')
+        continue
     seen_extensions.append(extension)
-    model_outputs.extend([line.strip() for line in open(os.path.join(model_output_folder, file))])
+    model_outputs.extend(read_file_lines(filename))
 
 randomized_order = list(range(limit*len(seen_extensions)))
 random.shuffle(randomized_order)

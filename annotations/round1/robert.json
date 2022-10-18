@@ -1,0 +1,22 @@
+[
+  {
+    "system": ".granska",
+    "sentence-no": 5,
+    "system_prediction": "Jag tror att i Sverige finns bra m\u00f6jlighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+    "corrected_prediction": "Jag tycker att det finns goda m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der i Sverige, eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+    "human_reference": "Jag tycker att det i Sverige finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4derna eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+    "Grammaticality": "3 (Comprehensible)",
+    "Fluency": "3 (Somewhat natural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".mt-base",
+    "sentence-no": 4,
+    "system_prediction": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?",
+    "corrected_prediction": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska framg\u00e5ng eller ens egen framg\u00e5ng ?",
+    "human_reference": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?",
+    "Grammaticality": "4 (Perfect)",
+    "Fluency": "3 (Somewhat natural)",
+    "Meaning Preservation": "4 (Identical)"
+  }
+]
