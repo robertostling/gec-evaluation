@@ -4,7 +4,7 @@ import tkinter as tk
 import json
 from collections import defaultdict
 import sys
-
+import Levenshtein
 
 if len(sys.argv) <3:
     print("Please provide an annotator name and the target folder where your annotations will be saved.")
@@ -104,6 +104,24 @@ def save():
     output_file.write(x)
 
 
+def edit_text(entry, edited):
+    corrected_sentence = entry.get("1.0", tk.END)
+    edited_sentence = edited.get("1.0", tk.END)
+    ops = Levenshtein.editops(corrected_sentence, edited_sentence)
+    src_mod = sorted({i for _,i,_ in ops})
+    trg_mod = sorted({j for _,_,j in ops})
+    entry.tag_remove("modified", "1.0", tk.END)
+    edited.tag_remove("modified", "1.0", tk.END)
+    for i in src_mod:
+        entry.tag_add('modified', f'{i+1}.0')
+    for i in trg_mod:
+        edited.tag_add('modified', f'{i+1}.0')
+    #print('src_mod:', src_mod)
+    #print('trg_mod:', trg_mod)
+    entry.tag_configure('modified', background='yellow', foreground='red')
+    edited.tag_configure('modified', background='yellow', foreground='red')
+
+
 def pop_up_control(sentence_count, corrected_sentence):
     # Create a Toplevel window
 
@@ -121,7 +139,6 @@ def pop_up_control(sentence_count, corrected_sentence):
 
     tk.Label(top, text="Original annotator's version", font=("helvetica", "16")).grid(row=2)
     tf_human_pop = tk.Text(top, height=5, font=("helvetica", "16"))
-
     randomized_index = get_random_index()
     randomized_index = randomized_index % limit
     tf_human_pop.insert(0.0, human_corrected[randomized_index ])
@@ -256,6 +273,9 @@ tf_entry = tk.Text(window, **tf_config)
 label_human = tk.Label(window, text="Use the \"show/hide\" to see the human corrected version")
 tf_human = tk.Text(window, **tf_config)
 tf_human.config(state=tk.DISABLED)
+
+tf_entry.bind("<Key>", lambda x: edit_text(tf_model, tf_entry))
+
 
 show = tk.Button(window, text="Show/hide", command=lambda: hide_widget(tf_human))
 
