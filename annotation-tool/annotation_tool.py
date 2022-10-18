@@ -18,19 +18,18 @@ output_folder = sys.argv[2]
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
 output_file_name =f"{output_folder}/{annotator_name}.json"
-
+print(output_file_name)
 
 def read_file_lines(filename):
     with open(filename) as f:
-        return [line.strip() for line in f]
+        return [line.strip() for line in f][0:3]
 
 
-random.seed(3)
+random.seed(321)
 ### files ###
 accepted_extensions = sorted(
         [".s2", ".granska", ".mt-base", ".mt-large", ".mystery"])
 show_it = True
-sentence_count = 0
 filename = ""
 counter_text = "Sentence %i/%i"
 tf_config = {"height": 0.1, "width": 100, "font": ("helvetica", "18"), "wrap": "word"}
@@ -51,15 +50,19 @@ for filename in sorted(glob.glob(model_output_pattern)):
 randomized_order = list(range(limit*len(seen_extensions)))
 random.shuffle(randomized_order)
 
+sentence_count =  0
 
 if os.path.exists(output_file_name):
     annotations = json.load(open(output_file_name))
-    sentence_count = len(annotations) + 1
+    sentence_count = len(annotations)
 else:
     annotations = []
 
+if sentence_count == limit:
+    sentence_count-=1
+    print("hey", sentence_count)
 
-###
+
 
 def get_random_index():
     global sentence_count
@@ -96,8 +99,7 @@ def reset_tf(widget, text,disable=False):
 def reset(sentence_count):
     reset_tf(tf_human, "", disable=True)
     randomized_index = get_random_index()
-
-    reset_tf(tf_model, model_outputs[randomized_index ], disable=True)
+    reset_tf(tf_model, model_outputs[randomized_index], disable=True)
     if len(annotations) > sentence_count:
         tf_entry_initial = annotations[sentence_count]["corrected_prediction"]
     else:
@@ -125,15 +127,12 @@ def edit_text(entry, edited):
         entry.tag_add('modified', f'1.{i}')
     for i in trg_mod:
         edited.tag_add('modified', f'1.{i}')
-    #print('src_mod:', src_mod)
-    #print('trg_mod:', trg_mod)
     entry.tag_configure('modified', background='yellow')
     edited.tag_configure('modified', background='yellow')
 
 
-def pop_up_control(sentence_count, corrected_sentence):
+def pop_up_control(corrected_sentence):
     # Create a Toplevel window
-
     top = tk.Toplevel(window)
     top.grid_rowconfigure(0, weight=1)
 
@@ -201,7 +200,7 @@ def pop_up_annotate(prev_window):
                                 command=lambda k=k, selected=opt[1]: disable_rb(radiobuttons[k], selected))
             rb.pack(side="left")
             radiobuttons[k].append(rb)
-    show = tk.Button(top, text="Next", command=lambda: check(top, [v.get().split(",") for v in vars_list]))
+    show = tk.Button(top, text="Done", command=lambda: check(top, [v.get().split(",") for v in vars_list]))
     show.pack()
 
     top.bind("1", lambda k: select_rb_key(vars_list, radiobuttons["Grammaticality"], options["Grammaticality"][0][1]))
@@ -246,23 +245,22 @@ def save_and_next(top, vars_list):
     else:
         annotations.append(annotation)
     save()
+    sentence_count+=1
     if sentence_count < limit:
-        sentence_count += 1
         label_counter["text"] = counter_text % (sentence_count+1, limit)
         reset(sentence_count)
-    if sentence_count == limit:
-        next["text"] = "Finish"
+    elif sentence_count == limit:
+        next.configure(text="Finish", command=window.destroy)
 
 
 def get_next():
-    global sentence_count
     corrected_sentence = tf_entry.get("1.0", "end").strip()
-    pop_up_control(sentence_count, corrected_sentence)
+    pop_up_control(corrected_sentence)
 
 
 def get_prev():
     global sentence_count
-    if sentence_count != 1:
+    if sentence_count != 0:
         sentence_count -= 1
         label_counter["text"] = counter_text % (sentence_count+1, limit)
         reset(sentence_count)
