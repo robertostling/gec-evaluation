@@ -25,27 +25,37 @@ MODEL=/cephyr/NOBACKUP/groups/smnlp/GPT-SW3
 echo "Launching at:"
 date
 python -u /cephyr/users/robertos/Alvis/.local/scribendi_score/scribendi.py \
-    --src $DATA/nyberg_test_dev/Nyberg.CEFR_A.test.orig.txt \
-    --pred $DATA/experiments/Nyberg.CEFR_A.test.granska:$DATA/experiments/Nyberg.CEFR_A.test.s2:$DATA/nyberg_test_dev/Nyberg.CEFR_A.test.corr.txt \
+    --src $DATA/nyberg_test_dev/Nyberg.CEFR_A.test.orig.txt:$DATA/nyberg_test_dev/Nyberg.CEFR_B.test.orig.txt:$DATA/nyberg_test_dev/Nyberg.CEFR_C.test.orig.txt \
+    --pred $DATA/experiments/Nyberg.CEFR_A.test.mt-base:$DATA/experiments/Nyberg.CEFR_B.test.mt-base:$DATA/experiments/Nyberg.CEFR_C.test.mt-base \
     --model_id "$MODEL"
 echo "Finished at:"
 date
 
-echo "Launching at:"
-date
-python -u /cephyr/users/robertos/Alvis/.local/scribendi_score/scribendi.py \
-    --src $DATA/nyberg_test_dev/Nyberg.CEFR_C.test.orig.txt \
-    --pred $DATA/experiments/Nyberg.CEFR_C.test.granska:$DATA/nyberg_test_dev/Nyberg.CEFR_C.test.corr.txt \
-    --model_id "$MODEL"
-echo "Finished at:"
-date
-
-echo "Launching at:"
-date
-python -u /cephyr/users/robertos/Alvis/.local/scribendi_score/scribendi.py \
-    --src $DATA/nyberg_test_dev/Nyberg.CEFR_B.test.orig.txt \
-    --pred $DATA/experiments/Nyberg.CEFR_B.test.granska:$DATA/experiments/Nyberg.CEFR_B.test.s2x:$DATA/nyberg_test_dev/Nyberg.CEFR_B.test.corr.txt \
-    --model_id "$MODEL"
-echo "Finished at:"
-date
-
+#
+#echo "Launching at:"
+#date
+#python -u /cephyr/users/robertos/Alvis/.local/scribendi_score/scribendi.py \
+#    --src $DATA/nyberg_test_dev/Nyberg.CEFR_A.test.orig.txt \
+#    --pred $DATA/experiments/Nyberg.CEFR_A.test.granska:$DATA/experiments/Nyberg.CEFR_A.test.s2:$DATA/nyberg_test_dev/Nyberg.CEFR_A.test.corr.txt \
+#    --model_id "$MODEL"
+#echo "Finished at:"
+#date
+#
+#echo "Launching at:"
+#date
+#python -u /cephyr/users/robertos/Alvis/.local/scribendi_score/scribendi.py \
+#    --src $DATA/nyberg_test_dev/Nyberg.CEFR_C.test.orig.txt \
+#    --pred $DATA/experiments/Nyberg.CEFR_C.test.granska:$DATA/nyberg_test_dev/Nyberg.CEFR_C.test.corr.txt \
+#    --model_id "$MODEL"
+#echo "Finished at:"
+#date
+#
+#echo "Launching at:"
+#date
+#python -u /cephyr/users/robertos/Alvis/.local/scribendi_score/scribendi.py \
+#    --src $DATA/nyberg_test_dev/Nyberg.CEFR_B.test.orig.txt \
+#    --pred $DATA/experiments/Nyberg.CEFR_B.test.granska:$DATA/experiments/Nyberg.CEFR_B.test.s2x:$DATA/nyberg_test_dev/Nyberg.CEFR_B.test.corr.txt \
+#    --model_id "$MODEL"
+#echo "Finished at:"
+#date
+#
