@@ -226,10 +226,10 @@ def save_and_next(top, vars_list):
     corrected_sentence = tf_entry.get("1.0", "end").strip()
     annotation = {
         "system": seen_extensions[int(randomized_order[sentence_count]/limit)],
-        "sentence-no": int(randomized_order[sentence_count]/limit),
+        "sentence-no": int(randomized_order[sentence_count]%limit),
         "system_prediction": tf_model.get("1.0", "end").strip(),
         "corrected_prediction": corrected_sentence,
-        "human_reference": tf_human.get("1.0", "end").strip(),
+        "human_reference": human_corrected[int(randomized_order[sentence_count]%limit)]
     }
     annotation.update({v[0]: f"{v[1]} ({v[2]})" for v in vars_list})
     if len(annotations) > sentence_count:
