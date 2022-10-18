@@ -113,13 +113,13 @@ def edit_text(entry, edited):
     entry.tag_remove("modified", "1.0", tk.END)
     edited.tag_remove("modified", "1.0", tk.END)
     for i in src_mod:
-        entry.tag_add('modified', f'{i+1}.0')
+        entry.tag_add('modified', f'1.{i}')
     for i in trg_mod:
-        edited.tag_add('modified', f'{i+1}.0')
+        edited.tag_add('modified', f'1.{i}')
     #print('src_mod:', src_mod)
     #print('trg_mod:', trg_mod)
-    entry.tag_configure('modified', background='yellow', foreground='red')
-    edited.tag_configure('modified', background='yellow', foreground='red')
+    entry.tag_configure('modified', background='yellow')
+    edited.tag_configure('modified', background='yellow')
 
 
 def pop_up_control(sentence_count, corrected_sentence):
