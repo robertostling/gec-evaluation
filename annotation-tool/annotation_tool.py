@@ -22,7 +22,7 @@ print(output_file_name)
 
 def read_file_lines(filename):
     with open(filename) as f:
-        return [line.strip() for line in f][0:3]
+        return [line.strip() for line in f]
 
 
 random.seed(321)
@@ -57,6 +57,8 @@ if os.path.exists(output_file_name):
     sentence_count = len(annotations)
 else:
     annotations = []
+
+assert sentence_count <= limit
 
 if sentence_count == limit:
     sentence_count-=1

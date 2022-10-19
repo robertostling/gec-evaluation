@@ -118,5 +118,15 @@
     "Grammaticality": "4 (Perfect)",
     "Fluency": "4 (Extremely natural)",
     "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 5,
+    "system_prediction": "Jag tror att i Sverige finns bra m\u00f6jlighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+    "corrected_prediction": "Jag tycker att i Sverige finns det bra m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+    "human_reference": "Jag tycker att det i Sverige finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4derna eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+    "Grammaticality": "3 (Comprehensible)",
+    "Fluency": "3 (Somewhat natural)",
+    "Meaning Preservation": "3 (Minor differences)"
   }
 ]
