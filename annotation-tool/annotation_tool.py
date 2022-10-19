@@ -211,12 +211,6 @@ def pop_up_annotate(prev_window):
     show = tk.Button(top, text="Done", command=lambda: check(top, [v.get().split(",") for v in vars_list]))
     show.pack()
 
-    top.bind("1", lambda k: select_rb_key(vars_list, radiobuttons["Grammaticality"], options["Grammaticality"][0][1]))
-    top.bind("2", lambda k: select_rb_key(radiobuttons["Grammaticality"], options["Grammaticality"][1][1]))
-    top.bind("3", lambda k: select_rb_key(radiobuttons["Grammaticality"], options["Grammaticality"][2][1]))
-    top.bind("4", lambda k: select_rb_key(radiobuttons["Grammaticality"], options["Grammaticality"][3][1]))
-    top.bind("5", lambda k: select_rb_key(radiobuttons["Grammaticality"], options["Grammaticality"][4][1]))
-
     top.bind("<Return>", lambda x: check(top, [v.get().split(",") for v in vars_list]))
     top.bind("<KP_Enter>", lambda x: check(top, [v.get().split(",") for v in vars_list]))
 
