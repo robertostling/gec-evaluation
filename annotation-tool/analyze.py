@@ -33,7 +33,7 @@ class AnnotationResults:
             for measure, counts in sorted(measure_counts.items()):
                 n_sum = sum(n*c for n, c in counts.items() if n != 0)
                 total = sum(c   for n, c in counts.items() if n != 0)
-                print(f'  {measure:24s} {n_sum/total:.1f}')
+                print(f'  {measure:24s} {n_sum/total:.1f} (n={total})')
             print()
 
 
