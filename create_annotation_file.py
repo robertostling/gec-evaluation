@@ -6,11 +6,20 @@ python3 create_annotation_file.py annotations/round1/test.json data/playing/Nybe
 import os
 import json
 import sys
+import random
+
+import spacy
 
 
 def read_file_lines(filename):
+    nlp = spacy.load('sv_core_news_sm')
+
+    def tokenize(s):
+        doc = nlp.tokenizer(s.strip())
+        return ' '.join(t.text for t in doc).strip()
+
     with open(filename) as f:
-        return [line.strip() for line in f]
+        return [tokenize(line) for line in f]
 
 
 def main():
@@ -39,8 +48,15 @@ def main():
             reference=corr_line,
             systems=system_info))
 
+    item_order = [i for i,_ in enumerate(data)]
+    random.shuffle(item_order)
+
+    metadata = dict(
+            next_item=0,
+            item_order=item_order,
+            data=data)
     with open(out_filename, 'w') as f:
-        json.dump(data, f, sort_keys=True, indent=4)
+        json.dump(metadata, f, sort_keys=True, indent=4)
 
 
 if __name__ == '__main__':

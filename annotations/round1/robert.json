@@ -1,252 +1,517 @@
-[
-  {
-    "system": ".granska",
-    "sentence-no": 5,
-    "system_prediction": "Jag tror att i Sverige finns bra m\u00f6jlighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
-    "corrected_prediction": "Jag tycker att det finns goda m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der i Sverige, eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
-    "human_reference": "Jag tycker att det i Sverige finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4derna eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".mt-base",
-    "sentence-no": 4,
-    "system_prediction": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?",
-    "corrected_prediction": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska framg\u00e5ng eller ens egen framg\u00e5ng ?",
-    "human_reference": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 3,
-    "system_prediction": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att X du m\u00e5ste faktiskt beskriva som dem tipsen f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet om jobbet ; s\u00e5 du skulle kunna s\u00e4ga de .",
-    "corrected_prediction": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 , men inte direkt . Till exempel borde du inte skriva \" jag \u00e4r d\u00e5lig p\u00e5 X . \" Du m\u00e5ste beskriva dem som tips , till exempel \" jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X . \" Du kan visa dem att du passar f\u00f6r det h\u00e4r jobbet och att du \u00e4r intresserad av det . Om du har erfarenhet inom yrket s\u00e5 du skulle kunna s\u00e4ga det ocks\u00e5 .",
-    "human_reference": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 , men inte direkt , du borde till exempel inte skriva : jag \u00e4r d\u00e5lig p\u00e5 att \u2026 Du m\u00e5ste faktiskt beskriva dem som tips , till exempel : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller \u2026 Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det , och om du har erfarenhet av jobbet s\u00e5 skulle du kunna s\u00e4ga det .",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "2 (Somewhat unnatural)",
-    "Meaning Preservation": "3 (Minor differences)"
-  },
-  {
-    "system": ".mystery",
-    "sentence-no": 6,
-    "system_prediction": "Du kan ringa och bjuda in honom p\u00e5 en dejt p\u00e5 en fin restaurang , v\u00e4l d\u00e4r kan ni prata mer med varandra .",
-    "corrected_prediction": "Du kan ringa och bjuda in honom p\u00e5 en dejt p\u00e5 en fin restaurang , v\u00e4l d\u00e4r kan ni prata mer med varandra .",
-    "human_reference": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett k\u00e4rleksm\u00f6te , och d\u00e4r kan ni prata med varandra mer och mer !",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "4 (Extremely natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".s2",
-    "sentence-no": 1,
-    "system_prediction": "Vi ses snart .",
-    "corrected_prediction": "Vi ses snart .",
-    "human_reference": "Vi ses snart .",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "4 (Extremely natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".mystery",
-    "sentence-no": 7,
-    "system_prediction": "Jag trivs bra med att bo tillsammans med dem .",
-    "corrected_prediction": "Jag trivs bra med att bo tillsammans med dem .",
-    "human_reference": "Jag trivs mycket med att bo med dem .",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "4 (Extremely natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".s2",
-    "sentence-no": 5,
-    "system_prediction": "Jag tror att det finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4der i Sverige eftersom man n\u00e4stan kan ha p\u00e5 sig vad man vill .",
-    "corrected_prediction": "Jag tycker att det finns bra m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der i Sverige eftersom man n\u00e4stan kan ha p\u00e5 sig vad man vill .",
-    "human_reference": "Jag tycker att det i Sverige finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4derna eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "3 (Minor differences)"
-  },
-  {
-    "system": ".mt-base",
-    "sentence-no": 3,
-    "system_prediction": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att ... du m\u00e5ste faktiskt beskriva dem som tips f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet av jobbet ; s\u00e5 skulle du kunna s\u00e4ga de .",
-    "corrected_prediction": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 , men inte direkt . Till exempel borde du inte skriva \" jag \u00e4r d\u00e5lig p\u00e5 att ... \" Du m\u00e5ste faktiskt beskriva dem som tips , till exempel \" jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det , och om du har erfarenhet av yrket s\u00e5 skulle du kunna s\u00e4ga det .",
-    "human_reference": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 , men inte direkt , du borde till exempel inte skriva : jag \u00e4r d\u00e5lig p\u00e5 att \u2026 Du m\u00e5ste faktiskt beskriva dem som tips , till exempel : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller \u2026 Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det , och om du har erfarenhet av jobbet s\u00e5 skulle du kunna s\u00e4ga det .",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 9,
-    "system_prediction": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven borta mig fr\u00e5n den kursen .",
-    "corrected_prediction": "Jag tror att du f\u00f6rst\u00e5r mina problem , s\u00e5 att du kan ta bort mig fr\u00e5n kursen ocks\u00e5 .",
-    "human_reference": "Jag tror att du f\u00f6rst\u00e5r mitt problem s\u00e5 att du \u00e4ven kan ta bort mig fr\u00e5n kursen .",
-    "Grammaticality": "2 (Somewhat comprehensible)",
-    "Fluency": "2 (Somewhat unnatural)",
-    "Meaning Preservation": "2 (Moderate differences)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 2,
-    "system_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd om arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "corrected_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller arbetsmoral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "human_reference": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 2,
-    "system_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd om arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "corrected_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller arbetsmoral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "human_reference": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".mt-base",
-    "sentence-no": 0,
-    "system_prediction": "Jag m\u00e5r bra .",
-    "corrected_prediction": "Jag m\u00e5r bra .",
-    "human_reference": "Jag m\u00e5r bra .",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "4 (Extremely natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 5,
-    "system_prediction": "Jag tror att i Sverige finns bra m\u00f6jlighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
-    "corrected_prediction": "Jag tycker att i Sverige finns det bra m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
-    "human_reference": "Jag tycker att det i Sverige finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4derna eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "3 (Minor differences)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 38,
-    "system_prediction": "Om du h\u00e5ller med min f\u00f6rslag , kan vi k\u00f6pa den imorgon .",
-    "corrected_prediction": "Om du h\u00e5ller med om mitt f\u00f6rslag s\u00e5 kan vi k\u00f6pa den imorgon .",
-    "human_reference": "Om du h\u00e5ller med mig om mitt f\u00f6rslag kan vi k\u00f6pa den imorgon .",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 3,
-    "system_prediction": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att X du m\u00e5ste faktiskt beskriva som dem tipsen f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet om jobbet ; s\u00e5 du skulle kunna s\u00e4ga de .",
-    "corrected_prediction": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 , men inte s\u00e5 direkt . Till exempel borde du inte skriva : \" jag \u00e4r d\u00e5lig p\u00e5 att X \" I st\u00e4llet borde du beskriva det som tips , till exempel : \" jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X . \" Du kan visa dem att du passar f\u00f6r det h\u00e4r jobbet och att du \u00e4r intresserad av det . Och om du har erfarenhet inom yrket s\u00e5 skulle du kunna s\u00e4ga det  .",
-    "human_reference": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 , men inte direkt , du borde till exempel inte skriva : jag \u00e4r d\u00e5lig p\u00e5 att \u2026 Du m\u00e5ste faktiskt beskriva dem som tips , till exempel : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller \u2026 Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det , och om du har erfarenhet av jobbet s\u00e5 skulle du kunna s\u00e4ga det .",
-    "Grammaticality": "2 (Somewhat comprehensible)",
-    "Fluency": "2 (Somewhat unnatural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 2,
-    "system_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd om arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "corrected_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller arbetsmoral och attityd till arbetet som p\u00e5verkar b\u00e5de individen och samh\u00e4llet .",
-    "human_reference": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 6,
-    "system_prediction": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !",
-    "corrected_prediction": "Du kan ringa och bjuda honom p\u00e5 en dejt p\u00e5 en fin restaurang , d\u00e4r kan ni prata mer med varandra !",
-    "human_reference": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett k\u00e4rleksm\u00f6te , och d\u00e4r kan ni prata med varandra mer och mer !",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 32,
-    "system_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbete som p\u00e5verkar individen och samh\u00e4llet .",
-    "corrected_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbete som p\u00e5verkar b\u00e5de individen och samh\u00e4llet .",
-    "human_reference": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "4 (Extremely natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 12,
-    "system_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "corrected_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbetet som p\u00e5verkar b\u00e5de individen och samh\u00e4llet .",
-    "human_reference": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "4 (Extremely natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 1,
-    "system_prediction": "Vi ses snart .",
-    "corrected_prediction": "Vi ses snart .",
-    "human_reference": "Vi ses snart .",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "4 (Extremely natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 26,
-    "system_prediction": "Du kan ringa och bjuda in honom p\u00e5 en dejt p\u00e5 en fin restaurang , v\u00e4l d\u00e4r kan ni prata mer med varandra .",
-    "corrected_prediction": "Du kan ringa och bjuda in honom p\u00e5 en dejt p\u00e5 en fin restaurang , v\u00e4l d\u00e4r kan ni prata mer med varandra .",
-    "human_reference": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett k\u00e4rleksm\u00f6te , och d\u00e4r kan ni prata med varandra mer och mer !",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "4 (Extremely natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 37,
-    "system_prediction": "Jag trivs mycket med att bo h\u00e4r .",
-    "corrected_prediction": "Jag trivs mycket med att bo med dem .",
-    "human_reference": "Jag trivs mycket med att bo med dem .",
-    "Grammaticality": "4 (Perfect)",
-    "Fluency": "4 (Extremely natural)",
-    "Meaning Preservation": "3 (Minor differences)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 16,
-    "system_prediction": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !",
-    "corrected_prediction": "Du kan ringa och bjuda honom p\u00e5 en dejt p\u00e5 en fin restaurang , d\u00e4r kan ni prata mer med varandra !",
-    "human_reference": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett k\u00e4rleksm\u00f6te , och d\u00e4r kan ni prata med varandra mer och mer !",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "3 (Somewhat natural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 0,
-    "system_prediction": "Jag \u00e4r m\u00e5r bra .",
-    "corrected_prediction": "Jag m\u00e5r bra .",
-    "human_reference": "Jag m\u00e5r bra .",
-    "Grammaticality": "3 (Comprehensible)",
-    "Fluency": "1 (Extremely unnatural)",
-    "Meaning Preservation": "4 (Identical)"
-  },
-  {
-    "system": ".granska",
-    "sentence-no": 7,
-    "system_prediction": "jag trivs mycket bor med dem .",
-    "corrected_prediction": "Jag trivs mycket med att bo med dem .",
-    "human_reference": "Jag trivs mycket med att bo med dem .",
-    "Grammaticality": "2 (Somewhat comprehensible)",
-    "Fluency": "1 (Extremely unnatural)",
-    "Meaning Preservation": "4 (Identical)"
-  }
-]
+{
+    "data": [
+        {
+            "original": "Jag \u00e4r m\u00e5r bra .",
+            "reference": "Jag m\u00e5r bra .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 1,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag m\u00e5r bra ."
+                        }
+                    },
+                    "output": "Jag \u00e4r m\u00e5r bra ."
+                },
+                "mt-base": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag m\u00e5r bra ."
+                        }
+                    },
+                    "output": "Jag m\u00e5r bra ."
+                },
+                "mystery": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det \u00e4r bra med mig ."
+                        }
+                    },
+                    "output": "Det \u00e4r bra med mig ."
+                },
+                "s2": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag m\u00e5r bra ."
+                        }
+                    },
+                    "output": "Jag m\u00e5r bra ."
+                }
+            }
+        },
+        {
+            "original": "Vi ses snart .",
+            "reference": "Vi ses snart .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vi ses snart ."
+                        }
+                    },
+                    "output": "Vi ses snart ."
+                },
+                "mt-base": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vi ses snart ."
+                        }
+                    },
+                    "output": "Vi ses snart ."
+                },
+                "mystery": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ses snart !"
+                        }
+                    },
+                    "output": "Ses snart !"
+                },
+                "s2": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vi ses snart ."
+                        }
+                    },
+                    "output": "Vi ses snart ."
+                }
+            }
+        },
+        {
+            "original": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd om arbetet som p\u00e5verkar individen och samh\u00e4llet .",
+            "reference": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbete som p\u00e5verkar individen och samh\u00e4llet ."
+                        }
+                    },
+                    "output": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd om arbetet som p\u00e5verkar individen och samh\u00e4llet ."
+                },
+                "mt-base": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbetet som p\u00e5verkar individen och samh\u00e4llet ."
+                        }
+                    },
+                    "output": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbetet som p\u00e5verkar individen och samh\u00e4llet ."
+                },
+                "mystery": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "I Sverige finns det problem vad g\u00e4ller arbetsmoral och attityden till arbete , som p\u00e5verkar s\u00e5v\u00e4l samh\u00e4let som den enskilde ."
+                        }
+                    },
+                    "output": "I Sverige finns det problem vad g\u00e4ller arbetsmoral och attityden till arbete , som p\u00e5verkar s\u00e5v\u00e4l samh\u00e4let som den enskilde ."
+                },
+                "s2": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityder kring arbete som p\u00e5verkar individen och samh\u00e4llet ."
+                        }
+                    },
+                    "output": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbete som p\u00e5verkar individen och samh\u00e4llet ."
+                }
+            }
+        },
+        {
+            "original": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att \u2026 du m\u00e5ste faktiskt beskriva som dem tipsen f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller \u2026 Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet om jobbet ; s\u00e5 du skulle kunna s\u00e4ga de .",
+            "reference": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 , men inte direkt , du borde till exempel inte skriva : jag \u00e4r d\u00e5lig p\u00e5 att \u2026 Du m\u00e5ste faktiskt beskriva dem som tips , till exempel : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller \u2026 Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det , och om du har erfarenhet av jobbet s\u00e5 skulle du kunna s\u00e4ga det .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte s\u00e5 direkt . Till exempel borde du inte skriva \" jag \u00e4r d\u00e5lig p\u00e5 att X . \" Du borde beskriva som dem tips , till exempel \" jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X . \" Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det . Och om du har erfarenhet av yrket s\u00e5 skulle du kunna s\u00e4ga det ."
+                        }
+                    },
+                    "output": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att X du m\u00e5ste faktiskt beskriva som dem tipsen f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet om jobbet ; s\u00e5 du skulle kunna s\u00e4ga de ."
+                },
+                "mt-base": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 men inte s\u00e5 direkt . Till exempel borde du inte skriva \" jag \u00e4r d\u00e5lig p\u00e5 att ... \" Du borde beskriva dem som tips , till exempel \" jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det . Och om du har erfarenhet av yrket s\u00e5 skulle du kunna s\u00e4ga det ."
+                        }
+                    },
+                    "output": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att ... du m\u00e5ste faktiskt beskriva dem som tips f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet av jobbet ; s\u00e5 skulle du kunna s\u00e4ga de ."
+                },
+                "mystery": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du skulle kunna testa att beskriva dina svagheter ocks\u00e5 , men inte s\u00e5 direkt . Till exempel borde du undvika att skriva : \" Jag \u00e4r d\u00e5lig p\u00e5 att ... \" I st\u00e4llet kan du skriva : \" Jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Du f\u00e5r visa att du \u00e4r l\u00e4mpad f\u00f6r och intresserad av arbetet , och om du har relevanta erfarenheter s\u00e5 n\u00e4mner du det ocks\u00e5 ."
+                        }
+                    },
+                    "output": "Du skulle kunna testa att beskriva dina svagheter ocks\u00e5 , men inte s\u00e5 direkt . Till exempel borde du undvika att skriva : \" Jag \u00e4r d\u00e5lig p\u00e5 att ... \" I st\u00e4llet kan du skriva : \" Jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Du f\u00e5r visa att du \u00e4r l\u00e4mpad f\u00f6r och intresserad av arbetet , och om du har relevanta erfarenheter s\u00e5 n\u00e4mner du det ocks\u00e5 ."
+                },
+                "s2": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Det skulle kunna vara bra att beskriva sina svaga sidor ocks\u00e5 , men inte s\u00e5 direkt . Till exempel b\u00f6r man inte skriva \" Jag \u00e4r d\u00e5lig p\u00e5 att ... \" Man b\u00f6r beskriva dem som tips , till exempel : \" Jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Man kan visa att man passar p\u00e5 det h\u00e4r jobbet och \u00e4r intresserad av det , och om man har erfarenhet av yrket , s\u00e5 skulle man kunna s\u00e4ga det ."
+                        }
+                    },
+                    "output": "Det skulle kunna vara bra att beskriva sina svaga sidor ocks\u00e5 , men inte direkt till exempel : man borde inte skriva \" Jag \u00e4r d\u00e5lig p\u00e5 att ... \" Man m\u00e5ste faktiskt beskriva dem som tips , till exempel : \" Jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Man kan visa att man passar p\u00e5 det h\u00e4r jobbet och \u00e4r intresserad av det , och om man har erfarenhet av jobbet , s\u00e5 man skulle kunna s\u00e4ga det ."
+                }
+            }
+        },
+        {
+            "original": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?",
+            "reference": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska framg\u00e5ng eller ens egen framg\u00e5ng ?"
+                        }
+                    },
+                    "output": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?"
+                },
+                "mt-base": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska framg\u00e5ng eller ens egen framg\u00e5ng ?"
+                        }
+                    },
+                    "output": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?"
+                },
+                "mystery": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "G\u00e5r det att m\u00e4ta lycka genom din egen , eller landets , ekonomiska framg\u00e5ng ?"
+                        }
+                    },
+                    "output": "G\u00e5r det att m\u00e4ta lycka genom din egen , eller landets , ekonomiska framg\u00e5ng ?"
+                },
+                "s2": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska framg\u00e5ng eller ens ens egen framg\u00e5ng ?"
+                        }
+                    },
+                    "output": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska framg\u00e5ng eller ens ens egen framg\u00e5ng ?"
+                }
+            }
+        },
+        {
+            "original": "Jag tror att i Sverige finns bra m\u00f6jighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+            "reference": "Jag tycker att det i Sverige finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4derna eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag tycker att i Sverige finns det goda m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der , eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill ."
+                        }
+                    },
+                    "output": "Jag tror att i Sverige finns bra m\u00f6jlighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill ."
+                },
+                "mt-base": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag tycker att i Sverige finns bra m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill ."
+                        }
+                    },
+                    "output": "Jag tror att i Sverige finns en bra m\u00f6jlighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill ."
+                },
+                "mystery": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tycker att det finns goda m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der i Sverige , eftersom man f\u00e5r ha p\u00e5 sig n\u00e4stan vad man vill ."
+                        }
+                    },
+                    "output": "Jag tycker att det finns goda m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der i Sverige , eftersom man f\u00e5r ha p\u00e5 sig n\u00e4stan vad man vill ."
+                },
+                "s2": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag tycker att det finns bra m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der i Sverige eftersom man n\u00e4stan kan ha p\u00e5 sig vad man vill ."
+                        }
+                    },
+                    "output": "Jag tror att det finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4der i Sverige eftersom man n\u00e4stan kan ha p\u00e5 sig vad man vill ."
+                }
+            }
+        },
+        {
+            "original": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !",
+            "reference": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett k\u00e4rleksm\u00f6te , och d\u00e4r kan ni prata med varandra mer och mer !",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en dejt och d\u00e4r kan ni prata med varandra mer och mer !"
+                        }
+                    },
+                    "output": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
+                },
+                "mt-base": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en dejt och d\u00e4r kan ni prata med varandra mer och mer !"
+                        }
+                    },
+                    "output": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
+                },
+                "mystery": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Du kan ringa och bjuda in honom p\u00e5 en dejt p\u00e5 en fin restaurang , v\u00e4l d\u00e4r kan ni prata mer med varandra ."
+                        }
+                    },
+                    "output": "Du kan ringa och bjuda in honom p\u00e5 en dejt p\u00e5 en fin restaurang , v\u00e4l d\u00e4r kan ni prata mer med varandra ."
+                },
+                "s2": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett romantiskt m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
+                        }
+                    },
+                    "output": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett romantiskt m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
+                }
+            }
+        },
+        {
+            "original": "jag trivs mycket bor med dem .",
+            "reference": "Jag trivs mycket med att bo med dem .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 1,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag trivs mycket med att bo tillsammans med dem ."
+                        }
+                    },
+                    "output": "jag trivs mycket bor med dem ."
+                },
+                "mt-base": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 2,
+                            "corrected": "Jag trivs mycket med att bo tillsammans med dem ."
+                        }
+                    },
+                    "output": "Jag trivs mycket och bor med dem ."
+                },
+                "mystery": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag trivs bra med att bo tillsammans med dem ."
+                        }
+                    },
+                    "output": "Jag trivs bra med att bo tillsammans med dem ."
+                },
+                "s2": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 2,
+                            "corrected": "Jag trivs mycket med att bo tillsammans med dem ."
+                        }
+                    },
+                    "output": "Jag trivs mycket med att bo h\u00e4r ."
+                }
+            }
+        },
+        {
+            "original": "Om du \u00e4r h\u00e5ller med min f\u00f6rslag vi kan k\u00f6pa den imorgon .",
+            "reference": "Om du h\u00e5ller med mig om mitt f\u00f6rslag kan vi k\u00f6pa den imorgon .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 1,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Om du h\u00e5ller med om mitt f\u00f6rslag s\u00e5 kan vi k\u00f6pa den imorgon ."
+                        }
+                    },
+                    "output": "Om du \u00e4r h\u00e5ller med min f\u00f6rslag vi kan k\u00f6pa den imorgon ."
+                },
+                "mt-base": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Om du h\u00e5ller med om mitt f\u00f6rslag s\u00e5 kan vi k\u00f6pa den imorgon ."
+                        }
+                    },
+                    "output": "Om du h\u00e5ller med min f\u00f6rslag kan vi k\u00f6pa den imorgon ."
+                },
+                "mystery": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ifall du tycker att det jag f\u00f6resl\u00e5r l\u00e5ter bra s\u00e5 kan vi k\u00f6pa den i morgon ."
+                        }
+                    },
+                    "output": "Ifall du tycker att det jag f\u00f6resl\u00e5r l\u00e5ter bra s\u00e5 kan vi k\u00f6pa den i morgon ."
+                },
+                "s2": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Om du h\u00e5ller med om mitt f\u00f6rslag , kan vi k\u00f6pa den imorgon ."
+                        }
+                    },
+                    "output": "Om du h\u00e5ller med min f\u00f6rslag , kan vi k\u00f6pa den imorgon ."
+                }
+            }
+        },
+        {
+            "original": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven borta mig fr\u00e5n den kurs .",
+            "reference": "Jag tror att du f\u00f6rst\u00e5r mitt problem s\u00e5 att du \u00e4ven kan ta bort mig fr\u00e5n kursen .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tror att du f\u00f6rst\u00e5r mina problem och \u00e4ven kan hj\u00e4lpa till att ta bort mig fr\u00e5n kursen ."
+                        }
+                    },
+                    "output": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven borta mig fr\u00e5n den kursen ."
+                },
+                "mt-base": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tror att du f\u00f6rst\u00e5r mina problem och \u00e4ven kan hj\u00e4lpa till att ta bort mig fr\u00e5n kursen ."
+                        }
+                    },
+                    "output": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven borta fr\u00e5n mig den kursen ."
+                },
+                "mystery": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag tror att du f\u00f6rst\u00e5r mitt problem och d\u00e4rf\u00f6r kan hj\u00e4lpa till att avregistrera mig fr\u00e5n kursen ."
+                        }
+                    },
+                    "output": "Jag tror att du f\u00f6rst\u00e5r mitt problem och d\u00e4rf\u00f6r kan hj\u00e4lpa till att avregistrera mig fr\u00e5n kursen ."
+                },
+                "s2": {
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 1,
+                            "corrected": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven om jag inte \u00e4r kvar i kursen ."
+                        }
+                    },
+                    "output": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven om jag inte \u00e4r kvar i kursen ."
+                }
+            }
+        }
+    ],
+    "item_order": [
+        6,
+        9,
+        0,
+        7,
+        1,
+        4,
+        3,
+        8,
+        5,
+        2
+    ],
+    "next_item": 0
+}
