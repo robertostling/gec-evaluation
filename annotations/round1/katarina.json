@@ -1,0 +1,237 @@
+{
+    "data": [
+        {
+            "original": "Jag \u00e4r m\u00e5r bra .",
+            "reference": "Jag m\u00e5r bra .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag \u00e4r m\u00e5r bra ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Jag m\u00e5r bra ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Det \u00e4r bra med mig ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag m\u00e5r bra ."
+                }
+            }
+        },
+        {
+            "original": "Vi ses snart .",
+            "reference": "Vi ses snart .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Vi ses snart ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Vi ses snart ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Ses snart !"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Vi ses snart ."
+                }
+            }
+        },
+        {
+            "original": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd om arbetet som p\u00e5verkar individen och samh\u00e4llet .",
+            "reference": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd om arbetet som p\u00e5verkar individen och samh\u00e4llet ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbetet som p\u00e5verkar individen och samh\u00e4llet ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "I Sverige finns det problem vad g\u00e4ller arbetsmoral och attityden till arbete , som p\u00e5verkar s\u00e5v\u00e4l samh\u00e4let som den enskilde ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbete som p\u00e5verkar individen och samh\u00e4llet ."
+                }
+            }
+        },
+        {
+            "original": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att \u2026 du m\u00e5ste faktiskt beskriva som dem tipsen f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller \u2026 Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet om jobbet ; s\u00e5 du skulle kunna s\u00e4ga de .",
+            "reference": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 , men inte direkt , du borde till exempel inte skriva : jag \u00e4r d\u00e5lig p\u00e5 att \u2026 Du m\u00e5ste faktiskt beskriva dem som tips , till exempel : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller \u2026 Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det , och om du har erfarenhet av jobbet s\u00e5 skulle du kunna s\u00e4ga det .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att X du m\u00e5ste faktiskt beskriva som dem tipsen f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet om jobbet ; s\u00e5 du skulle kunna s\u00e4ga de ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att ... du m\u00e5ste faktiskt beskriva dem som tips f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet av jobbet ; s\u00e5 skulle du kunna s\u00e4ga de ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Du skulle kunna testa att beskriva dina svagheter ocks\u00e5 , men inte s\u00e5 direkt . Till exempel borde du undvika att skriva : \" Jag \u00e4r d\u00e5lig p\u00e5 att ... \" I st\u00e4llet kan du skriva : \" Jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Du f\u00e5r visa att du \u00e4r l\u00e4mpad f\u00f6r och intresserad av arbetet , och om du har relevanta erfarenheter s\u00e5 n\u00e4mner du det ocks\u00e5 ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det skulle kunna vara bra att beskriva sina svaga sidor ocks\u00e5 , men inte direkt till exempel : man borde inte skriva \" Jag \u00e4r d\u00e5lig p\u00e5 att ... \" Man m\u00e5ste faktiskt beskriva dem som tips , till exempel : \" Jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Man kan visa att man passar p\u00e5 det h\u00e4r jobbet och \u00e4r intresserad av det , och om man har erfarenhet av jobbet , s\u00e5 man skulle kunna s\u00e4ga det ."
+                }
+            }
+        },
+        {
+            "original": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?",
+            "reference": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?"
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska eller ens egen framg\u00e5ng ?"
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "G\u00e5r det att m\u00e4ta lycka genom din egen , eller landets , ekonomiska framg\u00e5ng ?"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Kan lycka m\u00e4tas i f\u00f6rh\u00e5llande till landets ekonomiska framg\u00e5ng eller ens ens egen framg\u00e5ng ?"
+                }
+            }
+        },
+        {
+            "original": "Jag tror att i Sverige finns bra m\u00f6jighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+            "reference": "Jag tycker att det i Sverige finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4derna eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag tror att i Sverige finns bra m\u00f6jlighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Jag tror att i Sverige finns en bra m\u00f6jlighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Jag tycker att det finns goda m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der i Sverige , eftersom man f\u00e5r ha p\u00e5 sig n\u00e4stan vad man vill ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag tror att det finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4der i Sverige eftersom man n\u00e4stan kan ha p\u00e5 sig vad man vill ."
+                }
+            }
+        },
+        {
+            "original": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !",
+            "reference": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett k\u00e4rleksm\u00f6te , och d\u00e4r kan ni prata med varandra mer och mer !",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Du kan ringa och bjuda in honom p\u00e5 en dejt p\u00e5 en fin restaurang , v\u00e4l d\u00e4r kan ni prata mer med varandra ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett romantiskt m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
+                }
+            }
+        },
+        {
+            "original": "jag trivs mycket bor med dem .",
+            "reference": "Jag trivs mycket med att bo med dem .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "jag trivs mycket bor med dem ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Jag trivs mycket och bor med dem ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Jag trivs bra med att bo tillsammans med dem ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag trivs mycket med att bo h\u00e4r ."
+                }
+            }
+        },
+        {
+            "original": "Om du \u00e4r h\u00e5ller med min f\u00f6rslag vi kan k\u00f6pa den imorgon .",
+            "reference": "Om du h\u00e5ller med mig om mitt f\u00f6rslag kan vi k\u00f6pa den imorgon .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Om du \u00e4r h\u00e5ller med min f\u00f6rslag vi kan k\u00f6pa den imorgon ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Om du h\u00e5ller med min f\u00f6rslag kan vi k\u00f6pa den imorgon ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Ifall du tycker att det jag f\u00f6resl\u00e5r l\u00e5ter bra s\u00e5 kan vi k\u00f6pa den i morgon ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Om du h\u00e5ller med min f\u00f6rslag , kan vi k\u00f6pa den imorgon ."
+                }
+            }
+        },
+        {
+            "original": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven borta mig fr\u00e5n den kurs .",
+            "reference": "Jag tror att du f\u00f6rst\u00e5r mitt problem s\u00e5 att du \u00e4ven kan ta bort mig fr\u00e5n kursen .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven borta mig fr\u00e5n den kursen ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven borta fr\u00e5n mig den kursen ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Jag tror att du f\u00f6rst\u00e5r mitt problem och d\u00e4rf\u00f6r kan hj\u00e4lpa till att avregistrera mig fr\u00e5n kursen ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven om jag inte \u00e4r kvar i kursen ."
+                }
+            }
+        }
+    ],
+    "item_order": [
+        2,
+        8,
+        5,
+        3,
+        1,
+        7,
+        0,
+        9,
+        4,
+        6
+    ],
+    "next_item": 0
+}
