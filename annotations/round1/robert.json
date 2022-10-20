@@ -118,5 +118,135 @@
     "Grammaticality": "4 (Perfect)",
     "Fluency": "4 (Extremely natural)",
     "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 5,
+    "system_prediction": "Jag tror att i Sverige finns bra m\u00f6jlighet att uttrycka sig genom kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+    "corrected_prediction": "Jag tycker att i Sverige finns det bra m\u00f6jligheter att uttrycka sig genom sina kl\u00e4der eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+    "human_reference": "Jag tycker att det i Sverige finns bra m\u00f6jligheter att uttrycka sig genom kl\u00e4derna eftersom man kan ha p\u00e5 sig n\u00e4stan vad man vill .",
+    "Grammaticality": "3 (Comprehensible)",
+    "Fluency": "3 (Somewhat natural)",
+    "Meaning Preservation": "3 (Minor differences)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 38,
+    "system_prediction": "Om du h\u00e5ller med min f\u00f6rslag , kan vi k\u00f6pa den imorgon .",
+    "corrected_prediction": "Om du h\u00e5ller med om mitt f\u00f6rslag s\u00e5 kan vi k\u00f6pa den imorgon .",
+    "human_reference": "Om du h\u00e5ller med mig om mitt f\u00f6rslag kan vi k\u00f6pa den imorgon .",
+    "Grammaticality": "3 (Comprehensible)",
+    "Fluency": "3 (Somewhat natural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 3,
+    "system_prediction": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att X du m\u00e5ste faktiskt beskriva som dem tipsen f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet om jobbet ; s\u00e5 du skulle kunna s\u00e4ga de .",
+    "corrected_prediction": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 , men inte s\u00e5 direkt . Till exempel borde du inte skriva : \" jag \u00e4r d\u00e5lig p\u00e5 att X \" I st\u00e4llet borde du beskriva det som tips , till exempel : \" jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X . \" Du kan visa dem att du passar f\u00f6r det h\u00e4r jobbet och att du \u00e4r intresserad av det . Och om du har erfarenhet inom yrket s\u00e5 skulle du kunna s\u00e4ga det  .",
+    "human_reference": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 , men inte direkt , du borde till exempel inte skriva : jag \u00e4r d\u00e5lig p\u00e5 att \u2026 Du m\u00e5ste faktiskt beskriva dem som tips , till exempel : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller \u2026 Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det , och om du har erfarenhet av jobbet s\u00e5 skulle du kunna s\u00e4ga det .",
+    "Grammaticality": "2 (Somewhat comprehensible)",
+    "Fluency": "2 (Somewhat unnatural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 2,
+    "system_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd om arbetet som p\u00e5verkar individen och samh\u00e4llet .",
+    "corrected_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller arbetsmoral och attityd till arbetet som p\u00e5verkar b\u00e5de individen och samh\u00e4llet .",
+    "human_reference": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
+    "Grammaticality": "3 (Comprehensible)",
+    "Fluency": "3 (Somewhat natural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 6,
+    "system_prediction": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !",
+    "corrected_prediction": "Du kan ringa och bjuda honom p\u00e5 en dejt p\u00e5 en fin restaurang , d\u00e4r kan ni prata mer med varandra !",
+    "human_reference": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett k\u00e4rleksm\u00f6te , och d\u00e4r kan ni prata med varandra mer och mer !",
+    "Grammaticality": "3 (Comprehensible)",
+    "Fluency": "3 (Somewhat natural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 32,
+    "system_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbete som p\u00e5verkar individen och samh\u00e4llet .",
+    "corrected_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbete som p\u00e5verkar b\u00e5de individen och samh\u00e4llet .",
+    "human_reference": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
+    "Grammaticality": "4 (Perfect)",
+    "Fluency": "4 (Extremely natural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 12,
+    "system_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbetet som p\u00e5verkar individen och samh\u00e4llet .",
+    "corrected_prediction": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd kring arbetet som p\u00e5verkar b\u00e5de individen och samh\u00e4llet .",
+    "human_reference": "Det finns ett problem i Sverige n\u00e4r det g\u00e4ller moral och attityd till arbetet som p\u00e5verkar individen och samh\u00e4llet .",
+    "Grammaticality": "4 (Perfect)",
+    "Fluency": "4 (Extremely natural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 1,
+    "system_prediction": "Vi ses snart .",
+    "corrected_prediction": "Vi ses snart .",
+    "human_reference": "Vi ses snart .",
+    "Grammaticality": "4 (Perfect)",
+    "Fluency": "4 (Extremely natural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 26,
+    "system_prediction": "Du kan ringa och bjuda in honom p\u00e5 en dejt p\u00e5 en fin restaurang , v\u00e4l d\u00e4r kan ni prata mer med varandra .",
+    "corrected_prediction": "Du kan ringa och bjuda in honom p\u00e5 en dejt p\u00e5 en fin restaurang , v\u00e4l d\u00e4r kan ni prata mer med varandra .",
+    "human_reference": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett k\u00e4rleksm\u00f6te , och d\u00e4r kan ni prata med varandra mer och mer !",
+    "Grammaticality": "4 (Perfect)",
+    "Fluency": "4 (Extremely natural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 37,
+    "system_prediction": "Jag trivs mycket med att bo h\u00e4r .",
+    "corrected_prediction": "Jag trivs mycket med att bo med dem .",
+    "human_reference": "Jag trivs mycket med att bo med dem .",
+    "Grammaticality": "4 (Perfect)",
+    "Fluency": "4 (Extremely natural)",
+    "Meaning Preservation": "3 (Minor differences)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 16,
+    "system_prediction": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !",
+    "corrected_prediction": "Du kan ringa och bjuda honom p\u00e5 en dejt p\u00e5 en fin restaurang , d\u00e4r kan ni prata mer med varandra !",
+    "human_reference": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett k\u00e4rleksm\u00f6te , och d\u00e4r kan ni prata med varandra mer och mer !",
+    "Grammaticality": "3 (Comprehensible)",
+    "Fluency": "3 (Somewhat natural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 0,
+    "system_prediction": "Jag \u00e4r m\u00e5r bra .",
+    "corrected_prediction": "Jag m\u00e5r bra .",
+    "human_reference": "Jag m\u00e5r bra .",
+    "Grammaticality": "3 (Comprehensible)",
+    "Fluency": "1 (Extremely unnatural)",
+    "Meaning Preservation": "4 (Identical)"
+  },
+  {
+    "system": ".granska",
+    "sentence-no": 7,
+    "system_prediction": "jag trivs mycket bor med dem .",
+    "corrected_prediction": "Jag trivs mycket med att bo med dem .",
+    "human_reference": "Jag trivs mycket med att bo med dem .",
+    "Grammaticality": "2 (Somewhat comprehensible)",
+    "Fluency": "1 (Extremely unnatural)",
+    "Meaning Preservation": "4 (Identical)"
   }
 ]
