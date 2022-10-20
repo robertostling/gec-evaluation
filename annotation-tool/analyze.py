@@ -16,6 +16,7 @@ class AnnotationResults:
 
 
     def get_scores(self):
+        # TODO: include GLEU for system_prediction wrt corrected_prediction?
         system_measure_counts = defaultdict(lambda: defaultdict(Counter))
         features = ('Grammaticality', 'Fluency', 'Meaning Preservation')
         for annotator, annotations in self.annotations.items():
