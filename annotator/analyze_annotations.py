@@ -2,6 +2,8 @@ import os
 import json
 from collections import defaultdict, Counter
 import sys
+import statistics
+import Levenshtein
 
 
 class AnnotationResults:
@@ -13,8 +15,8 @@ class AnnotationResults:
 
 
     def get_scores(self):
-        # TODO: include GLEU for system_prediction wrt corrected_prediction?
         system_measure_counts = defaultdict(lambda: defaultdict(Counter))
+        system_metrics = defaultdict(lambda: defaultdict(list))
         features = ('Grammaticality', 'Fluency', 'Meaning Preservation')
         for metadata in self.annotations:
             data = metadata['data']
@@ -25,16 +27,27 @@ class AnnotationResults:
                             if feature in annotations:
                                 n = annotations[feature]
                                 system_measure_counts[system][feature][n] += 1
-        return system_measure_counts
+                        if 'corrected' in annotations:
+                            s1 = results['output']
+                            s2 = annotations['corrected']
+                            ld = Levenshtein.distance(s1, s2)
+                            nld = ld / max(len(s1), len(s2))
+                            system_metrics[system]['NLD'].append(nld)
+        return system_measure_counts, system_metrics
 
 
     def summarize(self):
-        for system, measure_counts in self.get_scores().items():
+        system_measure_counts, system_metrics = self.get_scores()
+        for system, measure_counts in system_measure_counts.items():
             print(system)
             for measure, counts in sorted(measure_counts.items()):
                 n_sum = sum(n*c for n, c in counts.items() if n != 0)
                 total = sum(c   for n, c in counts.items() if n != 0)
                 print(f'  {measure:24s} {n_sum/total:.1f} (n={total})')
+            metrics = system_metrics[system]
+            for metric, values in sorted(metrics.items()):
+                mean = statistics.mean(values)
+                print(f'  {metric:24s} {mean:.2g} (n={len(values)})')
             print()
 
 
