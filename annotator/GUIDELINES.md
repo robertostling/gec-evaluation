@@ -162,13 +162,44 @@ been "preserved" (or rather, inferred) by the GEC system, and would probably
 be classified as "moderate differences" or even "substantially different"
 because the semantics of the whole sentence change radically.
 
+The examples given below are relative to the following example.
+
+Reference: **Jag tror att du förstår mitt problem så att du även kan ta bort mig från kursen .**
+
 ## Identical
+
+Example: **Jag tror att du förstår mitt problem och kan därför avregistrera mig från kursen .**
+
+Note that there are several surface-level differences, like the use of
+"avregistrera" rather than "ta bort" (synonymous in this context), and the
+different way of connecting the two main parts of the sentence ("så att du
+även kan" vs "och kan därför").
 
 ## Minor differences
 
+Example: **Jag tror att du förstår mitt problem och kan därför ta bort mig
+från en kurs .**
+
+The final noun (kurs) was changed from definite to indefinite. Differences in
+e.g. definiteness or number will typically be classified as "minor
+differences".
+
 ## Moderate differences
+
+Example: **Jag vet att du förstår mitt problem och kan därför ta in mig i
+kursen  .**
+
+Two of the verbs have been changed to semantically related but different ones
+(tror/vet, ta in/ta bort).
 
 ## Substantially different
 
 Example: **Jag tror att du förstår mina problem även om jag inte är kvar i kursen .**
+
+The meaning of the second part is very different from the reference. This
+example is around the border between "moderate differences" and "substantially
+different". Anything more different from the reference than this should be
+annotated as "substantially different". In theory this is a large category of
+possible sentences, but in practice it is rather rare for GEC systems to
+corrupt sentence semantics to this degree.
 
