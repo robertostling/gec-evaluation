@@ -16,6 +16,10 @@ as it is correct given the new (possibly incorrect) interpretation.
 *The sentence is native-sounding. It has no grammatical errors, but may
 contain very minor typographical and/or collocation errors.*
 
+We do not take the "native-sounding" requirement literally, and the second
+part of the definition explicitly allows collocation errors, which presumably
+make the sentence less native-sounding.
+
 Example: **jag tror att det finns bra möjligheter att uttrycka sig genom kläder i Sverige eftersom man nästan kan ha på sig vad man vill .**
 
 This sentence contains a word choice error (tycker/tror) which changes the
@@ -63,16 +67,100 @@ Example: **Jag tror möjlig uttrycker kläderna i Sverige man då nästan kan vi
 Based on Lau et al. (2015). No definitions are given except the labels, so we
 rely heavily on native speaker judgement.
 
+Note that fluency, like grammaticality, is defined with respect to the system
+output only. The meaning may be completely implausible or different from the
+reference, but if the sentence could have been produced by a native speaker in
+some other context, we consider it to sound natural.
+
+Low grammaticallity always implies low fluency, but the opposite is not true.
+A sentence that is technically grammatical could still sound unnatural, if a
+native speaker would be unlikely to produce it.
+
 ## Extremely natural
+
+Example: **Jag tror att du förstår mina problem även om jag inte är kvar i
+kursen .**
+
+This does not mean the same thing as the SweLL reference at all, but sounds
+native-like in a different context. Thus it has high grammaticality and
+fluency, but does not preserve meaning.
 
 ## Somewhat natural
 
+Example: **Kan lycka mätas i förhållande till landets ekonomiska eller ens
+egen framgång ?**
+
+This is grammatical and in fact identical to the SweLL reference, but a bit
+awkward. There are two interpretations (is one's own success economical, or
+just general success?) and the disjunction would probably have been expressed
+by a native speaker to clarify this: **landets eller ens egen ekonomiska
+framgång** or **landets ekonomiska framgång eller ens egen framgång**.
+
 ## Somewhat unnatural
+
+Example: **Om du håller med min förslag kan vi köpa den imorgon .**
+
+This is ungrammatical (gender agreement: min förslag), and normally the
+preposition "om" would be used before that NP. But since the construction
+"håller med [person]" (without "om") exists with a slightly different meaning
+(agrees with [person]), the end result is easy to interpret. Overall this
+results in a clearly non-native sentence with two grammatical errors, but of a
+kind one would barely react to if spoken by someone known to be a non-native
+speaker.
+
+Example: **Jag frågade min kusin från Tyskland om det , och min kusin från
+Tyskland avtäckte att det inte går .**
+
+This is grammatical, but the full NP (min kusin från Tyskland) is repeated
+where a native speaker would most likely use an abbreviated reference like a
+pronoun. In addition, there is a word choice error (avtäckte) is interpretable
+only with some effort.
 
 ## Extremely unnatural
 
+Example: **Jag är mår bra.**
+
+Although there is only a single error, the combination of two present-tense
+verbs sounds rather unnatural, and probably belongs between the "somewhat
+unnatural" and "extremely unnatural" categories.
+
+Example: **Jag tror att du förstår mina problem även borta mig från den kursen .**
+
+This has lower fluency than the previous example. The use of "borta" as a verb
+(instead of "ta bort"), several words are missing around "även", and an extra
+determiner ("den") is inserted at the end.
+
+Example: **Om du är håller med min förslag vi kan köpa den imorgon .**
+
+This is similar to the example under "somewhat unnatural" above, except the
+ "är" + present tense combination and a word order error (vi kan) later in
+the sentence.
+
 
 # Meaning preservation
+
+We use the scale from Yoshimura et al. (2020). They cite Xu et al (2016), but
+as far as I can see they only mention a "5-point scale" without any further
+details.
+
+Note that meaning preservation is with respect to the *reference*. This means
+that a GEC system which does not perform any edits at all can also have a low
+meaning preservation score, if the original sentence has a literal
+interpretation different from the reference. For instance, consider the
+following case:
+
+Original: **My grandfather dyed before I was birthed**
+
+Human reference: **My grandfather died before I was born**
+
+System output: **My grandfather dyed before I was born**
+
+During annotation we assume that the human reference contains the correct
+interpretation of each sentence (the SweLL annotators have access to a wider
+context). Therefore, the *intended* meaning of the original sentence has not
+been "preserved" (or rather, inferred) by the GEC system, and would probably
+be classified as "moderate differences" or even "substantially different"
+because the semantics of the whole sentence change radically.
 
 ## Identical
 
