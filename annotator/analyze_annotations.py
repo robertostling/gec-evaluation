@@ -83,8 +83,10 @@ class AnnotationResults:
             print()
 
 
-    def compare_differences(self):
+    def compare_differences(self, show_all=True):
         for example in self.merged_data:
+            original = example['original']
+            reference = example['reference']
             for system, results in example['systems'].items():
                 output = results['output']
                 annotators = sorted(results['annotators'].items(),
@@ -97,24 +99,32 @@ class AnnotationResults:
                         tuple(annotation[feature] for feature in FEATURES)
                         for _, annotation in annotators]
 
-                if len(set(corrections)) > 1 or len(set(ratings)) > 1:
+                if show_all or len(set(corrections)) > 1 or len(set(ratings)) > 1:
                     print(f'{system:10s} {output}')
+                    print(f'{"reference":10s} {reference}')
+                    print(f'{"student":10s} {original}')
 
-                if len(set(corrections)) > 1:
+                if show_all or len(set(corrections)) > 1:
                     for annotator, annotation in annotators:
                         corr = annotation['corrected']
                         print(f'{annotator:10s} {corr}')
                     print()
 
-                if len(set(ratings)) > 1:
+                if show_all or len(set(ratings)) > 1:
                     for (annotator, _), rating in zip(annotators, ratings):
                         print(f'{annotator:10s} G{rating[0]} F{rating[1]} '
                               f'M{rating[2]}')
                     print()
 
+                if show_all or len(set(corrections)) > 1 or len(set(ratings)) > 1:
+                    print('-'*72)
+
 
 def main():
     parser = argparse.ArgumentParser('Analyze annotation files')
+    parser.add_argument(
+            '--only-differences', action='store_true',
+            help='When comparing annotators, only show different annotations')
     parser.add_argument(
             '--action', default='summarize',
             choices=('compare', 'summarize'),
@@ -127,7 +137,7 @@ def main():
     if args.action == 'summarize':
         ar.summarize()
     elif args.action == 'compare':
-        ar.compare_differences()
+        ar.compare_differences(show_all=not args.only_differences)
     else:
         raise ValueError()
 
