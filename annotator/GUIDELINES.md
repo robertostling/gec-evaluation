@@ -13,8 +13,8 @@ as it is correct given the new (possibly incorrect) interpretation.
 
 ## Perfect
 
-***The sentence is native-sounding. It has no grammatical errors, but may
-contain very minor typographical and/or collocation errors.***
+*The sentence is native-sounding. It has no grammatical errors, but may
+contain very minor typographical and/or collocation errors.*
 
 Example: **jag tror att det finns bra möjligheter att uttrycka sig genom kläder i Sverige eftersom man nästan kan ha på sig vad man vill .**
 
@@ -25,9 +25,9 @@ this is also accepted.
 
 ## Comprehensible
 
-***The sentence may contain one or more minor grammatical errors, including
+*The sentence may contain one or more minor grammatical errors, including
 subject-verb agreement, determiner, and minor preposition errors that do not
-make the meaning unclear.***
+make the meaning unclear.*
 
 Example: **Jag tror att det finns bra möjligheter att uttrycker sig genom kläder i Sverige eftersom man nästan kan ha på sig vad man vill .**
 
@@ -36,10 +36,10 @@ sentence is not affected.
 
 ## Somewhat comprehensible
 
-***The sentence may contain one or more serious grammatical errors, including
+*The sentence may contain one or more serious grammatical errors, including
 missing subject, verb, object, etc., verb tense errors, and serious
 preposition errors. Due to these errors, the sentence may have multiple
-plausible interpretations.***
+plausible interpretations.*
 
 Example: **Jag tror finns bra möjligheter att uttrycker sig av kläder i Sverige eftersom nästan kan ha på sig vad man vill .**
 
@@ -49,8 +49,8 @@ one's opinions about clothing, or to express oneself through one's clothing.
 
 ## Incomprehensible
 
-***The sentence contains so many errors that it would be difficult to
-correct.***
+*The sentence contains so many errors that it would be difficult to
+correct.*
 
 We take this to mean that it would be difficult to correct because it
 is difficult to comprehend.
