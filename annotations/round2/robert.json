@@ -1,0 +1,237 @@
+{
+    "data": [
+        {
+            "original": "Ett demokratisk riksdagsval skulle kollapsa helt om bokstavligen varenda pesrun i landet skulle ha m\u00f6jligheten att r\u00f6sta , att ge en fyra\u00e5ring den potentiela makten trots att det skulle vara demokratisk rent tekniskt skulle anses som galenskap .",
+            "reference": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jlighet att r\u00f6sta . Att ge en fyra\u00e5ring den potentiella makten skulle anses som galenskap trots att det skulle vara demokratiskt rent tekniskt .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Ett demokratiskriksdagsval skulle kollapsa helt om bokstavligen varenda pesrun i landet skulle ha m\u00f6jligheten att r\u00f6sta , att ge en fyra\u00e5ring den potentiella makten trots att det skulle vara demokratisk rent tekniskt skulle anses som galenskap ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Ett demokratisk riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta , att ge en fyra\u00e5ring den potentiella makten trots att det skulle vara demokratisk rent tekniskt skulle anses som galenskap ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Om precis varenda person i hela landet skulle ha m\u00f6jlighet att r\u00f6sta s\u00e5 skulle ett demokratiskt riksdagsval helt kollapsa . Att ge den potentiella makten till en fyra\u00e5ring m\u00e5 tekniskt sett vara demokratiskt , men skulle kunna ses som galenskap ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta . Att ge en fyra\u00e5ring den potentiella makten trots att det skulle vara demokratiskt rent tekniskt skulle anses som galenskap ."
+                }
+            }
+        },
+        {
+            "original": "Men I andra ber\u00e4ttelse p\u00e5 filmen \" Frozen \" d\u00e5 var ocks\u00e5 olika k\u00e4rleks typ , k\u00e4rlek till syster och en typ an k\u00e4rlek var det att Kristoffer var k\u00e4r i Anna och \u00e4lskade varandra eller den k\u00e4rleks liv som Anna och Hans hade till varandra dag som Elsa blev arg och anv\u00e4nde av sin magiska kraft och osv .",
+            "reference": "Men i den andra ber\u00e4ttelsen , i filmen \" Frozen \" , d\u00e4r fanns ocks\u00e5 olika typer av k\u00e4rlek : k\u00e4rlek mellan systrar , och en typ av k\u00e4rlek var det att Kristoffer var k\u00e4r i Anna och de \u00e4lskade varandra , eller det k\u00e4rleksliv som Anna och Hans hade med varandra den dagen d\u00e5 Elsa blev arg och anv\u00e4nde sin magiska kraft och osv .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Men I andra ber\u00e4ttelse p\u00e5 filmen X Frozen X d\u00e5 var ocks\u00e5 olika k\u00e4rleks typ , k\u00e4rlek till syster och en typ an k\u00e4rlek var det att Kristoffer var k\u00e4r i Anna och \u00e4lskade varandra eller den k\u00e4rleks liv som Anna och Hans hade till varandra dag som Elsa blev arg och anv\u00e4nde av sin magiska kraft och oss ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Men I min andra ber\u00e4ttelse i filmen \" Frozen \" d\u00e5 var det ocks\u00e5 olika k\u00e4rleks typ , k\u00e4rlek till en syster och en typ av k\u00e4rlek det var att Kristoffer var k\u00e4r i Anna och \u00e4lskade varandra eller den k\u00e4rleks liv som Anna och Hans hade till varandra en dag som Elsa blev arg och anv\u00e4nde av sin magiska kraft osv ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Men i den andra ber\u00e4ttelsen , filmen \" Frozen \" , fanns ocks\u00e5 tv\u00e5 typer av k\u00e4rlek : den mellan systrar , och den d\u00e4r Kristoffer och Anna \u00e4lskade varandra , eller den aff\u00e4r som Anna och Hans hade den dagen n\u00e4r Elsa blev arg och anv\u00e4nde sin magiska kraft , och s\u00e5 vidare ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Men i andra ber\u00e4ttelser i filmen \" Frozen \" finns det ocks\u00e5 olika typer av k\u00e4rlek . K\u00e4rlek till syster och en annan typ av k\u00e4rlek var den mellan Kristoffer och Anna , de \u00e4lskade varandra . Eller den k\u00e4rleksrelation som Anna och Hans hade till varandra , tills Elsa blev arg och anv\u00e4nde sin magiska kraft osv."
+                }
+            }
+        },
+        {
+            "original": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara .",
+            "reference": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Enligt de flesta borde bara vuxna ha r\u00f6str\u00e4tt , och s\u00e5 \u00e4r det oftast ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
+                }
+            }
+        },
+        {
+            "original": "N\u00e4r man kommer d\u00e4r , jag tycker att man kan se den vackraste \u00f6gonblick och h\u00f6ra den mest mirakul\u00f6sa musik i ens liv .",
+            "reference": "N\u00e4r man kommer dit , tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "N\u00e4r man kommer d\u00e4r , jag tycker att man kan se ett vackrast \u00f6gonblick och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "N\u00e4r man kommer d\u00e4r , tycker jag att man kan se den vackraste \u00f6gonblick och h\u00f6ra den mest mirakul\u00f6sa musik i ens liv ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "N\u00e4r man kommer dit tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i hela ens liv ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "N\u00e4r man kommer dit , tycker jag att man kan se de vackraste \u00f6gonblicken och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
+                }
+            }
+        },
+        {
+            "original": "Vi k\u00e4nnade och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitet .",
+            "reference": "Vi l\u00e4rde k\u00e4nna och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitetet .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Vi k\u00e4nnare och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitet ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Vi k\u00e4nde och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitet ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Vi l\u00e4rde k\u00e4nna och \u00e4lska varandra n\u00e4r vi gick p\u00e5 universitetet ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Vi k\u00e4nde och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitetet ."
+                }
+            }
+        },
+        {
+            "original": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen och om att alla finl\u00e4ndare inte beh\u00f6ver svenska , alla med svenska moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet .",
+            "reference": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen , och att medan alla finl\u00e4ndare inte beh\u00f6ver svenska , s\u00e5 beh\u00f6ver alla med svenska som modersm\u00e5l finska f\u00f6r att klara sig i samh\u00e4llet .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen och om att alla finl\u00e4ndare inte beh\u00f6ver svenska , alla med svenska moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen och att alla finl\u00e4ndare inte beh\u00f6ver svenska , alla med svenska moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "S\u00f6derbergh skriver att enligt Maria Tolppanen har finlandssvenskarna f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen , och att medan svenskspr\u00e5kiga faktiskt beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet s\u00e5 beh\u00f6ver inte alla finl\u00e4ndare kunna anv\u00e4nda svenska ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen . Hon s\u00e4ger ocks\u00e5 att alla finl\u00e4ndare inte beh\u00f6ver svenska , alla med svenska moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
+                }
+            }
+        },
+        {
+            "original": "Det finnes ocks\u00e5 en n\u00e5gn bra fr\u00e5n vattenhavet .",
+            "reference": "Det finns ocks\u00e5 n\u00e5got bra med havsvattnet .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det finnes ocks\u00e5 en n\u00e5gon bra fr\u00e5n vattenhavet ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Det finns ocks\u00e5 en n\u00e5gn bra fr\u00e5n vattenhavet ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Det finns ocks\u00e5 n\u00e5got bra med havsvattnet ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det finns ocks\u00e5 en bra strand vid havet ."
+                }
+            }
+        },
+        {
+            "original": "Min granne hjalpa mig men l\u00e4xekon .",
+            "reference": "Min granne hj\u00e4lper mig med ett lexikon .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Min granne hj\u00e4lpa mig men l\u00e4xekon ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Min granne ska hj\u00e4lpa mig men l\u00e4xekon ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Grannen hj\u00e4lper mig med ett lexikon ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Min granne hj\u00e4lpte mig med l\u00e4xorna ."
+                }
+            }
+        },
+        {
+            "original": "Man kan bj\u00f6da kolleger f\u00f6r fika eftersom det \u00e4r trevlig .",
+            "reference": "Du kan bjuda kolleger p\u00e5 fika eftersom det \u00e4r trevligt .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Man kan bjuda kolleger f\u00f6r fika eftersom det \u00e4r trevlig ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Man kan bjuda kolleger p\u00e5 fika eftersom det \u00e4r trevligt ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Det \u00e4r trevligt att bjuda sina kollegor p\u00e5 fika , d\u00e4rf\u00f6r kan du g\u00f6ra det ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Man kan bjuda kollegor p\u00e5 fika eftersom det \u00e4r trevligt ."
+                }
+            }
+        },
+        {
+            "original": "Haga l\u00e4gger utan f\u00f6r stand .",
+            "reference": "Haga ligger utanf\u00f6r stan .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Haga l\u00e4gger utan f\u00f6r stund ."
+                },
+                "mt-base": {
+                    "annotators": {},
+                    "output": "Haga l\u00e4gger utanf\u00f6r stand ."
+                },
+                "mystery": {
+                    "annotators": {},
+                    "output": "Haga ligger utanf\u00f6r stan ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Haga ligger utanf\u00f6r staden ."
+                }
+            }
+        }
+    ],
+    "item_order": [
+        1,
+        6,
+        5,
+        2,
+        0,
+        3,
+        7,
+        4,
+        9,
+        8
+    ],
+    "next_item": 2
+}

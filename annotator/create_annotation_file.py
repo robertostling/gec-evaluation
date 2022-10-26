@@ -1,6 +1,8 @@
 """Create a file for the new annotation tool
 
 python3 create_annotation_file.py annotations/round1/test.json data/playing/Nyberg.CEFR_ABC.dev.orig.round1 data/playing/Nyberg.CEFR_ABC.dev.corr.round1 data/playing/Nyberg.CEFR_ABC.dev.orig.round1.*
+
+python3 annotator/create_annotation_file.py annotations/round2/robert.json data/playing/Nyberg.CEFR_ABC.dev.orig.round2 data/playing/Nyberg.CEFR_ABC.dev.corr.round2 data/playing/Nyberg.CEFR_ABC.dev.orig.round2.*
 """
 
 import os
