@@ -1,5 +1,8 @@
 # Annotation procedure
 
+For guidelines on how to assign scores, please read
+[the annotation guidelines](GUIDELINES.md).
+
 ## Annotating an example
 
 When a new screen is presented, the following procedure is recommended.

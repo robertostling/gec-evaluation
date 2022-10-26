@@ -1,5 +1,13 @@
 # Annotation guidelines
 
+## Correcting sentences
+
+When correcting sentences, your goal is to produce a sentence that you would have assigned the highest
+score in all three categories below (grammaticality, fluency and meaning
+preservation). Often there are many ways to produce such a sentence, but you
+should choose the one that results in the smallest amount of editing.
+
+
 ## Grammaticality
 
 Based on Heilman et al. (2014), as appearing in Yoshimura et al. (2020).
@@ -16,7 +24,7 @@ would be correct. For the property of
 [meaning preservation](#meaning-preservation), the situation is reversed and
 the second sentence would be scored higher.
 
-## Perfect
+### Perfect
 
 *The sentence is native-sounding. It has no grammatical errors, but may
 contain very minor typographical and/or collocation errors.*
@@ -32,7 +40,7 @@ interpretation slightly, and the position of "nästan" may be a bit unusual but
 is acceptable. It is not properly capitalized, but following Heilman et al.
 this is also accepted.
 
-## Comprehensible
+### Comprehensible
 
 *The sentence may contain one or more minor grammatical errors, including
 subject-verb agreement, determiner, and minor preposition errors that do not
@@ -43,7 +51,7 @@ Example: **Jag tror att det finns bra möjligheter att uttrycker sig genom kläd
 There is a clear verb form error (att uttrycker), but the understanding of the
 sentence is not affected.
 
-## Somewhat comprehensible
+### Somewhat comprehensible
 
 *The sentence may contain one or more serious grammatical errors, including
 missing subject, verb, object, etc., verb tense errors, and serious
@@ -56,7 +64,7 @@ There are multiple errors, including a preposition error (*av* rather than
 *genom*) that makes it difficult to know whether it is difficult to express
 one's opinions about clothing, or to express oneself through one's clothing.
 
-## Incomprehensible
+### Incomprehensible
 
 *The sentence contains so many errors that it would be difficult to
 correct.*
@@ -67,7 +75,7 @@ is difficult to comprehend.
 Example: **Jag tror möjlig uttrycker kläderna i Sverige man då nästan kan vill ha det .**
 
 
-# Fluency
+## Fluency
 
 Based on Lau et al. (2015). No definitions are given except the labels, so we
 rely heavily on native speaker judgement.
@@ -81,7 +89,7 @@ Low grammaticallity always implies low fluency, but the opposite is not true.
 A sentence that is technically grammatical could still sound unnatural, if a
 native speaker would be unlikely to produce it.
 
-## Extremely natural
+### Extremely natural
 
 Example: **Jag tror att du förstår mina problem även om jag inte är kvar i
 kursen .**
@@ -90,7 +98,7 @@ This does not mean the same thing as the SweLL reference at all, but sounds
 native-like in a different context. Thus it has high grammaticality and
 fluency, but does not preserve meaning.
 
-## Somewhat natural
+### Somewhat natural
 
 Example: **Kan lycka mätas i förhållande till landets ekonomiska eller ens
 egen framgång ?**
@@ -101,7 +109,7 @@ just general success?) and the disjunction would probably have been expressed
 by a native speaker to clarify this: **landets eller ens egen ekonomiska
 framgång** or **landets ekonomiska framgång eller ens egen framgång**.
 
-## Somewhat unnatural
+### Somewhat unnatural
 
 Example: **Om du håller med min förslag kan vi köpa den imorgon .**
 
@@ -121,7 +129,7 @@ where a native speaker would most likely use an abbreviated reference like a
 pronoun. In addition, there is a word choice error (avtäckte) is interpretable
 only with some effort.
 
-## Extremely unnatural
+### Extremely unnatural
 
 Example: **Jag är mår bra.**
 
@@ -142,7 +150,7 @@ This is similar to the example under "somewhat unnatural" above, except the
 the sentence.
 
 
-# Meaning preservation
+## Meaning preservation
 
 We use the scale from Yoshimura et al. (2020). They cite Xu et al (2016), but
 as far as I can see they only mention a "5-point scale" without any further
@@ -171,7 +179,7 @@ important information is misrepresented.
 
 The examples given below are relative to the following reference: **Jag tror att du förstår mitt problem så att du även kan ta bort mig från kursen .**
 
-## Identical
+### Identical
 
 Example: **Jag tror att du förstår min problem och kan därför avregistrera mig från kursen .**
 
@@ -188,7 +196,7 @@ awkward, and not entirely clear on exactly how the understanding of the
 problem connects to the removal from the course. One could possibly argue for
 minor differences, depending on which interpretation is made.
 
-## Minor differences
+### Minor differences
 
 Example: **Jag tror att du förstår mitt problem och kan därför ta bort mig
 från en kurs .**
@@ -198,7 +206,7 @@ e.g. definiteness or number will typically be classified as "minor
 differences", but it could apply to other differences of similarly limited
 importance.
 
-## Moderate differences
+### Moderate differences
 
 Example: **Jag vet att du förstår mitt problem och kan därför ta in mig i
 kursen  .**
@@ -206,7 +214,7 @@ kursen  .**
 Two of the verbs have been changed to semantically related but different ones
 (tror/vet, ta in/ta bort).
 
-## Substantially different
+### Substantially different
 
 Example: **Jag tror att du förstår mina problem även om jag inte är kvar i kursen .**
 
