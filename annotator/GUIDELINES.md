@@ -6,10 +6,15 @@ Based on Heilman et al. (2014), as appearing in Yoshimura et al. (2020).
 The definitions below are from Heilman et al. (2014, p. 175). Examples are
 adapted from SweLL.
 
-Note that grammaticallity is defined with respect to the system output only.
-For instance, a sentence may be considered grammatically perfect if it alters
-e.g. number or tense in a way that deviates from the intended meaning, as long
-as it is correct given the new (possibly incorrect) interpretation.
+Note that grammaticallity is defined with respect to the system output only,
+even if this diverges from the reference. For instance, even if the reference
+sentence is "I have a book", a sentence like "I have the book" would be
+considered perfect with respect to grammaticality, because it is correct given
+a slightly different interpretation. On the other hand, "I has a book" has a
+lower degree of grammaticality, because there is *no* interpretation where it
+would be correct. For the property of [meaning
+preservation](#Meaning preservation), the situation is reversed and the second
+sentence would be scored higher.
 
 ## Perfect
 
