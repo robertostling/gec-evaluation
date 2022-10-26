@@ -13,7 +13,7 @@ considered perfect with respect to grammaticality, because it is correct given
 a slightly different interpretation. On the other hand, "I has a book" has a
 lower degree of grammaticality, because there is *no* interpretation where it
 would be correct. For the property of
-[meaning preservation](#-meaning-preservation), the situation is reversed and
+[meaning preservation](#meaning-preservation), the situation is reversed and
 the second sentence would be scored higher.
 
 ## Perfect
@@ -148,9 +148,10 @@ We use the scale from Yoshimura et al. (2020). They cite Xu et al (2016), but
 as far as I can see they only mention a "5-point scale" without any further
 details.
 
-Note that meaning preservation is with respect to the *reference*. This means
-that a GEC system which does not perform any edits at all can also have a low
-meaning preservation score, if the original sentence has a literal
+Note that meaning preservation is with respect to the *reference*, unlike
+grammaticality and fluency that are judged solely based on the system output.
+This means that a GEC system which does not perform any edits at all can also
+have a low meaning preservation score, if the original sentence has a literal
 interpretation different from the reference. For instance, consider the
 following case:
 
@@ -161,24 +162,31 @@ Human reference: **My grandfather died before I was born**
 System output: **My grandfather dyed before I was born**
 
 During annotation we assume that the human reference contains the correct
-interpretation of each sentence (the SweLL annotators have access to a wider
-context). Therefore, the *intended* meaning of the original sentence has not
-been "preserved" (or rather, inferred) by the GEC system, and would probably
-be classified as "moderate differences" or even "substantially different"
-because the semantics of the whole sentence change radically.
+interpretation of each sentence. This is because the SweLL annotators have
+access to a wider context and are able to make better guesses than we are.
+Therefore, the *intended* meaning of the original sentence has not been
+"preserved" (or rather, inferred) by the GEC system, and would probably be
+classified as "moderate differences" or even "substantially different" because
+important information is misrepresented.
 
-The examples given below are relative to the following example.
-
-Reference: **Jag tror att du förstår mitt problem så att du även kan ta bort mig från kursen .**
+The examples given below are relative to the following reference: **Jag tror att du förstår mitt problem så att du även kan ta bort mig från kursen .**
 
 ## Identical
 
-Example: **Jag tror att du förstår mitt problem och kan därför avregistrera mig från kursen .**
+Example: **Jag tror att du förstår min problem och kan därför avregistrera mig från kursen .**
 
-Note that there are several surface-level differences, like the use of
-"avregistrera" rather than "ta bort" (synonymous in this context), and the
-different way of connecting the two main parts of the sentence ("så att du
-även kan" vs "och kan därför").
+There are several surface-level differences, like the use of "avregistrera"
+rather than "ta bort" (synonymous in this context), and the different way of
+connecting the two main parts of the sentence ("så att du även kan" vs "och
+kan därför").  There is also a gender agreement error (min problem) that does
+not affect the meaning. Since we can not identify any significant semantic
+differences, the sentences are considered identical with respect to meaning
+preservation.
+
+Note: This example is a bit challenging because the reference is a bit
+awkward, and not entirely clear on exactly how the understanding of the
+problem connects to the removal from the course. One could possibly argue for
+minor differences, depending on which interpretation is made.
 
 ## Minor differences
 
@@ -187,7 +195,8 @@ från en kurs .**
 
 The final noun (kurs) was changed from definite to indefinite. Differences in
 e.g. definiteness or number will typically be classified as "minor
-differences".
+differences", but it could apply to other differences of similarly limited
+importance.
 
 ## Moderate differences
 
@@ -206,5 +215,5 @@ example is around the border between "moderate differences" and "substantially
 different". Anything more different from the reference than this should be
 annotated as "substantially different". In theory this is a large category of
 possible sentences, but in practice it is rather rare for GEC systems to
-corrupt sentence semantics to this degree.
+corrupt sentence semantics to such a degree.
 
