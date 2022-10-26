@@ -1,7 +1,8 @@
 # Annotation procedure
 
 For guidelines on how to assign scores, please read
-[the annotation guidelines](GUIDELINES.md).
+[the annotation guidelines](GUIDELINES.md). This document is only a guide to
+the user interface of the annotation tool.
 
 ## Annotating an example
 
@@ -45,13 +46,4 @@ When a new screen is presented, the following procedure is recommended.
    finish. Note that `<<<` (go to the previous example), `>>>` and "Quit" will
    all discard any changes made. Only pressing "Save" followed by "Confirm"
    will save any changes.
-
-## Notes
-
-* The different ratings all have the possible value "Other". This is mainly
-  meant for cases when GEC systems have malfunctioned, or when the input data
-  is not a proper sentence. For instance, if the output is a single number, a
-  single word repeated multiple times, or obviously erroneous in some other
-  way, you can assign "Other". Typically this applies to all categories at the
-  same time: Grammicality, Fluency and Meaning Preservation.
 
