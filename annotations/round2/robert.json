@@ -5,19 +5,47 @@
             "reference": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jlighet att r\u00f6sta . Att ge en fyra\u00e5ring den potentiella makten skulle anses som galenskap trots att det skulle vara demokratiskt rent tekniskt .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta . Att ge en fyra\u00e5ring den potentiella makten skulle , trots att det skulle vara demokratisk rent tekniskt , anses som galenskap ."
+                        }
+                    },
                     "output": "Ett demokratiskriksdagsval skulle kollapsa helt om bokstavligen varenda pesrun i landet skulle ha m\u00f6jligheten att r\u00f6sta , att ge en fyra\u00e5ring den potentiella makten trots att det skulle vara demokratisk rent tekniskt skulle anses som galenskap ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ett demokratisk riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta . Att ge en fyra\u00e5ring den potentiella makten skulle , trots att det skulle vara demokratisk rent tekniskt , anses som galenskap ."
+                        }
+                    },
                     "output": "Ett demokratisk riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta , att ge en fyra\u00e5ring den potentiella makten trots att det skulle vara demokratisk rent tekniskt skulle anses som galenskap ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Om precis varenda person i hela landet skulle ha m\u00f6jlighet att r\u00f6sta s\u00e5 skulle ett demokratiskt riksdagsval helt kollapsa . Att ge den potentiella makten till en fyra\u00e5ring m\u00e5 tekniskt sett vara demokratiskt , men skulle  ses som galenskap ."
+                        }
+                    },
                     "output": "Om precis varenda person i hela landet skulle ha m\u00f6jlighet att r\u00f6sta s\u00e5 skulle ett demokratiskt riksdagsval helt kollapsa . Att ge den potentiella makten till en fyra\u00e5ring m\u00e5 tekniskt sett vara demokratiskt , men skulle kunna ses som galenskap ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta . Att ge en fyra\u00e5ring den potentiella makten skulle , trots att det skulle vara demokratiskt rent tekniskt , anses som galenskap ."
+                        }
+                    },
                     "output": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta . Att ge en fyra\u00e5ring den potentiella makten trots att det skulle vara demokratiskt rent tekniskt skulle anses som galenskap ."
                 }
             }
@@ -49,19 +77,47 @@
             "reference": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
+                        }
+                    },
                     "output": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
+                        }
+                    },
                     "output": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Enligt de flesta borde bara vuxna ha r\u00f6str\u00e4tt , och s\u00e5 \u00e4r det oftast ."
+                        }
+                    },
                     "output": "Enligt de flesta borde bara vuxna ha r\u00f6str\u00e4tt , och s\u00e5 \u00e4r det oftast ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
+                        }
+                    },
                     "output": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
                 }
             }
@@ -71,19 +127,47 @@
             "reference": "N\u00e4r man kommer dit , tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 1,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "N\u00e4r man kommer dit , tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
+                        }
+                    },
                     "output": "N\u00e4r man kommer d\u00e4r , jag tycker att man kan se ett vackrast \u00f6gonblick och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "N\u00e4r man kommer dit , tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
+                        }
+                    },
                     "output": "N\u00e4r man kommer d\u00e4r , tycker jag att man kan se den vackraste \u00f6gonblick och h\u00f6ra den mest mirakul\u00f6sa musik i ens liv ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "N\u00e4r man kommer dit tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i hela ens liv ."
+                        }
+                    },
                     "output": "N\u00e4r man kommer dit tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i hela ens liv ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "N\u00e4r man kommer dit , tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
+                        }
+                    },
                     "output": "N\u00e4r man kommer dit , tycker jag att man kan se de vackraste \u00f6gonblicken och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
                 }
             }
@@ -115,19 +199,47 @@
             "reference": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen , och att medan alla finl\u00e4ndare inte beh\u00f6ver svenska , s\u00e5 beh\u00f6ver alla med svenska som modersm\u00e5l finska f\u00f6r att klara sig i samh\u00e4llet .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen och att alla finl\u00e4ndare inte beh\u00f6ver svenska , men att alla med svenska som moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
+                        }
+                    },
                     "output": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen och om att alla finl\u00e4ndare inte beh\u00f6ver svenska , alla med svenska moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen och att alla finl\u00e4ndare inte beh\u00f6ver svenska , men att alla med svenska som moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
+                        }
+                    },
                     "output": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen och att alla finl\u00e4ndare inte beh\u00f6ver svenska , alla med svenska moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "S\u00f6derbergh skriver att enligt Maria Tolppanen har finlandssvenskarna f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen , och att medan svenskspr\u00e5kiga faktiskt beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet s\u00e5 beh\u00f6ver inte alla finl\u00e4ndare kunna anv\u00e4nda svenska ."
+                        }
+                    },
                     "output": "S\u00f6derbergh skriver att enligt Maria Tolppanen har finlandssvenskarna f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen , och att medan svenskspr\u00e5kiga faktiskt beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet s\u00e5 beh\u00f6ver inte alla finl\u00e4ndare kunna anv\u00e4nda svenska ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen . Hon s\u00e4ger ocks\u00e5 att alla finl\u00e4ndare inte beh\u00f6ver svenska , men att  alla med svenska som moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
+                        }
+                    },
                     "output": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen . Hon s\u00e4ger ocks\u00e5 att alla finl\u00e4ndare inte beh\u00f6ver svenska , alla med svenska moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
                 }
             }
@@ -159,19 +271,47 @@
             "reference": "Min granne hj\u00e4lper mig med ett lexikon .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min granne hj\u00e4lpa mig med ett lexikon ."
+                        }
+                    },
                     "output": "Min granne hj\u00e4lpa mig men l\u00e4xekon ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min granne ska hj\u00e4lpa mig med ett lexikon ."
+                        }
+                    },
                     "output": "Min granne ska hj\u00e4lpa mig men l\u00e4xekon ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Grannen hj\u00e4lper mig med ett lexikon ."
+                        }
+                    },
                     "output": "Grannen hj\u00e4lper mig med ett lexikon ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "robert": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 1,
+                            "corrected": "Min granne hj\u00e4lpte mig med l\u00e4xorna ."
+                        }
+                    },
                     "output": "Min granne hj\u00e4lpte mig med l\u00e4xorna ."
                 }
             }
@@ -233,5 +373,5 @@
         9,
         8
     ],
-    "next_item": 2
+    "next_item": 6
 }

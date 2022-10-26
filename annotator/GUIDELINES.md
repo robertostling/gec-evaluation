@@ -8,6 +8,20 @@ preservation). Often there are many ways to produce such a sentence, but you
 should choose the one that results in the smallest amount of editing.
 
 
+## The "Other" category
+
+All ratings include "Other" as an option. It should be reserved for the
+following cases:
+
+* When there has been an obvious invalid output, e.g. an empty sentence, a
+  single word that is repeated over and over, and other cases when it would be
+  impossible to assign a rating according to the scales below.
+* If a sentence has received a grammaticality value of "Incomprehensible", its
+  meaning comprehension score may be "Other" because it is not possible to
+  judge the semantic similarity between the reference and the incomprehensible
+  sentence.
+
+
 ## Grammaticality
 
 Based on Heilman et al. (2014), as appearing in Yoshimura et al. (2020).
