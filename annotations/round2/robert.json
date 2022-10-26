@@ -330,6 +330,7 @@
                     "annotators": {
                         "robert": {
                             "Fluency": 4,
+                            "Grammaticality": 4,
                             "Meaning Preservation": 4,
                             "corrected": "Det finns ocks\u00e5 n\u00e5got bra med havsvattnet ."
                         }

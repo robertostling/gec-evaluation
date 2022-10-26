@@ -7,10 +7,10 @@ import m2
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Evaluate a JSON file from annotate.py to an m2 reference')
+        description='Evaluate an annotated JSON file to an m2 reference')
     parser.add_argument(
          '-i', '--input', dest='input_filename', required=True, metavar='FILE',
-         help='JSON file from `annotate.py`')
+         help='JSON file from `annotate_gpt_j.py or annotate_openai.py`')
     parser.add_argument(
          '-r', '--reference', dest='reference_filename', required=True,
          metavar='FILE',
@@ -79,12 +79,12 @@ def main():
             f'-ref {temp_ref_m2_filename}')
 
     os.system(
-            f'python gleu_py3/compute_gleu -s {temp_orig_filename} '
+            f'python3 compute_gleu.py -s {temp_orig_filename} '
             f'-r {temp_ref_filename} -o {temp_cor_filename} -n 4')
 
     print('No-corrections baseline:')
     os.system(
-            f'python gleu_py3/compute_gleu -s {temp_orig_filename} '
+            f'python3 compute_gleu.py -s {temp_orig_filename} '
             f'-r {temp_ref_filename} -o {temp_orig_filename} -n 4')
 
 
