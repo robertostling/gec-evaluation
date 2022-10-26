@@ -21,6 +21,12 @@ Python 3), a SLURM script for Scribendi score evaluation, and an ERRANT + GLEU
 evaluation wrapper for the
 [JSON format used below](#few-shot-with-user-defined-prompts).
 
+## NMT based baseline system
+
+The [baseline/](./baseline) subdirectory contains a baseline system, using
+OpenNMT trained on large amounts of text where the source has been corrupted
+using a method for producing "L2-like" errors.
+
 ## Few-shot with OpenAI
 
 The script `openai_fewshot.py` is used for most experiments currently. It uses
