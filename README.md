@@ -33,6 +33,15 @@ The script `openai_fewshot.py` is used for most experiments currently. It uses
 a simple one-sentence-per-line input and output format, and features some
 built-in prompts for Swedish and English.
 
+## Granska
+
+The script `granska.py` uses the public API of the Swedish
+[GEC system Granska](https://www.csc.kth.se/tcs/projects/granska/) to produce
+corrected versions of texts. Note that the API is mainly meant for providing
+student feedback, and not all errors will be taken into account. This applies
+when no alternative is suggested by Granska, or when overlapping alternatives
+are suggested.
+
 ## Few-shot with user-defined prompts
 
 Note that this part of the repository is not currently used, and is kept here
