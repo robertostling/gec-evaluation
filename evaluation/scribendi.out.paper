@@ -1,0 +1,65 @@
+This job can be monitored from: https://scruffy.c3se.chalmers.se/d/alvis-job/alvis-job?var-jobid=613247&from=1666860933000
+Launching at:
+Thu Oct 27 10:55:37 CEST 2022
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_A.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_A.test.granska
+score2freq -> {-1: 288, 0: 1002, 1: 429} , score -> 141
+Absolute: 141  Normalized: 0.08202
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_B.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_B.test.granska
+score2freq -> {-1: 154, 0: 388, 1: 240} , score -> 86
+Absolute: 86  Normalized: 0.11
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_C.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_C.test.granska
+score2freq -> {-1: 466, 0: 2434, 1: 434} , score -> -32
+Absolute: -32  Normalized: -0.009598
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_ABC.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_ABC.test.granska
+score2freq -> {-1: 908, 0: 3824, 1: 1103} , score -> 195
+Absolute: 195  Normalized: 0.03342
+Finished at:
+Thu Oct 27 10:58:19 CEST 2022
+Launching at:
+Thu Oct 27 10:58:19 CEST 2022
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_A.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_A.test.mt-base
+score2freq -> {-1: 81, 0: 577, 1: 1061} , score -> 980
+Absolute: 980  Normalized: 0.5701
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_B.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_B.test.mt-base
+score2freq -> {-1: 36, 0: 179, 1: 567} , score -> 531
+Absolute: 531  Normalized: 0.679
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_C.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_C.test.mt-base
+score2freq -> {-1: 160, 0: 1574, 1: 1600} , score -> 1440
+Absolute: 1440  Normalized: 0.4319
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_ABC.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_ABC.test.mt-base
+score2freq -> {-1: 277, 0: 2330, 1: 3228} , score -> 2951
+Absolute: 2951  Normalized: 0.5057
+Finished at:
+Thu Oct 27 11:02:38 CEST 2022
+Launching at:
+Thu Oct 27 11:02:38 CEST 2022
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_A.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_A.test.s2
+score2freq -> {-1: 172, 0: 169, 1: 1378} , score -> 1206
+Absolute: 1206  Normalized: 0.7016
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_B.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_B.test.s2
+score2freq -> {-1: 65, 0: 1, 1: 716} , score -> 651
+Absolute: 651  Normalized: 0.8325
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_C.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_C.test.s2
+score2freq -> {-1: 381, 0: 408, 1: 2545} , score -> 2164
+Absolute: 2164  Normalized: 0.6491
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_ABC.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/experiments/Nyberg.CEFR_ABC.test.s2
+score2freq -> {-1: 618, 0: 578, 1: 4639} , score -> 4021
+Absolute: 4021  Normalized: 0.6891
+Finished at:
+Thu Oct 27 11:08:32 CEST 2022
+Launching at:
+Thu Oct 27 11:08:32 CEST 2022
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_A.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_A.test.corr.txt
+score2freq -> {-1: 96, 0: 367, 1: 1256} , score -> 1160
+Absolute: 1160  Normalized: 0.6748
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_B.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_B.test.corr.txt
+score2freq -> {-1: 49, 0: 78, 1: 655} , score -> 606
+Absolute: 606  Normalized: 0.7749
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_C.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_C.test.corr.txt
+score2freq -> {-1: 158, 0: 838, 1: 2338} , score -> 2180
+Absolute: 2180  Normalized: 0.6539
+/cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_ABC.test.orig.txt /cephyr/users/robertos/Alvis/few-shot-gec/data/nyberg_test_dev/Nyberg.CEFR_ABC.test.corr.txt
+score2freq -> {-1: 303, 0: 1283, 1: 4249} , score -> 3946
+Absolute: 3946  Normalized: 0.6763
+Finished at:
+Thu Oct 27 11:14:03 CEST 2022
