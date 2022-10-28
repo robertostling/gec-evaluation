@@ -268,6 +268,7 @@
                 "mt-base": {
                     "annotators": {
                         "katarina": {
+                            "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
                             "corrected": "Enligt S\u00f6derbergh menar Maria Tolppanen att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen. Hon s\u00e4ger ocks\u00e5 att alla finl\u00e4ndare inte beh\u00f6ver svenska men alla med svenska som moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
@@ -512,5 +513,5 @@
         6,
         8
     ],
-    "next_item": 2
+    "next_item": 4
 }
