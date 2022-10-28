@@ -13,13 +13,23 @@ import Levenshtein
 FEATURES = ('Grammaticality', 'Fluency', 'Meaning Preservation')
 
 class AnnotationResults:
-    def __init__(self, filenames):
-        self.annotations = []
-        for filename in filenames:
-            with open(filename) as f:
-                self.annotations.append(json.load(f))
+    def __init__(self, all_filenames):
+        file_groups = [
+                list(group) for k, group in itertools.groupby(
+                    all_filenames, lambda filename: filename != ':') if k]
+        #print('all_filenames', all_filenames)
+        #print('file_groups', file_groups)
 
-        self.merged_data = self.merge_annotations(self.annotations)
+        self.groups = []
+        for filenames in file_groups:
+            annotations = []
+            for filename in filenames:
+                with open(filename) as f:
+                    annotations.append(json.load(f))
+            data = self.merge_annotations(annotations)
+            self.groups.append((annotations, data))
+
+        #self.merged_data = self.merge_annotations(self.annotations)
 
 
     def merge_annotations(self, annotations):
@@ -52,19 +62,20 @@ class AnnotationResults:
     def get_scores(self):
         system_measure_counts = defaultdict(lambda: defaultdict(Counter))
         system_metrics = defaultdict(lambda: defaultdict(list))
-        for example in self.merged_data:
-            for system, results in example['systems'].items():
-                for annotator, annotations in results['annotators'].items():
-                    for feature in FEATURES:
-                        if feature in annotations:
-                            n = annotations[feature]
-                            system_measure_counts[system][feature][n] += 1
-                    if 'corrected' in annotations:
-                        s1 = results['output']
-                        s2 = annotations['corrected']
-                        ld = Levenshtein.distance(s1, s2)
-                        nld = ld / max(len(s1), len(s2))
-                        system_metrics[system]['NLD'].append(nld)
+        for _, data in self.groups:
+            for example in data:
+                for system, results in example['systems'].items():
+                    for annotator, annotations in results['annotators'].items():
+                        for feature in FEATURES:
+                            if feature in annotations:
+                                n = annotations[feature]
+                                system_measure_counts[system][feature][n] += 1
+                        if 'corrected' in annotations:
+                            s1 = results['output']
+                            s2 = annotations['corrected']
+                            ld = Levenshtein.distance(s1, s2)
+                            nld = ld / max(len(s1), len(s2))
+                            system_metrics[system]['NLD'].append(nld)
         return system_measure_counts, system_metrics
 
 
@@ -84,40 +95,41 @@ class AnnotationResults:
 
 
     def compare_differences(self, show_all=True):
-        for example in self.merged_data:
-            original = example['original']
-            reference = example['reference']
-            for system, results in example['systems'].items():
-                output = results['output']
-                annotators = sorted(results['annotators'].items(),
-                                    key=itemgetter(0))
+        for _, data in self.groups:
+            for example in data:
+                original = example['original']
+                reference = example['reference']
+                for system, results in example['systems'].items():
+                    output = results['output']
+                    annotators = sorted(results['annotators'].items(),
+                                        key=itemgetter(0))
 
-                corrections = [
-                        annotation['corrected']
-                        for _, annotation in annotators]
-                ratings = [
-                        tuple(annotation[feature] for feature in FEATURES)
-                        for _, annotation in annotators]
+                    corrections = [
+                            annotation['corrected']
+                            for _, annotation in annotators]
+                    ratings = [
+                            tuple(annotation[feature] for feature in FEATURES)
+                            for _, annotation in annotators]
 
-                if show_all or len(set(corrections)) > 1 or len(set(ratings)) > 1:
-                    print(f'{system:10s} {output}')
-                    print(f'{"reference":10s} {reference}')
-                    print(f'{"student":10s} {original}')
+                    if show_all or len(set(corrections)) > 1 or len(set(ratings)) > 1:
+                        print(f'{system:10s} {output}')
+                        print(f'{"reference":10s} {reference}')
+                        print(f'{"student":10s} {original}')
 
-                if show_all or len(set(corrections)) > 1:
-                    for annotator, annotation in annotators:
-                        corr = annotation['corrected']
-                        print(f'{annotator:10s} {corr}')
-                    print()
+                    if show_all or len(set(corrections)) > 1:
+                        for annotator, annotation in annotators:
+                            corr = annotation['corrected']
+                            print(f'{annotator:10s} {corr}')
+                        print()
 
-                if show_all or len(set(ratings)) > 1:
-                    for (annotator, _), rating in zip(annotators, ratings):
-                        print(f'{annotator:10s} G{rating[0]} F{rating[1]} '
-                              f'M{rating[2]}')
-                    print()
+                    if show_all or len(set(ratings)) > 1:
+                        for (annotator, _), rating in zip(annotators, ratings):
+                            print(f'{annotator:10s} G{rating[0]} F{rating[1]} '
+                                  f'M{rating[2]}')
+                        print()
 
-                if show_all or len(set(corrections)) > 1 or len(set(ratings)) > 1:
-                    print('-'*72)
+                    if show_all or len(set(corrections)) > 1 or len(set(ratings)) > 1:
+                        print('-'*72)
 
 
 def main():
@@ -130,7 +142,8 @@ def main():
             choices=('compare', 'summarize'),
             help='Action to perform: compare summarize [default]')
     parser.add_argument(
-            'input', nargs='+')
+            'input', nargs='+',
+            help='JSON files to analyze, grouped by :')
     args = parser.parse_args()
 
     ar = AnnotationResults(args.input)

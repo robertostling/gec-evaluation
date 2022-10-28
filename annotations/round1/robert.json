@@ -160,7 +160,7 @@
                             "Fluency": 2,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte s\u00e5 direkt . Till exempel borde du inte skriva \" jag \u00e4r d\u00e5lig p\u00e5 att X . \" Du borde beskriva som dem tips , till exempel \" jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X . \" Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det . Och om du har erfarenhet av yrket s\u00e5 skulle du kunna s\u00e4ga det ."
+                            "corrected": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte s\u00e5 direkt . Till exempel borde du inte skriva \" jag \u00e4r d\u00e5lig p\u00e5 att X . \" Du m\u00e5ste beskriva som dem tips , till exempel \" jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X . \" Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det . Och om du har erfarenhet av yrket s\u00e5 skulle du kunna s\u00e4ga det ."
                         }
                     },
                     "output": "Du skulle kunna beskriva om dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att X du m\u00e5ste faktiskt beskriva som dem tipsen f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller X Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet om jobbet ; s\u00e5 du skulle kunna s\u00e4ga de ."
@@ -171,7 +171,7 @@
                             "Fluency": 2,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 men inte s\u00e5 direkt . Till exempel borde du inte skriva \" jag \u00e4r d\u00e5lig p\u00e5 att ... \" Du borde beskriva dem som tips , till exempel \" jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det . Och om du har erfarenhet av yrket s\u00e5 skulle du kunna s\u00e4ga det ."
+                            "corrected": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 men inte s\u00e5 direkt . Till exempel borde du inte skriva \" jag \u00e4r d\u00e5lig p\u00e5 att ... \" Du m\u00e5ste beskriva dem som tips , till exempel \" jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Du kan visa dem att du passar p\u00e5 det h\u00e4r jobbet och att du \u00e4r intresserad av det . Och om du har erfarenhet av yrket s\u00e5 skulle du kunna s\u00e4ga det ."
                         }
                     },
                     "output": "Du skulle kunna beskriva dina svaga sidor ocks\u00e5 men inte direkt till ex : du borde inte skriva ; jag \u00e4r d\u00e5lig p\u00e5 att ... du m\u00e5ste faktiskt beskriva dem som tips f\u00f6r ex : jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... Du kan vissa dem att du passar p\u00e5 det h\u00e4r jobbet och du \u00e4r intresserad av det och om du har erfarenhet av jobbet ; s\u00e5 skulle du kunna s\u00e4ga de ."
@@ -193,7 +193,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 3,
-                            "corrected": "Det skulle kunna vara bra att beskriva sina svaga sidor ocks\u00e5 , men inte s\u00e5 direkt . Till exempel b\u00f6r man inte skriva \" Jag \u00e4r d\u00e5lig p\u00e5 att ... \" Man b\u00f6r beskriva dem som tips , till exempel : \" Jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Man kan visa att man passar p\u00e5 det h\u00e4r jobbet och \u00e4r intresserad av det , och om man har erfarenhet av yrket , s\u00e5 skulle man kunna s\u00e4ga det ."
+                            "corrected": "Det skulle kunna vara bra att beskriva sina svaga sidor ocks\u00e5 , men inte s\u00e5 direkt . Till exempel b\u00f6r man inte skriva \" Jag \u00e4r d\u00e5lig p\u00e5 att ... \" Man m\u00e5ste beskriva dem som tips , till exempel : \" Jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Man kan visa att man passar p\u00e5 det h\u00e4r jobbet och \u00e4r intresserad av det , och om man har erfarenhet av yrket , s\u00e5 skulle man kunna s\u00e4ga det ."
                         }
                     },
                     "output": "Det skulle kunna vara bra att beskriva sina svaga sidor ocks\u00e5 , men inte direkt till exempel : man borde inte skriva \" Jag \u00e4r d\u00e5lig p\u00e5 att ... \" Man m\u00e5ste faktiskt beskriva dem som tips , till exempel : \" Jag kanske inte \u00e4r s\u00e5 bra p\u00e5 att simma eller ... \" Man kan visa att man passar p\u00e5 det h\u00e4r jobbet och \u00e4r intresserad av det , och om man har erfarenhet av jobbet , s\u00e5 man skulle kunna s\u00e4ga det ."
@@ -310,7 +310,7 @@
                             "Fluency": 2,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en dejt och d\u00e4r kan ni prata med varandra mer och mer !"
+                            "corrected": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en dejt och d\u00e4r kan ni prata med varandra mer !"
                         }
                     },
                     "output": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
@@ -321,7 +321,7 @@
                             "Fluency": 2,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en dejt och d\u00e4r kan ni prata med varandra mer och mer !"
+                            "corrected": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en dejt och d\u00e4r kan ni prata med varandra mer !"
                         }
                     },
                     "output": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r en s\u00e4rlek m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
@@ -331,7 +331,7 @@
                         "robert": {
                             "Fluency": 4,
                             "Grammaticality": 4,
-                            "Meaning Preservation": 3,
+                            "Meaning Preservation": 4,
                             "corrected": "Du kan ringa och bjuda in honom p\u00e5 en dejt p\u00e5 en fin restaurang , v\u00e4l d\u00e4r kan ni prata mer med varandra ."
                         }
                     },
@@ -343,7 +343,7 @@
                             "Fluency": 4,
                             "Grammaticality": 4,
                             "Meaning Preservation": 4,
-                            "corrected": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett romantiskt m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
+                            "corrected": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett romantiskt m\u00f6te och d\u00e4r kan ni prata med varandra mer !"
                         }
                     },
                     "output": "Du kan ringa och bjuda honom p\u00e5 en fin restaurang f\u00f6r ett romantiskt m\u00f6te och d\u00e4r kan ni prata med varandra mer och mer !"
@@ -460,7 +460,7 @@
                             "Fluency": 2,
                             "Grammaticality": 2,
                             "Meaning Preservation": 4,
-                            "corrected": "Jag tror att du f\u00f6rst\u00e5r mina problem och \u00e4ven kan hj\u00e4lpa till att ta bort mig fr\u00e5n kursen ."
+                            "corrected": "Jag tror att du f\u00f6rst\u00e5r mina problem , och d\u00e4rf\u00f6r \u00e4ven ta bort mig fr\u00e5n kursen ."
                         }
                     },
                     "output": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven borta mig fr\u00e5n den kursen ."
@@ -471,7 +471,7 @@
                             "Fluency": 2,
                             "Grammaticality": 2,
                             "Meaning Preservation": 4,
-                            "corrected": "Jag tror att du f\u00f6rst\u00e5r mina problem och \u00e4ven kan hj\u00e4lpa till att ta bort mig fr\u00e5n kursen ."
+                            "corrected": "Jag tror att du f\u00f6rst\u00e5r mina problem , och d\u00e4rf\u00f6r \u00e4ven ta bort mig fr\u00e5n kursen ."
                         }
                     },
                     "output": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven borta fr\u00e5n mig den kursen ."
@@ -481,7 +481,7 @@
                         "robert": {
                             "Fluency": 4,
                             "Grammaticality": 4,
-                            "Meaning Preservation": 3,
+                            "Meaning Preservation": 4,
                             "corrected": "Jag tror att du f\u00f6rst\u00e5r mitt problem och d\u00e4rf\u00f6r kan hj\u00e4lpa till att avregistrera mig fr\u00e5n kursen ."
                         }
                     },
@@ -493,7 +493,7 @@
                             "Fluency": 4,
                             "Grammaticality": 4,
                             "Meaning Preservation": 1,
-                            "corrected": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven om jag inte \u00e4r kvar i kursen ."
+                            "corrected": "Jag tror att du f\u00f6rst\u00e5r mina problem , och d\u00e4rf\u00f6r \u00e4ven ta bort mig fr\u00e5n kursen ."
                         }
                     },
                     "output": "Jag tror att du f\u00f6rst\u00e5r mina problem \u00e4ven om jag inte \u00e4r kvar i kursen ."
