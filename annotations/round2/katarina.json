@@ -5,19 +5,47 @@
             "reference": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jlighet att r\u00f6sta . Att ge en fyra\u00e5ring den potentiella makten skulle anses som galenskap trots att det skulle vara demokratiskt rent tekniskt .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta. Att ge en fyra\u00e5ring den potentiella makten , trots att det rent tekniskt skulle vara demokratiskt , skulle anses som galenskap ."
+                        }
+                    },
                     "output": "Ett demokratiskriksdagsval skulle kollapsa helt om bokstavligen varenda pesrun i landet skulle ha m\u00f6jligheten att r\u00f6sta , att ge en fyra\u00e5ring den potentiella makten trots att det skulle vara demokratisk rent tekniskt skulle anses som galenskap ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta. Att ge en fyra\u00e5ring den potentiella makten skulle anses som galenskap trots att det rent tekniskt skulle vara demokratiskt."
+                        }
+                    },
                     "output": "Ett demokratisk riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta , att ge en fyra\u00e5ring den potentiella makten trots att det skulle vara demokratisk rent tekniskt skulle anses som galenskap ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Om precis varenda person i hela landet skulle ha m\u00f6jlighet att r\u00f6sta s\u00e5 skulle ett demokratiskt riksdagsval helt kollapsa . Att ge den potentiella makten till en fyra\u00e5ring m\u00e5 tekniskt sett vara demokratiskt , men skulle kunna ses som galenskap ."
+                        }
+                    },
                     "output": "Om precis varenda person i hela landet skulle ha m\u00f6jlighet att r\u00f6sta s\u00e5 skulle ett demokratiskt riksdagsval helt kollapsa . Att ge den potentiella makten till en fyra\u00e5ring m\u00e5 tekniskt sett vara demokratiskt , men skulle kunna ses som galenskap ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta . Att ge en fyra\u00e5ring den potentiella makten skulle anses som galenskap trots att det rent tekniskt skulle vara demokratiskt ."
+                        }
+                    },
                     "output": "Ett demokratiskt riksdagsval skulle kollapsa helt om bokstavligen varenda person i landet skulle ha m\u00f6jligheten att r\u00f6sta . Att ge en fyra\u00e5ring den potentiella makten trots att det skulle vara demokratiskt rent tekniskt skulle anses som galenskap ."
                 }
             }
@@ -27,19 +55,47 @@
             "reference": "Men i den andra ber\u00e4ttelsen , i filmen \" Frozen \" , d\u00e4r fanns ocks\u00e5 olika typer av k\u00e4rlek : k\u00e4rlek mellan systrar , och en typ av k\u00e4rlek var det att Kristoffer var k\u00e4r i Anna och de \u00e4lskade varandra , eller det k\u00e4rleksliv som Anna och Hans hade med varandra den dagen d\u00e5 Elsa blev arg och anv\u00e4nde sin magiska kraft och osv .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 1,
+                            "Meaning Preservation": 3,
+                            "corrected": "Men i andra ber\u00e4ttelsen, i filmen Frozen, d\u00e5 fanns det ocks\u00e5 olika k\u00e4rlekstyper. En typ var k\u00e4rlek till en syster, och en typ an k\u00e4rlek var det att Kristoffer var k\u00e4r i Anna och de \u00e4lskade varandra. Eller det k\u00e4rleksliv som Anna och Hans hade till varandra den dag som Elsa blev arg och anv\u00e4nde av sin magiska kraft ."
+                        }
+                    },
                     "output": "Men I andra ber\u00e4ttelse p\u00e5 filmen X Frozen X d\u00e5 var ocks\u00e5 olika k\u00e4rleks typ , k\u00e4rlek till syster och en typ an k\u00e4rlek var det att Kristoffer var k\u00e4r i Anna och \u00e4lskade varandra eller den k\u00e4rleks liv som Anna och Hans hade till varandra dag som Elsa blev arg och anv\u00e4nde av sin magiska kraft och oss ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 3,
+                            "corrected": "Men i den andra ber\u00e4ttelsen, i filmen \" Frozen \" , fanns det ocks\u00e5 olika typer av k\u00e4rlek. En typ \u00e4r k\u00e4rleken mellan systrar, en annan \u00e4r att Kristoffer var k\u00e4r i Anna och att de \u00e4lskade varandra. En annan \u00e4r det k\u00e4rleksliv som Anna och Hans hade till varandra den dagen som Elsa blev arg och anv\u00e4nde av sin magiska kraft osv ."
+                        }
+                    },
                     "output": "Men I min andra ber\u00e4ttelse i filmen \" Frozen \" d\u00e5 var det ocks\u00e5 olika k\u00e4rleks typ , k\u00e4rlek till en syster och en typ av k\u00e4rlek det var att Kristoffer var k\u00e4r i Anna och \u00e4lskade varandra eller den k\u00e4rleks liv som Anna och Hans hade till varandra en dag som Elsa blev arg och anv\u00e4nde av sin magiska kraft osv ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Men i den andra ber\u00e4ttelsen , filmen \" Frozen \" , fanns ocks\u00e5 flera typer av k\u00e4rlek : den mellan systrar , och den d\u00e4r Kristoffer och Anna \u00e4lskade varandra , eller det k\u00e4rleksliv som Anna och Hans hade den dagen n\u00e4r Elsa blev arg och anv\u00e4nde sin magiska kraft , och s\u00e5 vidare ."
+                        }
+                    },
                     "output": "Men i den andra ber\u00e4ttelsen , filmen \" Frozen \" , fanns ocks\u00e5 tv\u00e5 typer av k\u00e4rlek : den mellan systrar , och den d\u00e4r Kristoffer och Anna \u00e4lskade varandra , eller den aff\u00e4r som Anna och Hans hade den dagen n\u00e4r Elsa blev arg och anv\u00e4nde sin magiska kraft , och s\u00e5 vidare ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Men i andra ber\u00e4ttelser, som i filmen \" Frozen \", finns det ocks\u00e5 olika typer av k\u00e4rlek . Till exempel k\u00e4rlek till en syster, eller den typ av k\u00e4rlek som fanns mellan Kristoffer och Anna , de \u00e4lskade varandra . Eller det k\u00e4rleksliv som Anna och Hans hade till varandra , tills Elsa blev arg och anv\u00e4nde sin magiska kraft osv."
+                        }
+                    },
                     "output": "Men i andra ber\u00e4ttelser i filmen \" Frozen \" finns det ocks\u00e5 olika typer av k\u00e4rlek . K\u00e4rlek till syster och en annan typ av k\u00e4rlek var den mellan Kristoffer och Anna , de \u00e4lskade varandra . Eller den k\u00e4rleksrelation som Anna och Hans hade till varandra , tills Elsa blev arg och anv\u00e4nde sin magiska kraft osv."
                 }
             }
@@ -49,19 +105,47 @@
             "reference": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
+                        }
+                    },
                     "output": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
+                        }
+                    },
                     "output": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Enligt de flesta borde bara vuxna ha r\u00f6str\u00e4tt , och s\u00e5 \u00e4r det oftast ."
+                        }
+                    },
                     "output": "Enligt de flesta borde bara vuxna ha r\u00f6str\u00e4tt , och s\u00e5 \u00e4r det oftast ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
+                        }
+                    },
                     "output": "De flesta s\u00e4ger att bara vuxna ska f\u00e5 r\u00f6sta och det \u00e4r s\u00e5 det brukar vara ."
                 }
             }
@@ -71,19 +155,47 @@
             "reference": "N\u00e4r man kommer dit , tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "N\u00e4r man kommer dit tycker jag att man kan se det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
+                        }
+                    },
                     "output": "N\u00e4r man kommer d\u00e4r , jag tycker att man kan se ett vackrast \u00f6gonblick och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "N\u00e4r man kommer dit tycker jag att man kan se det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
+                        }
+                    },
                     "output": "N\u00e4r man kommer d\u00e4r , tycker jag att man kan se den vackraste \u00f6gonblick och h\u00f6ra den mest mirakul\u00f6sa musik i ens liv ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "N\u00e4r man kommer dit tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i hela ens liv ."
+                        }
+                    },
                     "output": "N\u00e4r man kommer dit tycker jag att man kan uppleva det vackraste \u00f6gonblicket och h\u00f6ra den mest mirakul\u00f6sa musiken i hela ens liv ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "N\u00e4r man kommer dit tycker jag att man kan se de vackraste \u00f6gonblicken och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
+                        }
+                    },
                     "output": "N\u00e4r man kommer dit , tycker jag att man kan se de vackraste \u00f6gonblicken och h\u00f6ra den mest mirakul\u00f6sa musiken i ens liv ."
                 }
             }
@@ -93,19 +205,47 @@
             "reference": "Vi l\u00e4rde k\u00e4nna och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitetet .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Vi k\u00e4nde och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitet ."
+                        }
+                    },
                     "output": "Vi k\u00e4nnare och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitet ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Vi k\u00e4nde och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitet ."
+                        }
+                    },
                     "output": "Vi k\u00e4nde och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitet ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vi l\u00e4rde k\u00e4nna och \u00e4lskade varandra n\u00e4r vi gick p\u00e5 universitetet ."
+                        }
+                    },
                     "output": "Vi l\u00e4rde k\u00e4nna och \u00e4lska varandra n\u00e4r vi gick p\u00e5 universitetet ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Vi k\u00e4nde och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitetet ."
+                        }
+                    },
                     "output": "Vi k\u00e4nde och \u00e4lskade varandra n\u00e4r vi studerade p\u00e5 universitetet ."
                 }
             }
@@ -115,19 +255,46 @@
             "reference": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen , och att medan alla finl\u00e4ndare inte beh\u00f6ver svenska , s\u00e5 beh\u00f6ver alla med svenska som modersm\u00e5l finska f\u00f6r att klara sig i samh\u00e4llet .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Enligt S\u00f6derbergh s\u00e4ger Maria Tolppanen att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen och att alla finl\u00e4ndare inte beh\u00f6ver svenska , men alla med svenska som moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
+                        }
+                    },
                     "output": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen och om att alla finl\u00e4ndare inte beh\u00f6ver svenska , alla med svenska moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Enligt S\u00f6derbergh menar Maria Tolppanen att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen. Hon s\u00e4ger ocks\u00e5 att alla finl\u00e4ndare inte beh\u00f6ver svenska men alla med svenska som moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
+                        }
+                    },
                     "output": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen och att alla finl\u00e4ndare inte beh\u00f6ver svenska , alla med svenska moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "S\u00f6derbergh skriver att enligt Maria Tolppanen har finlandssvenskarna f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen , och att medan svenskspr\u00e5kiga faktiskt beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet s\u00e5 beh\u00f6ver inte alla finl\u00e4ndare kunna anv\u00e4nda svenska ."
+                        }
+                    },
                     "output": "S\u00f6derbergh skriver att enligt Maria Tolppanen har finlandssvenskarna f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen , och att medan svenskspr\u00e5kiga faktiskt beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet s\u00e5 beh\u00f6ver inte alla finl\u00e4ndare kunna anv\u00e4nda svenska ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen . Hon s\u00e4ger ocks\u00e5 att alla finl\u00e4ndare inte beh\u00f6ver svenska , men alla med svenska som moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
+                        }
+                    },
                     "output": "S\u00f6derbergh skriver att Maria Tolppanen s\u00e4ger att finlandssvenskarna har f\u00f6r stor makt i samh\u00e4llet i f\u00f6rh\u00e5llande till deras andel av befolkningen . Hon s\u00e4ger ocks\u00e5 att alla finl\u00e4ndare inte beh\u00f6ver svenska , alla med svenska moderm\u00e5l beh\u00f6ver finska f\u00f6r att klara sig i samh\u00e4llet ."
                 }
             }
@@ -137,19 +304,47 @@
             "reference": "Det finns ocks\u00e5 n\u00e5got bra med havsvattnet .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 1,
+                            "Meaning Preservation": 2,
+                            "corrected": "Det finns ocks\u00e5 n\u00e5got bra med havsvattnet ."
+                        }
+                    },
                     "output": "Det finnes ocks\u00e5 en n\u00e5gon bra fr\u00e5n vattenhavet ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 1,
+                            "Meaning Preservation": 2,
+                            "corrected": "Det finns ocks\u00e5 n\u00e5got bra med havsvattnet ."
+                        }
+                    },
                     "output": "Det finns ocks\u00e5 en n\u00e5gn bra fr\u00e5n vattenhavet ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det finns ocks\u00e5 n\u00e5got bra med havsvattnet ."
+                        }
+                    },
                     "output": "Det finns ocks\u00e5 n\u00e5got bra med havsvattnet ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 1,
+                            "corrected": "Det finns ocks\u00e5 n\u00e5got bra med havsvattnet ."
+                        }
+                    },
                     "output": "Det finns ocks\u00e5 en bra strand vid havet ."
                 }
             }
@@ -159,19 +354,47 @@
             "reference": "Min granne hj\u00e4lper mig med ett lexikon .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 3,
+                            "corrected": "Min granne hj\u00e4lper mig med ett lexikon ."
+                        }
+                    },
                     "output": "Min granne hj\u00e4lpa mig men l\u00e4xekon ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Min granne ska hj\u00e4lpa mig med ett lexikon."
+                        }
+                    },
                     "output": "Min granne ska hj\u00e4lpa mig men l\u00e4xekon ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Grannen hj\u00e4lper mig med ett lexikon ."
+                        }
+                    },
                     "output": "Grannen hj\u00e4lper mig med ett lexikon ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 2,
+                            "corrected": "Min granne hj\u00e4lpte mig med l\u00e4xorna ."
+                        }
+                    },
                     "output": "Min granne hj\u00e4lpte mig med l\u00e4xorna ."
                 }
             }
@@ -181,19 +404,47 @@
             "reference": "Du kan bjuda kolleger p\u00e5 fika eftersom det \u00e4r trevligt .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Du kan bjuda dina kolleger p\u00e5 fika eftersom det \u00e4r trevligt ."
+                        }
+                    },
                     "output": "Man kan bjuda kolleger f\u00f6r fika eftersom det \u00e4r trevlig ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Du kan bjuda dina kolleger p\u00e5 fika eftersom det \u00e4r trevligt ."
+                        }
+                    },
                     "output": "Man kan bjuda kolleger p\u00e5 fika eftersom det \u00e4r trevligt ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det \u00e4r trevligt att bjuda sina kollegor p\u00e5 fika , d\u00e4rf\u00f6r kan du g\u00f6ra det ."
+                        }
+                    },
                     "output": "Det \u00e4r trevligt att bjuda sina kollegor p\u00e5 fika , d\u00e4rf\u00f6r kan du g\u00f6ra det ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Du kan bjuda dina kollegor p\u00e5 fika eftersom det \u00e4r trevligt ."
+                        }
+                    },
                     "output": "Man kan bjuda kollegor p\u00e5 fika eftersom det \u00e4r trevligt ."
                 }
             }
@@ -203,19 +454,47 @@
             "reference": "Haga ligger utanf\u00f6r stan .",
             "systems": {
                 "granska": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 1,
+                            "Meaning Preservation": 1,
+                            "corrected": "Haga ligger utanf\u00f6r staden ."
+                        }
+                    },
                     "output": "Haga l\u00e4gger utan f\u00f6r stund ."
                 },
                 "mt-base": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 1,
+                            "Meaning Preservation": 4,
+                            "corrected": "Haga ligger utanf\u00f6r staden ."
+                        }
+                    },
                     "output": "Haga l\u00e4gger utanf\u00f6r stand ."
                 },
                 "mystery": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Haga ligger utanf\u00f6r stan ."
+                        }
+                    },
                     "output": "Haga ligger utanf\u00f6r stan ."
                 },
                 "s2": {
-                    "annotators": {},
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Haga ligger utanf\u00f6r staden ."
+                        }
+                    },
                     "output": "Haga ligger utanf\u00f6r staden ."
                 }
             }
