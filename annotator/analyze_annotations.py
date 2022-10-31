@@ -8,9 +8,36 @@ import sys
 import statistics
 import copy
 
+import numpy as np
 import Levenshtein
 
 FEATURES = ('Grammaticality', 'Fluency', 'Meaning Preservation')
+
+def kappa(confusion):
+    sum1 = Counter()
+    sum2 = Counter()
+    for (v1, v2), c in confusion.items():
+        sum1[v1] += c
+        sum2[v2] += c
+    N = sum(confusion.values())
+    p_e = sum(nk1*sum2.get(v, 0) for v, nk1 in sum1.items()) / (N*N)
+    c_agree = sum(c for (v1, v2), c in confusion.items() if v1 == v2)
+    p_o = c_agree / N
+    return 1 - (1-p_o)/(1-p_e)
+
+
+# For sanity check of my implementation, but in the end I prefer not to add
+# sklearn as a dependency:
+#
+#def kappa2(confusion):
+#    labels1 = []
+#    labels2 = []
+#    for (v1, v2), c in confusion.items():
+#        for _ in range(c):
+#            labels1.append(v1)
+#            labels2.append(v2)
+#    return sklearn.metrics.cohen_kappa_score(labels1, labels2)
+
 
 class AnnotationResults:
     def __init__(self, all_filenames):
@@ -96,6 +123,7 @@ class AnnotationResults:
 
     def compare_differences(self, show_all=True):
         for _, data in self.groups:
+            confusion_matrices = defaultdict(lambda: defaultdict(Counter))
             for example in data:
                 original = example['original']
                 reference = example['reference']
@@ -110,6 +138,13 @@ class AnnotationResults:
                     ratings = [
                             tuple(annotation[feature] for feature in FEATURES)
                             for _, annotation in annotators]
+
+                    for (name1, ann1), (name2, ann2) in itertools.combinations(
+                        annotators, 2):
+                        for feature in FEATURES:
+                            ns = (name1, name2)
+                            vs = (ann1[feature], ann2[feature])
+                            confusion_matrices[ns][feature][vs] += 1
 
                     if show_all or len(set(corrections)) > 1 or len(set(ratings)) > 1:
                         print(f'{system:10s} {output}')
@@ -131,6 +166,17 @@ class AnnotationResults:
                     if show_all or len(set(corrections)) > 1 or len(set(ratings)) > 1:
                         print('-'*72)
 
+            for (name1, name2), feature_confusion in confusion_matrices.items():
+                print(f'Confusion matrices for {name1} vs {name2}')
+                for feature, confusion in sorted(feature_confusion.items(),
+                        key=itemgetter(0)):
+                    print(f'    {feature}')
+                    m = np.zeros((5, 5), dtype=int)
+                    for (i, j), c in confusion.items():
+                        m[i, j] = c
+                    print(m)
+                    print(f"    Cohen's kappa = {kappa(confusion):.4g}")
+                    print()
 
 def main():
     parser = argparse.ArgumentParser('Analyze annotation files')
