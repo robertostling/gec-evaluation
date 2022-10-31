@@ -39,6 +39,11 @@ def kappa(confusion, weights='linear'):
             labels1, labels2, weights=weights)
 
 
+def nld(s1, s2):
+    d = Levenshtein.distance(s1, s2)
+    return d / max(len(s1), len(s2))
+
+
 class AnnotationResults:
     def __init__(self, all_filenames):
         file_groups = [
@@ -84,6 +89,46 @@ class AnnotationResults:
                                     annotations
 
         return merged
+
+
+    def get_pairwise_distances(self, metric=nld):
+        import sklearn.manifold
+        from matplotlib import pyplot as plt
+        distances = defaultdict(list)
+        names = set()
+        for _, data in self.groups:
+            for example in data:
+                versions = {}
+                for system, results in example['systems'].items():
+                    versions[system] = results['output']
+                    for annotator, annotations in results['annotators'].items():
+                        if 'corrected' in annotations:
+                            version = f"{system}+{annotator}"
+                            versions[version] = annotations['corrected']
+                names |= set(versions.keys())
+                for (v1, s1), (v2, s2) in itertools.combinations(
+                        sorted(versions.items(), key=itemgetter(0)), 2):
+                    distances[(v1, v2)].append(metric(s1, s2))
+
+        names = sorted(names)
+        for (v1, v2), ds in list(distances.items()):
+            assert (v2, v1) not in distances
+            distances[(v2, v1)] = ds
+
+        m = [[np.mean(distances[(v1, v2)]) if (v1, v2) in distances else 0.0
+              for v2 in names]
+             for v1 in names]
+        mds = sklearn.manifold.MDS(
+                n_components=2, metric=False, dissimilarity='precomputed')
+        u = mds.fit_transform(m)
+        print(np.round(m, 2))
+        print(u)
+        plt.scatter(u[:, 0], u[:, 1])
+        for v, p in zip(names, u):
+            print(v, p)
+            plt.annotate(v, p)
+
+        plt.show()
 
 
     def get_scores(self):
@@ -186,8 +231,8 @@ def main():
             help='When comparing annotators, only show different annotations')
     parser.add_argument(
             '--action', default='summarize',
-            choices=('compare', 'summarize'),
-            help='Action to perform: compare summarize [default]')
+            choices=('compare', 'summarize', 'pairwise'),
+            help='Action to perform: compare pairwise summarize [default]')
     parser.add_argument(
             'input', nargs='+',
             help='JSON files to analyze, grouped by :')
@@ -198,6 +243,8 @@ def main():
         ar.summarize()
     elif args.action == 'compare':
         ar.compare_differences(show_all=not args.only_differences)
+    elif args.action == 'pairwise':
+        ar.get_pairwise_distances()
     else:
         raise ValueError()
 
