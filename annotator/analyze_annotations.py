@@ -13,30 +13,30 @@ import Levenshtein
 
 FEATURES = ('Grammaticality', 'Fluency', 'Meaning Preservation')
 
-def kappa(confusion):
-    sum1 = Counter()
-    sum2 = Counter()
-    for (v1, v2), c in confusion.items():
-        sum1[v1] += c
-        sum2[v2] += c
-    N = sum(confusion.values())
-    p_e = sum(nk1*sum2.get(v, 0) for v, nk1 in sum1.items()) / (N*N)
-    c_agree = sum(c for (v1, v2), c in confusion.items() if v1 == v2)
-    p_o = c_agree / N
-    return 1 - (1-p_o)/(1-p_e)
-
-
-# For sanity check of my implementation, but in the end I prefer not to add
-# sklearn as a dependency:
-#
-#def kappa2(confusion):
-#    labels1 = []
-#    labels2 = []
+# OK, I give up, sklearn also has weighted kappa
+#def kappa(confusion):
+#    sum1 = Counter()
+#    sum2 = Counter()
 #    for (v1, v2), c in confusion.items():
-#        for _ in range(c):
-#            labels1.append(v1)
-#            labels2.append(v2)
-#    return sklearn.metrics.cohen_kappa_score(labels1, labels2)
+#        sum1[v1] += c
+#        sum2[v2] += c
+#    N = sum(confusion.values())
+#    p_e = sum(nk1*sum2.get(v, 0) for v, nk1 in sum1.items()) / (N*N)
+#    c_agree = sum(c for (v1, v2), c in confusion.items() if v1 == v2)
+#    p_o = c_agree / N
+#    return 1 - (1-p_o)/(1-p_e)
+
+
+def kappa(confusion, weights='linear'):
+    import sklearn.metrics
+    labels1 = []
+    labels2 = []
+    for (v1, v2), c in confusion.items():
+        for _ in range(c):
+            labels1.append(v1)
+            labels2.append(v2)
+    return sklearn.metrics.cohen_kappa_score(
+            labels1, labels2, weights=weights)
 
 
 class AnnotationResults:
@@ -175,7 +175,8 @@ class AnnotationResults:
                     for (i, j), c in confusion.items():
                         m[i, j] = c
                     print(m)
-                    print(f"    Cohen's kappa = {kappa(confusion):.4g}")
+                    print(f"    LWK = {kappa(confusion):.4g}")
+                    print(f"    QWK = {kappa(confusion, 'quadratic'):.4g}")
                     print()
 
 def main():
