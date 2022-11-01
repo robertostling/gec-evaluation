@@ -39,6 +39,14 @@ def kappa(confusion, weights='linear'):
             labels1, labels2, weights=weights)
 
 
+# TOOD: a more suitable metric might be Levenshtein distance that allows for
+# jumps (with some cost) at word boundaries. Maybe this can be relatively
+# cheaply implemented using existing LD for pairwise token comparisons, then
+# searching through that similarity matrix.
+# Problem with that approach, will not handle split/merged words well.
+# Even restricting to word boundaries could be problematic in (rare) cases,
+# e.g. vattenhav <-> havsvatten
+# Cheaper alternative would be character n-gram overlap
 def nld(s1, s2):
     d = Levenshtein.distance(s1, s2)
     return d / max(len(s1), len(s2))
@@ -49,8 +57,6 @@ class AnnotationResults:
         file_groups = [
                 list(group) for k, group in itertools.groupby(
                     all_filenames, lambda filename: filename != ':') if k]
-        #print('all_filenames', all_filenames)
-        #print('file_groups', file_groups)
 
         self.groups = []
         for filenames in file_groups:
@@ -60,8 +66,6 @@ class AnnotationResults:
                     annotations.append(json.load(f))
             data = self.merge_annotations(annotations)
             self.groups.append((annotations, data))
-
-        #self.merged_data = self.merge_annotations(self.annotations)
 
 
     def merge_annotations(self, annotations):
@@ -91,14 +95,17 @@ class AnnotationResults:
         return merged
 
 
-    def get_pairwise_distances(self, metric=nld):
+    def get_pairwise_distances(self, metric=nld, filename=None):
         import sklearn.manifold
         from matplotlib import pyplot as plt
         distances = defaultdict(list)
         names = set()
         for _, data in self.groups:
             for example in data:
-                versions = {}
+                versions = {
+                        'original': example['original'],
+                        'SweLL': example['reference'],
+                        }
                 for system, results in example['systems'].items():
                     versions[system] = results['output']
                     for annotator, annotations in results['annotators'].items():
@@ -115,19 +122,63 @@ class AnnotationResults:
             assert (v2, v1) not in distances
             distances[(v2, v1)] = ds
 
+        # Not currently used, but could be used to check for missing data
+        # n_comparisons_set = set(len(distances[(v1, v2)])
+        #         for v1 in names for v2 in names
+        #         if v1 != v2)
+
+        name_parent = {}
+        name_label = {}
+        name_ls = {}
+        annotator_alias = {'katarina': 'ann1', 'robert': 'ann2'}
+        system_alias = {'s2': 'GPT-3', 'granska': 'Granska', 'mt-base': 'MT'}
+        for name in names:
+            if '+' in name:
+                system, annotator = name.split('+')
+                # Use visual coding instead
+                #name_label[name] = annotator_alias[annotator]
+                name_ls[name] = '-.' if annotator == 'robert' else '--'
+                name_parent[name] = system
+            elif name == 'original':
+                name_label[name] = name
+            elif name == 'SweLL':
+                name_parent[name] = 'original'
+                name_label[name] = 'grammatical'
+            elif name == 'mystery':
+                name_parent[name] = 'SweLL'
+                name_label[name] = 'fluent'
+            else:
+                name_parent[name] = 'original'
+                name_label[name] = system_alias[name]
+
         m = [[np.mean(distances[(v1, v2)]) if (v1, v2) in distances else 0.0
               for v2 in names]
              for v1 in names]
         mds = sklearn.manifold.MDS(
-                n_components=2, metric=False, dissimilarity='precomputed')
+                n_components=2, metric=True, dissimilarity='precomputed',
+                n_init=100, max_iter=5000, eps=1e-5)
         u = mds.fit_transform(m)
         print(np.round(m, 2))
-        print(u)
+        print(names)
+        #print(u)
         plt.scatter(u[:, 0], u[:, 1])
-        for v, p in zip(names, u):
-            print(v, p)
-            plt.annotate(v, p)
+        name_vector = dict(zip(names, u))
 
+        for name, p in name_vector.items():
+            parent = name_parent.get(name)
+            if name in name_label:
+                plt.annotate(name_label[name], p)
+            if parent is not None:
+                q = name_vector[parent]
+                plt.plot([q[0], p[0]], [q[1], p[1]],
+                        color='black',
+                        linestyle=name_ls.get(name, '-'))
+                #plt.arrow(q[0], q[1], p[0]-q[0], p[1]-q[1],
+                #        length_includes_head=True, head_width=0,
+                #        head_length=0)
+
+        if filename is not None:
+            plt.savefig(filename)
         plt.show()
 
 
@@ -236,6 +287,9 @@ def main():
             choices=('compare', 'summarize', 'pairwise'),
             help='Action to perform: compare pairwise summarize [default]')
     parser.add_argument(
+            '-o', '--output', default=None, metavar='FILE',
+            help='File to write output figure to')
+    parser.add_argument(
             'input', nargs='+',
             help='JSON files to analyze, grouped by :')
     args = parser.parse_args()
@@ -246,7 +300,7 @@ def main():
     elif args.action == 'compare':
         ar.compare_differences(show_all=not args.only_differences)
     elif args.action == 'pairwise':
-        ar.get_pairwise_distances()
+        ar.get_pairwise_distances(filename=args.output)
     else:
         raise ValueError()
 
