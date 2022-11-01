@@ -93,7 +93,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Men i andra ber\u00e4ttelser i filmen Frozen finns det ocks\u00e5 olika typer av k\u00e4rlek . K\u00e4rleken mellan systrar och en annan typ av k\u00e4rlek var den mellan Kristoffer och Anna , de \u00e4lskade varandra . Eller den k\u00e4rleksrelation som Anna och Hans hade till varandra , tills Elsa blev arg och anv\u00e4nde sin magiska kraft , osv."
+                            "corrected": "Men i andra ber\u00e4ttelser i filmen Frozen finns det ocks\u00e5 olika typer av k\u00e4rlek . K\u00e4rleken mellan systrar , och en annan typ av k\u00e4rlek var den mellan Kristoffer och Anna n\u00e4r de \u00e4lskade varandra . Eller den k\u00e4rleksrelation som Anna och Hans hade till varandra , tills Elsa blev arg och anv\u00e4nde sin magiska kraft , osv."
                         }
                     },
                     "output": "Men i andra ber\u00e4ttelser i filmen \" Frozen \" finns det ocks\u00e5 olika typer av k\u00e4rlek . K\u00e4rlek till syster och en annan typ av k\u00e4rlek var den mellan Kristoffer och Anna , de \u00e4lskade varandra . Eller den k\u00e4rleksrelation som Anna och Hans hade till varandra , tills Elsa blev arg och anv\u00e4nde sin magiska kraft osv."
@@ -343,7 +343,7 @@
                             "Fluency": 4,
                             "Grammaticality": 4,
                             "Meaning Preservation": 1,
-                            "corrected": "Det finns ocks\u00e5 en bra strand vid havet ."
+                            "corrected": "Det finns ocks\u00e5 en bra sak med havsvattnet ."
                         }
                     },
                     "output": "Det finns ocks\u00e5 en bra strand vid havet ."
@@ -360,7 +360,7 @@
                             "Fluency": 2,
                             "Grammaticality": 2,
                             "Meaning Preservation": 4,
-                            "corrected": "Min granne hj\u00e4lpa mig med ett lexikon ."
+                            "corrected": "Min granne hj\u00e4lper mig med ett lexikon ."
                         }
                     },
                     "output": "Min granne hj\u00e4lpa mig men l\u00e4xekon ."
@@ -370,8 +370,8 @@
                         "robert": {
                             "Fluency": 2,
                             "Grammaticality": 2,
-                            "Meaning Preservation": 4,
-                            "corrected": "Min granne ska hj\u00e4lpa mig med ett lexikon ."
+                            "Meaning Preservation": 3,
+                            "corrected": "Min granne hj\u00e4lper mig med ett lexikon ."
                         }
                     },
                     "output": "Min granne ska hj\u00e4lpa mig men l\u00e4xekon ."
@@ -393,7 +393,7 @@
                             "Fluency": 4,
                             "Grammaticality": 4,
                             "Meaning Preservation": 1,
-                            "corrected": "Min granne hj\u00e4lpte mig med l\u00e4xorna ."
+                            "corrected": "Min granne hj\u00e4lper mig med ett lexikon ."
                         }
                     },
                     "output": "Min granne hj\u00e4lpte mig med l\u00e4xorna ."
@@ -460,7 +460,7 @@
                             "Fluency": 1,
                             "Grammaticality": 1,
                             "Meaning Preservation": 0,
-                            "corrected": "Haga l\u00e4gger utan f\u00f6r stund ."
+                            "corrected": "Haga ligger utanf\u00f6r stan ."
                         }
                     },
                     "output": "Haga l\u00e4gger utan f\u00f6r stund ."
@@ -471,7 +471,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 1,
-                            "corrected": "Haga l\u00e4gger utanf\u00f6r stand ."
+                            "corrected": "Haga ligger utanf\u00f6r stan ."
                         }
                     },
                     "output": "Haga l\u00e4gger utanf\u00f6r stand ."
@@ -513,5 +513,5 @@
         9,
         8
     ],
-    "next_item": 2
+    "next_item": 6
 }

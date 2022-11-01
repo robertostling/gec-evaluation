@@ -8,9 +8,41 @@ import sys
 import statistics
 import copy
 
+import numpy as np
 import Levenshtein
 
 FEATURES = ('Grammaticality', 'Fluency', 'Meaning Preservation')
+
+# OK, I give up, sklearn also has weighted kappa
+#def kappa(confusion):
+#    sum1 = Counter()
+#    sum2 = Counter()
+#    for (v1, v2), c in confusion.items():
+#        sum1[v1] += c
+#        sum2[v2] += c
+#    N = sum(confusion.values())
+#    p_e = sum(nk1*sum2.get(v, 0) for v, nk1 in sum1.items()) / (N*N)
+#    c_agree = sum(c for (v1, v2), c in confusion.items() if v1 == v2)
+#    p_o = c_agree / N
+#    return 1 - (1-p_o)/(1-p_e)
+
+
+def kappa(confusion, weights='linear'):
+    import sklearn.metrics
+    labels1 = []
+    labels2 = []
+    for (v1, v2), c in confusion.items():
+        for _ in range(c):
+            labels1.append(v1)
+            labels2.append(v2)
+    return sklearn.metrics.cohen_kappa_score(
+            labels1, labels2, weights=weights)
+
+
+def nld(s1, s2):
+    d = Levenshtein.distance(s1, s2)
+    return d / max(len(s1), len(s2))
+
 
 class AnnotationResults:
     def __init__(self, all_filenames):
@@ -59,6 +91,46 @@ class AnnotationResults:
         return merged
 
 
+    def get_pairwise_distances(self, metric=nld):
+        import sklearn.manifold
+        from matplotlib import pyplot as plt
+        distances = defaultdict(list)
+        names = set()
+        for _, data in self.groups:
+            for example in data:
+                versions = {}
+                for system, results in example['systems'].items():
+                    versions[system] = results['output']
+                    for annotator, annotations in results['annotators'].items():
+                        if 'corrected' in annotations:
+                            version = f"{system}+{annotator}"
+                            versions[version] = annotations['corrected']
+                names |= set(versions.keys())
+                for (v1, s1), (v2, s2) in itertools.combinations(
+                        sorted(versions.items(), key=itemgetter(0)), 2):
+                    distances[(v1, v2)].append(metric(s1, s2))
+
+        names = sorted(names)
+        for (v1, v2), ds in list(distances.items()):
+            assert (v2, v1) not in distances
+            distances[(v2, v1)] = ds
+
+        m = [[np.mean(distances[(v1, v2)]) if (v1, v2) in distances else 0.0
+              for v2 in names]
+             for v1 in names]
+        mds = sklearn.manifold.MDS(
+                n_components=2, metric=False, dissimilarity='precomputed')
+        u = mds.fit_transform(m)
+        print(np.round(m, 2))
+        print(u)
+        plt.scatter(u[:, 0], u[:, 1])
+        for v, p in zip(names, u):
+            print(v, p)
+            plt.annotate(v, p)
+
+        plt.show()
+
+
     def get_scores(self):
         system_measure_counts = defaultdict(lambda: defaultdict(Counter))
         system_metrics = defaultdict(lambda: defaultdict(list))
@@ -98,6 +170,7 @@ class AnnotationResults:
 
     def compare_differences(self, show_all=True):
         for _, data in self.groups:
+            confusion_matrices = defaultdict(lambda: defaultdict(Counter))
             for example in data:
                 original = example['original']
                 reference = example['reference']
@@ -112,6 +185,13 @@ class AnnotationResults:
                     ratings = [
                             tuple(annotation[feature] for feature in FEATURES)
                             for _, annotation in annotators]
+
+                    for (name1, ann1), (name2, ann2) in itertools.combinations(
+                        annotators, 2):
+                        for feature in FEATURES:
+                            ns = (name1, name2)
+                            vs = (ann1[feature], ann2[feature])
+                            confusion_matrices[ns][feature][vs] += 1
 
                     if show_all or len(set(corrections)) > 1 or len(set(ratings)) > 1:
                         print(f'{system:10s} {output}')
@@ -133,6 +213,18 @@ class AnnotationResults:
                     if show_all or len(set(corrections)) > 1 or len(set(ratings)) > 1:
                         print('-'*72)
 
+            for (name1, name2), feature_confusion in confusion_matrices.items():
+                print(f'Confusion matrices for {name1} vs {name2}')
+                for feature, confusion in sorted(feature_confusion.items(),
+                        key=itemgetter(0)):
+                    print(f'    {feature}')
+                    m = np.zeros((5, 5), dtype=int)
+                    for (i, j), c in confusion.items():
+                        m[i, j] = c
+                    print(m)
+                    print(f"    LWK = {kappa(confusion):.4g}")
+                    print(f"    QWK = {kappa(confusion, 'quadratic'):.4g}")
+                    print()
 
 def main():
     parser = argparse.ArgumentParser('Analyze annotation files')
@@ -141,8 +233,8 @@ def main():
             help='When comparing annotators, only show different annotations')
     parser.add_argument(
             '--action', default='summarize',
-            choices=('compare', 'summarize'),
-            help='Action to perform: compare summarize [default]')
+            choices=('compare', 'summarize', 'pairwise'),
+            help='Action to perform: compare pairwise summarize [default]')
     parser.add_argument(
             'input', nargs='+',
             help='JSON files to analyze, grouped by :')
@@ -153,6 +245,8 @@ def main():
         ar.summarize()
     elif args.action == 'compare':
         ar.compare_differences(show_all=not args.only_differences)
+    elif args.action == 'pairwise':
+        ar.get_pairwise_distances()
     else:
         raise ValueError()
 
