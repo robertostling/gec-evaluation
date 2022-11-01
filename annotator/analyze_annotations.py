@@ -83,7 +83,9 @@ class AnnotationResults:
         system_measure_counts, system_metrics = self.get_scores()
         for system, measure_counts in system_measure_counts.items():
             print(system)
-            for measure, counts in sorted(measure_counts.items()):
+            for measure in FEATURES:
+                counts = measure_counts[measure]
+            #for measure, counts in sorted(measure_counts.items()):
                 n_sum = sum(n*c for n, c in counts.items() if n != 0)
                 total = sum(c   for n, c in counts.items() if n != 0)
                 print(f'  {measure:24s} {n_sum/total:.1f} (n={total})')
