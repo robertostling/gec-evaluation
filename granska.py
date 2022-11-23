@@ -1,3 +1,18 @@
+"""Script to correct text files using Granska's API
+
+It works by passing the input file, line by line, to Granska's API. Each line
+is passed as many times as needed (up to 5) to implement all the suggested
+changes. At each iteration, changes are applied in order of increasing span
+length, and newer changes that overlap with older ones are saved for the next
+iteration.
+
+Usage:
+    python3 granska.py input.txt >output.txt 2>log.txt
+
+The log file can be used to diagnose problems, because the API has some quirks
+and I am not certain this code covers all corner cases.
+"""
+
 import sys
 import html
 from collections import OrderedDict
@@ -27,15 +42,14 @@ def check_text(text):
     r = requests.post(
             'https://skrutten.csc.kth.se/granskaapi/scrutinize.php',
             data={'text': text})
-    #return ET.fromstring(html.unescape(r.text))
     xml = html.unescape(r.text)
     # NOTE: seems there is something weird with the API, sometimes the final
     # end tag is left out.
     if '</Root>' not in xml:
         xml = xml + '</Root>'
 
-    #print(xml)
-    #sys.exit(0)
+    # print(xml)
+    # sys.exit(0)
     try:
         return ET.fromstring(xml), xml
     except ET.ParseError as e:
@@ -45,6 +59,21 @@ def check_text(text):
 
 
 def correct_text(text):
+    """Correct a text (may be a single sentence) using Granska's API
+
+    The text will be passed through the Granska API once. Use
+    correct_text_iterative() if you want to iteratively call Granska until
+    no further changes are made. This function handles overlapping suggestions
+    for changes by accepting the smallest one, and thus may under-correct.
+
+    Args:
+        text -- str containing text to be corrected
+
+    Returns:
+        tuple(
+            int n_corrections
+            str containing space-separated tokens of corrected text)
+    """
     root, xml = check_text(text)
     sentence_contents = OrderedDict()
     for s in root.findall('s'):
@@ -55,6 +84,8 @@ def correct_text(text):
             token = ''.join(unhack_table.get(c, c) for c in w.text)
             ws[int(w.get('no'))] = token
     scrutinizer = root.find('scrutinizer')
+    n_corrections = 0
+    modified = set()
 
     def to_str():
         return ' '.join(
@@ -62,11 +93,21 @@ def correct_text(text):
                 for ref, sentence in sentence_contents.items()
                 for no, form in sentence.items())
 
+    def gramerror_length(gramerror):
+        marked_section = gramerror.find('marked_section')
+        mark = marked_section.find('mark')
+        begin = int(mark.get('begin')) - 2
+        end = int(mark.get('end')) - 2
+        return 1+end-begin
+ 
     for s in scrutinizer.findall('s'):
         ref = int(s.get('ref'))
         gramerrors = s.find('gramerrors')
         if gramerrors:
-            for gramerror in gramerrors.findall('gramerror'):
+            gramerror_list = sorted(
+                    gramerrors.findall('gramerror'),
+                    key=gramerror_length)
+            for gramerror in gramerror_list:
                 marked_section = gramerror.find('marked_section')
                 mark = marked_section.find('mark')
                 begin = int(mark.get('begin')) - 2
@@ -77,11 +118,14 @@ def correct_text(text):
                     replacement = ''.join(top_suggestion.itertext())
                     # If this span or parts of it has been fixed previously,
                     # do not modify it again.
-                    if all(i in sentence_contents[ref]
-                           for i in range(begin, end+1)):
+                    if all(((i in sentence_contents[ref]) and
+                             (i not in modified))
+                            for i in range(begin, end+1)):
+                        n_corrections += 1
                         old = ' '.join(sentence_contents[ref][i]
                                        for i in range(begin, end+1))
                         sentence_contents[ref][begin] = replacement
+                        modified |= set(range(begin, end+1))
                         for i in range(begin+1, end+1):
                             del sentence_contents[ref][i]
                         print(f'FIX {ref} {begin}:{end}: {old} --> '
@@ -91,15 +135,32 @@ def correct_text(text):
                     else:
                         print('SKIP', file=sys.stderr, flush=True)
 
+    return n_corrections, to_str()
 
 
-    return to_str()
+def correct_text_iterative(text, max_iter=5):
+    """Correct text by iteratively passing it through Granska.
+
+    Args:
+        text -- str: text to correct
+        max_iter -- int: maximum number of passes
+
+    Returns:
+        str: corrected text as space-separated tokens
+    """
+    for i in range(max_iter):
+        n_corrections, text = correct_text(text)
+        print(f'ITERATION {i} fixed {n_corrections} errors',
+                file=sys.stderr, flush=True)
+        if n_corrections == 0:
+            break
+    return text
 
 
 def main():
     with open(sys.argv[1]) as f:
         for sentence in f:
-            corrected = correct_text(sentence.strip())
+            corrected = correct_text_iterative(sentence.strip())
             print(corrected)
 
 
