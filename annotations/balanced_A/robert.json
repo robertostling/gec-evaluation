@@ -1,0 +1,1735 @@
+{
+    "data": [
+        {
+            "original": "Jag k\u00e4nnade att jag tycker om henne men det fanns flera \u00e5r till jag fr\u00e5gade henne utt .",
+            "reference": "Jag k\u00e4nde att jag tyckte om henne , men det dr\u00f6jde flera \u00e5r tills jag bj\u00f6d ut henne .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag k\u00e4nnare att jag tycker om henne men det fanns flera \u00e5r till mig fr\u00e5gade henne ut ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag k\u00e4nde att jag tyckte om henne , men det dr\u00f6jde flera \u00e5r tills jag bj\u00f6d ut henne ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag k\u00e4nde att jag tycker om henne men det fanns flera \u00e5r tills jag fr\u00e5gade henne utt ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag k\u00e4nde att jag tyckte om henne , men det tog flera \u00e5r tills jag bj\u00f6d ut henne ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag k\u00e4nde att jag gillade henne men det fanns flera \u00e5r kvar tills jag fr\u00e5gade henne ut ."
+                }
+            }
+        },
+        {
+            "original": "Nu saknar jag den .",
+            "reference": "Nu saknar jag den .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Nu saknar jag den ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Nu saknar jag den ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Nu saknar jag den ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Nu saknar jag den ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Nu saknar jag den ."
+                }
+            }
+        },
+        {
+            "original": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans .",
+            "reference": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Mitt hus har ett stort k\u00f6k d\u00e4r jag och mina br\u00f6der brukar laga mat tillsammans ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Hemma har jag ett stort k\u00f6k som jag lagar mat i och d\u00e4r jag och mina br\u00f6der brukar laga mat tillsammans ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans ."
+                }
+            }
+        },
+        {
+            "original": "det \u00e4r stora skillnader .",
+            "reference": "Det \u00e4r stora skillnader .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "det \u00e4r stora skillnader ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det \u00e4r stora skillnader ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det \u00e4r stora skillnader ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det \u00e4r stora skillnader ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det \u00e4r stora skillnader ."
+                }
+            }
+        },
+        {
+            "original": "Min f\u00f6rsta k\u00e4rlek i 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r .",
+            "reference": "Min f\u00f6rsta k\u00e4rlek 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Min f\u00f6rsta k\u00e4rlek i 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Min f\u00f6rsta k\u00e4rlek var 1999 ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Min f\u00f6rsta k\u00e4rlek fr\u00e5n 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Min f\u00f6rsta k\u00e4rlek tr\u00e4ffade jag 1999 och det var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Min f\u00f6rsta k\u00e4rlek i 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                }
+            }
+        },
+        {
+            "original": "Det ska bli j\u00e4ttroligt d\u00e5 .",
+            "reference": "Det ska bli j\u00e4tteroligt d\u00e5 .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det ska bli j\u00e4tteroligt d\u00e5 ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det ska bli j\u00e4tteroligt ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det ska bli j\u00e4tteroligt d\u00e5 ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det ska bli j\u00e4ttekul d\u00e5 ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det kommer att bli j\u00e4ttetrevligt d\u00e5 ."
+                }
+            }
+        },
+        {
+            "original": "Jag ska jobbar i B-land eftersom jag m\u00e5ste flytta till B-stad .",
+            "reference": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag ska ha jobbat iB-land eftersom jag m\u00e5ste flytta till B-stad ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                }
+            }
+        },
+        {
+            "original": "ocks\u00e5 odlar vi gransaker tumat gorka papprika .",
+            "reference": "Vi odlar ocks\u00e5 gr\u00f6nsaker : tomat , gurka , paprika .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "ocks\u00e5 odlar vi gransaker tumat gurka papprika ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Vi odlar ocks\u00e5 gr\u00f6nsaker : tomat , gurka och paprika ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Vi odlar ocks\u00e5 gransaker , tumat gorka och papprika ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Vi odlar ocks\u00e5 gr\u00f6nsaker : tomat , gurka , paprika ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Vi odlar ocks\u00e5 gr\u00f6nsaker som tomater och gurkor ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e5ng tid i skolan varje dagen .",
+            "reference": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e5ng tid i skolan varje dag .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e5ng tid i skolan varje dag ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r vi i skolan l\u00e4nge varje dag ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e4nge i skolan varje dag ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e4nge i skolan varje dag ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e4nge i skolan varje dag ."
+                }
+            }
+        },
+        {
+            "original": "Jag bor i Tuna Kvarnv\u00e4gen 14 .",
+            "reference": "Jag bor i Tuna , Kvarnv\u00e4gen 14 .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag bor i Tuna Kvarnv\u00e4gen 14 ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag bor i Tuna , Kvarnv\u00e4gen 14 ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag bor i Tuna p\u00e5 Kvarnv\u00e4gen 14 ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag bor p\u00e5 Kvarnv\u00e4gen 14 i Tuna ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag bor i Tuna p\u00e5 Kvarnv\u00e4gen 14 ."
+                }
+            }
+        },
+        {
+            "original": "Jag tycker att det \u00e4r respekt att man ge pengar i present och det har blivet som tradition hos \u00e5s .",
+            "reference": "Jag tycker att det \u00e4r respektfullt att man ger pengar i present och det har blivit som en tradition hos oss .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag tycker att det \u00e4r respekt att man ge pengar i present och det har blivet som tradition hos \u00e5s ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag tycker att det \u00e4r respektfullt att man ger pengar i present och det har blivit som en tradition hos oss ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag tycker att det \u00e4r respekt att ge pengar i present och det har blivit som tradition hos \u00e5s ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag tycker att det \u00e4r fint att ge pengar i present och det har blivit en tradition hos oss ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag tycker att det \u00e4r respektfullt att ge pengar i present och det har blivit tradition hos oss ."
+                }
+            }
+        },
+        {
+            "original": "Skriv mig ditt nya f\u00f6rslag eller argumentera det f\u00f6rsta .",
+            "reference": "Skriv mig ett nytt f\u00f6rslag eller argumentera f\u00f6r det f\u00f6rsta .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Skriv mig ditt nya f\u00f6rslag eller argumentera det f\u00f6rsta ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Skriv ett nytt f\u00f6rslag eller argumentera f\u00f6r det f\u00f6rsta ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Skriv ditt nya f\u00f6rslag eller argumentera f\u00f6r det f\u00f6rsta ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Skriv ett nytt f\u00f6rslag till mig eller f\u00f6rklara varf\u00f6r det f\u00f6rsta \u00e4r bra ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Skriv mig ditt nya f\u00f6rslag eller argumentera f\u00f6r det f\u00f6rsta ."
+                }
+            }
+        },
+        {
+            "original": "Hej lila v\u00e4n !",
+            "reference": "Hej lilla v\u00e4n !",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Hej lila v\u00e4n !"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Hej lilla v\u00e4n !"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Hej lila v\u00e4n !"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Hej lilla v\u00e4n !"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Hej lilla v\u00e4n !"
+                }
+            }
+        },
+        {
+            "original": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta relation p\u00e5 elakt s\u00e4tt .",
+            "reference": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta en relation p\u00e5 ett elakt s\u00e4tt .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta relation p\u00e5 elakt s\u00e4tt ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta en relation p\u00e5 ett elakt s\u00e4tt ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta en relation p\u00e5 elakt s\u00e4tt ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det \u00e4r oschysst att g\u00f6ra s\u00e5 att en relation sp\u00e5rar ur eller att bryta den p\u00e5 ett elakt s\u00e4tt ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta relationer p\u00e5 elakt s\u00e4tt ."
+                }
+            }
+        },
+        {
+            "original": "tv\u00e4rtom Han var j\u00e4tte social och sn\u00e4ll .",
+            "reference": "Han var tv\u00e4rtom j\u00e4ttesocial och sn\u00e4ll .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "tv\u00e4rtom Han var j\u00e4ttesocial och sn\u00e4ll ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Han var tv\u00e4rtom j\u00e4ttesocial och sn\u00e4ll ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "tv\u00e4rtom Han var j\u00e4tte social och sn\u00e4ll ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Han var tv\u00e4rtom v\u00e4ldigt social och sn\u00e4ll ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Tv\u00e4rtom var han j\u00e4tte social och sn\u00e4ll ."
+                }
+            }
+        },
+        {
+            "original": "Komvux Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kominusira med folken .",
+            "reference": "Komvux Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kommunisera med folk .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Komvux Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kominusira med folken ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kommunicera med folk ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Komvux Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kominusira med folk ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Komvux Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige f\u00f6r att l\u00e4ra sig svenska och att kommunicera med folk ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kommunicera med folk ."
+                }
+            }
+        },
+        {
+            "original": "En g\u00e5ng , jag gick d\u00e4r med min man och mina barnen .",
+            "reference": "En g\u00e5ng gick jag dit med min man och mina barn .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "En g\u00e5ng , jag gick d\u00e4r med min man och mina barn ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag gick dit med min man och mina barn en g\u00e5ng ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "En g\u00e5ng , jag gick d\u00e4r med min man och mina barn ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "En g\u00e5ng gick jag dit tillsammans med min man och mina barn ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "En g\u00e5ng gick jag d\u00e4r med min man och mina barn ."
+                }
+            }
+        },
+        {
+            "original": "Du m\u00e5ste tr\u00e4ffa och perata med de .",
+            "reference": "Du m\u00e5ste tr\u00e4ffa dem och prata med dem .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Du m\u00e5ste tr\u00e4ffa och prata med dem ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Du m\u00e5ste tr\u00e4ffa dem och prata med dem ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Du m\u00e5ste tr\u00e4ffa och prata med de ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Du m\u00e5ste umg\u00e5s med dem och prata med dem ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Du m\u00e5ste tr\u00e4ffa och prata med dem ."
+                }
+            }
+        },
+        {
+            "original": "Jag komma ih\u00e5g n\u00e4r jag flyttade till Sverige .",
+            "reference": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag komma ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag minns n\u00e4r jag flyttade till Sverige ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                }
+            }
+        },
+        {
+            "original": "Att ger Maria och sin pengar \u00e4r ett bra f\u00f6rslag men jag tycker att det g\u00e5r inte s\u00e5 bra som br\u00f6llopspresent .",
+            "reference": "Att ge Maria och hennes man pengar \u00e4r ett bra f\u00f6rslag men jag tycker inte att det passar s\u00e5 bra som br\u00f6llopspresent .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Att ge Maria och sina pengar \u00e4r ett bra f\u00f6rslag men jag tycker att det inte g\u00e5r s\u00e5 bra som br\u00f6llopspresent ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Att ge Maria och hennes man pengar \u00e4r ett bra f\u00f6rslag men jag tycker inte att det passar s\u00e5 bra som br\u00f6llopspresent ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Att Maria ger sin pengar \u00e4r ett bra f\u00f6rslag men jag tycker att det inte g\u00e5r s\u00e5 bra som br\u00f6llopspresent ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Att ge pengar till Maria och hennes man \u00e4r ett bra f\u00f6rslag men jag tycker inte att det passar s\u00e5 bra som br\u00f6llopspresent ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Att ge Maria och hennes pengar som br\u00f6llopspresent \u00e4r ett bra f\u00f6rslag , men jag tycker inte att det \u00e4r en s\u00e5 bra id\u00e9 ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6rst kan du kommer i tid och du skulle kunna ta p\u00e5 fina kl\u00e4der .",
+            "reference": "F\u00f6rst kan du komma i tid , och du skulle kunna ta p\u00e5 dig fina kl\u00e4der .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "F\u00f6rst kan du kommer i tid och du skulle kunna ta p\u00e5 fina kl\u00e4der ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "F\u00f6rst kan du komma i tid , och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "F\u00f6rst kan du komma i tid och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Till att b\u00f6rja med ska du komma i tid , och det \u00e4r bra om du har p\u00e5 dig fina kl\u00e4der ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "F\u00f6rst och fr\u00e4mst , kom i tid och kl\u00e4 dig fin ."
+                }
+            }
+        },
+        {
+            "original": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstner s\u00e5 de ska h\u00e5lla den och gl\u00f6m ej den h\u00e4r v\u00e4rdefull g\u00e5va .",
+            "reference": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 att de ska beh\u00e5lla den och inte gl\u00f6mma den h\u00e4r v\u00e4rdefulla g\u00e5van .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 de ska h\u00e5lla den och gl\u00f6m ej den h\u00e4r v\u00e4rdefull g\u00e5va ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 att de ska beh\u00e5lla den och inte gl\u00f6mma den h\u00e4r v\u00e4rdefulla g\u00e5van ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 de ska h\u00e5lla den och gl\u00f6m ej att den h\u00e4r \u00e4r en v\u00e4rdefull g\u00e5va ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "D\u00e5 tycker jag att vi ger en tavla av en k\u00e4nd konstn\u00e4r s\u00e5 att de beh\u00e5ller den och inte gl\u00f6mmer bort v\u00e5r fina present ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 att de ska kunna h\u00e5lla den och gl\u00f6mma bort den h\u00e4r v\u00e4rdefulla g\u00e5van ."
+                }
+            }
+        },
+        {
+            "original": "Eftersom jag trivs dit och st\u00e5r varandra n\u00e4ra med chefen , skafade jag heltid jobb dit som servitris .",
+            "reference": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra , skaffade jag ett heltidsjobb d\u00e4r som servitris .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Eftersom jag trivs dit och st\u00e5r varandra n\u00e4ra med chefen , skaffade jag heltidjobb dit som servitris ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra   skaffade jag ett heltidsjobb d\u00e4r som servitris ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Eftersom jag trivs dit och st\u00e5r varandra n\u00e4ra med chefen , skafade jag dit jobb heltid som servitris ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Eftersom jag trivs d\u00e4r och k\u00e4nner chefen v\u00f6l s\u00e5 skaffade jag ett heltidsjobb d\u00e4r som servitris ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Eftersom jag trivs d\u00e4r och st\u00e5r varandra n\u00e4ra med chefen , skaffade jag ett heltidsjobb d\u00e4r som servitris ."
+                }
+            }
+        },
+        {
+            "original": "11_11_1111 Till : Kursverksamheten Hej !",
+            "reference": "11_11_1111 Till : Kursverksamheten Hej !",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "11_11_1111 Till : Kursverksamheten Hej !"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "11_11_1111 Till Kursverksamheten : Hej !"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "11_11_1111 Till : Kursverksamheten Hej !"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "11_11_1111 Till : Kursverksamheten hej !"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "11_11_1111 Till : Kursverksamheten Hej !"
+                }
+            }
+        },
+        {
+            "original": "Jag vet inte varf\u00f6r jag inte deitog aktivti mitt land .",
+            "reference": "Jag vet inte varf\u00f6r jag inte deltog aktivt i mitt land .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag vet inte varf\u00f6r jag inte deltog aktivt mitt land ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag vet inte varf\u00f6r jag inte deltog aktivt i mitt land ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag vet inte varf\u00f6r jag inte deitog aktivti mitt land ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag vet inte varf\u00f6r jag inte deltog aktivt i mitt land ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag vet inte varf\u00f6r jag inte deltog i aktiviteterna i mitt land ."
+                }
+            }
+        },
+        {
+            "original": "Glom inte du kan \u00e4ven f\u00f6rs\u00f6ka att bjuda dina granner f\u00f6r middag eller fika p\u00e5 helgen .",
+            "reference": "Gl\u00f6m inte att du \u00e4ven kan f\u00f6rs\u00f6ka att bjuda dina grannar p\u00e5 middag eller fika p\u00e5 helgen .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Gl\u00f6m inte du kan \u00e4ven f\u00f6rs\u00f6ka bjuda dina grannar f\u00f6r middag eller fika p\u00e5 helgen ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Gl\u00f6m inte att du \u00e4ven kan f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika p\u00e5 helgen ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Glom inte , du kan \u00e4ven f\u00f6rs\u00f6ka att bjuda dina grannar p\u00e5 middag eller fika p\u00e5 helgen ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Gl\u00f6m inte att du ocks\u00e5 kan f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika under helgen ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Gl\u00f6m inte att du ocks\u00e5 kan f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika p\u00e5 helgen ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6r det andra , gillar du quiz nights ?",
+            "reference": "F\u00f6r det andra , gillar du quiz nights ?",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "F\u00f6r det andra , gillar du quiz tights ?"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "F\u00f6r det andra , gillar du quiz nights ?"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "F\u00f6r det andra , gillar du quiz nights ?"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "F\u00f6r det andra , gillar du quiz nights ?"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "F\u00f6r det andra , gillar du quizkv\u00e4llar ?"
+                }
+            }
+        },
+        {
+            "original": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5det .",
+            "reference": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger mitt i omr\u00e5det ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket d\u00e4r jag bor ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de ."
+                }
+            }
+        },
+        {
+            "original": "P\u00e5 dagen till mig och Maria mycket bra .",
+            "reference": "Den dagen var mycket bra f\u00f6r mig och Maria .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "P\u00e5 dagen till mig och Maria mycket bra ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Den dagen var mycket bra f\u00f6r mig och Maria ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "P\u00e5 dagen f\u00f6r mig och Maria mycket bra ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Den dagen var v\u00e4ldigt bra f\u00f6r mig och Maria ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "P\u00e5 dagen gick det mycket bra f\u00f6r mig och Maria ."
+                }
+            }
+        },
+        {
+            "original": "Forl\u00e5t att du kan inte hitta nya vanner och jag hoppas att min tips ska hj\u00e4lper dig f\u00f6r att hitta nya kompisar .",
+            "reference": "Jag \u00e4r ledsen att du inte kan hitta nya v\u00e4nner och jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "F\u00f6rl\u00e5t att du inte kan hitta nya vanner och jag hoppas att min tips ska ha hj\u00e4lpt dig f\u00f6r att hitta nya kompisar ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag \u00e4r ledsen att du inte kan hitta nya v\u00e4nner och jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Forl\u00e5t att du inte kan hitta nya v\u00e4nner och jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det \u00e4r synd att du inte hittar nya v\u00e4nner men jag hoppas att mina tips ska hj\u00e4lpa dig med det ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "F\u00f6rl\u00e5t att du inte kan hitta nya v\u00e4nner . Jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar ."
+                }
+            }
+        },
+        {
+            "original": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , s\u00e5 det beror om hur mycket har jag tid .",
+            "reference": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , s\u00e5 det beror p\u00e5 hur mycket har jag tid .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , s\u00e5 det beror om hur mycket har jag tid ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , s\u00e5 det beror p\u00e5 hur mycket tid jag har ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , s\u00e5 det beror p\u00e5 hur mycket tid jag har ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , beroende p\u00e5 hur mycket tid jag har ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Ibland sitter jag d\u00e4r i tre timmar och ibland i tv\u00e5 , s\u00e5 det beror p\u00e5 hur mycket tid jag har ."
+                }
+            }
+        },
+        {
+            "original": "Dessutom nu jag l\u00e4ra mig m\u00e5nga saker och jag kan ocks\u00e5 prata svenska .",
+            "reference": "Dessutom , nu l\u00e4r jag mig m\u00e5nga saker och jag kan ocks\u00e5 prata svenska .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Dessutom nu jag l\u00e4ra mig m\u00e5nga saker och jag kan ocks\u00e5 prata svenska ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Dessutom l\u00e4r jag mig m\u00e5nga saker nu och jag kan ocks\u00e5 prata svenska ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Dessutom ska jag l\u00e4ra mig m\u00e5nga saker och jag kan ocks\u00e5 prata svenska ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Dessutom l\u00e4r jag mig m\u00e5nga saker nu och jag har ocks\u00e5 l\u00e4rt mig tala svenska ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Dessutom l\u00e4r jag mig m\u00e5nga saker nu och jag kan ocks\u00e5 prata svenska ."
+                }
+            }
+        },
+        {
+            "original": "Jag heter Anna och jag kommer fr\u00e5n B-hemland .",
+            "reference": "Jag heter Anna och jag kommer fr\u00e5n B-hemland .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag heter Anna och jag kommer fr\u00e5n B-hemland ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag heter Anna och jag kommer fr\u00e5n B-hemland ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag heter Anna och jag kommer fr\u00e5n B-hemland ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag heter Anna och kommer fr\u00e5n B-hemland ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag heter Anna och jag kommer fr\u00e5n B-landet ."
+                }
+            }
+        },
+        {
+            "original": "Jag har h\u00f6rgt du kallad till intervju och jag har lite r\u00e5d till dig och du kan g\u00f6ra de$ r\u00e5den .",
+            "reference": "Jag har h\u00f6rt att du \u00e4r kallad till intervju , och jag har lite r\u00e5d till dig , och du kan f\u00f6lja de r\u00e5den .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag har h\u00f6gt du kallad till intervju och jag har lite r\u00e5d till dig och du kan g\u00f6ra de $ r\u00e5den ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag har h\u00f6rt att du \u00e4r kallad till intervju , och jag har lite r\u00e5d till dig som du kan f\u00f6lja ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag har h\u00f6rt att du \u00e4r kallad till intervju och jag har lite r\u00e5d till dig och du kan g\u00f6ra de$ r\u00e5den ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag har h\u00f6rt att du ska p\u00e5 intervju och har n\u00e5gra r\u00e5d till dig som du kan f\u00f6lja ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag har h\u00f6rt att du kallats till intervju och jag har lite r\u00e5d till dig som du kan f\u00f6lja ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6rsta tip \u00e4r det att kom i tiden d\u00e4rf\u00f6r att det inte g\u00f6r bra f\u00f6r att komma f\u00f6r sent .",
+            "reference": "F\u00f6rsta tipset \u00e4r att komma i tid , f\u00f6r det \u00e4r inte bra att komma f\u00f6r sent .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "F\u00f6rsta tid \u00e4r det att komma i tiden d\u00e4rf\u00f6r att det inte g\u00f6r bra f\u00f6r att komma f\u00f6r sent ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "F\u00f6rsta tipset \u00e4r att komma i tid , f\u00f6r det \u00e4r inte bra att komma sent ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Mitt f\u00f6rsta tips \u00e4r att komma i tiden d\u00e4rf\u00f6r att det inte g\u00f6r sig bra f\u00f6r att komma f\u00f6r sent ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "F\u00f6rsta tipset \u00e4r att komma i tid , f\u00f6r det \u00e4r inte bra att komma f\u00f6r sent ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "F\u00f6rsta tipset \u00e4r att komma i tid d\u00e4rf\u00f6r att det inte ser bra ut att komma f\u00f6r sent ."
+                }
+            }
+        },
+        {
+            "original": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig .",
+            "reference": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                }
+            }
+        },
+        {
+            "original": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade p\u00e5 oss .",
+            "reference": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade han p\u00e5 oss .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade p\u00e5 oss ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade han p\u00e5 oss ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Han var min brors v\u00e4n , som d\u00e5 och d\u00e5 h\u00e4lsade p\u00e5 oss ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Han var min brors v\u00e4n och h\u00e4lsade p\u00e5 oss d\u00e5 och d\u00e5 ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Han var min brors v\u00e4n och d\u00e5 och d\u00e5 h\u00e4lsade han p\u00e5 oss ."
+                }
+            }
+        },
+        {
+            "original": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig .",
+            "reference": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                }
+            }
+        },
+        {
+            "original": "Jag l\u00f6var !",
+            "reference": "Jag lovar !",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag l\u00f6var !"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag lovar !"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag l\u00f6var !"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag lovar !"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag lovar !"
+                }
+            }
+        },
+        {
+            "original": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bodde med min sambo .",
+            "reference": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att jag bodde med min sambo ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                }
+            }
+        },
+        {
+            "original": "Min f\u00f6rsta intryck Det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att k\u00e4nna ett nytt land .",
+            "reference": "Mina f\u00f6rsta intryck Det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att l\u00e4ra k\u00e4nna ett nytt land .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Min f\u00f6rsta intryck Det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att k\u00e4nna ett nytt land ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Mina f\u00f6rsta intryck var att det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att l\u00e4ra k\u00e4nna ett nytt land ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Min f\u00f6rsta intryck Det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att k\u00e4nna ett nytt land ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Mina f\u00f6rsta intryck Det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att l\u00e4ra k\u00e4nna ett nytt land ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Mitt f\u00f6rsta intryck var att det var sv\u00e5rt att l\u00e4mna min familj och mitt land , men det var intressant att l\u00e4ra k\u00e4nna ett nytt land ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6r 3 \u00e5r sen kom jag till Sveriga .",
+            "reference": "F\u00f6r 3 \u00e5r sen kom jag till Sverige .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "F\u00f6r 3 \u00e5r sen kom jag till Sverige ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "F\u00f6r 3 \u00e5r sen kom jag till Sverige ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "F\u00f6r 3 \u00e5r sen kom jag till Sverige ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "F\u00f6r tre \u00e5r sedan kom jag till Sverige ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "F\u00f6r tre \u00e5r sedan kom jag till Sverige ."
+                }
+            }
+        },
+        {
+            "original": "D\u00e4r kan du tr\u00e4ffa m\u00e5ng sn\u00e4lla kvinnor och umg\u00e5s med de .",
+            "reference": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med dem .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5ngsn\u00e4lla kvinnor och umg\u00e5s med dem ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med dem ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med de ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga trevliga kvinnor som du kan umg\u00e5s med ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med dem ."
+                }
+            }
+        },
+        {
+            "original": "kollar p\u00e5 tinder !",
+            "reference": "Kolla p\u00e5 Tinder !",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "kollar p\u00e5 tinder !"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Kolla p\u00e5 Tinder !"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Kollar p\u00e5 Tinder !"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Kolla p\u00e5 Tinder !"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag kollar p\u00e5 tinder !"
+                }
+            }
+        },
+        {
+            "original": "F\u00f6r det f\u00f6rsta att det bra f\u00f6r mig att ha en bill eftersom jag \u00e4r student och har stor familig .",
+            "reference": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha en bil eftersom jag \u00e4r student och har stor familj .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "F\u00f6r det f\u00f6rsta att det bra f\u00f6r mig att ha en bill eftersom jag \u00e4r student och har stor familig ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha en bil eftersom jag \u00e4r student och har stor familj ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "F\u00f6r det f\u00f6rsta att det \u00e4r bra f\u00f6r mig att ha en bill eftersom jag \u00e4r student och \u00e4r stor och familig ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha bil eftersom jag \u00e4r student med stor familj ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha en bil eftersom jag \u00e4r student och har en stor familj ."
+                }
+            }
+        },
+        {
+            "original": "David tyker om att laga mat i sin fritid .",
+            "reference": "David tycker om att laga mat p\u00e5 sin fritid .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "David tycker om att laga mat i sin fritid ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "David tycker om att laga mat p\u00e5 sin fritid ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "David tycker om att laga mat p\u00e5 sin fritid ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "David gillar att laga mat p\u00e5 sin fritid ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "David tycker om att laga mat i sin fritid ."
+                }
+            }
+        },
+        {
+            "original": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent ska vi ge till Karin .",
+            "reference": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent ska vi ge till Karin ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vad vi ska ge f\u00f6r br\u00f6llopspresent till Karin ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin ."
+                }
+            }
+        },
+        {
+            "original": "Det var l\u00e5ng tid jag horde fr\u00e5n dig , jag missar dig mycket .",
+            "reference": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det var l\u00e5ng tid jag h\u00f6rde fr\u00e5n dig , jag missar dig mycket ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det var l\u00e4nge jag horde fr\u00e5n dig , jag missar dig mycket ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig och jag saknar dig mycket ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket ."
+                }
+            }
+        },
+        {
+            "original": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra .",
+            "reference": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r b\u00e4ttre ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r b\u00e4ttre ."
+                }
+            }
+        },
+        {
+            "original": "Om du vill sj\u00e4lv , vi kommer att se det \u00e4r inte s\u00e5 sv\u00e5rt !",
+            "reference": "Om du sj\u00e4lv vill , kommer du att se det inte \u00e4r s\u00e5 sv\u00e5rt !",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Om du vill sj\u00e4lv , vi kommer att se det \u00e4r inte s\u00e5 sv\u00e5rt !"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Om du sj\u00e4lv vill kommer du att se det inte \u00e4r s\u00e5 sv\u00e5rt !"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Om du sj\u00e4lv vill , vi kommer att se det \u00e4r inte s\u00e5 sv\u00e5rt !"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Om du sj\u00e4lv vill s\u00e5 kommer du att se att det inte \u00e4r s\u00e5 sv\u00e5rt !"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Om du vill se det sj\u00e4lv , kommer du att se att det inte \u00e4r s\u00e5 sv\u00e5rt !"
+                }
+            }
+        },
+        {
+            "original": "men inte verkligheten Face to Face .",
+            "reference": "Men inte i verkligheten face to face .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "men inte verkligheten Face to Face ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Men inte i verkligheten ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "men inte verkligheten Face to Face ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Men inte n\u00e4r man ses i verkligheten ansikte mot ansikte ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Men inte i verkligheten ansikte mot ansikte ."
+                }
+            }
+        },
+        {
+            "original": "och hon beh\u00f6ver den s\u00e5 mycket f\u00f6r Maria-gen helsa och vi ska hj\u00e4lpa henne vary dag f\u00f6r syckar 2 timmer .",
+            "reference": "Och hon beh\u00f6ver den s\u00e5 mycket f\u00f6r sin h\u00e4lsa , och vi ska hj\u00e4lpa henne att cykla 2 timmar varje dag .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "och hon beh\u00f6ver den s\u00e5 mycket f\u00f6r Maria-gen hela och vi ska hj\u00e4lpa henne vara dag f\u00f6r suckar 2 timmer ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Och hon beh\u00f6ver den f\u00f6r sin h\u00e4lsa . Vi ska hj\u00e4lpa henne att cykla 2 timmar varje dag ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Hon beh\u00f6ver den s\u00e5 mycket f\u00f6r Maria-gen helsa och vi ska hj\u00e4lpa henne vary dag f\u00f6r 2 timmar ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Och hon beh\u00f6ver den verkligen f\u00f6r sin h\u00e4lsas skull , och vi ska uppmuntra henne att cykla 2 timmar varje dag ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Och hon beh\u00f6ver den s\u00e5 mycket f\u00f6r Maria-genom helsa och vi ska hj\u00e4lpa henne varje dag f\u00f6r 2 timmar ."
+                }
+            }
+        },
+        {
+            "original": "Vad sp\u00e4nnande !",
+            "reference": "Vad sp\u00e4nnande !",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Vad sp\u00e4nnande !"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Vad sp\u00e4nnande !"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Vad sp\u00e4nnande !"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Vad sp\u00e4nnande !"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Vad sp\u00e4nnande !"
+                }
+            }
+        },
+        {
+            "original": "Jag \u00e4r glad att h\u00f6ra ett gott nyhet att du har f\u00e5t ett jobb och bor i trevligt omr\u00e5de vad fint !",
+            "reference": "Jag \u00e4r glad att h\u00f6ra den goda nyheten att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de , vad fint !",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag \u00e4r glad att h\u00f6ra en god nyhet att du har f\u00e5t ett jobb och bor i trevligt omr\u00e5de vad fint !"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag \u00e4r glad att h\u00f6ra den goda nyheten att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de . Vad fint !"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag \u00e4r glad att h\u00f6ra ett gott nyhet att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de , vad fint !"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det var kul att h\u00f6ra den glada nyheten att du har f\u00e5tt jobb och bor i ett trevligt omr\u00e5de , vad fint !"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag \u00e4r glad att h\u00f6ra att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de . Vad fint !"
+                }
+            }
+        },
+        {
+            "original": "Ofta p\u00e5 s\u00f6ndagar \u00e5kte vi bilen med hela familjen trotts att det antingen regnade eller solen skinade .",
+            "reference": "P\u00e5 s\u00f6ndagarna \u00e5kte vi ofta bil dit med hela familjen oavsett om det regnade eller om solen sken .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Ofta p\u00e5 s\u00f6ndagar \u00e5kte vi bilen med hela familjen trotts att det antingen regnade eller solen skinande ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "P\u00e5 s\u00f6ndagarna \u00e5kte vi ofta bil dit med hela familjen oavsett om det regnade eller om solen sken ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Ofta p\u00e5 s\u00f6ndagar \u00e5kte vi bilen med hela familjen trotts att det antingen regnade eller solen sken ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "P\u00e5 s\u00f6ndagarna \u00e5kte vi ofta bil dit med hela familjen oavsett om det regnade eller om solen sken ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Ofta p\u00e5 s\u00f6ndagar \u00e5kte vi bilen med hela familjen trots att det antingen regnade eller solen sken ."
+                }
+            }
+        },
+        {
+            "original": "Jag gl\u00f6mda inte hur n\u00f6jd var mig n\u00e4r jag har kommit in .",
+            "reference": "Jag gl\u00f6mmer inte hur n\u00f6jd jag blev n\u00e4r jag kom in .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag gl\u00f6mda inte hur n\u00f6jd var mig n\u00e4r jag har kommit in ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag gl\u00f6mmer inte hur n\u00f6jd jag blev n\u00e4r jag kom in ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag gl\u00f6mmer inte hur n\u00f6jd jag var med mig n\u00e4r jag har kommit in ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag gl\u00f6mmer inte hur n\u00f6jd jag blev n\u00e4r jag kom in ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag gl\u00f6mde inte hur n\u00f6jd jag var n\u00e4r jag kom in ."
+                }
+            }
+        },
+        {
+            "original": "Jag f\u00f6rst\u00e5r presic vad du k\u00e4nner men tror mig att din h\u00e5rd tid kommer att f\u00f6rsvinna efter jatte kort tid .",
+            "reference": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner men , tro mig , din h\u00e5rda tid kommer att f\u00f6rsvinna efter en j\u00e4ttekort tid .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag f\u00f6rst\u00e5r presic vad du k\u00e4nner men tror mig att din h\u00e5rda tid kommer att f\u00f6rsvinna efter satte kort tid ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner men , tro mig , din h\u00e5rda tid kommer att vara \u00f6ver snart ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag f\u00f6rst\u00e5r presic vad du k\u00e4nner men tror att din h\u00e5rda tid kommer att f\u00f6rsvinna efter j\u00e4tte kort tid ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner men din h\u00e5rda tid kommer att ta slut mycket snart , tro mig ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner men tro mig att din sv\u00e5ra tid kommer att f\u00f6rsvinna efter mycket kort tid ."
+                }
+            }
+        },
+        {
+            "original": "M\u00e4nniskorna tycker inte samma sak n\u00e4r de ha en relation .",
+            "reference": "M\u00e4nniskor tycker inte samma sak n\u00e4r de har en relation .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "M\u00e4nniskorna tycker inte samma sak n\u00e4r de ha en relation ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "M\u00e4nniskor tycker inte samma sak n\u00e4r de har en relation ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "M\u00e4nniskorna tycker inte samma sak n\u00e4r de ska ha en relation ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "M\u00e4nniskor tycker inte samma sak n\u00e4r de har en relation ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "M\u00e4nniskor tycker inte alltid samma sak n\u00e4r de \u00e4r i en relation ."
+                }
+            }
+        },
+        {
+            "original": "Min fru Emma och min son Peter bor med mig , ibland mormor kommer att stanna med oss flera d\u00e5gar .",
+            "reference": "Min fru Emma och min son Peter bor med mig . Ibland kommer mormor f\u00f6r att stanna med oss flera dagar .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Min fru Emma och min son Peter bor med mig , ibland mormor kommer att stanna med oss flera dagar ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Min fru Emma och min son Peter bor med mig . Ibland kommer mormor f\u00f6r att stanna med oss flera dagar ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Min fru Emma och min son Peter bor med mig , ibland kommer mormor att stanna med oss flera d\u00e5gar ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Min fru Emma och min son Peter bor med mig och ibland kommer mormor och stannar hos oss flera dagar ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Min fru Emma och min son Peter bor med mig . Ibland kommer mormor och stannar hos oss i flera dagar ."
+                }
+            }
+        },
+        {
+            "original": "Hon heter Emma , hon hade svart h\u00e5r och en fint n\u00e4sa .",
+            "reference": "Hon hette Emma , hon hade svart h\u00e5r och en fin n\u00e4sa .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Hon heter Emma , hon hade svart h\u00e5r och en fint n\u00e4sa ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Hon hette Emma , hon hade svart h\u00e5r och en fin n\u00e4sa ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Hon heter Emma , hon hade svart h\u00e5r och en fint n\u00e4sa ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Hon hette Emma och hade svart h\u00e5r och fin n\u00e4sa ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Hon heter Emma , hon har svart h\u00e5r och en fin n\u00e4sa ."
+                }
+            }
+        },
+        {
+            "original": "Det kan ni inte g\u00f6ra !",
+            "reference": "Det kan ni inte g\u00f6ra !",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det kan ni inte g\u00f6ra !"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det kan ni inte g\u00f6ra !"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det kan ni inte g\u00f6ra !"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det kan ni inte g\u00f6ra !"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det kan ni inte g\u00f6ra !"
+                }
+            }
+        },
+        {
+            "original": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familig med sm\u00e5 barn .",
+            "reference": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familij med sm\u00e5 barn .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familig med sm\u00e5 barn ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familj med sm\u00e5 barn ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familjlig familj med sm\u00e5 barn ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag tycker absolut att det \u00e4r mycket viktigt att ha bil f\u00f6r en familj med sm\u00e5 barn ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familj med sm\u00e5 barn ."
+                }
+            }
+        },
+        {
+            "original": "Det var konstig f\u00f6r mig .",
+            "reference": "Det var konstigt f\u00f6r mig .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det var konstigt f\u00f6r mig ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det var konstigt f\u00f6r mig ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det var konstig f\u00f6r mig ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det k\u00e4ndes konstigt f\u00f6r mig ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det var konstigt f\u00f6r mig ."
+                }
+            }
+        },
+        {
+            "original": "Det finns ocks\u00e5 lekaplatser f\u00f6r barnen .",
+            "reference": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det finns ocks\u00e5 lekaplatser f\u00f6r barnen ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det finns ocks\u00e5 lekaplatser f\u00f6r barnen ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                }
+            }
+        }
+    ],
+    "item_order": [
+        43,
+        39,
+        58,
+        47,
+        36,
+        4,
+        9,
+        20,
+        45,
+        42,
+        25,
+        35,
+        56,
+        28,
+        11,
+        14,
+        24,
+        0,
+        31,
+        18,
+        21,
+        16,
+        60,
+        48,
+        12,
+        44,
+        53,
+        41,
+        6,
+        27,
+        52,
+        59,
+        37,
+        7,
+        23,
+        13,
+        8,
+        22,
+        29,
+        34,
+        33,
+        51,
+        26,
+        54,
+        40,
+        38,
+        30,
+        57,
+        61,
+        15,
+        3,
+        17,
+        63,
+        5,
+        50,
+        1,
+        46,
+        55,
+        62,
+        32,
+        2,
+        19,
+        49,
+        10
+    ],
+    "next_item": 1
+}

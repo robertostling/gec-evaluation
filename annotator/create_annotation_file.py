@@ -4,7 +4,10 @@ python3 create_annotation_file.py annotations/round1/test.json data/playing/Nybe
 
 python3 annotator/create_annotation_file.py annotations/round2/robert.json data/playing/Nyberg.CEFR_ABC.dev.orig.round2 data/playing/Nyberg.CEFR_ABC.dev.corr.round2 data/playing/Nyberg.CEFR_ABC.dev.orig.round2.*
 
-python3 annotator/create_annotation_file.py annotations/balanced_A data/balanced_test/Nyberg.CEFR_A.balanced_test.orig.txt data/balanced_test/Nyberg.CEFR_A.balanced_test.corr.txt ...
+python3 annotator/create_annotation_file.py annotations/balanced_A/robert.json data/balanced_test/Nyberg.CEFR_A.balanced_test.orig.txt data/balanced_test/Nyberg.CEFR_A.balanced_test.corr.txt data/balanced_test/Nyberg.CEFR_A.balanced_test.granska data/balanced_test/Nyberg.CEFR_A.balanced_test.mt data/balanced_test/Nyberg.CEFR_A.balanced_test.s2 data/balanced_test/Nyberg.CEFR_A.balanced_test.mw data/balanced_test/Nyberg.CEFR_A.balanced_test.mm 
+
+python3 annotator/create_annotation_file.py annotations/balanced_A/katarina.json data/balanced_test/Nyberg.CEFR_A.balanced_test.orig.txt data/balanced_test/Nyberg.CEFR_A.balanced_test.corr.txt data/balanced_test/Nyberg.CEFR_A.balanced_test.granska data/balanced_test/Nyberg.CEFR_A.balanced_test.mt data/balanced_test/Nyberg.CEFR_A.balanced_test.s2 data/balanced_test/Nyberg.CEFR_A.balanced_test.mw data/balanced_test/Nyberg.CEFR_A.balanced_test.mm 
+
 """
 
 import os

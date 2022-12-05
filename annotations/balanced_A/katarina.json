@@ -1,0 +1,3975 @@
+{
+    "data": [
+        {
+            "original": "Jag k\u00e4nnade att jag tycker om henne men det fanns flera \u00e5r till jag fr\u00e5gade henne utt .",
+            "reference": "Jag k\u00e4nde att jag tyckte om henne , men det dr\u00f6jde flera \u00e5r tills jag bj\u00f6d ut henne .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag k\u00e4nde att jag tyckte om henne , men det gick flera \u00e5r innan jag fr\u00e5gade ut henne ."
+                        }
+                    },
+                    "output": "Jag k\u00e4nnare att jag tycker om henne men det fanns flera \u00e5r till mig fr\u00e5gade henne ut ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag k\u00e4nde att jag tyckte om henne , men det dr\u00f6jde flera \u00e5r tills jag bj\u00f6d ut henne ."
+                        }
+                    },
+                    "output": "Jag k\u00e4nde att jag tyckte om henne , men det dr\u00f6jde flera \u00e5r tills jag bj\u00f6d ut henne ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag k\u00e4nde att jag tyckte om henne men det gick flera \u00e5r tills jag fr\u00e5gade ut henne ."
+                        }
+                    },
+                    "output": "Jag k\u00e4nde att jag tycker om henne men det fanns flera \u00e5r tills jag fr\u00e5gade henne utt ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag k\u00e4nde att jag tyckte om henne , men det tog flera \u00e5r tills jag bj\u00f6d ut henne ."
+                        }
+                    },
+                    "output": "Jag k\u00e4nde att jag tyckte om henne , men det tog flera \u00e5r tills jag bj\u00f6d ut henne ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag k\u00e4nde att jag gillade henne men det dr\u00f6jde flera \u00e5r tills jag fr\u00e5gade ut henne ."
+                        }
+                    },
+                    "output": "Jag k\u00e4nde att jag gillade henne men det fanns flera \u00e5r kvar tills jag fr\u00e5gade henne ut ."
+                }
+            }
+        },
+        {
+            "original": "Nu saknar jag den .",
+            "reference": "Nu saknar jag den .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Nu saknar jag den ."
+                        }
+                    },
+                    "output": "Nu saknar jag den ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Nu saknar jag den ."
+                        }
+                    },
+                    "output": "Nu saknar jag den ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Nu saknar jag den ."
+                        }
+                    },
+                    "output": "Nu saknar jag den ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Nu saknar jag den ."
+                        }
+                    },
+                    "output": "Nu saknar jag den ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Nu saknar jag den ."
+                        }
+                    },
+                    "output": "Nu saknar jag den ."
+                }
+            }
+        },
+        {
+            "original": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans .",
+            "reference": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans ."
+                        }
+                    },
+                    "output": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Mitt hus har ett stort k\u00f6k d\u00e4r jag och mina br\u00f6der brukar laga mat tillsammans ."
+                        }
+                    },
+                    "output": "Mitt hus har ett stort k\u00f6k d\u00e4r jag och mina br\u00f6der brukar laga mat tillsammans ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans ."
+                        }
+                    },
+                    "output": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 2,
+                            "corrected": "Hemma har jag ett stort k\u00f6k och jag och mina br\u00f6der brukar laga mat tillsammans d\u00e4r ."
+                        }
+                    },
+                    "output": "Hemma har jag ett stort k\u00f6k som jag lagar mat i och d\u00e4r jag och mina br\u00f6der brukar laga mat tillsammans ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans ."
+                        }
+                    },
+                    "output": "Mitt hus har ett stort k\u00f6k f\u00f6r att laga mat och jag och mina br\u00f6der brukar laga mat tillsammans ."
+                }
+            }
+        },
+        {
+            "original": "det \u00e4r stora skillnader .",
+            "reference": "Det \u00e4r stora skillnader .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "det \u00e4r stora skillnader ."
+                        }
+                    },
+                    "output": "det \u00e4r stora skillnader ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det \u00e4r stora skillnader ."
+                        }
+                    },
+                    "output": "Det \u00e4r stora skillnader ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det \u00e4r stora skillnader ."
+                        }
+                    },
+                    "output": "Det \u00e4r stora skillnader ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det \u00e4r stora skillnader ."
+                        }
+                    },
+                    "output": "Det \u00e4r stora skillnader ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det \u00e4r stora skillnader ."
+                        }
+                    },
+                    "output": "Det \u00e4r stora skillnader ."
+                }
+            }
+        },
+        {
+            "original": "Min f\u00f6rsta k\u00e4rlek i 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r .",
+            "reference": "Min f\u00f6rsta k\u00e4rlek 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min f\u00f6rsta k\u00e4rlek tr\u00e4ffade jag 1999 . Det var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                        }
+                    },
+                    "output": "Min f\u00f6rsta k\u00e4rlek i 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min f\u00f6rsta k\u00e4rlek var 1999 ."
+                        }
+                    },
+                    "output": "Min f\u00f6rsta k\u00e4rlek var 1999 ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min f\u00f6rsta k\u00e4rlek fr\u00e5n 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                        }
+                    },
+                    "output": "Min f\u00f6rsta k\u00e4rlek fr\u00e5n 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min f\u00f6rsta k\u00e4rlek tr\u00e4ffade jag 1999 och det var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                        }
+                    },
+                    "output": "Min f\u00f6rsta k\u00e4rlek tr\u00e4ffade jag 1999 och det var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min f\u00f6rsta k\u00e4rlek tr\u00e4ffade jag 1999 . Det var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                        }
+                    },
+                    "output": "Min f\u00f6rsta k\u00e4rlek i 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                }
+            }
+        },
+        {
+            "original": "Det ska bli j\u00e4ttroligt d\u00e5 .",
+            "reference": "Det ska bli j\u00e4tteroligt d\u00e5 .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det ska bli j\u00e4tteroligt  ."
+                        }
+                    },
+                    "output": "Det ska bli j\u00e4tteroligt d\u00e5 ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det ska bli j\u00e4tteroligt ."
+                        }
+                    },
+                    "output": "Det ska bli j\u00e4tteroligt ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det ska bli j\u00e4tteroligt ."
+                        }
+                    },
+                    "output": "Det ska bli j\u00e4tteroligt d\u00e5 ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det ska bli j\u00e4ttekul  ."
+                        }
+                    },
+                    "output": "Det ska bli j\u00e4ttekul d\u00e5 ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det kommer att bli j\u00e4ttetrevligt d\u00e5 ."
+                        }
+                    },
+                    "output": "Det kommer att bli j\u00e4ttetrevligt d\u00e5 ."
+                }
+            }
+        },
+        {
+            "original": "Jag ska jobbar i B-land eftersom jag m\u00e5ste flytta till B-stad .",
+            "reference": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                        }
+                    },
+                    "output": "Jag ska ha jobbat iB-land eftersom jag m\u00e5ste flytta till B-stad ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                        }
+                    },
+                    "output": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                        }
+                    },
+                    "output": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                        }
+                    },
+                    "output": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                        }
+                    },
+                    "output": "Jag ska jobba i B-land eftersom jag m\u00e5ste flytta till B-stad ."
+                }
+            }
+        },
+        {
+            "original": "ocks\u00e5 odlar vi gransaker tumat gorka papprika .",
+            "reference": "Vi odlar ocks\u00e5 gr\u00f6nsaker : tomat , gurka , paprika .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vi odlar ocks\u00e5 gr\u00f6nsaker , till exempel tomat gurka och paprika ."
+                        }
+                    },
+                    "output": "ocks\u00e5 odlar vi gransaker tumat gurka papprika ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vi odlar ocks\u00e5 gr\u00f6nsaker : tomat , gurka och paprika ."
+                        }
+                    },
+                    "output": "Vi odlar ocks\u00e5 gr\u00f6nsaker : tomat , gurka och paprika ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vi odlar ocks\u00e5 gransaker , tomat gurka och paprika ."
+                        }
+                    },
+                    "output": "Vi odlar ocks\u00e5 gransaker , tumat gorka och papprika ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vi odlar ocks\u00e5 gr\u00f6nsaker : tomat , gurka , paprika ."
+                        }
+                    },
+                    "output": "Vi odlar ocks\u00e5 gr\u00f6nsaker : tomat , gurka , paprika ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Vi odlar ocks\u00e5 gr\u00f6nsaker som tomater , gurkor och paprika ."
+                        }
+                    },
+                    "output": "Vi odlar ocks\u00e5 gr\u00f6nsaker som tomater och gurkor ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e5ng tid i skolan varje dagen .",
+            "reference": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e5ng tid i skolan varje dag .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det f\u00f6rsta spenderar vi l\u00e5ng tid i skolan varje dag ."
+                        }
+                    },
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e5ng tid i skolan varje dag ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e4nge i skolan varje dag ."
+                        }
+                    },
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r vi i skolan l\u00e4nge varje dag ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e4nge i skolan varje dag ."
+                        }
+                    },
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e4nge i skolan varje dag ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e4nge i skolan varje dag ."
+                        }
+                    },
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e4nge i skolan varje dag ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e4nge i skolan varje dag ."
+                        }
+                    },
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r vi l\u00e4nge i skolan varje dag ."
+                }
+            }
+        },
+        {
+            "original": "Jag bor i Tuna Kvarnv\u00e4gen 14 .",
+            "reference": "Jag bor i Tuna , Kvarnv\u00e4gen 14 .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag bor i Tuna p\u00e5 Kvarnv\u00e4gen 14 ."
+                        }
+                    },
+                    "output": "Jag bor i Tuna Kvarnv\u00e4gen 14 ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag bor i Tuna , Kvarnv\u00e4gen 14 ."
+                        }
+                    },
+                    "output": "Jag bor i Tuna , Kvarnv\u00e4gen 14 ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag bor i Tuna p\u00e5 Kvarnv\u00e4gen 14 ."
+                        }
+                    },
+                    "output": "Jag bor i Tuna p\u00e5 Kvarnv\u00e4gen 14 ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag bor p\u00e5 Kvarnv\u00e4gen 14 i Tuna ."
+                        }
+                    },
+                    "output": "Jag bor p\u00e5 Kvarnv\u00e4gen 14 i Tuna ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag bor i Tuna p\u00e5 Kvarnv\u00e4gen 14 ."
+                        }
+                    },
+                    "output": "Jag bor i Tuna p\u00e5 Kvarnv\u00e4gen 14 ."
+                }
+            }
+        },
+        {
+            "original": "Jag tycker att det \u00e4r respekt att man ge pengar i present och det har blivet som tradition hos \u00e5s .",
+            "reference": "Jag tycker att det \u00e4r respektfullt att man ger pengar i present och det har blivit som en tradition hos oss .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tycker att det \u00e4r respektfullt att man ger pengar i present och det har blivit som tradition hos oss ."
+                        }
+                    },
+                    "output": "Jag tycker att det \u00e4r respekt att man ge pengar i present och det har blivet som tradition hos \u00e5s ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tycker att det \u00e4r respektfullt att man ger pengar i present och det har blivit som en tradition hos oss ."
+                        }
+                    },
+                    "output": "Jag tycker att det \u00e4r respektfullt att man ger pengar i present och det har blivit som en tradition hos oss ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tycker att det \u00e4r respektfullt att ge pengar i present och det har blivit som tradition hos oss ."
+                        }
+                    },
+                    "output": "Jag tycker att det \u00e4r respekt att ge pengar i present och det har blivit som tradition hos \u00e5s ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag tycker att det \u00e4r fint att ge pengar i present och det har blivit en tradition hos oss ."
+                        }
+                    },
+                    "output": "Jag tycker att det \u00e4r fint att ge pengar i present och det har blivit en tradition hos oss ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tycker att det \u00e4r respektfullt att ge pengar i present och det har blivit tradition hos oss ."
+                        }
+                    },
+                    "output": "Jag tycker att det \u00e4r respektfullt att ge pengar i present och det har blivit tradition hos oss ."
+                }
+            }
+        },
+        {
+            "original": "Skriv mig ditt nya f\u00f6rslag eller argumentera det f\u00f6rsta .",
+            "reference": "Skriv mig ett nytt f\u00f6rslag eller argumentera f\u00f6r det f\u00f6rsta .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Skriv ett nytt f\u00f6rslag till mig eller argumentera f\u00f6r det f\u00f6rsta f\u00f6rslaget."
+                        }
+                    },
+                    "output": "Skriv mig ditt nya f\u00f6rslag eller argumentera det f\u00f6rsta ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Skriv ett nytt f\u00f6rslag till mig eller argumentera f\u00f6r det f\u00f6rsta ."
+                        }
+                    },
+                    "output": "Skriv ett nytt f\u00f6rslag eller argumentera f\u00f6r det f\u00f6rsta ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Skriv ditt nya f\u00f6rslag till mig eller argumentera f\u00f6r det f\u00f6rsta ."
+                        }
+                    },
+                    "output": "Skriv ditt nya f\u00f6rslag eller argumentera f\u00f6r det f\u00f6rsta ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Skriv ett nytt f\u00f6rslag till mig eller f\u00f6rklara varf\u00f6r det f\u00f6rsta \u00e4r bra ."
+                        }
+                    },
+                    "output": "Skriv ett nytt f\u00f6rslag till mig eller f\u00f6rklara varf\u00f6r det f\u00f6rsta \u00e4r bra ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Skriv ditt nya f\u00f6rslag till mig eller argumentera f\u00f6r det f\u00f6rsta ."
+                        }
+                    },
+                    "output": "Skriv mig ditt nya f\u00f6rslag eller argumentera f\u00f6r det f\u00f6rsta ."
+                }
+            }
+        },
+        {
+            "original": "Hej lila v\u00e4n !",
+            "reference": "Hej lilla v\u00e4n !",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 1,
+                            "corrected": "Hej lilla v\u00e4n !"
+                        }
+                    },
+                    "output": "Hej lila v\u00e4n !"
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Hej lilla v\u00e4n !"
+                        }
+                    },
+                    "output": "Hej lilla v\u00e4n !"
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 1,
+                            "corrected": "Hej lilla v\u00e4n !"
+                        }
+                    },
+                    "output": "Hej lila v\u00e4n !"
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Hej lilla v\u00e4n !"
+                        }
+                    },
+                    "output": "Hej lilla v\u00e4n !"
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Hej lilla v\u00e4n !"
+                        }
+                    },
+                    "output": "Hej lilla v\u00e4n !"
+                }
+            }
+        },
+        {
+            "original": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta relation p\u00e5 elakt s\u00e4tt .",
+            "reference": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta en relation p\u00e5 ett elakt s\u00e4tt .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta relation p\u00e5 ett elakt s\u00e4tt ."
+                        }
+                    },
+                    "output": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta relation p\u00e5 elakt s\u00e4tt ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta en relation p\u00e5 ett elakt s\u00e4tt ."
+                        }
+                    },
+                    "output": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta en relation p\u00e5 ett elakt s\u00e4tt ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta en relation p\u00e5 ett elakt s\u00e4tt ."
+                        }
+                    },
+                    "output": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta en relation p\u00e5 elakt s\u00e4tt ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Det \u00e4r oschysst att g\u00f6ra s\u00e5 att en relation sp\u00e5rar ur eller att bryta den p\u00e5 ett elakt s\u00e4tt ."
+                        }
+                    },
+                    "output": "Det \u00e4r oschysst att g\u00f6ra s\u00e5 att en relation sp\u00e5rar ur eller att bryta den p\u00e5 ett elakt s\u00e4tt ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta relationer p\u00e5 ett elakt s\u00e4tt ."
+                        }
+                    },
+                    "output": "Det \u00e4r or\u00e4ttvist att st\u00f6ra eller bryta relationer p\u00e5 elakt s\u00e4tt ."
+                }
+            }
+        },
+        {
+            "original": "tv\u00e4rtom Han var j\u00e4tte social och sn\u00e4ll .",
+            "reference": "Han var tv\u00e4rtom j\u00e4ttesocial och sn\u00e4ll .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "tv\u00e4rtom , han var j\u00e4ttesocial och sn\u00e4ll ."
+                        }
+                    },
+                    "output": "tv\u00e4rtom Han var j\u00e4ttesocial och sn\u00e4ll ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Han var tv\u00e4rtom j\u00e4ttesocial och sn\u00e4ll ."
+                        }
+                    },
+                    "output": "Han var tv\u00e4rtom j\u00e4ttesocial och sn\u00e4ll ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "tv\u00e4rtom han var j\u00e4ttesocial och sn\u00e4ll ."
+                        }
+                    },
+                    "output": "tv\u00e4rtom Han var j\u00e4tte social och sn\u00e4ll ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Han var tv\u00e4rtom v\u00e4ldigt social och sn\u00e4ll ."
+                        }
+                    },
+                    "output": "Han var tv\u00e4rtom v\u00e4ldigt social och sn\u00e4ll ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Tv\u00e4rtom, han var j\u00e4ttesocial och sn\u00e4ll ."
+                        }
+                    },
+                    "output": "Tv\u00e4rtom var han j\u00e4tte social och sn\u00e4ll ."
+                }
+            }
+        },
+        {
+            "original": "Komvux Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kominusira med folken .",
+            "reference": "Komvux Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kommunisera med folk .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kommunicera med folk ."
+                        }
+                    },
+                    "output": "Komvux Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kominusira med folken ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kommunicera med folk ."
+                        }
+                    },
+                    "output": "Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kommunicera med folk ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna komunicera med folk ."
+                        }
+                    },
+                    "output": "Komvux Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kominusira med folk ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige f\u00f6r att l\u00e4ra sig svenska s\u00e5 att man kan kommunicera med folk ."
+                        }
+                    },
+                    "output": "Komvux Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige f\u00f6r att l\u00e4ra sig svenska och att kommunicera med folk ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kommunicera med folk ."
+                        }
+                    },
+                    "output": "Komvux \u00e4r en plats som man brukar g\u00e5 till n\u00e4r man kommer till Sverige och vill l\u00e4ra sig svenska f\u00f6r att kunna kommunicera med folk ."
+                }
+            }
+        },
+        {
+            "original": "En g\u00e5ng , jag gick d\u00e4r med min man och mina barnen .",
+            "reference": "En g\u00e5ng gick jag dit med min man och mina barn .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "En g\u00e5ng gick jag dit med min man och mina barn ."
+                        }
+                    },
+                    "output": "En g\u00e5ng , jag gick d\u00e4r med min man och mina barn ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag gick dit med min man och mina barn en g\u00e5ng ."
+                        }
+                    },
+                    "output": "Jag gick dit med min man och mina barn en g\u00e5ng ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "En g\u00e5ng s\u00e5 gick jag dit med min man och mina barn ."
+                        }
+                    },
+                    "output": "En g\u00e5ng , jag gick d\u00e4r med min man och mina barn ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "En g\u00e5ng gick jag dit tillsammans med min man och mina barn ."
+                        }
+                    },
+                    "output": "En g\u00e5ng gick jag dit tillsammans med min man och mina barn ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "En g\u00e5ng gick jag dit med min man och mina barn ."
+                        }
+                    },
+                    "output": "En g\u00e5ng gick jag d\u00e4r med min man och mina barn ."
+                }
+            }
+        },
+        {
+            "original": "Du m\u00e5ste tr\u00e4ffa och perata med de .",
+            "reference": "Du m\u00e5ste tr\u00e4ffa dem och prata med dem .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du m\u00e5ste tr\u00e4ffa och prata med dem ."
+                        }
+                    },
+                    "output": "Du m\u00e5ste tr\u00e4ffa och prata med dem ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du m\u00e5ste tr\u00e4ffa dem och prata med dem ."
+                        }
+                    },
+                    "output": "Du m\u00e5ste tr\u00e4ffa dem och prata med dem ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du m\u00e5ste tr\u00e4ffa och prata med dem."
+                        }
+                    },
+                    "output": "Du m\u00e5ste tr\u00e4ffa och prata med de ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du m\u00e5ste umg\u00e5s med dem och prata med dem ."
+                        }
+                    },
+                    "output": "Du m\u00e5ste umg\u00e5s med dem och prata med dem ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Du m\u00e5ste tr\u00e4ffa och prata med dem ."
+                        }
+                    },
+                    "output": "Du m\u00e5ste tr\u00e4ffa och prata med dem ."
+                }
+            }
+        },
+        {
+            "original": "Jag komma ih\u00e5g n\u00e4r jag flyttade till Sverige .",
+            "reference": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                        }
+                    },
+                    "output": "Jag komma ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                        }
+                    },
+                    "output": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                        }
+                    },
+                    "output": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag minns n\u00e4r jag flyttade till Sverige ."
+                        }
+                    },
+                    "output": "Jag minns n\u00e4r jag flyttade till Sverige ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                        }
+                    },
+                    "output": "Jag kommer ih\u00e5g n\u00e4r jag flyttade till Sverige ."
+                }
+            }
+        },
+        {
+            "original": "Att ger Maria och sin pengar \u00e4r ett bra f\u00f6rslag men jag tycker att det g\u00e5r inte s\u00e5 bra som br\u00f6llopspresent .",
+            "reference": "Att ge Maria och hennes man pengar \u00e4r ett bra f\u00f6rslag men jag tycker inte att det passar s\u00e5 bra som br\u00f6llopspresent .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 1,
+                            "corrected": "Att ge Maria och hennes man pengar \u00e4r ett bra f\u00f6rslag men jag tycker inte att det funkar s\u00e5 bra som br\u00f6llopspresent ."
+                        }
+                    },
+                    "output": "Att ge Maria och sina pengar \u00e4r ett bra f\u00f6rslag men jag tycker att det inte g\u00e5r s\u00e5 bra som br\u00f6llopspresent ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Att ge Maria och hennes man pengar \u00e4r ett bra f\u00f6rslag men jag tycker inte att det passar s\u00e5 bra som br\u00f6llopspresent ."
+                        }
+                    },
+                    "output": "Att ge Maria och hennes man pengar \u00e4r ett bra f\u00f6rslag men jag tycker inte att det passar s\u00e5 bra som br\u00f6llopspresent ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 1,
+                            "corrected": "Att ge Maria och hennes man pengar \u00e4r ett bra f\u00f6rslag men jag tycker att det inte passar s\u00e5 bra som br\u00f6llopspresent ."
+                        }
+                    },
+                    "output": "Att Maria ger sin pengar \u00e4r ett bra f\u00f6rslag men jag tycker att det inte g\u00e5r s\u00e5 bra som br\u00f6llopspresent ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Att ge pengar till Maria och hennes man \u00e4r ett bra f\u00f6rslag men jag tycker inte att det passar s\u00e5 bra som br\u00f6llopspresent ."
+                        }
+                    },
+                    "output": "Att ge pengar till Maria och hennes man \u00e4r ett bra f\u00f6rslag men jag tycker inte att det passar s\u00e5 bra som br\u00f6llopspresent ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 1,
+                            "corrected": "Att ge Maria och hennes man pengar som br\u00f6llopspresent \u00e4r ett bra f\u00f6rslag , men jag tycker inte att det passar s\u00e5 bra som br\u00f6llopspresent ."
+                        }
+                    },
+                    "output": "Att ge Maria och hennes pengar som br\u00f6llopspresent \u00e4r ett bra f\u00f6rslag , men jag tycker inte att det \u00e4r en s\u00e5 bra id\u00e9 ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6rst kan du kommer i tid och du skulle kunna ta p\u00e5 fina kl\u00e4der .",
+            "reference": "F\u00f6rst kan du komma i tid , och du skulle kunna ta p\u00e5 dig fina kl\u00e4der .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6rst och fr\u00e4mst kan du komma i tid och du skulle kunna ta p\u00e5 fina kl\u00e4der ."
+                        }
+                    },
+                    "output": "F\u00f6rst kan du kommer i tid och du skulle kunna ta p\u00e5 fina kl\u00e4der ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6rst och fr\u00e4mst kan du komma i tid , och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
+                        }
+                    },
+                    "output": "F\u00f6rst kan du komma i tid , och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6rst och fr\u00e4mst kan du komma i tid och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
+                        }
+                    },
+                    "output": "F\u00f6rst kan du komma i tid och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 2,
+                            "corrected": "Till att b\u00f6rja med kan du komma i tid , och du skulle kunna ha p\u00e5 dig fina kl\u00e4der ."
+                        }
+                    },
+                    "output": "Till att b\u00f6rja med ska du komma i tid , och det \u00e4r bra om du har p\u00e5 dig fina kl\u00e4der ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 2,
+                            "corrected": "F\u00f6rst och fr\u00e4mst , kom i tid och du skulle kunna \u00e4ven kunna kl\u00e4 dig fint ."
+                        }
+                    },
+                    "output": "F\u00f6rst och fr\u00e4mst , kom i tid och kl\u00e4 dig fin ."
+                }
+            }
+        },
+        {
+            "original": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstner s\u00e5 de ska h\u00e5lla den och gl\u00f6m ej den h\u00e4r v\u00e4rdefull g\u00e5va .",
+            "reference": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 att de ska beh\u00e5lla den och inte gl\u00f6mma den h\u00e4r v\u00e4rdefulla g\u00e5van .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 3,
+                            "corrected": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge dem en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 att de ska beh\u00e5lla den och inte gl\u00f6mma den h\u00e4r v\u00e4rdefulla g\u00e5van ."
+                        }
+                    },
+                    "output": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 de ska h\u00e5lla den och gl\u00f6m ej den h\u00e4r v\u00e4rdefull g\u00e5va ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge dem en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 att de ska beh\u00e5lla den och inte gl\u00f6mma bort den h\u00e4r v\u00e4rdefulla g\u00e5van ."
+                        }
+                    },
+                    "output": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 att de ska beh\u00e5lla den och inte gl\u00f6mma den h\u00e4r v\u00e4rdefulla g\u00e5van ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 de ska beh\u00e5lla den och inte gl\u00f6mma den h\u00e4r v\u00e4rdefulla g\u00e5van ."
+                        }
+                    },
+                    "output": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 de ska h\u00e5lla den och gl\u00f6m ej att den h\u00e4r \u00e4r en v\u00e4rdefull g\u00e5va ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e5 tycker jag att vi ger en tavla av en k\u00e4nd konstn\u00e4r s\u00e5 att de beh\u00e5ller den och inte gl\u00f6mmer bort v\u00e5r fina present ."
+                        }
+                    },
+                    "output": "D\u00e5 tycker jag att vi ger en tavla av en k\u00e4nd konstn\u00e4r s\u00e5 att de beh\u00e5ller den och inte gl\u00f6mmer bort v\u00e5r fina present ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge dem en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 att de ska kunna beh\u00e5lla den och gl\u00f6mma bort den h\u00e4r v\u00e4rdefulla g\u00e5van ."
+                        }
+                    },
+                    "output": "D\u00e5 f\u00f6resl\u00e5r jag att vi ska ge en tavla som har m\u00e5lats av en k\u00e4nd konstn\u00e4r s\u00e5 att de ska kunna h\u00e5lla den och gl\u00f6mma bort den h\u00e4r v\u00e4rdefulla g\u00e5van ."
+                }
+            }
+        },
+        {
+            "original": "Eftersom jag trivs dit och st\u00e5r varandra n\u00e4ra med chefen , skafade jag heltid jobb dit som servitris .",
+            "reference": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra , skaffade jag ett heltidsjobb d\u00e4r som servitris .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r n\u00e4ra med chefen , skaffade jag heltidsjobb som servitris d\u00e4r."
+                        }
+                    },
+                    "output": "Eftersom jag trivs dit och st\u00e5r varandra n\u00e4ra med chefen , skaffade jag heltidjobb dit som servitris ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra , skaffade jag ett heltidsjobb som servitris d\u00e4r."
+                        }
+                    },
+                    "output": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra   skaffade jag ett heltidsjobb d\u00e4r som servitris ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 3,
+                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra , skaffade jag ett heltidsjobb som servitris d\u00e4r."
+                        }
+                    },
+                    "output": "Eftersom jag trivs dit och st\u00e5r varandra n\u00e4ra med chefen , skafade jag dit jobb heltid som servitris ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Eftersom jag trivs d\u00e4r och k\u00e4nner chefen v\u00e4l s\u00e5 skaffade jag ett heltidsjobb som servitris d\u00e4r."
+                        }
+                    },
+                    "output": "Eftersom jag trivs d\u00e4r och k\u00e4nner chefen v\u00f6l s\u00e5 skaffade jag ett heltidsjobb d\u00e4r som servitris ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra, skaffade jag ett heltidsjobb som servitris d\u00e4r ."
+                        }
+                    },
+                    "output": "Eftersom jag trivs d\u00e4r och st\u00e5r varandra n\u00e4ra med chefen , skaffade jag ett heltidsjobb d\u00e4r som servitris ."
+                }
+            }
+        },
+        {
+            "original": "11_11_1111 Till : Kursverksamheten Hej !",
+            "reference": "11_11_1111 Till : Kursverksamheten Hej !",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 0,
+                            "Grammaticality": 0,
+                            "Meaning Preservation": 0,
+                            "corrected": "11_11_1111 Till : Kursverksamheten Hej !"
+                        }
+                    },
+                    "output": "11_11_1111 Till : Kursverksamheten Hej !"
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 0,
+                            "Grammaticality": 0,
+                            "Meaning Preservation": 0,
+                            "corrected": "11_11_1111 Till Kursverksamheten : Hej !"
+                        }
+                    },
+                    "output": "11_11_1111 Till Kursverksamheten : Hej !"
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 0,
+                            "Grammaticality": 0,
+                            "Meaning Preservation": 0,
+                            "corrected": "11_11_1111 Till : Kursverksamheten Hej !"
+                        }
+                    },
+                    "output": "11_11_1111 Till : Kursverksamheten Hej !"
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 0,
+                            "Grammaticality": 0,
+                            "Meaning Preservation": 0,
+                            "corrected": "11_11_1111 Till : Kursverksamheten hej !"
+                        }
+                    },
+                    "output": "11_11_1111 Till : Kursverksamheten hej !"
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 0,
+                            "Grammaticality": 0,
+                            "Meaning Preservation": 0,
+                            "corrected": "11_11_1111 Till : Kursverksamheten Hej !"
+                        }
+                    },
+                    "output": "11_11_1111 Till : Kursverksamheten Hej !"
+                }
+            }
+        },
+        {
+            "original": "Jag vet inte varf\u00f6r jag inte deitog aktivti mitt land .",
+            "reference": "Jag vet inte varf\u00f6r jag inte deltog aktivt i mitt land .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag vet inte varf\u00f6r jag inte deltog aktivt mitt land ."
+                        }
+                    },
+                    "output": "Jag vet inte varf\u00f6r jag inte deltog aktivt mitt land ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag vet inte varf\u00f6r jag inte deltog aktivt i mitt land ."
+                        }
+                    },
+                    "output": "Jag vet inte varf\u00f6r jag inte deltog aktivt i mitt land ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag vet inte varf\u00f6r jag inte deltog aktivt i mitt land ."
+                        }
+                    },
+                    "output": "Jag vet inte varf\u00f6r jag inte deitog aktivti mitt land ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag vet inte varf\u00f6r jag inte deltog aktivt i mitt land ."
+                        }
+                    },
+                    "output": "Jag vet inte varf\u00f6r jag inte deltog aktivt i mitt land ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag vet inte varf\u00f6r jag inte deltog i aktiviteterna i mitt land ."
+                        }
+                    },
+                    "output": "Jag vet inte varf\u00f6r jag inte deltog i aktiviteterna i mitt land ."
+                }
+            }
+        },
+        {
+            "original": "Glom inte du kan \u00e4ven f\u00f6rs\u00f6ka att bjuda dina granner f\u00f6r middag eller fika p\u00e5 helgen .",
+            "reference": "Gl\u00f6m inte att du \u00e4ven kan f\u00f6rs\u00f6ka att bjuda dina grannar p\u00e5 middag eller fika p\u00e5 helgen .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Gl\u00f6m inte att du \u00e4ven kan f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika under helgen ."
+                        }
+                    },
+                    "output": "Gl\u00f6m inte du kan \u00e4ven f\u00f6rs\u00f6ka bjuda dina grannar f\u00f6r middag eller fika p\u00e5 helgen ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Gl\u00f6m inte att du \u00e4ven kan f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika under helgen ."
+                        }
+                    },
+                    "output": "Gl\u00f6m inte att du \u00e4ven kan f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika p\u00e5 helgen ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Gl\u00f6m inte , du kan \u00e4ven f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika under helgen ."
+                        }
+                    },
+                    "output": "Glom inte , du kan \u00e4ven f\u00f6rs\u00f6ka att bjuda dina grannar p\u00e5 middag eller fika p\u00e5 helgen ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Gl\u00f6m inte att du ocks\u00e5 kan f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika under helgen ."
+                        }
+                    },
+                    "output": "Gl\u00f6m inte att du ocks\u00e5 kan f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika under helgen ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Gl\u00f6m inte att du ocks\u00e5 kan f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika under helgen ."
+                        }
+                    },
+                    "output": "Gl\u00f6m inte att du ocks\u00e5 kan f\u00f6rs\u00f6ka bjuda dina grannar p\u00e5 middag eller fika p\u00e5 helgen ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6r det andra , gillar du quiz nights ?",
+            "reference": "F\u00f6r det andra , gillar du quiz nights ?",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det andra , gillar du quiz nights ?"
+                        }
+                    },
+                    "output": "F\u00f6r det andra , gillar du quiz tights ?"
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det andra , gillar du quiz nights ?"
+                        }
+                    },
+                    "output": "F\u00f6r det andra , gillar du quiz nights ?"
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det andra , gillar du quiz nights ?"
+                        }
+                    },
+                    "output": "F\u00f6r det andra , gillar du quiz nights ?"
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det andra , gillar du quiz nights ?"
+                        }
+                    },
+                    "output": "F\u00f6r det andra , gillar du quiz nights ?"
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det andra , gillar du quizkv\u00e4llar ?"
+                        }
+                    },
+                    "output": "F\u00f6r det andra , gillar du quizkv\u00e4llar ?"
+                }
+            }
+        },
+        {
+            "original": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5det .",
+            "reference": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de ."
+                        }
+                    },
+                    "output": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de ."
+                        }
+                    },
+                    "output": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger mitt i omr\u00e5det ."
+                        }
+                    },
+                    "output": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger mitt i omr\u00e5det ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket d\u00e4r jag bor ."
+                        }
+                    },
+                    "output": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket d\u00e4r jag bor ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de ."
+                        }
+                    },
+                    "output": "Jag har h\u00f6rt att ni ska st\u00e4nga biblioteket som ligger i mitt omr\u00e5de ."
+                }
+            }
+        },
+        {
+            "original": "P\u00e5 dagen till mig och Maria mycket bra .",
+            "reference": "Den dagen var mycket bra f\u00f6r mig och Maria .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 1,
+                            "Meaning Preservation": 1,
+                            "corrected": "Den dagen var mycket bra f\u00f6r Maria och mig ."
+                        }
+                    },
+                    "output": "P\u00e5 dagen till mig och Maria mycket bra ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Den dagen var mycket bra f\u00f6r mig och Maria ."
+                        }
+                    },
+                    "output": "Den dagen var mycket bra f\u00f6r mig och Maria ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 1,
+                            "Meaning Preservation": 2,
+                            "corrected": "Under den dagen gick det mycket bra f\u00f6r Maria och mig ."
+                        }
+                    },
+                    "output": "P\u00e5 dagen f\u00f6r mig och Maria mycket bra ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Den dagen var v\u00e4ldigt bra f\u00f6r mig och Maria ."
+                        }
+                    },
+                    "output": "Den dagen var v\u00e4ldigt bra f\u00f6r mig och Maria ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 2,
+                            "corrected": "Under den dagen gick det mycket bra f\u00f6r mig och Maria ."
+                        }
+                    },
+                    "output": "P\u00e5 dagen gick det mycket bra f\u00f6r mig och Maria ."
+                }
+            }
+        },
+        {
+            "original": "Forl\u00e5t att du kan inte hitta nya vanner och jag hoppas att min tips ska hj\u00e4lper dig f\u00f6r att hitta nya kompisar .",
+            "reference": "Jag \u00e4r ledsen att du inte kan hitta nya v\u00e4nner och jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag \u00e4r ledsen att du inte kan hitta nya v\u00e4nner och jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar ."
+                        }
+                    },
+                    "output": "F\u00f6rl\u00e5t att du inte kan hitta nya vanner och jag hoppas att min tips ska ha hj\u00e4lpt dig f\u00f6r att hitta nya kompisar ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag \u00e4r ledsen att du inte kan hitta nya v\u00e4nner och jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar ."
+                        }
+                    },
+                    "output": "Jag \u00e4r ledsen att du inte kan hitta nya v\u00e4nner och jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "S\u00e5 tr\u00e5kigt att du inte kan hitta nya v\u00e4nner och jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar ."
+                        }
+                    },
+                    "output": "Forl\u00e5t att du inte kan hitta nya v\u00e4nner och jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Det \u00e4r synd att du inte kan hitta nya v\u00e4nner men jag hoppas att mina tips ska hj\u00e4lpa dig med det ."
+                        }
+                    },
+                    "output": "Det \u00e4r synd att du inte hittar nya v\u00e4nner men jag hoppas att mina tips ska hj\u00e4lpa dig med det ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "S\u00e5 synd att du inte kan hitta nya v\u00e4nner . Jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar ."
+                        }
+                    },
+                    "output": "F\u00f6rl\u00e5t att du inte kan hitta nya v\u00e4nner . Jag hoppas att mina tips ska hj\u00e4lpa dig att hitta nya kompisar ."
+                }
+            }
+        },
+        {
+            "original": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , s\u00e5 det beror om hur mycket har jag tid .",
+            "reference": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , s\u00e5 det beror p\u00e5 hur mycket har jag tid .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ibland sitter jag d\u00e4r i tv\u00e5 timmar och ibland tre , det beror om hur mycket har jag tid ."
+                        }
+                    },
+                    "output": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , s\u00e5 det beror om hur mycket har jag tid ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ibland sitter jag d\u00e4r i tv\u00e5 timmar och ibland tre , det beror p\u00e5 hur mycket tid jag har ."
+                        }
+                    },
+                    "output": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , s\u00e5 det beror p\u00e5 hur mycket tid jag har ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ibland sitter jag d\u00e4r i tv\u00e5 eller tre timmar, det beror p\u00e5 hur mycket tid jag har ."
+                        }
+                    },
+                    "output": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , s\u00e5 det beror p\u00e5 hur mycket tid jag har ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ibland sitter jag d\u00e4r i tv\u00e5 eller tre timmar , beroende p\u00e5 hur mycket tid jag har ."
+                        }
+                    },
+                    "output": "Ibland sitter jag d\u00e4r tre timmar och ibland tv\u00e5 , beroende p\u00e5 hur mycket tid jag har ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Ibland sitter jag d\u00e4r i tv\u00e5 timmar och ibland tre , det beror p\u00e5 hur mycket tid jag har ."
+                        }
+                    },
+                    "output": "Ibland sitter jag d\u00e4r i tre timmar och ibland i tv\u00e5 , s\u00e5 det beror p\u00e5 hur mycket tid jag har ."
+                }
+            }
+        },
+        {
+            "original": "Dessutom nu jag l\u00e4ra mig m\u00e5nga saker och jag kan ocks\u00e5 prata svenska .",
+            "reference": "Dessutom , nu l\u00e4r jag mig m\u00e5nga saker och jag kan ocks\u00e5 prata svenska .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Dessutom l\u00e4r jag mig m\u00e5nga saker nu och jag kan ocks\u00e5 prata svenska ."
+                        }
+                    },
+                    "output": "Dessutom nu jag l\u00e4ra mig m\u00e5nga saker och jag kan ocks\u00e5 prata svenska ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Dessutom l\u00e4r jag mig m\u00e5nga saker nu och jag kan ocks\u00e5 prata svenska ."
+                        }
+                    },
+                    "output": "Dessutom l\u00e4r jag mig m\u00e5nga saker nu och jag kan ocks\u00e5 prata svenska ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Dessutom l\u00e4r jag mig m\u00e5nga saker och jag kan ocks\u00e5 prata svenska ."
+                        }
+                    },
+                    "output": "Dessutom ska jag l\u00e4ra mig m\u00e5nga saker och jag kan ocks\u00e5 prata svenska ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Dessutom l\u00e4r jag mig m\u00e5nga saker nu och jag kan tala svenska ."
+                        }
+                    },
+                    "output": "Dessutom l\u00e4r jag mig m\u00e5nga saker nu och jag har ocks\u00e5 l\u00e4rt mig tala svenska ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Dessutom l\u00e4r jag mig m\u00e5nga saker nu och jag kan ocks\u00e5 prata svenska ."
+                        }
+                    },
+                    "output": "Dessutom l\u00e4r jag mig m\u00e5nga saker nu och jag kan ocks\u00e5 prata svenska ."
+                }
+            }
+        },
+        {
+            "original": "Jag heter Anna och jag kommer fr\u00e5n B-hemland .",
+            "reference": "Jag heter Anna och jag kommer fr\u00e5n B-hemland .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag heter Anna och jag kommer fr\u00e5n B-hemland ."
+                        }
+                    },
+                    "output": "Jag heter Anna och jag kommer fr\u00e5n B-hemland ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag heter Anna och jag kommer fr\u00e5n B-hemland ."
+                        }
+                    },
+                    "output": "Jag heter Anna och jag kommer fr\u00e5n B-hemland ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag heter Anna och jag kommer fr\u00e5n B-hemland ."
+                        }
+                    },
+                    "output": "Jag heter Anna och jag kommer fr\u00e5n B-hemland ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag heter Anna och kommer fr\u00e5n B-hemland ."
+                        }
+                    },
+                    "output": "Jag heter Anna och kommer fr\u00e5n B-hemland ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag heter Anna och jag kommer fr\u00e5n B-landet ."
+                        }
+                    },
+                    "output": "Jag heter Anna och jag kommer fr\u00e5n B-landet ."
+                }
+            }
+        },
+        {
+            "original": "Jag har h\u00f6rgt du kallad till intervju och jag har lite r\u00e5d till dig och du kan g\u00f6ra de$ r\u00e5den .",
+            "reference": "Jag har h\u00f6rt att du \u00e4r kallad till intervju , och jag har lite r\u00e5d till dig , och du kan f\u00f6lja de r\u00e5den .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag har h\u00f6gt du \u00e4r kallad till intervju och jag har lite r\u00e5d till dig och du kan f\u00f6lja de r\u00e5den ."
+                        }
+                    },
+                    "output": "Jag har h\u00f6gt du kallad till intervju och jag har lite r\u00e5d till dig och du kan g\u00f6ra de $ r\u00e5den ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag har h\u00f6rt att du \u00e4r kallad till intervju , och jag har lite r\u00e5d till dig som du kan f\u00f6lja ."
+                        }
+                    },
+                    "output": "Jag har h\u00f6rt att du \u00e4r kallad till intervju , och jag har lite r\u00e5d till dig som du kan f\u00f6lja ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag har h\u00f6rt att du \u00e4r kallad till intervju och jag har lite r\u00e5d till dig som du kan f\u00f6lja ."
+                        }
+                    },
+                    "output": "Jag har h\u00f6rt att du \u00e4r kallad till intervju och jag har lite r\u00e5d till dig och du kan g\u00f6ra de$ r\u00e5den ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag har h\u00f6rt att du ska p\u00e5 intervju och har n\u00e5gra r\u00e5d till dig som du kan f\u00f6lja ."
+                        }
+                    },
+                    "output": "Jag har h\u00f6rt att du ska p\u00e5 intervju och har n\u00e5gra r\u00e5d till dig som du kan f\u00f6lja ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag har h\u00f6rt att du kallats till intervju och jag har lite r\u00e5d till dig som du kan f\u00f6lja ."
+                        }
+                    },
+                    "output": "Jag har h\u00f6rt att du kallats till intervju och jag har lite r\u00e5d till dig som du kan f\u00f6lja ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6rsta tip \u00e4r det att kom i tiden d\u00e4rf\u00f6r att det inte g\u00f6r bra f\u00f6r att komma f\u00f6r sent .",
+            "reference": "F\u00f6rsta tipset \u00e4r att komma i tid , f\u00f6r det \u00e4r inte bra att komma f\u00f6r sent .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6rsta tipset \u00e4r att komma i tid d\u00e4rf\u00f6r att det inte \u00e4r bra att komma f\u00f6r sent ."
+                        }
+                    },
+                    "output": "F\u00f6rsta tid \u00e4r det att komma i tiden d\u00e4rf\u00f6r att det inte g\u00f6r bra f\u00f6r att komma f\u00f6r sent ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6rsta tipset \u00e4r att komma i tid , f\u00f6r det \u00e4r inte bra att komma sent ."
+                        }
+                    },
+                    "output": "F\u00f6rsta tipset \u00e4r att komma i tid , f\u00f6r det \u00e4r inte bra att komma sent ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 3,
+                            "corrected": "Mitt f\u00f6rsta tips \u00e4r att komma i tid , d\u00e4rf\u00f6r att det inte \u00e4r bra att komma f\u00f6r sent ."
+                        }
+                    },
+                    "output": "Mitt f\u00f6rsta tips \u00e4r att komma i tiden d\u00e4rf\u00f6r att det inte g\u00f6r sig bra f\u00f6r att komma f\u00f6r sent ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6rsta tipset \u00e4r att komma i tid , f\u00f6r det \u00e4r inte bra att komma f\u00f6r sent ."
+                        }
+                    },
+                    "output": "F\u00f6rsta tipset \u00e4r att komma i tid , f\u00f6r det \u00e4r inte bra att komma f\u00f6r sent ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "F\u00f6rsta tipset \u00e4r att komma i tid f\u00f6r det ser inte bra ut att komma f\u00f6r sent ."
+                        }
+                    },
+                    "output": "F\u00f6rsta tipset \u00e4r att komma i tid d\u00e4rf\u00f6r att det inte ser bra ut att komma f\u00f6r sent ."
+                }
+            }
+        },
+        {
+            "original": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig .",
+            "reference": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                        }
+                    },
+                    "output": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                        }
+                    },
+                    "output": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                        }
+                    },
+                    "output": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                        }
+                    },
+                    "output": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                        }
+                    },
+                    "output": "D\u00e5 f\u00f6rstod jag att hon var k\u00e4r i mig ."
+                }
+            }
+        },
+        {
+            "original": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade p\u00e5 oss .",
+            "reference": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade han p\u00e5 oss .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade han p\u00e5 oss ."
+                        }
+                    },
+                    "output": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade p\u00e5 oss ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade han p\u00e5 oss ."
+                        }
+                    },
+                    "output": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade han p\u00e5 oss ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Han var min brors v\u00e4n , som d\u00e5 och d\u00e5 h\u00e4lsade p\u00e5 oss ."
+                        }
+                    },
+                    "output": "Han var min brors v\u00e4n , som d\u00e5 och d\u00e5 h\u00e4lsade p\u00e5 oss ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Han var min brors v\u00e4n och h\u00e4lsade p\u00e5 oss d\u00e5 och d\u00e5 ."
+                        }
+                    },
+                    "output": "Han var min brors v\u00e4n och h\u00e4lsade p\u00e5 oss d\u00e5 och d\u00e5 ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Han var min brors v\u00e4n och d\u00e5 och d\u00e5 h\u00e4lsade han p\u00e5 oss ."
+                        }
+                    },
+                    "output": "Han var min brors v\u00e4n och d\u00e5 och d\u00e5 h\u00e4lsade han p\u00e5 oss ."
+                }
+            }
+        },
+        {
+            "original": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig .",
+            "reference": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                        }
+                    },
+                    "output": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                        }
+                    },
+                    "output": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                        }
+                    },
+                    "output": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                        }
+                    },
+                    "output": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                        }
+                    },
+                    "output": "Jag f\u00f6rst\u00e5r att det \u00e4r sv\u00e5rt att gifta sig ."
+                }
+            }
+        },
+        {
+            "original": "Jag l\u00f6var !",
+            "reference": "Jag lovar !",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 1,
+                            "corrected": "Jag l\u00f6var !"
+                        }
+                    },
+                    "output": "Jag l\u00f6var !"
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag lovar !"
+                        }
+                    },
+                    "output": "Jag lovar !"
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 1,
+                            "corrected": "Jag l\u00f6var !"
+                        }
+                    },
+                    "output": "Jag l\u00f6var !"
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag lovar !"
+                        }
+                    },
+                    "output": "Jag lovar !"
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag lovar !"
+                        }
+                    },
+                    "output": "Jag lovar !"
+                }
+            }
+        },
+        {
+            "original": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bodde med min sambo .",
+            "reference": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                        }
+                    },
+                    "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                        }
+                    },
+                    "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 2,
+                            "corrected": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                        }
+                    },
+                    "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att jag bodde med min sambo ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                        }
+                    },
+                    "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                        }
+                    },
+                    "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
+                }
+            }
+        },
+        {
+            "original": "Min f\u00f6rsta intryck Det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att k\u00e4nna ett nytt land .",
+            "reference": "Mina f\u00f6rsta intryck Det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att l\u00e4ra k\u00e4nna ett nytt land .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min f\u00f6rsta intryck var att det var sv\u00e5rt att l\u00e4mna min familj och mitt land men att det var intressant att k\u00e4nna ett nytt land ."
+                        }
+                    },
+                    "output": "Min f\u00f6rsta intryck Det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att k\u00e4nna ett nytt land ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Mina f\u00f6rsta intryck var att det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att l\u00e4ra k\u00e4nna ett nytt land ."
+                        }
+                    },
+                    "output": "Mina f\u00f6rsta intryck var att det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att l\u00e4ra k\u00e4nna ett nytt land ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min f\u00f6rsta intryck var att det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att l\u00e4ra k\u00e4nna ett nytt land ."
+                        }
+                    },
+                    "output": "Min f\u00f6rsta intryck Det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att k\u00e4nna ett nytt land ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Mina f\u00f6rsta intryck var att det var sv\u00e5rt att l\u00e4mna min familj och mitt land men att det var intressant att l\u00e4ra k\u00e4nna ett nytt land ."
+                        }
+                    },
+                    "output": "Mina f\u00f6rsta intryck Det var sv\u00e5rt att l\u00e4mna min familj och mitt land men det var intressant att l\u00e4ra k\u00e4nna ett nytt land ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Mitt f\u00f6rsta intryck var att det var sv\u00e5rt att l\u00e4mna min familj och mitt land , men det var intressant att l\u00e4ra k\u00e4nna ett nytt land ."
+                        }
+                    },
+                    "output": "Mitt f\u00f6rsta intryck var att det var sv\u00e5rt att l\u00e4mna min familj och mitt land , men det var intressant att l\u00e4ra k\u00e4nna ett nytt land ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6r 3 \u00e5r sen kom jag till Sveriga .",
+            "reference": "F\u00f6r 3 \u00e5r sen kom jag till Sverige .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r 3 \u00e5r sen kom jag till Sverige ."
+                        }
+                    },
+                    "output": "F\u00f6r 3 \u00e5r sen kom jag till Sverige ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r 3 \u00e5r sen kom jag till Sverige ."
+                        }
+                    },
+                    "output": "F\u00f6r 3 \u00e5r sen kom jag till Sverige ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r 3 \u00e5r sen kom jag till Sverige ."
+                        }
+                    },
+                    "output": "F\u00f6r 3 \u00e5r sen kom jag till Sverige ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r tre \u00e5r sedan kom jag till Sverige ."
+                        }
+                    },
+                    "output": "F\u00f6r tre \u00e5r sedan kom jag till Sverige ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r tre \u00e5r sedan kom jag till Sverige ."
+                        }
+                    },
+                    "output": "F\u00f6r tre \u00e5r sedan kom jag till Sverige ."
+                }
+            }
+        },
+        {
+            "original": "D\u00e4r kan du tr\u00e4ffa m\u00e5ng sn\u00e4lla kvinnor och umg\u00e5s med de .",
+            "reference": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med dem .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e4r kan du tr\u00e4ffa och umg\u00e5s med m\u00e5nga sn\u00e4lla kvinnor ."
+                        }
+                    },
+                    "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5ngsn\u00e4lla kvinnor och umg\u00e5s med dem ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e4r kan du tr\u00e4ffa och umg\u00e5s med m\u00e5nga sn\u00e4lla kvinnor."
+                        }
+                    },
+                    "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med dem ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e4r kan du tr\u00e4ffa och umg\u00e5s med m\u00e5nga sn\u00e4lla kvinnor ."
+                        }
+                    },
+                    "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med de ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga trevliga kvinnor som du kan umg\u00e5s med ."
+                        }
+                    },
+                    "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga trevliga kvinnor som du kan umg\u00e5s med ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor som man kan umg\u00e5s med ."
+                        }
+                    },
+                    "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med dem ."
+                }
+            }
+        },
+        {
+            "original": "kollar p\u00e5 tinder !",
+            "reference": "Kolla p\u00e5 Tinder !",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "kolla p\u00e5 tinder !"
+                        }
+                    },
+                    "output": "kollar p\u00e5 tinder !"
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Kolla p\u00e5 Tinder !"
+                        }
+                    },
+                    "output": "Kolla p\u00e5 Tinder !"
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Kolla p\u00e5 Tinder !"
+                        }
+                    },
+                    "output": "Kollar p\u00e5 Tinder !"
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Kolla p\u00e5 Tinder !"
+                        }
+                    },
+                    "output": "Kolla p\u00e5 Tinder !"
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 2,
+                            "corrected": "kolla p\u00e5 tinder !"
+                        }
+                    },
+                    "output": "Jag kollar p\u00e5 tinder !"
+                }
+            }
+        },
+        {
+            "original": "F\u00f6r det f\u00f6rsta att det bra f\u00f6r mig att ha en bill eftersom jag \u00e4r student och har stor familig .",
+            "reference": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha en bil eftersom jag \u00e4r student och har stor familj .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha en bil eftersom jag \u00e4r student och har en stor familj ."
+                        }
+                    },
+                    "output": "F\u00f6r det f\u00f6rsta att det bra f\u00f6r mig att ha en bill eftersom jag \u00e4r student och har stor familig ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha en bil eftersom jag \u00e4r student och har stor familj ."
+                        }
+                    },
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha en bil eftersom jag \u00e4r student och har stor familj ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 2,
+                            "corrected": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha bil eftersom jag \u00e4r student och har en stor familj ."
+                        }
+                    },
+                    "output": "F\u00f6r det f\u00f6rsta att det \u00e4r bra f\u00f6r mig att ha en bill eftersom jag \u00e4r student och \u00e4r stor och familig ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha bil eftersom jag \u00e4r student med stor familj ."
+                        }
+                    },
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha bil eftersom jag \u00e4r student med stor familj ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha bil eftersom jag \u00e4r student och har en stor familj ."
+                        }
+                    },
+                    "output": "F\u00f6r det f\u00f6rsta \u00e4r det bra f\u00f6r mig att ha en bil eftersom jag \u00e4r student och har en stor familj ."
+                }
+            }
+        },
+        {
+            "original": "David tyker om att laga mat i sin fritid .",
+            "reference": "David tycker om att laga mat p\u00e5 sin fritid .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "David tycker om att laga mat p\u00e5 sin fritid ."
+                        }
+                    },
+                    "output": "David tycker om att laga mat i sin fritid ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "David tycker om att laga mat p\u00e5 sin fritid ."
+                        }
+                    },
+                    "output": "David tycker om att laga mat p\u00e5 sin fritid ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "David tycker om att laga mat p\u00e5 sin fritid ."
+                        }
+                    },
+                    "output": "David tycker om att laga mat p\u00e5 sin fritid ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "David gillar att laga mat p\u00e5 sin fritid ."
+                        }
+                    },
+                    "output": "David gillar att laga mat p\u00e5 sin fritid ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "David tycker om att laga mat p\u00e5 sin fritid ."
+                        }
+                    },
+                    "output": "David tycker om att laga mat i sin fritid ."
+                }
+            }
+        },
+        {
+            "original": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent ska vi ge till Karin .",
+            "reference": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin ."
+                        }
+                    },
+                    "output": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent ska vi ge till Karin ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin ."
+                        }
+                    },
+                    "output": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin ."
+                        }
+                    },
+                    "output": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vad vi ska ge f\u00f6r br\u00f6llopspresent till Karin ."
+                        }
+                    },
+                    "output": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vad vi ska ge f\u00f6r br\u00f6llopspresent till Karin ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin ."
+                        }
+                    },
+                    "output": "Jag skickar det h\u00e4r mejlet till dig f\u00f6r att vi beh\u00f6ver best\u00e4mma vilken br\u00f6llopspresent vi ska ge till Karin ."
+                }
+            }
+        },
+        {
+            "original": "Det var l\u00e5ng tid jag horde fr\u00e5n dig , jag missar dig mycket .",
+            "reference": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 1,
+                            "corrected": "Det har g\u00e5tt l\u00e5ng tid sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket ."
+                        }
+                    },
+                    "output": "Det var l\u00e5ng tid jag h\u00f6rde fr\u00e5n dig , jag missar dig mycket ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket ."
+                        }
+                    },
+                    "output": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 2,
+                            "corrected": "Det var l\u00e4nge sen jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket ."
+                        }
+                    },
+                    "output": "Det var l\u00e4nge jag horde fr\u00e5n dig , jag missar dig mycket ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig och jag saknar dig mycket ."
+                        }
+                    },
+                    "output": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig och jag saknar dig mycket ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket ."
+                        }
+                    },
+                    "output": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket ."
+                }
+            }
+        },
+        {
+            "original": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra .",
+            "reference": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                        }
+                    },
+                    "output": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                        }
+                    },
+                    "output": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                        }
+                    },
+                    "output": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                        }
+                    },
+                    "output": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r b\u00e4ttre ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r bra ."
+                        }
+                    },
+                    "output": "Jag tror att jag kan hj\u00e4lpa dig s\u00e5 att du m\u00e5r b\u00e4ttre ."
+                }
+            }
+        },
+        {
+            "original": "Om du vill sj\u00e4lv , vi kommer att se det \u00e4r inte s\u00e5 sv\u00e5rt !",
+            "reference": "Om du sj\u00e4lv vill , kommer du att se det inte \u00e4r s\u00e5 sv\u00e5rt !",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 3,
+                            "corrected": "Om du sj\u00e4lv vill , s\u00e5 kommer du se att det inte \u00e4r s\u00e5 sv\u00e5rt !"
+                        }
+                    },
+                    "output": "Om du vill sj\u00e4lv , vi kommer att se det \u00e4r inte s\u00e5 sv\u00e5rt !"
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Om du sj\u00e4lv vill , kommer du se att det inte \u00e4r s\u00e5 sv\u00e5rt !"
+                        }
+                    },
+                    "output": "Om du sj\u00e4lv vill kommer du att se det inte \u00e4r s\u00e5 sv\u00e5rt !"
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 3,
+                            "corrected": "Om du sj\u00e4lv vill kommer du se att det \u00e4r inte \u00e4r s\u00e5 sv\u00e5rt !"
+                        }
+                    },
+                    "output": "Om du sj\u00e4lv vill , vi kommer att se det \u00e4r inte s\u00e5 sv\u00e5rt !"
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Om du sj\u00e4lv vill s\u00e5 kommer du att se att det inte \u00e4r s\u00e5 sv\u00e5rt !"
+                        }
+                    },
+                    "output": "Om du sj\u00e4lv vill s\u00e5 kommer du att se att det inte \u00e4r s\u00e5 sv\u00e5rt !"
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Om du vill se det sj\u00e4lv , kommer du att se att det inte \u00e4r s\u00e5 sv\u00e5rt !"
+                        }
+                    },
+                    "output": "Om du vill se det sj\u00e4lv , kommer du att se att det inte \u00e4r s\u00e5 sv\u00e5rt !"
+                }
+            }
+        },
+        {
+            "original": "men inte verkligheten Face to Face .",
+            "reference": "Men inte i verkligheten face to face .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 3,
+                            "corrected": "men inte i verkligheten , Face to Face ."
+                        }
+                    },
+                    "output": "men inte verkligheten Face to Face ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Men inte i verkligheten , ansikte mot ansikte"
+                        }
+                    },
+                    "output": "Men inte i verkligheten ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 3,
+                            "corrected": "men inte i verkligheten Face to Face ."
+                        }
+                    },
+                    "output": "men inte verkligheten Face to Face ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 2,
+                            "corrected": "Men inte i verkligheten ansikte mot ansikte ."
+                        }
+                    },
+                    "output": "Men inte n\u00e4r man ses i verkligheten ansikte mot ansikte ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Men inte i verkligheten , ansikte mot ansikte ."
+                        }
+                    },
+                    "output": "Men inte i verkligheten ansikte mot ansikte ."
+                }
+            }
+        },
+        {
+            "original": "och hon beh\u00f6ver den s\u00e5 mycket f\u00f6r Maria-gen helsa och vi ska hj\u00e4lpa henne vary dag f\u00f6r syckar 2 timmer .",
+            "reference": "Och hon beh\u00f6ver den s\u00e5 mycket f\u00f6r sin h\u00e4lsa , och vi ska hj\u00e4lpa henne att cykla 2 timmar varje dag .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 1,
+                            "Meaning Preservation": 1,
+                            "corrected": "hon beh\u00f6ver den s\u00e5 mycket f\u00f6r sin h\u00e4lsa och vi ska hj\u00e4lpa henne cykla varje dag under 2 timmer ."
+                        }
+                    },
+                    "output": "och hon beh\u00f6ver den s\u00e5 mycket f\u00f6r Maria-gen hela och vi ska hj\u00e4lpa henne vara dag f\u00f6r suckar 2 timmer ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Och hon beh\u00f6ver den f\u00f6r sin h\u00e4lsa . Vi ska hj\u00e4lpa henne att cykla 2 timmar varje dag ."
+                        }
+                    },
+                    "output": "Och hon beh\u00f6ver den f\u00f6r sin h\u00e4lsa . Vi ska hj\u00e4lpa henne att cykla 2 timmar varje dag ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 1,
+                            "corrected": "Hon beh\u00f6ver den v\u00e4ldigt mycket f\u00f6r sin egen h\u00e4lsa och vi ska hj\u00e4lpa henne 2 timmar varje dag ."
+                        }
+                    },
+                    "output": "Hon beh\u00f6ver den s\u00e5 mycket f\u00f6r Maria-gen helsa och vi ska hj\u00e4lpa henne vary dag f\u00f6r 2 timmar ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Hon beh\u00f6ver den verkligen f\u00f6r sin h\u00e4lsas skull , och vi ska hj\u00e4lpa henne att cykla 2 timmar varje dag ."
+                        }
+                    },
+                    "output": "Och hon beh\u00f6ver den verkligen f\u00f6r sin h\u00e4lsas skull , och vi ska uppmuntra henne att cykla 2 timmar varje dag ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 1,
+                            "corrected": "Hon beh\u00f6ver den verkligen f\u00f6r sin h\u00e4lsa och vi ska hj\u00e4lpa henne cykla 2 timmar varje dag."
+                        }
+                    },
+                    "output": "Och hon beh\u00f6ver den s\u00e5 mycket f\u00f6r Maria-genom helsa och vi ska hj\u00e4lpa henne varje dag f\u00f6r 2 timmar ."
+                }
+            }
+        },
+        {
+            "original": "Vad sp\u00e4nnande !",
+            "reference": "Vad sp\u00e4nnande !",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vad sp\u00e4nnande !"
+                        }
+                    },
+                    "output": "Vad sp\u00e4nnande !"
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vad sp\u00e4nnande !"
+                        }
+                    },
+                    "output": "Vad sp\u00e4nnande !"
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vad sp\u00e4nnande !"
+                        }
+                    },
+                    "output": "Vad sp\u00e4nnande !"
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vad sp\u00e4nnande !"
+                        }
+                    },
+                    "output": "Vad sp\u00e4nnande !"
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Vad sp\u00e4nnande !"
+                        }
+                    },
+                    "output": "Vad sp\u00e4nnande !"
+                }
+            }
+        },
+        {
+            "original": "Jag \u00e4r glad att h\u00f6ra ett gott nyhet att du har f\u00e5t ett jobb och bor i trevligt omr\u00e5de vad fint !",
+            "reference": "Jag \u00e4r glad att h\u00f6ra den goda nyheten att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de , vad fint !",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag \u00e4r glad att h\u00f6ra den goda nyheten att du har f\u00e5tt ett jobb och bor i trevligt omr\u00e5de . Vad fint !"
+                        }
+                    },
+                    "output": "Jag \u00e4r glad att h\u00f6ra en god nyhet att du har f\u00e5t ett jobb och bor i trevligt omr\u00e5de vad fint !"
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag \u00e4r glad att h\u00f6ra den goda nyheten att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de . Vad fint !"
+                        }
+                    },
+                    "output": "Jag \u00e4r glad att h\u00f6ra den goda nyheten att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de . Vad fint !"
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag \u00e4r glad att h\u00f6ra den goda nyheten att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de , vad fint !"
+                        }
+                    },
+                    "output": "Jag \u00e4r glad att h\u00f6ra ett gott nyhet att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de , vad fint !"
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det var kul att h\u00f6ra den glada nyheten att du har f\u00e5tt jobb och bor i ett trevligt omr\u00e5de , vad fint !"
+                        }
+                    },
+                    "output": "Det var kul att h\u00f6ra den glada nyheten att du har f\u00e5tt jobb och bor i ett trevligt omr\u00e5de , vad fint !"
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 2,
+                            "corrected": "Jag \u00e4r glad att h\u00f6ra den goda nyheten att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de . Vad fint !"
+                        }
+                    },
+                    "output": "Jag \u00e4r glad att h\u00f6ra att du har f\u00e5tt ett jobb och bor i ett trevligt omr\u00e5de . Vad fint !"
+                }
+            }
+        },
+        {
+            "original": "Ofta p\u00e5 s\u00f6ndagar \u00e5kte vi bilen med hela familjen trotts att det antingen regnade eller solen skinade .",
+            "reference": "P\u00e5 s\u00f6ndagarna \u00e5kte vi ofta bil dit med hela familjen oavsett om det regnade eller om solen sken .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "P\u00e5 s\u00f6ndagar \u00e5kte vi ofta bild dit med hela familjen , oavsett om det regnade eller om solen sken ."
+                        }
+                    },
+                    "output": "Ofta p\u00e5 s\u00f6ndagar \u00e5kte vi bilen med hela familjen trotts att det antingen regnade eller solen skinande ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "P\u00e5 s\u00f6ndagarna \u00e5kte vi ofta bil dit med hela familjen oavsett om det regnade eller om solen sken ."
+                        }
+                    },
+                    "output": "P\u00e5 s\u00f6ndagarna \u00e5kte vi ofta bil dit med hela familjen oavsett om det regnade eller om solen sken ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Ofta p\u00e5 s\u00f6ndagar \u00e5kte vi bilen dit med hela familjen oavsett om det regnade eller solen sken ."
+                        }
+                    },
+                    "output": "Ofta p\u00e5 s\u00f6ndagar \u00e5kte vi bilen med hela familjen trotts att det antingen regnade eller solen sken ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "P\u00e5 s\u00f6ndagarna \u00e5kte vi ofta bil dit med hela familjen oavsett om det regnade eller om solen sken ."
+                        }
+                    },
+                    "output": "P\u00e5 s\u00f6ndagarna \u00e5kte vi ofta bil dit med hela familjen oavsett om det regnade eller om solen sken ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Ofta p\u00e5 s\u00f6ndagar \u00e5kte vi bilen dit med hela familjen oavsett om det regnade eller om solen sken ."
+                        }
+                    },
+                    "output": "Ofta p\u00e5 s\u00f6ndagar \u00e5kte vi bilen med hela familjen trots att det antingen regnade eller solen sken ."
+                }
+            }
+        },
+        {
+            "original": "Jag gl\u00f6mda inte hur n\u00f6jd var mig n\u00e4r jag har kommit in .",
+            "reference": "Jag gl\u00f6mmer inte hur n\u00f6jd jag blev n\u00e4r jag kom in .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 2,
+                            "corrected": "Jag gl\u00f6mmer inte hur n\u00f6jd jag blev n\u00e4r jag hade kommit in ."
+                        }
+                    },
+                    "output": "Jag gl\u00f6mda inte hur n\u00f6jd var mig n\u00e4r jag har kommit in ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag gl\u00f6mmer inte hur n\u00f6jd jag blev n\u00e4r jag kom in ."
+                        }
+                    },
+                    "output": "Jag gl\u00f6mmer inte hur n\u00f6jd jag blev n\u00e4r jag kom in ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 2,
+                            "corrected": "Jag gl\u00f6mmer inte hur n\u00f6jd jag var n\u00e4r jag hade kommit in ."
+                        }
+                    },
+                    "output": "Jag gl\u00f6mmer inte hur n\u00f6jd jag var med mig n\u00e4r jag har kommit in ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag gl\u00f6mmer inte hur n\u00f6jd jag blev n\u00e4r jag kom in ."
+                        }
+                    },
+                    "output": "Jag gl\u00f6mmer inte hur n\u00f6jd jag blev n\u00e4r jag kom in ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag gl\u00f6mmer inte hur n\u00f6jd jag blev n\u00e4r jag kom in ."
+                        }
+                    },
+                    "output": "Jag gl\u00f6mde inte hur n\u00f6jd jag var n\u00e4r jag kom in ."
+                }
+            }
+        },
+        {
+            "original": "Jag f\u00f6rst\u00e5r presic vad du k\u00e4nner men tror mig att din h\u00e5rd tid kommer att f\u00f6rsvinna efter jatte kort tid .",
+            "reference": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner men , tro mig , din h\u00e5rda tid kommer att f\u00f6rsvinna efter en j\u00e4ttekort tid .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 2,
+                            "Meaning Preservation": 2,
+                            "corrected": "Jag f\u00f6rst\u00e5r presis vad du k\u00e4nner , men tro mig att din h\u00e5rda tid kommer att f\u00f6rsvinna efter en kort tid ."
+                        }
+                    },
+                    "output": "Jag f\u00f6rst\u00e5r presic vad du k\u00e4nner men tror mig att din h\u00e5rda tid kommer att f\u00f6rsvinna efter satte kort tid ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner men , tro mig , din h\u00e5rda tid kommer att vara \u00f6ver om en j\u00e4ttekort tid ."
+                        }
+                    },
+                    "output": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner men , tro mig , din h\u00e5rda tid kommer att vara \u00f6ver snart ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag f\u00f6rst\u00e5r presis vad du k\u00e4nner men jag tror att din h\u00e5rda tid kommer att f\u00f6rsvinna efter en j\u00e4ttekort tid ."
+                        }
+                    },
+                    "output": "Jag f\u00f6rst\u00e5r presic vad du k\u00e4nner men tror att din h\u00e5rda tid kommer att f\u00f6rsvinna efter j\u00e4tte kort tid ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner men din h\u00e5rda tid kommer att ta slut efter en mycket kort tid, tro mig ."
+                        }
+                    },
+                    "output": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner men din h\u00e5rda tid kommer att ta slut mycket snart , tro mig ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner , men tro mig att din sv\u00e5ra tid kommer att f\u00f6rsvinna efter en mycket kort tid ."
+                        }
+                    },
+                    "output": "Jag f\u00f6rst\u00e5r precis vad du k\u00e4nner men tro mig att din sv\u00e5ra tid kommer att f\u00f6rsvinna efter mycket kort tid ."
+                }
+            }
+        },
+        {
+            "original": "M\u00e4nniskorna tycker inte samma sak n\u00e4r de ha en relation .",
+            "reference": "M\u00e4nniskor tycker inte samma sak n\u00e4r de har en relation .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "M\u00e4nniskor tycker inte samma sak n\u00e4r de har en relation ."
+                        }
+                    },
+                    "output": "M\u00e4nniskorna tycker inte samma sak n\u00e4r de ha en relation ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "M\u00e4nniskor tycker inte samma sak n\u00e4r de har en relation ."
+                        }
+                    },
+                    "output": "M\u00e4nniskor tycker inte samma sak n\u00e4r de har en relation ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "M\u00e4nniskor tycker inte samma sak n\u00e4r de har en relation ."
+                        }
+                    },
+                    "output": "M\u00e4nniskorna tycker inte samma sak n\u00e4r de ska ha en relation ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "M\u00e4nniskor tycker inte samma sak n\u00e4r de har en relation ."
+                        }
+                    },
+                    "output": "M\u00e4nniskor tycker inte samma sak n\u00e4r de har en relation ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 1,
+                            "corrected": "M\u00e4nniskor tycker inte samma sak n\u00e4r de \u00e4r i en relation ."
+                        }
+                    },
+                    "output": "M\u00e4nniskor tycker inte alltid samma sak n\u00e4r de \u00e4r i en relation ."
+                }
+            }
+        },
+        {
+            "original": "Min fru Emma och min son Peter bor med mig , ibland mormor kommer att stanna med oss flera d\u00e5gar .",
+            "reference": "Min fru Emma och min son Peter bor med mig . Ibland kommer mormor f\u00f6r att stanna med oss flera dagar .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min fru Emma och min son Peter bor med mig , ibland kommer mormor f\u00f6r att stanna med oss i flera dagar ."
+                        }
+                    },
+                    "output": "Min fru Emma och min son Peter bor med mig , ibland mormor kommer att stanna med oss flera dagar ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min fru Emma och min son Peter bor med mig . Ibland kommer mormor f\u00f6r att stanna hos oss flera dagar ."
+                        }
+                    },
+                    "output": "Min fru Emma och min son Peter bor med mig . Ibland kommer mormor f\u00f6r att stanna med oss flera dagar ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 3,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min fru Emma och min son Peter bor med mig , ibland kommer mormor och stannar hos oss i flera dagar ."
+                        }
+                    },
+                    "output": "Min fru Emma och min son Peter bor med mig , ibland kommer mormor att stanna med oss flera d\u00e5gar ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min fru Emma och min son Peter bor med mig och ibland kommer mormor och stannar hos oss flera dagar ."
+                        }
+                    },
+                    "output": "Min fru Emma och min son Peter bor med mig och ibland kommer mormor och stannar hos oss flera dagar ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Min fru Emma och min son Peter bor med mig . Ibland kommer mormor och stannar hos oss i flera dagar ."
+                        }
+                    },
+                    "output": "Min fru Emma och min son Peter bor med mig . Ibland kommer mormor och stannar hos oss i flera dagar ."
+                }
+            }
+        },
+        {
+            "original": "Hon heter Emma , hon hade svart h\u00e5r och en fint n\u00e4sa .",
+            "reference": "Hon hette Emma , hon hade svart h\u00e5r och en fin n\u00e4sa .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Hon hette Emma , hon hade svart h\u00e5r och en fin n\u00e4sa ."
+                        }
+                    },
+                    "output": "Hon heter Emma , hon hade svart h\u00e5r och en fint n\u00e4sa ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Hon hette Emma , hon hade svart h\u00e5r och en fin n\u00e4sa ."
+                        }
+                    },
+                    "output": "Hon hette Emma , hon hade svart h\u00e5r och en fin n\u00e4sa ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 3,
+                            "corrected": "Hon hette Emma , hon hade svart h\u00e5r och en fin n\u00e4sa ."
+                        }
+                    },
+                    "output": "Hon heter Emma , hon hade svart h\u00e5r och en fint n\u00e4sa ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Hon hette Emma och hade svart h\u00e5r och fin n\u00e4sa ."
+                        }
+                    },
+                    "output": "Hon hette Emma och hade svart h\u00e5r och fin n\u00e4sa ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 3,
+                            "corrected": "Hon hette Emma , hon hade svart h\u00e5r och en fin n\u00e4sa ."
+                        }
+                    },
+                    "output": "Hon heter Emma , hon har svart h\u00e5r och en fin n\u00e4sa ."
+                }
+            }
+        },
+        {
+            "original": "Det kan ni inte g\u00f6ra !",
+            "reference": "Det kan ni inte g\u00f6ra !",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det kan ni inte g\u00f6ra !"
+                        }
+                    },
+                    "output": "Det kan ni inte g\u00f6ra !"
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det kan ni inte g\u00f6ra !"
+                        }
+                    },
+                    "output": "Det kan ni inte g\u00f6ra !"
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det kan ni inte g\u00f6ra !"
+                        }
+                    },
+                    "output": "Det kan ni inte g\u00f6ra !"
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det kan ni inte g\u00f6ra !"
+                        }
+                    },
+                    "output": "Det kan ni inte g\u00f6ra !"
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det kan ni inte g\u00f6ra !"
+                        }
+                    },
+                    "output": "Det kan ni inte g\u00f6ra !"
+                }
+            }
+        },
+        {
+            "original": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familig med sm\u00e5 barn .",
+            "reference": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familij med sm\u00e5 barn .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 2,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familj med sm\u00e5 barn ."
+                        }
+                    },
+                    "output": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familig med sm\u00e5 barn ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familj med sm\u00e5 barn ."
+                        }
+                    },
+                    "output": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familj med sm\u00e5 barn ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 1,
+                            "Grammaticality": 3,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familj med sm\u00e5 barn ."
+                        }
+                    },
+                    "output": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familjlig familj med sm\u00e5 barn ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tycker absolut att det \u00e4r mycket viktigt att ha bil f\u00f6r en familj med sm\u00e5 barn ."
+                        }
+                    },
+                    "output": "Jag tycker absolut att det \u00e4r mycket viktigt att ha bil f\u00f6r en familj med sm\u00e5 barn ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familj med sm\u00e5 barn ."
+                        }
+                    },
+                    "output": "Jag tycker absolut att bilen \u00e4r mycket viktig f\u00f6r en familj med sm\u00e5 barn ."
+                }
+            }
+        },
+        {
+            "original": "Det var konstig f\u00f6r mig .",
+            "reference": "Det var konstigt f\u00f6r mig .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det var konstigt f\u00f6r mig ."
+                        }
+                    },
+                    "output": "Det var konstigt f\u00f6r mig ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det var konstigt f\u00f6r mig ."
+                        }
+                    },
+                    "output": "Det var konstigt f\u00f6r mig ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det var konstig f\u00f6r mig ."
+                        }
+                    },
+                    "output": "Det var konstig f\u00f6r mig ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det k\u00e4ndes konstigt f\u00f6r mig ."
+                        }
+                    },
+                    "output": "Det k\u00e4ndes konstigt f\u00f6r mig ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det var konstigt f\u00f6r mig ."
+                        }
+                    },
+                    "output": "Det var konstigt f\u00f6r mig ."
+                }
+            }
+        },
+        {
+            "original": "Det finns ocks\u00e5 lekaplatser f\u00f6r barnen .",
+            "reference": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen .",
+            "systems": {
+                "granska": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                        }
+                    },
+                    "output": "Det finns ocks\u00e5 lekaplatser f\u00f6r barnen ."
+                },
+                "mm": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                        }
+                    },
+                    "output": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                },
+                "mt": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                        }
+                    },
+                    "output": "Det finns ocks\u00e5 lekaplatser f\u00f6r barnen ."
+                },
+                "mw": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                        }
+                    },
+                    "output": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                },
+                "s2": {
+                    "annotators": {
+                        "katarina": {
+                            "Fluency": 4,
+                            "Grammaticality": 4,
+                            "Meaning Preservation": 4,
+                            "corrected": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                        }
+                    },
+                    "output": "Det finns ocks\u00e5 lekplatser f\u00f6r barnen ."
+                }
+            }
+        }
+    ],
+    "item_order": [
+        17,
+        11,
+        1,
+        3,
+        0,
+        45,
+        47,
+        34,
+        12,
+        9,
+        10,
+        16,
+        30,
+        31,
+        4,
+        58,
+        24,
+        53,
+        15,
+        59,
+        26,
+        63,
+        49,
+        48,
+        57,
+        2,
+        42,
+        28,
+        27,
+        40,
+        5,
+        7,
+        18,
+        37,
+        54,
+        23,
+        36,
+        55,
+        39,
+        52,
+        44,
+        60,
+        14,
+        20,
+        43,
+        56,
+        61,
+        50,
+        51,
+        21,
+        35,
+        6,
+        19,
+        32,
+        41,
+        38,
+        13,
+        33,
+        25,
+        46,
+        8,
+        22,
+        29,
+        62
+    ],
+    "next_item": 59
+}
