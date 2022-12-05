@@ -8,6 +8,13 @@ python3 annotator/create_annotation_file.py annotations/balanced_A/robert.json d
 
 python3 annotator/create_annotation_file.py annotations/balanced_A/katarina.json data/balanced_test/Nyberg.CEFR_A.balanced_test.orig.txt data/balanced_test/Nyberg.CEFR_A.balanced_test.corr.txt data/balanced_test/Nyberg.CEFR_A.balanced_test.granska data/balanced_test/Nyberg.CEFR_A.balanced_test.mt data/balanced_test/Nyberg.CEFR_A.balanced_test.s2 data/balanced_test/Nyberg.CEFR_A.balanced_test.mw data/balanced_test/Nyberg.CEFR_A.balanced_test.mm 
 
+python3 annotator/create_annotation_file.py annotations/balanced_B/robert.json data/balanced_test/Nyberg.CEFR_B.balanced_test.orig.txt data/balanced_test/Nyberg.CEFR_B.balanced_test.corr.txt data/balanced_test/Nyberg.CEFR_B.balanced_test.granska data/balanced_test/Nyberg.CEFR_B.balanced_test.mt data/balanced_test/Nyberg.CEFR_B.balanced_test.s2 data/balanced_test/Nyberg.CEFR_B.balanced_test.mw data/balanced_test/Nyberg.CEFR_B.balanced_test.mm 
+
+python3 annotator/create_annotation_file.py annotations/balanced_B/katarina.json data/balanced_test/Nyberg.CEFR_B.balanced_test.orig.txt data/balanced_test/Nyberg.CEFR_B.balanced_test.corr.txt data/balanced_test/Nyberg.CEFR_B.balanced_test.granska data/balanced_test/Nyberg.CEFR_B.balanced_test.mt data/balanced_test/Nyberg.CEFR_B.balanced_test.s2 data/balanced_test/Nyberg.CEFR_B.balanced_test.mw data/balanced_test/Nyberg.CEFR_B.balanced_test.mm 
+
+python3 annotator/create_annotation_file.py annotations/balanced_C/robert.json data/balanced_test/Nyberg.CEFR_C.balanced_test.orig.txt data/balanced_test/Nyberg.CEFR_C.balanced_test.corr.txt data/balanced_test/Nyberg.CEFR_C.balanced_test.granska data/balanced_test/Nyberg.CEFR_C.balanced_test.mt data/balanced_test/Nyberg.CEFR_C.balanced_test.s2 data/balanced_test/Nyberg.CEFR_C.balanced_test.mw data/balanced_test/Nyberg.CEFR_C.balanced_test.mm 
+
+python3 annotator/create_annotation_file.py annotations/balanced_C/katarina.json data/balanced_test/Nyberg.CEFR_C.balanced_test.orig.txt data/balanced_test/Nyberg.CEFR_C.balanced_test.corr.txt data/balanced_test/Nyberg.CEFR_C.balanced_test.granska data/balanced_test/Nyberg.CEFR_C.balanced_test.mt data/balanced_test/Nyberg.CEFR_C.balanced_test.s2 data/balanced_test/Nyberg.CEFR_C.balanced_test.mw data/balanced_test/Nyberg.CEFR_C.balanced_test.mm 
 """
 
 import os

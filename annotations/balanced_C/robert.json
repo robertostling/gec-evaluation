@@ -1,0 +1,1735 @@
+{
+    "data": [
+        {
+            "original": "Det som h\u00e4nder \u00e4r att ett litet \u201d like \u201d eller ett litet \u201d sms \u201d kan hj\u00e4lpa till att frig\u00f6ra dopamin i hj\u00e4rnan enligt m\u00e5nga unders\u00f6kningar och s\u00e5klart n\u00e4r det upprepas m\u00e5nga g\u00e5nger blir det perfekt association mellan beteende att plocka upp mobilen och att frig\u00f6ra dopamin i hj\u00e4rnan .",
+            "reference": "Det som h\u00e4nder \u00e4r att ett litet \u201d like \u201d eller ett litet \u201d sms \u201d enligt m\u00e5nga unders\u00f6kningar kan hj\u00e4lpa till att frig\u00f6ra dopamin i hj\u00e4rnan och n\u00e4r det upprepas m\u00e5nga g\u00e5nger blir det s\u00e5klart en perfekt association mellan beteendet att plocka upp mobilen och att frig\u00f6ra dopamin i hj\u00e4rnan .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det som h\u00e4nder \u00e4r att ett litet X like X eller ett litet X sms X kan hj\u00e4lpa till att frig\u00f6ra dopamin i hj\u00e4rnan enligt m\u00e5nga unders\u00f6kningar och s\u00e5klart n\u00e4r det upprepas m\u00e5nga g\u00e5nger blir det perfekt association mellan beteende att plocka upp mobilen och att frig\u00f6ra dopamin i hj\u00e4rnan ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det som h\u00e4nder \u00e4r att en liten \u201d like \u201d eller ett litet \u201d sms \u201d enligt m\u00e5nga unders\u00f6kningar kan hj\u00e4lpa till att frig\u00f6ra dopamin i hj\u00e4rnan och n\u00e4r det upprepas m\u00e5nga g\u00e5nger blir det s\u00e5klart en perfekt association mellan beteendet att plocka upp mobilen och att frig\u00f6ra dopamin i hj\u00e4rnan ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det som h\u00e4nder \u00e4r att ett litet \u201d like \u201d eller ett litet \u201d sms \u201d kan hj\u00e4lpa till att frig\u00f6ra dopamin i hj\u00e4rnan enligt m\u00e5nga unders\u00f6kningar och s\u00e5klart n\u00e4r det upprepas m\u00e5nga g\u00e5nger blir det perfekt association mellan beteende att plocka upp mobilen och att frig\u00f6ra dopamin i hj\u00e4rnan ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det som h\u00e4nder \u00e4r att ett litet \u201d like \u201d eller ett litet \u201d sms \u201d enligt m\u00e5nga unders\u00f6kningar kan hj\u00e4lpa till att frig\u00f6ra dopamin i hj\u00e4rnan , och n\u00e4r detta upprepas m\u00e5nga g\u00e5nger blir det f\u00f6rst\u00e5s en perfekt association mellan beteendet att ta upp mobilen och att dopamin frig\u00f6rs i hj\u00e4rnan ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det som h\u00e4nder \u00e4r att ett litet \u201d like \u201d eller ett litet \u201d sms \u201d kan hj\u00e4lpa till att frig\u00f6ra dopamin i hj\u00e4rnan enligt m\u00e5nga unders\u00f6kningar . Och n\u00e4r det upprepas m\u00e5nga g\u00e5nger blir det en perfekt association mellan beteendet att plocka upp mobilen och att frig\u00f6ra dopamin i hj\u00e4rnan ."
+                }
+            }
+        },
+        {
+            "original": "Det slutar med att hans flickv\u00e4n och hans fru b\u00e5da l\u00e4mnar honom och att han b\u00e5de f\u00f6rkrossar sin pappas hj\u00e4rta men \u00e4ven f\u00f6rs\u00e4mrar hans status .",
+            "reference": "Det slutar med att hans flickv\u00e4n och hans fru b\u00e5da l\u00e4mnar honom och att han b\u00e5de krossar sin pappas hj\u00e4rta men \u00e4ven f\u00f6rs\u00e4mrar hans status .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det slutar med att hans flickv\u00e4n och hans fru b\u00e5da l\u00e4mnar honom och att han b\u00e5de f\u00f6rkrossar sin pappas hj\u00e4rta men \u00e4ven f\u00f6rs\u00e4mrar hans status ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det slutar med att hans flickv\u00e4n och hans fru b\u00e5da l\u00e4mnar honom och att han b\u00e5de krossar sin pappas hj\u00e4rta men \u00e4ven f\u00f6rs\u00e4mrar hans status ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det slutar med att hans flickv\u00e4n och hans fru b\u00e5da l\u00e4mnar honom och att han b\u00e5de f\u00f6rkrossar sin pappas hj\u00e4rta men \u00e4ven f\u00f6rs\u00e4mrar hans status ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det slutar med att hans flickv\u00e4n och hans fru b\u00e5da l\u00e4mnar honom och att han b\u00e5de krossar sin pappas hj\u00e4rta och f\u00f6rs\u00e4mrar hans status ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det slutar med att hans flickv\u00e4n och hans fru b\u00e5da l\u00e4mnar honom och att han b\u00e5de f\u00f6rkrossar sin pappas hj\u00e4rta och f\u00f6rs\u00e4mrar hans status ."
+                }
+            }
+        },
+        {
+            "original": "En anledning till att dagens unga saknar arbetsmoral \u00e4r att de \u00e4r ointresserade av sina jobb .",
+            "reference": "En anledning till att dagens unga saknar arbetsmoral \u00e4r att de \u00e4r ointresserade av sina jobb .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "En anledning till att dagens unga saknar arbetsmoral \u00e4r att de \u00e4r ointresserade av sina jobb ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "En anledning till att dagens unga saknar arbetsmoral \u00e4r att de \u00e4r ointresserade av sina jobb ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "En anledning till att dagens unga saknar arbetsmoral \u00e4r att de \u00e4r ointresserade av sina jobb ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "En anledning till att dagens unga inte har n\u00e5gon arbetsmoral \u00e4r att de \u00e4r ointresserade av sina jobb ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "En anledning till att dagens unga saknar arbetsmoral \u00e4r att de \u00e4r ointresserade av sina jobb ."
+                }
+            }
+        },
+        {
+            "original": "Invandrare skulle p\u00e5 s\u00e5 s\u00e4tt slippa isoleringen fr\u00e5n det svenska folket , och d\u00e4rmed kunna komma in i samh\u00e4llet p\u00e5 ett smidigare s\u00e4tt .",
+            "reference": "Invandrare skulle p\u00e5 s\u00e5 s\u00e4tt slippa isoleringen fr\u00e5n det svenska folket , och d\u00e4rmed kunna komma in i samh\u00e4llet p\u00e5 ett smidigare s\u00e4tt .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Invandrare skulle p\u00e5 s\u00e5 s\u00e4tt slippa isoleringen fr\u00e5n det svenska folket , och d\u00e4rmed kunna komma in i samh\u00e4llet p\u00e5 ett smidigare s\u00e4tt ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Invandrare skulle p\u00e5 s\u00e5 s\u00e4tt slippa isoleringen fr\u00e5n det svenska folket , och d\u00e4rmed kunna komma in i samh\u00e4llet p\u00e5 ett smidigare s\u00e4tt ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Invandrare skulle p\u00e5 s\u00e5 s\u00e4tt slippa isoleringen fr\u00e5n det svenska folket , och d\u00e4rmed kunna komma in i samh\u00e4llet p\u00e5 ett smidigare s\u00e4tt ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Invandrare skulle p\u00e5 s\u00e5 s\u00e4tt slippa leva i isolering fr\u00e5n det svenska folket och skulle d\u00e4rmed kunna komma in i samh\u00e4llet p\u00e5 ett smidigare s\u00e4tt ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Invandrare skulle p\u00e5 s\u00e5 s\u00e4tt slippa isoleringen fr\u00e5n det svenska folket och d\u00e4rmed kunna komma in i samh\u00e4llet p\u00e5 ett smidigare s\u00e4tt ."
+                }
+            }
+        },
+        {
+            "original": "Man kan tydligt se den genom bokens g\u00e5ng , f\u00f6rst n\u00e4r Ester och Isak blir f\u00f6r\u00e4lskade och sen n\u00e4r Atom hamnar i fel grupp m\u00e4nniskor p\u00e5 grund av att han vill k\u00e4nna sig samh\u00f6rig och \u00e4lskad .",
+            "reference": "Man kan tydligt se det genom bokens g\u00e5ng , f\u00f6rst n\u00e4r Ester och Isak blir f\u00f6r\u00e4lskade och sen n\u00e4r Atom hamnar i fel grupp m\u00e4nniskor p\u00e5 grund av att han vill k\u00e4nna sig samh\u00f6rig och \u00e4lskad .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Man kan tydligt se den genom bokens g\u00e5ng , f\u00f6rst n\u00e4r Ester och Isak blir f\u00f6r\u00e4lskade och sen n\u00e4r Atom hamnar i fel gruppm\u00e4nniskor p\u00e5 grund av att han vill k\u00e4nna sig samh\u00f6rig och \u00e4lskad ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Man kan tydligt se det genom bokens g\u00e5ng , f\u00f6rst n\u00e4r Ester och Isak blir f\u00f6r\u00e4lskade och sen n\u00e4r Atom hamnar i fel grupp m\u00e4nniskor p\u00e5 grund av att han vill k\u00e4nna sig samh\u00f6rig och \u00e4lskad ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Man kan tydligt se den genom bokens g\u00e5ng , f\u00f6rst n\u00e4r Ester och Isak blir f\u00f6r\u00e4lskade och sen n\u00e4r Atom hamnar i fel grupp m\u00e4nniskor p\u00e5 grund av att han vill k\u00e4nna sig samh\u00f6rig och \u00e4lskad ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Man kan tydligt se det genom skildringen i boken , f\u00f6rst n\u00e4r Ester och Isak blir f\u00f6r\u00e4lskade och sedan n\u00e4r Atom hamnar bland fel m\u00e4nniskor p\u00e5 grund av att han vill k\u00e4nna sig tillh\u00f6rig och \u00e4lskad ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Man kan tydligt se den genom bokens g\u00e5ng . F\u00f6rst n\u00e4r Ester och Isak blir f\u00f6r\u00e4lskade och sedan n\u00e4r Atom hamnar i fel grupp m\u00e4nniskor p\u00e5 grund av att han vill k\u00e4nna sig samh\u00f6rig och \u00e4lskad ."
+                }
+            }
+        },
+        {
+            "original": "Samh\u00e4llet i Sverige och andra l\u00e4nder som demokratiska lider mycket av svarta tj\u00e4nster . Och det finns olika former av svarta tj\u00e4nster exempelvis av detta \u00e4r svartjobb , svart hyra och svartmarknad .",
+            "reference": "Samh\u00e4llet i Sverige och andra l\u00e4nder som \u00e4r demokratiska drabbas h\u00e5rt av svarta tj\u00e4nster , och det finns olika former av svarta tj\u00e4nster , exempelvis svartjobb , svart hyra och svart marknad .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Samh\u00e4llet i Sverige och andra l\u00e4nder som demokratiska lider mycket av svarta tj\u00e4nster . Och det finns olika former av svarta tj\u00e4nster exempelvis av detta \u00e4r svartjobb , svart hyra och svartmarknad ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Samh\u00e4llet i Sverige och andra l\u00e4nder som \u00e4r demokratiska drabbas h\u00e5rt av svarta tj\u00e4nster , och det finns olika former av svarta tj\u00e4nster , exempelvis svartjobb , svart hyra och svart marknad ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Samh\u00e4llet i Sverige och andra l\u00e4nder som \u00e4r demokratiska lider mycket av svarta tj\u00e4nster . Och det finns olika former av svarta tj\u00e4nster , exempelvis om detta \u00e4r svartjobb , svart hyra och svartmarknad ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Samh\u00e4llet i Sverige och i andra l\u00e4nder som \u00e4r demokratiska drabbas h\u00e5rt av svarta tj\u00e4nster . Det finns olika former av dessa , till exempel svartjobb , svart hyra och svart marknad ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Samh\u00e4llet i Sverige och andra l\u00e4nder som \u00e4r demokratiska lider mycket av svarta tj\u00e4nster . Det finns olika former av svarta tj\u00e4nster , till exempel svartjobb , svart hyra och svartmarknad ."
+                }
+            }
+        },
+        {
+            "original": "Utg\u00e5ngspunkten f\u00f6r min text \u00e4r att f\u00f6r\u00f6ka att identifiera och f\u00f6rklara kommunikationen .",
+            "reference": "Utg\u00e5ngspunkten f\u00f6r min text \u00e4r att f\u00f6rs\u00f6ka att identifiera och f\u00f6rklara kommunikation .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Utg\u00e5ngspunkten f\u00f6r min text \u00e4r att f\u00f6r\u00f6ka att identifiera och f\u00f6rklara kommunikationen ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Utg\u00e5ngspunkten f\u00f6r min text \u00e4r att f\u00f6rs\u00f6ka att identifiera och f\u00f6rklara kommunikation ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Utg\u00e5ngspunkten f\u00f6r min text \u00e4r att f\u00f6rs\u00f6ka att identifiera och f\u00f6rklara kommunikationen ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Utg\u00e5ngspunkten f\u00f6r min text \u00e4r att f\u00f6rs\u00f6ka identifiera och f\u00f6rklara kommunikation ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Utg\u00e5ngspunkten f\u00f6r min text \u00e4r att f\u00f6rs\u00f6ka identifiera och f\u00f6rklara kommunikationen ."
+                }
+            }
+        },
+        {
+            "original": "Eller st\u00e4mmer det fortfarande idag ?",
+            "reference": "Eller st\u00e4mmer det fortfarande idag ?",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Eller st\u00e4mmer det fortfarande idag ?"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Eller st\u00e4mmer det fortfarande idag ?"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Eller st\u00e4mmer det fortfarande idag ?"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Eller st\u00e4mmer det fortfarande i dag ?"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "St\u00e4mmer det fortfarande idag ?"
+                }
+            }
+        },
+        {
+            "original": "Men \u00e4r det sannolikt ?",
+            "reference": "Men \u00e4r det sannolikt ?",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Men \u00e4r det sannolikt ?"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Men \u00e4r det sannolikt ?"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Men \u00e4r det sannolikt ?"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Men \u00e4r det sannolikt ?"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Men \u00e4r det sannolikt ?"
+                }
+            }
+        },
+        {
+            "original": "Vissa brott kr\u00e4ver bara att personen varit of\u00f6rsiktig , men de \u00e4r undantag ( t ex v\u00e5llande till annans d\u00f6d eller v\u00e5llande till kroppsskada ) .",
+            "reference": "Vissa brott kr\u00e4ver bara att personen varit of\u00f6rsiktig , men de \u00e4r undantag ( t ex v\u00e5llande till annans d\u00f6d eller v\u00e5llande till kroppsskada ) .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Vissa brott kr\u00e4ver bara att personen varit of\u00f6rsiktig , men de \u00e4r undantag ( t ex v\u00e5llande till annans d\u00f6d eller v\u00e5llande till kroppsskada ) ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Vissa brott kr\u00e4ver bara att personen varit of\u00f6rsiktig , men de \u00e4r undantag ( t ex v\u00e5llande till annans d\u00f6d eller v\u00e5llande till kroppsskada ) ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Vissa brott kr\u00e4ver bara att personen varit of\u00f6rsiktig , men de \u00e4r undantag ( t ex v\u00e5llande till annans d\u00f6d eller v\u00e5llande till kroppsskada ) ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Vissa brott inneb\u00e4r bara att personen varit of\u00f6rsiktig , men de \u00e4r undantag ( till exempel v\u00e5llande till annans d\u00f6d eller v\u00e5llande till kroppsskada ) ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Vissa brott kr\u00e4ver bara att personen varit of\u00f6rsiktig , men det finns undantag ( t ex v\u00e5llande till annans d\u00f6d eller v\u00e5llande till kroppsskada ) ."
+                }
+            }
+        },
+        {
+            "original": "F\u00f6r att svara p\u00e5 fr\u00e5gan beh\u00f6ver man , enligt min \u00e5sikt , unders\u00f6ka hur mycket ungdomarna kan om demokrati",
+            "reference": "F\u00f6r att svara p\u00e5 fr\u00e5gan beh\u00f6ver man , enligt min \u00e5sikt , unders\u00f6ka hur mycket ungdomarna kan om demokrati .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "F\u00f6r att svara p\u00e5 fr\u00e5gan beh\u00f6ver man , enligt min \u00e5sikt , unders\u00f6ka hur mycket ungdomarna kan om demokrati"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "F\u00f6r att svara p\u00e5 fr\u00e5gan beh\u00f6ver man , enligt min \u00e5sikt , unders\u00f6ka hur mycket ungdomarna kan om demokrati ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "F\u00f6r att svara p\u00e5 fr\u00e5gan beh\u00f6ver man , enligt min \u00e5sikt , unders\u00f6ka hur mycket ungdomarna kan om demokrati ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "F\u00f6r att svara p\u00e5 denna fr\u00e5ga beh\u00f6ver man , enligt min \u00e5sikt , unders\u00f6ka hur mycket ungdomarna kan om demokrati ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "F\u00f6r att svara p\u00e5 fr\u00e5gan beh\u00f6ver man , enligt min \u00e5sikt , unders\u00f6ka hur mycket ungdomarna kan om demokrati ."
+                }
+            }
+        },
+        {
+            "original": "Tingel vill inte f\u00f6rlora sin makt \u00f6ver folket men Jonatan \u00e4r mot den och vill hj\u00e4lpa folk .",
+            "reference": "Tengil vill inte f\u00f6rlora sin makt \u00f6ver folket , men Jonatan \u00e4r emot den och vill hj\u00e4lpa folk .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Tingen vill inte f\u00f6rlora sin makt \u00f6ver folket men Jonathan \u00e4r mot den och vill hj\u00e4lpa folk ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Tengil vill inte f\u00f6rlora sin makt \u00f6ver folket , men Jonatan \u00e4r emot den och vill hj\u00e4lpa folk ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Tingel vill inte f\u00f6rlora sin makt \u00f6ver folket men Jonatan \u00e4r emot den och vill hj\u00e4lpa folk ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Tengil vill inte f\u00f6rlora makten \u00f6ver folket , men Jonatan k\u00e4mpar emot och vill hj\u00e4lpa folk ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Tingel vill inte f\u00f6rlora sin makt \u00f6ver folket , men Jonatan \u00e4r emot den och vill hj\u00e4lpa folk ."
+                }
+            }
+        },
+        {
+            "original": "Ibland plagg fr\u00e5n en kultur ser konstigt ut f\u00f6r m\u00e4nniskor fr\u00e5n andra kultur .",
+            "reference": "Ibland ser ett plagg fr\u00e5n en kultur konstigt ut f\u00f6r m\u00e4nniskor fr\u00e5n andra kulturer .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Ibland plagg fr\u00e5n en kultur ser konstigt ut f\u00f6r m\u00e4nniskor fr\u00e5n andra kultur ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Ibland ser ett plagg fr\u00e5n en kultur konstigt ut f\u00f6r m\u00e4nniskor fr\u00e5n andra kulturer ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Ibland plagg fr\u00e5n en kultur som ser konstigt ut f\u00f6r m\u00e4nniskor fr\u00e5n andra kulturer ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Ibland kan ett plagg fr\u00e5n en kultur se konstigt ut f\u00f6r m\u00e4nniskor fr\u00e5n andra kulturer ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Ibland ser plagg fr\u00e5n en kultur konstigt ut f\u00f6r m\u00e4nniskor fr\u00e5n andra kulturer ."
+                }
+            }
+        },
+        {
+            "original": "N\u00e4r den svenska befolkningen gav upp p\u00e5 sitt egna land s\u00e5 s\u00e5g immigranterna inte ett brustet land som h\u00f6ll p\u00e5 att sv\u00e4lta , utan de s\u00e5g en m\u00f6jlighet att kunna tj\u00e4na pengar och bygga upp landet p\u00e5 nytt .",
+            "reference": "N\u00e4r den svenska befolkningen gav upp sitt egna land s\u00e5 s\u00e5g immigranterna inte ett brustet land som h\u00f6ll p\u00e5 att sv\u00e4lta , utan de s\u00e5g en m\u00f6jlighet att kunna tj\u00e4na pengar och bygga upp landet p\u00e5 nytt .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "N\u00e4r den svenska befolkningen gav upp p\u00e5 sitt eget land s\u00e5 s\u00e5g immigranterna inte ett brustet land som h\u00f6ll p\u00e5 att sv\u00e4lta , utan de s\u00e5g en m\u00f6jlighet att kunna tj\u00e4na pengar och bygga upp landet p\u00e5 nytt ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "N\u00e4r den svenska befolkningen gav upp sitt egna land s\u00e5 s\u00e5g immigranterna inte ett brustet land som h\u00f6ll p\u00e5 att sv\u00e4lta , utan de s\u00e5g en m\u00f6jlighet att kunna tj\u00e4na pengar och bygga upp landet p\u00e5 nytt ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "N\u00e4r den svenska befolkningen gav upp p\u00e5 sitt egna land s\u00e5 s\u00e5g immigranterna inte ett brustet land som h\u00f6ll p\u00e5 att sv\u00e4lta , utan de s\u00e5g en m\u00f6jlighet att kunna tj\u00e4na pengar och bygga upp landet p\u00e5 nytt ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "N\u00e4r den svenska befolkningen gav upp sitt land s\u00e5g invandrarna inte ett trasigt land med sv\u00e4lt utan en m\u00f6jlighet att tj\u00e4na pengar och bygga upp landet p\u00e5 nytt ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "N\u00e4r den svenska befolkningen gav upp p\u00e5 sitt egna land s\u00e5 s\u00e5g immigranterna inte ett brustet land som h\u00f6ll p\u00e5 att sv\u00e4lta utan de s\u00e5g en m\u00f6jlighet att kunna tj\u00e4na pengar och bygga upp landet p\u00e5 nytt ."
+                }
+            }
+        },
+        {
+            "original": "Kl\u00e4derna till\u00e5ter de att skicka ett hemlig budskap till deras omgivning och anv\u00e4nds som kommunikationsverktyg .",
+            "reference": "Kl\u00e4derna till\u00e5ter dem att skicka ett hemligt budskap till sin omgivning och anv\u00e4nds som ett kommunikationsverktyg .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Kl\u00e4derna till\u00e5ter de att skicka ett hemligbudskap till deras omgivning och anv\u00e4nds som kommunikationsverktyg ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Kl\u00e4derna anv\u00e4nds som ett kommunikationsverktyg och till\u00e5ter dem att skicka ett hemligt budskap till sin omgivning ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Kl\u00e4derna till\u00e5ter de att skicka ett hemligt budskap till deras omgivning och anv\u00e4nds som kommunikationsverktyg ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Kl\u00e4derna ger dem m\u00f6jlighet att skicka ett hemligt budskap till omgivningen och anv\u00e4nds som ett kommunikationsverktyg ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Kl\u00e4derna till\u00e5ter oss att skicka ett hemligt budskap till v\u00e5r omgivning och anv\u00e4nds som ett kommunikationsmedel ."
+                }
+            }
+        },
+        {
+            "original": "V\u00e4rldens lyckligaste l\u00e4nder Att vara lyckligt \u00e4r n\u00e5got som vi alla m\u00e4nniskor \u00f6nskar och vill .",
+            "reference": "V\u00e4rldens lyckligaste l\u00e4nder Att vara lyckliga \u00e4r n\u00e5got som vi alla m\u00e4nniskor \u00f6nskar och vill .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "V\u00e4rldens lyckligaste l\u00e4nder Att vara lyckligt \u00e4r n\u00e5got som vi alla m\u00e4nniskor \u00f6nskar och vill ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "V\u00e4rldens lyckligaste l\u00e4nder Att vara lyckliga \u00e4r n\u00e5got som alla m\u00e4nniskor vill ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "V\u00e4rldens lyckligaste l\u00e4nder Att vara lycklig \u00e4r n\u00e5got som vi alla m\u00e4nniskor \u00f6nskar och vill ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "V\u00e4rldens lyckligaste l\u00e4nder Att bli lyckliga \u00e4r n\u00e5got som alla m\u00e4nniskor \u00f6nskar sig ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "V\u00e4rldens lyckligaste l\u00e4nder Att vara lycklig \u00e4r n\u00e5got som vi alla m\u00e4nniskor \u00f6nskar och str\u00e4var efter ."
+                }
+            }
+        },
+        {
+            "original": "Slutligen skulle svaret p\u00e5 fr\u00e5gan \" Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska blev frivillig \" vara b\u00e5de bra och d\u00e5lig .",
+            "reference": "Slutligen skulle svaret p\u00e5 fr\u00e5gan \" Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska blev frivillig \" vara b\u00e5de bra och d\u00e5liga .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Slutligen skulle svaret p\u00e5 fr\u00e5gan X Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska blev frivillig X vara b\u00e5de bra och d\u00e5lig ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Slutligen skulle svaret p\u00e5 fr\u00e5gan \" Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska blev frivillig \" vara b\u00e5de bra och d\u00e5liga ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Slutligen skulle svaret p\u00e5 fr\u00e5gan \" Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska blev frivillig \" vara b\u00e5de bra och d\u00e5lig ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Slutligen skulle konsekvenserna av om undervisningen i svenska blev frivillig vara b\u00e5de bra och d\u00e5liga ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Slutligen skulle svaret p\u00e5 fr\u00e5gan \" Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska blev frivillig \" vara b\u00e5de bra och d\u00e5lig ."
+                }
+            }
+        },
+        {
+            "original": "En nations spr\u00e5k uppr\u00e4tth\u00e5lls genom folkets engagemang , och n\u00e4r detta f\u00f6rsvinner blir spr\u00e5ket underl\u00e4gset .",
+            "reference": "En nations spr\u00e5k uppr\u00e4tth\u00e5lls genom folkets engagemang , och n\u00e4r detta f\u00f6rsvinner blir spr\u00e5ket underl\u00e4gset .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "En nations spr\u00e5k uppr\u00e4tth\u00e5lls genom folkets engagemang , och n\u00e4r detta f\u00f6rsvinner blir spr\u00e5ket underl\u00e4gset ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "En nations spr\u00e5k uppr\u00e4tth\u00e5lls genom folkets engagemang , och n\u00e4r detta f\u00f6rsvinner blir spr\u00e5ket underl\u00e4gset ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "En nations spr\u00e5k uppr\u00e4tth\u00e5lls genom folkets engagemang , och n\u00e4r detta f\u00f6rsvinner blir spr\u00e5ket underl\u00e4gset ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "En nations spr\u00e5k uppr\u00e4tth\u00e5lls genom folkets engagemang , och n\u00e4r detta f\u00f6rsvinner blir spr\u00e5ket underl\u00e4gset ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Ett nations spr\u00e5k uppr\u00e4tth\u00e5lls genom folkets engagemang , och n\u00e4r detta f\u00f6rsvinner blir spr\u00e5ket underl\u00e4gset ."
+                }
+            }
+        },
+        {
+            "original": "Vilka konsekvenser skulle det f\u00e5 om unedrvisningen i svenska i st\u00e4llet bli frivilligt ?",
+            "reference": "Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska i st\u00e4llet blir frivillig ?",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska i st\u00e4llet bli frivilligt ?"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska i st\u00e4llet blir frivillig ?"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska i st\u00e4llet skulle bli frivilligt ?"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska i st\u00e4llet blev frivillig ?"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Vilka konsekvenser skulle det f\u00e5 om undervisningen i svenska i st\u00e4llet blev frivillig ?"
+                }
+            }
+        },
+        {
+            "original": "En annan orsak till att man beg\u00e5r skattebrott \u00e4r l\u00e5ga f\u00f6rtroendeniv\u00e5er f\u00f6r politiska institutioner i landet ( Hammar , Jagers och Nordblom 2005 : 1 ) .",
+            "reference": "En annan orsak till att man beg\u00e5r skattebrott \u00e4r l\u00e5ga f\u00f6rtroendeniv\u00e5er f\u00f6r politiska institutioner i landet ( Hammar , Jagers och Nordblom 2005 : 1 ) .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "En annan orsak till att man beg\u00e5r skattebrott \u00e4r l\u00e5ga f\u00f6rtroendeniv\u00e5er f\u00f6r politiska institutioner i landet ( Hammar , Jagers och Nordblom 2005 : 1 ) ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "En annan orsak till att man beg\u00e5r skattebrott \u00e4r l\u00e5ga f\u00f6rtroendeniv\u00e5er f\u00f6r politiska institutioner i landet ( Hammar , Jagers och Nordblom 2005 : 1 ) ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "En annan orsak till att man beg\u00e5r skattebrott \u00e4r l\u00e5ga f\u00f6rtroendeniv\u00e5er f\u00f6r politiska institutioner i landet ( Hammar , Jagers och Nordblom 2005 : 1 ) ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "En annan orsak till att det beg\u00e5s skattebrott \u00e4r l\u00e5gt f\u00f6rtroende f\u00f6r politiska institutioner i landet ( Hammar , Jagers och Nordblom 2005 : 1 ) ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "En annan orsak till skattebrott \u00e4r l\u00e5ga f\u00f6rtroendeniv\u00e5er f\u00f6r politiska institutioner i landet ( Hammar , Jagers och Nordblom 2005 : 1 ) ."
+                }
+            }
+        },
+        {
+            "original": "Alla dessa konsekvenser kan i sin tur lida till ett korrupt samh\u00e4lle .",
+            "reference": "Alla dessa konsekvenser kan i sin tur leda till ett korrupt samh\u00e4lle .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Alla dessa konsekvenser kan i sin tur lida till ett korrupt samh\u00e4lle ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Alla dessa konsekvenser kan i sin tur leda till ett korrupt samh\u00e4lle ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Alla dessa konsekvenser kan i sin tur lida mot ett korrupt samh\u00e4lle ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Alla dessa konsekvenser kan i sin tur leda till ett korrupt samh\u00e4lle ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Alla dessa konsekvenser kan i sin tur leda till ett korrupt samh\u00e4lle ."
+                }
+            }
+        },
+        {
+            "original": "Hon tycker att hon \u00e4r farlig d\u00e4r f\u00f6r st\u00e4nger in sig i sitt rum .",
+            "reference": "Hon tycker att hon \u00e4r farlig , d\u00e4rf\u00f6r st\u00e4nger hon in sig i sitt rum .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Hon tycker att hon \u00e4r farlig d\u00e4r f\u00f6r st\u00e4nger in sig i sitt rum ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Hon tycker att hon \u00e4r farlig , d\u00e4rf\u00f6r st\u00e4nger hon in sig i sitt rum ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Hon tycker att hon \u00e4r farlig d\u00e4rf\u00f6r st\u00e4nger hon in sig i sitt rum ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Hon tycker att hon \u00e4r farlig och d\u00e4rf\u00f6r st\u00e4nger hon in sig i sitt rum ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Hon tycker att det \u00e4r farligt f\u00f6r henne att vara d\u00e4r ute , s\u00e5 hon st\u00e4nger in sig i sitt rum ."
+                }
+            }
+        },
+        {
+            "original": "Lever man dock i ett samh\u00e4lle d\u00e4r spr\u00e5ket \u00e4r o\u00f6nskat kan det leda till att individens sj\u00e4lvbild krymper .",
+            "reference": "Lever man dock i ett samh\u00e4lle d\u00e4r spr\u00e5ket \u00e4r o\u00f6nskat kan det leda till att individens sj\u00e4lvbild krymper .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Lever man dock i ett samh\u00e4lle d\u00e4r spr\u00e5ket \u00e4r o\u00f6nskat kan det leda till att individens sj\u00e4lvbild krymper ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Lever man dock i ett samh\u00e4lle d\u00e4r spr\u00e5ket \u00e4r o\u00f6nskat kan det leda till att individens sj\u00e4lvbild krymper ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Lever man dock i ett samh\u00e4lle d\u00e4r spr\u00e5ket \u00e4r o\u00f6nskat kan det leda till att individens sj\u00e4lvbild krymper ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Om man emellertid lever i ett samh\u00e4lle d\u00e4r spr\u00e5ket \u00e4r o\u00f6nskat s\u00e5 kan det leda till att individens sj\u00e4lvbild krymper ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Om man dock lever i ett samh\u00e4lle d\u00e4r spr\u00e5ket \u00e4r o\u00f6nskat kan det leda till att individens sj\u00e4lvbild krymper ."
+                }
+            }
+        },
+        {
+            "original": "Det finns bra st\u00e4llning f\u00f6r undervisning av finlanssvenskan i skolan b\u00e5da i tal och skrift menar Riad i sin artikel d\u00e4r hon \u00e4ven citerar Torkel Janssons , professor i historia vid Uppsala universitet , \u00e5sikte : \" Medelklassen inser numera nyttan med att vara tv\u00e5spr\u00e5kig och s\u00e4tter barnen i svenskspr\u00e5kiga skolor .",
+            "reference": "Det finns bra f\u00f6ruts\u00e4ttningar f\u00f6r undervisning i finlandssvenska i skolan b\u00e5de i tal och skrift , menar Riad i sin artikel d\u00e4r hon \u00e4ven citerar Torkel Janssons , professor i historia vid Uppsala universitet , \u00e5sikt : \" Medelklassen inser numera nyttan med att vara tv\u00e5spr\u00e5kig och s\u00e4tter barnen i svenskspr\u00e5kiga skolor .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det finns bra st\u00e4llning f\u00f6r undervisning av finlanssvenskan i skolan b\u00e5da i tal och skrift menar Riad i sin artikel d\u00e4r hon \u00e4ven citerar Torkel Janssons , professor i historia vid Uppsala universitet , \u00e5sikter : X Medelklassen inser numera nyttan med att vara tv\u00e5spr\u00e5kig och s\u00e4tter barnen i svenskspr\u00e5kiga skolor ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det finns bra f\u00f6ruts\u00e4ttningar f\u00f6r undervisning i finlandssvenska i skolan b\u00e5de i tal och skrift , menar Riad i sin artikel d\u00e4r hon \u00e4ven citerar Torkel Janssons , professor i historia vid Uppsala universitet , \u00e5sikt : \" Medelklassen inser numera nyttan med att vara tv\u00e5spr\u00e5kig och s\u00e4tter barnen i svenskspr\u00e5kiga skolor ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det finns en bra st\u00e4llning f\u00f6r undervisning av finanssvenskan i skolan b\u00e5de i tal och skrift , menar Riad i sin artikel d\u00e4r hon \u00e4ven citerar Torkel Janssons , professor i historia vid Uppsala universitet , \u00e5sikt : \" Medelklassen inser numera nyttan med att vara tv\u00e5spr\u00e5kig och s\u00e4tter barnen i svenskspr\u00e5kiga skolor ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det finns bra f\u00f6ruts\u00e4ttningar f\u00f6r undervisning i finlandssvenska i b\u00e5de tal och skrift i skolan menar Riad i sin artikel , d\u00e4r hon \u00e4ven citerar Torkel Jansson , professor i historia vid Uppsala universitet : \" Medelklassen inser numera nyttan med att vara tv\u00e5spr\u00e5kig och s\u00e4tter barnen i svenskspr\u00e5kiga skolor ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Riad menar i sin artikel att det finns bra f\u00f6ruts\u00e4ttningar f\u00f6r undervisning av finl\u00e4ndska i skolan , b\u00e5de i tal och skrift . Hon citerar \u00e4ven Torkel Janssons , professor i historia vid Uppsala universitet , som s\u00e4ger : \" Medelklassen inser numera nyttan med att vara tv\u00e5spr\u00e5kig och s\u00e4tter barnen i svenskspr\u00e5kiga skolor ."
+                }
+            }
+        },
+        {
+            "original": "Orsaker till brottet Varf\u00f6r beg\u00e5r m\u00e4nniskorna brottet och vad \u00e4r orsaken f\u00f6r det ?",
+            "reference": "Orsaker till brott Varf\u00f6r beg\u00e5r m\u00e4nniskor brott och vad \u00e4r orsaken till det ?",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Orsaker till brottet Varf\u00f6r beg\u00e5r m\u00e4nniskorna brottet och vad \u00e4r orsaken f\u00f6r det ?"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Orsaker till brott : Varf\u00f6r beg\u00e5r m\u00e4nniskor brott ?"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Orsaker till brottet Varf\u00f6r beg\u00e5r m\u00e4nniskorna brottet och vad \u00e4r orsaken till det ?"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Orsaker till brott Varf\u00f6r beg\u00e5r m\u00e4nniskor brott och vad \u00e4r orsaken till det ?"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Orsaker till brottet . Varf\u00f6r beg\u00e5r m\u00e4nniskor brott och vad \u00e4r orsaken till det ?"
+                }
+            }
+        },
+        {
+            "original": "I vissa fall har religionen en stor betydelse i livet , och det kan sj\u00e4lvklart p\u00e5verka i att bli lycklig .",
+            "reference": "I vissa fall har religionen en stor betydelse i livet , och det kan sj\u00e4lvklart p\u00e5verka n\u00e5gon f\u00f6r att bli lycklig .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "I vissa fall har religionen en stor betydelse i livet , och det kan sj\u00e4lvklart p\u00e5verka i att bli lycklig ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "I vissa fall har religionen en stor betydelse i livet , och det kan sj\u00e4lvklart g\u00f6ra n\u00e5gon lyckligare ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "I vissa fall har religionen en stor betydelse i livet , och det kan sj\u00e4lvklart p\u00e5verka till att bli lycklig ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "I vissa fall har religionen stor betydelse i livet , och detta kan naturligtvis p\u00e5verka om man blir lycklig ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "I vissa fall har religionen en stor betydelse i livet , och det kan sj\u00e4lvklart p\u00e5verka hur lycklig man blir ."
+                }
+            }
+        },
+        {
+            "original": "Det beh\u00f6ver inte n\u00e5got specielt att vara lycklig .",
+            "reference": "Det beh\u00f6vs inte n\u00e5got speciellt f\u00f6r att vara lycklig .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det beh\u00f6ver inte n\u00e5got speciellt att vara lycklig ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det beh\u00f6vs inte n\u00e5got speciellt f\u00f6r att vara lycklig ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det beh\u00f6ver inte vara n\u00e5got speciellt att vara lycklig ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det kr\u00e4vs inte n\u00e5got speciellt f\u00f6r att man ska bli lycklig ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det beh\u00f6vs inte n\u00e5got speciellt f\u00f6r att vara lycklig ."
+                }
+            }
+        },
+        {
+            "original": "Kl\u00e4der \u00e4r ocks\u00e5 ett viktigt s\u00e4tt f\u00f6r folk att uttrycka deras personliga stiler och kar\u00e4kt\u00f6rer och ibland \u00e4ven deras kulturer .",
+            "reference": "Kl\u00e4der \u00e4r ocks\u00e5 ett viktigt s\u00e4tt f\u00f6r folk att uttrycka sina personliga stilar och karakt\u00e4rer och ibland \u00e4ven sina kulturer .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Kl\u00e4der \u00e4r ocks\u00e5 ett viktigt s\u00e4tt f\u00f6r folk att uttrycka deras personliga stiger och karakt\u00f6rer och ibland \u00e4ven deras kulturer ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Kl\u00e4der \u00e4r ocks\u00e5 ett viktigt s\u00e4tt f\u00f6r folk att uttrycka sina personliga stilar och karakt\u00e4rer och ibland \u00e4ven sina kulturer ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Kl\u00e4der \u00e4r ocks\u00e5 ett viktigt s\u00e4tt f\u00f6r folk att uttrycka deras personliga stilar och karakt\u00e4rer och ibland \u00e4ven deras kulturer ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Kl\u00e4der \u00e4r ocks\u00e5 ett viktigt s\u00e4tt f\u00f6r folk att uttrycka sin personliga stil och karakt\u00e4r , och ibland \u00e4ven sin kultur ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Kl\u00e4der \u00e4r ocks\u00e5 ett viktigt s\u00e4tt f\u00f6r folk att uttrycka sina personliga stilar och kar\u00e4kt\u00e4rer och ibland \u00e4ven deras kulturer ."
+                }
+            }
+        },
+        {
+            "original": "D\u00e4rf\u00f6r m\u00e5ste man bli f\u00f6rsiktig och l\u00e5na eller k\u00f6pa p\u00e5 second h\u00e4nd den plagg som man beh\u00f6ver bara en g\u00e5ng i livet .",
+            "reference": "D\u00e4rf\u00f6r m\u00e5ste man vara f\u00f6rsiktig och l\u00e5na eller k\u00f6pa p\u00e5 second hand de plagg som man beh\u00f6ver bara en g\u00e5ng i livet .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "D\u00e4rf\u00f6r m\u00e5ste man bli f\u00f6rsiktig och l\u00e5na eller k\u00f6pa p\u00e5 second h\u00e4nd det plagget som man beh\u00f6ver bara en g\u00e5ng i livet ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "D\u00e4rf\u00f6r m\u00e5ste man vara f\u00f6rsiktig och l\u00e5na eller k\u00f6pa p\u00e5 second hand de plagg som man bara beh\u00f6ver en g\u00e5ng i livet ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "D\u00e4rf\u00f6r m\u00e5ste man vara f\u00f6rsiktig och l\u00e5na eller k\u00f6pa p\u00e5 second hand plagg som man bara beh\u00f6ver en g\u00e5ng i livet ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "D\u00e4rf\u00f6r m\u00e5ste man vara f\u00f6rsiktig , och de plagg som man bara beh\u00f6ver en g\u00e5ng i livet kan man l\u00e5na eller k\u00f6pa p\u00e5 second hand ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "D\u00e4rf\u00f6r b\u00f6r man vara f\u00f6rsiktig och l\u00e5na eller k\u00f6pa second hand-kl\u00e4der f\u00f6r de plagg man bara beh\u00f6ver en g\u00e5ng i livet ."
+                }
+            }
+        },
+        {
+            "original": "Varf\u00f6r och hur familjens roll har f\u00f6r\u00e4ndrats i dagens samh\u00e4lle ?",
+            "reference": "Varf\u00f6r och hur har familjens roll f\u00f6r\u00e4ndrats i dagens samh\u00e4lle ?",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Varf\u00f6r och hur familjens roll har f\u00f6r\u00e4ndrats i dagens samh\u00e4lle ?"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Varf\u00f6r och hur har familjens roll f\u00f6r\u00e4ndrats i dagens samh\u00e4lle ?"
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Varf\u00f6r och hur familjens roll har f\u00f6r\u00e4ndrats i dagens samh\u00e4lle ?"
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Varf\u00f6r och hur har familjens roll f\u00f6r\u00e4ndrats i dagens samh\u00e4lle ?"
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Varf\u00f6r och hur har familjens roll f\u00f6r\u00e4ndrats i dagens samh\u00e4lle ?"
+                }
+            }
+        },
+        {
+            "original": "Jag v\u00e4ljer kl\u00e4der som visar min respekt f\u00f6r medm\u00e4nniskor och f\u00f6r samh\u00e4llet .",
+            "reference": "Jag v\u00e4ljer kl\u00e4der som visar min respekt f\u00f6r mina medm\u00e4nniskor och f\u00f6r samh\u00e4llet .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Jag v\u00e4ljer kl\u00e4der som visar min respekt f\u00f6r medm\u00e4nniskor och f\u00f6r samh\u00e4llet ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Jag v\u00e4ljer kl\u00e4der som visar respekt f\u00f6r mina medm\u00e4nniskor och f\u00f6r samh\u00e4llet ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Jag v\u00e4ljer kl\u00e4der som visar min respekt f\u00f6r medm\u00e4nniskor och f\u00f6r samh\u00e4llet ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Jag v\u00e4ljer kl\u00e4der som uttrycker respekt f\u00f6r mina medm\u00e4nniskor och f\u00f6r samh\u00e4llet ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Jag v\u00e4ljer kl\u00e4der som visar min respekt f\u00f6r medm\u00e4nniskor och f\u00f6r samh\u00e4llet ."
+                }
+            }
+        },
+        {
+            "original": "Ett allm\u00e4nm\u00e4nskligt tema som inneh\u00e5ller livsl\u00e4xor f\u00f6r oss \u00e4r temat familjens heder .",
+            "reference": "Ett allm\u00e4nm\u00e4nskligt tema som inneh\u00e5ller livsl\u00e4xor f\u00f6r oss \u00e4r temat familjens heder .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Ett allm\u00e4nm\u00e4nskligt tema som inneh\u00e5ller livsl\u00e4xor f\u00f6r oss \u00e4r temat familjens heder ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Ett allm\u00e4nm\u00e4nskligt tema som inneh\u00e5ller livsl\u00e4xor . F\u00f6r oss \u00e4r temat familjens heder ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Ett allm\u00e4nm\u00e4nskligt tema som inneh\u00e5ller livsl\u00e4xor f\u00f6r oss \u00e4r temat familjens heder ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Ett allm\u00e4nm\u00e4nskligt tema som inneh\u00e5ller livsl\u00e4xor f\u00f6r oss handlar om familjens heder ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Ett allm\u00e4nm\u00e4nskligt tema som inneh\u00e5ller livsl\u00e4xor f\u00f6r oss \u00e4r temat familjens heder ."
+                }
+            }
+        },
+        {
+            "original": "Exempelvis var det oacceptabelt f\u00f6r en kvinna att bo som ensamst\u00e5ende mamma .",
+            "reference": "Exempelvis var det oacceptabelt f\u00f6r en kvinna att bo som ensamst\u00e5ende mamma .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Exempelvis var det oacceptabelt f\u00f6r en kvinna att bo som ensamst\u00e5ende mamma ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Exempelvis var det oacceptabelt f\u00f6r en kvinna att vara ensamst\u00e5ende mamma ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Exempelvis var det oacceptabelt f\u00f6r en kvinna att bo som ensamst\u00e5ende mamma ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Till exempel var det oacceptabelt f\u00f6r en kvinna att bo som ensamst\u00e5ende mamma ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Exempelvis var det oacceptabelt f\u00f6r en kvinna att bo som ensamst\u00e5ende mamma ."
+                }
+            }
+        },
+        {
+            "original": "Efter att storebror rider till en annan ort f\u00f6r att r\u00e4dda en motst\u00e5ndsk\u00e4mpe som \u00e4r f\u00e5ngen av f\u00f6rtryckaren beger sig \u00e4ven lillebrodern upp i bergen och p\u00e5 v\u00e4gen dit f\u00e5r han ta reda p\u00e5 f\u00f6rr\u00e4daren men han grips av f\u00f6rtryckarens soldater innan han kommer fram som senare sl\u00e4pps fri igen .",
+            "reference": "Efter att storebror har ridit till en annan ort f\u00f6r att r\u00e4dda en motst\u00e5ndsk\u00e4mpe som \u00e4r f\u00e5ngen hos f\u00f6rtryckaren beger sig \u00e4ven lillebrodern upp i bergen , och p\u00e5 v\u00e4gen dit f\u00e5r han reda p\u00e5 f\u00f6rr\u00e4daren , men han grips av f\u00f6rtryckarens soldater innan han kommer fram . Senare sl\u00e4pps han fri igen .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Efter att storebror rider till en annan ort f\u00f6r att r\u00e4dda en motst\u00e5ndsk\u00e4mpe som \u00e4r f\u00e5ngen av f\u00f6rtryckaren beger sig \u00e4ven lillebrodern upp i bergen och p\u00e5 v\u00e4gen dit f\u00e5r han ta reda p\u00e5 f\u00f6rr\u00e4daren men han grips av f\u00f6rtryckarens soldater innan han kommer fram som senare sl\u00e4pps fri igen ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Efter att storebror har ridit till en annan ort f\u00f6r att r\u00e4dda en motst\u00e5ndsk\u00e4mpe som \u00e4r f\u00e5ngen hos f\u00f6rtryckaren beger sig \u00e4ven lillebrodern upp i bergen . P\u00e5 v\u00e4gen dit f\u00e5r han reda p\u00e5 cem f\u00f6rr\u00e4daren \u00e4r , men han grips av f\u00f6rtryckarens soldater innan han kommer fram . Senare sl\u00e4pps han fri igen ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Efter att storebror rider till en annan ort f\u00f6r att r\u00e4dda en motst\u00e5ndsk\u00e4mpe som \u00e4r f\u00e5ngen av f\u00f6rtryckaren beger sig \u00e4ven lillebrodern upp i bergen och p\u00e5 v\u00e4gen dit f\u00e5r han ta reda p\u00e5 f\u00f6rr\u00e4daren men han grips av f\u00f6rtryckarens soldater innan han kommer fram som senare sl\u00e4pps fri igen ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Efter att storebror har ridit till ett annat st\u00e4lle f\u00f6r att r\u00e4dda en motst\u00e5ndsk\u00e4mpe som \u00e4r f\u00e5ngen hos f\u00f6rtryckaren beger sig \u00e4ven lillebrodern upp i bergen . P\u00e5 v\u00e4gen dit f\u00e5r han reda p\u00e5 f\u00f6rr\u00e4daren , men han grips av f\u00f6rtryckarens soldater innan han kommer fram . Senare sl\u00e4pps han fri igen ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Efter att storebror rider till en annan ort f\u00f6r att r\u00e4dda en motst\u00e5ndsk\u00e4mpe som \u00e4r f\u00e5ngen av f\u00f6rtryckaren , beger sig \u00e4ven lillebrodern upp i bergen . P\u00e5 v\u00e4gen dit f\u00e5r han ta reda p\u00e5 f\u00f6rr\u00e4daren , men han grips av f\u00f6rtryckarens soldater innan han kommer fram . Han sl\u00e4pps fri igen senare ."
+                }
+            }
+        },
+        {
+            "original": "I verket \" stj\u00e4rnl\u00f6sa n\u00e4tter \" skriver f\u00f6rfattaren Arkan Asad om sitt livshistoria och sitt k\u00e4rleks liv .",
+            "reference": "I verket \" Stj\u00e4rnl\u00f6sa n\u00e4tter \" skriver f\u00f6rfattaren Arkan Asad om sin livshistoria och sitt k\u00e4rleksliv .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "I verket X stj\u00e4rnl\u00f6sa n\u00e4tter X skriver f\u00f6rfattaren Arkan Asad om sitt livshistoria och sitt k\u00e4rleks liv ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "I verket \" Stj\u00e4rnl\u00f6sa n\u00e4tter \" skriver f\u00f6rfattaren Arkan Asad om sin livshistoria och sitt k\u00e4rleksliv ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "I verket \" stj\u00e4rnl\u00f6sa n\u00e4tter \" skriver f\u00f6rfattaren Arkan Asad om sitt livshistoria och sitt k\u00e4rleks liv ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "I verket \" Stj\u00e4rnl\u00f6sa n\u00e4tter \" skriver f\u00f6rfattaren Arkan Asad om sin livshistoria och sitt k\u00e4rleksliv ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "I verket \" Stj\u00e4rnl\u00f6sa n\u00e4tter \" skriver f\u00f6rfattaren Arkan Asad om sin livshistoria och sitt k\u00e4rleksliv ."
+                }
+            }
+        },
+        {
+            "original": "Det som \u00e4r gemensamt f\u00f6r alla dessa tre verk \u00e4r att det finns antingen familjerelaterade konflikter eller problem .",
+            "reference": "Det som \u00e4r gemensamt f\u00f6r alla dessa tre verk \u00e4r att det finns antingen familjerelaterade konflikter eller problem .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det som \u00e4r gemensamt f\u00f6r alla dessa tre verk \u00e4r att det finns antingen familjerelaterade konflikter eller problem ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det som \u00e4r gemensamt f\u00f6r alla dessa tre verk \u00e4r att det antingen finns familjerelaterade konflikter eller problem ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det som \u00e4r gemensamt f\u00f6r alla dessa tre verk \u00e4r att det finns antingen familjerelaterade konflikter eller problem ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det som \u00e4r gemensamt f\u00f6r alla dessa tre verk \u00e4r att det finns antingen familjerelaterade konflikter eller problem ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det som \u00e4r gemensamt f\u00f6r alla dessa tre verk \u00e4r att det finns antingen familjerelaterade konflikter eller problem ."
+                }
+            }
+        },
+        {
+            "original": "Orsaken till den f\u00f6r\u00e4ndrning eller skillnaden beror faktiskt p\u00e5 m\u00e5nga olika faktorer , till exempel sociala och ekonomiska faktorer .",
+            "reference": "Orsaken till den f\u00f6r\u00e4ndringen eller skillnaden grundar sig faktiskt i m\u00e5nga olika faktorer , till exempel sociala och ekonomiska faktorer .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Orsaken till den f\u00f6r\u00e4ndring eller skillnaden beror faktiskt p\u00e5 m\u00e5nga olika faktorer , till exempel sociala och ekonomiska faktorer ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Orsaken till den f\u00f6r\u00e4ndringen eller skillnaden grundar sig i m\u00e5nga olika faktorer , till exempel sociala och ekonomiska faktorer ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Orsaken till den f\u00f6r\u00e4ndringen eller skillnaden beror faktiskt p\u00e5 m\u00e5nga olika faktorer , till exempel sociala och ekonomiska faktorer ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Orsaken till den f\u00f6r\u00e4ndringen eller skillnaden har att g\u00f6ra med m\u00e5nga olika faktorer , till exempel sociala och ekonomiska ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Orsaken till den f\u00f6r\u00e4ndringen eller skillnaden beror faktiskt p\u00e5 m\u00e5nga olika faktorer , till exempel sociala och ekonomiska faktorer ."
+                }
+            }
+        },
+        {
+            "original": "Ett verk som tar upp detta tema \u00e4r filmen Modig .",
+            "reference": "Ett verk som tar upp detta tema \u00e4r filmen Modig .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Ett verk som tar upp detta tema \u00e4r filmen Modig ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Ett verk som tar upp detta tema \u00e4r filmen Modig ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Ett verk som tar upp detta tema \u00e4r filmen Modig ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Ett verk som tar upp detta tema \u00e4r filmen Modig ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "En film som tar upp detta tema \u00e4r Modig ."
+                }
+            }
+        },
+        {
+            "original": "En make som inte har n\u00e5gra sexuella attraktioner till sin hustru men hustrun litar , \u00e4lskar sin make och \u00e4r redo att g\u00f6ra vad som helst f\u00f6r honom och efter han fick beslutet fr\u00e5n migrationsverket att det skulle ta flera \u00e5r till att f\u00e5 in henne in till Sverige s\u00e5 b\u00f6rjade han ta halva sin l\u00f6n till Alkohol och till att festa .",
+            "reference": "En make som inte har n\u00e5gon sexuell attraktion till sin hustru , men hustrun litar p\u00e5 , \u00e4lskar sin make och \u00e4r redo att g\u00f6ra vad som helst f\u00f6r honom , och efter att han f\u00e5tt beslutet fr\u00e5n Migrationsverket att det skulle ta flera \u00e5r till att f\u00e5 in henne till Sverige s\u00e5 b\u00f6rjar han ta halva sin l\u00f6n till alkohol och till att festa .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "En make som inte har n\u00e5gra sexuella attraktioner till sin hustru men hustrun litar , \u00e4lskar sin make och \u00e4r redo att g\u00f6ra vad som helst f\u00f6r honom och efter honom fick beslutet fr\u00e5n migrationsverket att det skulle ta flera \u00e5r till att f\u00e5 in henne in till Sverige s\u00e5 b\u00f6rjade han ta halva sin l\u00f6n till Alkohol och till att festa ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "En make som inte har n\u00e5gon sexuell attraktion till sin hustru , men hustrun litar p\u00e5 , \u00e4lskar sin make och \u00e4r redo att g\u00f6ra vad som helst f\u00f6r honom . Efter att han f\u00e5tt beslutet fr\u00e5n Migrationsverket att det skulle ta flera \u00e5r till att f\u00e5 in henne till Sverige s\u00e5 b\u00f6rjar han l\u00e4gga halva sin l\u00f6n p\u00e5 alkohol och fest ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "En make som inte har n\u00e5gra sexuella attraktioner till sin hustru men hustrun litar , \u00e4lskar sin make och \u00e4r redo att g\u00f6ra vad som helst f\u00f6r honom och n\u00e4r han fick beslutet fr\u00e5n migrationsverket att det skulle ta flera \u00e5r f\u00f6r henne att f\u00e5 in henne in till Sverige s\u00e5 b\u00f6rjade han ta halva sin l\u00f6n till Alkohol och till att festa ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "En make k\u00e4nner ingen sexuell attraktion till sin hustru , men hustrun litar p\u00e5 och \u00e4lskar honom , och \u00e4r redo att g\u00f6ra vad som helst f\u00f6r honom . Efter att han f\u00e5tt beslutet fr\u00e5n Migrationsverket att det skulle ta flera \u00e5r att f\u00e5 henne till Sverige s\u00e5 b\u00f6rjar han l\u00e4gga halva sin l\u00f6n p\u00e5 alkohol och att festa ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "En man som inte har n\u00e5gra sexuella attraktioner till sin hustru men hustrun litar , \u00e4lskar sin man och \u00e4r redo att g\u00f6ra vad som helst f\u00f6r honom . Efter att han fick beslutet fr\u00e5n migrationsverket att det skulle ta flera \u00e5r innan hon kunde komma in i Sverige , b\u00f6rjade han spendera halva sin l\u00f6n p\u00e5 alkohol och p\u00e5 att festa ."
+                }
+            }
+        },
+        {
+            "original": "De visar att k\u00e4rlek kan komma i olika typer av former .",
+            "reference": "De visar att k\u00e4rlek kan komma i olika former .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "De visar att k\u00e4rlek kan komma i olika typer av former ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "De visar att k\u00e4rlek kan komma i olika former ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "De visar att k\u00e4rlek kan komma i olika typer av former ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "De visar att k\u00e4rlek kan komma i olika former ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "De visar att k\u00e4rlek kan komma i olika former ."
+                }
+            }
+        },
+        {
+            "original": "\u00c5str\u00f6m skriver att p\u00e5 1990 kom den f\u00f6rsta mobila telefonerna som beskrivs som en liten dator .",
+            "reference": "\u00c5str\u00f6m skriver att 1990 kom de f\u00f6rsta mobila telefonerna som beskrivs som en liten dator .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "\u00c5str\u00f6m skriver att p\u00e5 1990 kom den f\u00f6rsta mobila telefonen som beskrivs som en liten dator ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "\u00c5str\u00f6m skriver att de f\u00f6rsta mobila telefonerna kom 1990 och beskrivs som en liten dator ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "\u00c5str\u00f6m skriver att 1990 kom den f\u00f6rsta mobila telefonen som beskrivs som en liten dator ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "\u00c5str\u00f6m skriver att 1990 kom de f\u00f6rsta mobiltelefonerna , som beskrivs som sm\u00e5 datorer ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "\u00c5str\u00f6m skriver att den f\u00f6rsta mobila telefonen kom 1990 och beskrivs som en liten dator ."
+                }
+            }
+        },
+        {
+            "original": "till exempel om man \u00e5ker till Malm\u00f6 d\u00e5 kan man tr\u00e4ffa folk som kan inte ens tala Svenska och n\u00e4r man fr\u00e5gor de d\u00e5 svarar de att det finns inget behov f\u00f6r det .",
+            "reference": "Om man till exempel \u00e5ker till Malm\u00f6 d\u00e5 kan man tr\u00e4ffa folk som inte ens kan tala svenska och n\u00e4r man fr\u00e5gar dem d\u00e5 svarar de att det finns inget behov av det .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "till exempel om man \u00e5ker till Malm\u00f6 d\u00e5 kan man tr\u00e4ffa folk som kan inte ens tala Svenska och n\u00e4r man fr\u00e5gor de d\u00e5 svarar de att det inte finns n\u00e5got behov f\u00f6r det ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Om man till exempel \u00e5ker till Malm\u00f6 kan man tr\u00e4ffa folk som inte ens kan tala svenska och n\u00e4r man fr\u00e5gar dem d\u00e5 svarar de att det finns inget behov av det ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Till exempel om man \u00e5ker till Malm\u00f6 d\u00e5 kan man tr\u00e4ffa folk som inte ens kan tala Svenska och n\u00e4r man fr\u00e5gor de d\u00e5 svarar de att det finns inget behov f\u00f6r det ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Om man till exempel \u00e5ker till Malm\u00f6 s\u00e5 kan man tr\u00e4ffa folk som inte ens kan tala svenska och n\u00e4r man fr\u00e5gar dem om detta s\u00e5 svarar de att det finns inget behov av det ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Till exempel , n\u00e4r man \u00e5ker till Malm\u00f6 , kan man tr\u00e4ffa folk som inte ens kan tala svenska och n\u00e4r man fr\u00e5gar dem svarar de att det inte finns n\u00e5got behov f\u00f6r det ."
+                }
+            }
+        },
+        {
+            "original": "En person i ett fattyg land , har inte detsamma m\u00f6jligheterna som man har i Sverige , till exempel .",
+            "reference": "En person i ett fattigt land har till exempel inte samma m\u00f6jligheter som man har i Sverige .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "En person i ett fattygland , har inte detsamma m\u00f6jligheterna som man har i Sverige , till exempel ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "En person i ett fattigt land har till exempel inte samma m\u00f6jligheter som man har i Sverige ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "En person i ett fattyg land , har inte detsamma m\u00f6jlighet som man har i Sverige , till exempel ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "En person i ett fattigt land har till exempel inte samma m\u00f6jligheter som personer i Sverige ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "En person i ett fattigt land har inte samma m\u00f6jligheter som man har i Sverige , till exempel ."
+                }
+            }
+        },
+        {
+            "original": "En relation byggd p\u00e5 ultimatum kommer inte h\u00e5lla i l\u00e4ngden , d\u00e5 man tvingar n\u00e5gon att agera p\u00e5 ett speciellt s\u00e4tt .",
+            "reference": "En relation byggd p\u00e5 ultimatum kommer inte h\u00e5lla i l\u00e4ngden , d\u00e5 man tvingar n\u00e5gon att agera p\u00e5 ett speciellt s\u00e4tt .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "En relation byggd p\u00e5 ultimatum kommer inte h\u00e5lla i l\u00e4ngden , d\u00e5 man tvingar n\u00e5gon att agera p\u00e5 ett speciellt s\u00e4tt ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "En relation byggd p\u00e5 ultimatum kommer inte h\u00e5lla i l\u00e4ngden , d\u00e5 man tvingar n\u00e5gon att agera p\u00e5 ett speciellt s\u00e4tt ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "En relation byggd p\u00e5 ultimatum kommer inte h\u00e5lla i l\u00e4ngden , d\u00e5 man tvingar n\u00e5gon att agera p\u00e5 ett speciellt s\u00e4tt ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "En relation som \u00e4r byggd p\u00e5 ultimatum kommer inte att h\u00e5lla i l\u00e4ngden eftersom man d\u00e5 tvingar n\u00e5gon att agera p\u00e5 ett visst s\u00e4tt ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "En relation byggd p\u00e5 ultimatum kommer inte att h\u00e5lla i l\u00e4ngden , d\u00e5 man tvingar n\u00e5gon att agera p\u00e5 ett speciellt s\u00e4tt ."
+                }
+            }
+        },
+        {
+            "original": "Johans f\u00f6r\u00e4ldrar , s\u00e4rskilt fadern var h\u00e5rda , tuffa och skoningsl\u00f6sa .",
+            "reference": "Johans f\u00f6r\u00e4ldrar , s\u00e4rskilt fadern , var h\u00e5rda , tuffa och skoningsl\u00f6sa .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Johans f\u00f6r\u00e4ldrar , s\u00e4rskilt fadern var h\u00e5rd , tuffa och skoningsl\u00f6sa ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Johans f\u00f6r\u00e4ldrar , s\u00e4rskilt fadern , var h\u00e5rda , tuffa och skoningsl\u00f6sa ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Johans f\u00f6r\u00e4ldrar , s\u00e4rskilt fadern , var h\u00e5rda , tuffa och skoningsl\u00f6sa ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Johans f\u00f6r\u00e4ldrar , och s\u00e4rskilt fadern , var h\u00e5rda , tuffa och skoningsl\u00f6sa ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Johans f\u00f6r\u00e4ldrar , s\u00e4rskilt fadern , var h\u00e5rda , tuffa och skoningsl\u00f6sa ."
+                }
+            }
+        },
+        {
+            "original": "Relationen mellan Casim och Amar \u00e4r inte s\u00e5 bra , de kommunicerar inte bra , samma sak h\u00e4nder i filmen Modig , mamman och dottern pratar inte och nu s\u00e5 pratar inte pappan och Amar .",
+            "reference": "Relationen mellan Casim och Amar \u00e4r inte s\u00e5 bra , de kommunicerar inte bra . Samma sak h\u00e4nder i filmen Modig , mamman och dottern pratar inte , och nu s\u00e5 pratar inte pappan och Amar .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Relationen mellan Casim och Amar \u00e4r inte s\u00e5 bra , de kommunicerar inte bra , samma sak h\u00e4nder i filmen Modig , mamman och dottern pratar inte och nu s\u00e5 pratar inte pappan och Armar ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Relationen mellan Casim och Amar \u00e4r inte s\u00e5 bra , de kommunicerar inte bra . Samma sak h\u00e4nder i filmen Modig . Mamman och dottern pratar inte , och nu s\u00e5 pratar inte pappan och Amar ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Relationen mellan Casim och Amar \u00e4r inte s\u00e5 bra , de kommunicerar inte bra , samma sak h\u00e4nder i filmen Modig , mamman och dottern pratar inte och nu s\u00e5 pratar inte pappan och Amar ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Relationen mellan Casim och Amar \u00e4r inte s\u00e5 bra och de har problem att kommunicera . Samma sak h\u00e4nder i filmen Modig , mamman och dottern pratar inte , och nu s\u00e5 pratar inte pappan och Amar heller ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Relationen mellan Casim och Amar \u00e4r inte s\u00e5 bra . De kommunicerar inte bra . Samma sak h\u00e4nder i filmen Modig . Mamman och dottern pratar inte och nu pratar inte pappan och Amar ."
+                }
+            }
+        },
+        {
+            "original": "Kl\u00e4der , smycken och frisyr \u00e4r endast en nyck som inte f\u00e5r leda till en risk .",
+            "reference": "Kl\u00e4der , smycken och frisyrer \u00e4r endast nycker som inte f\u00e5r leda till en risk .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Kl\u00e4der , smycken och frisyr \u00e4r endast en nyck som inte f\u00e5r leda till en risk ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Kl\u00e4der , smycken och frisyrer \u00e4r endast nycker som inte f\u00e5r leda till en risk ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Kl\u00e4der , smycken och frisyr \u00e4r endast en nyck som inte f\u00e5r leda till en risk ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Kl\u00e4der , smycken och frisyrer \u00e4r endast nycker som inte f\u00e5r leda till att man tar risker ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Kl\u00e4der , smycken och frisyr \u00e4r bara en nyhet som inte f\u00e5r leda till en risk ."
+                }
+            }
+        },
+        {
+            "original": "Verket vill ocks\u00e5 visa oss att tv\u00e5ngsgifterm\u00e5let \u00e4r en gammal tradition som b\u00f6r \u00e4ndras och att f\u00f6r\u00e4ldrar inte f\u00e5r tvinga sina barn att gifta sig med n\u00e5gon som de inte k\u00e4nner eller inte \u00e4lskar .",
+            "reference": "Verket vill ocks\u00e5 visa oss att tv\u00e5ngsgifterm\u00e5l \u00e4r en gammal tradition som b\u00f6r \u00e4ndras , och att f\u00f6r\u00e4ldrar inte f\u00e5r tvinga sina barn att gifta sig med n\u00e5gon som de inte k\u00e4nner eller inte \u00e4lskar .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Verket vill ocks\u00e5 visa oss att tv\u00e5ngsgifterm\u00e5let \u00e4r en gammal tradition som b\u00f6r \u00e4ndras och att f\u00f6r\u00e4ldrar inte f\u00e5r tvinga sina barn att gifta sig med n\u00e5gon som de inte k\u00e4nner eller inte \u00e4lskar ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Verket vill ocks\u00e5 visa oss att tv\u00e5ngsgifterm\u00e5l \u00e4r en gammal tradition som b\u00f6r \u00e4ndras , och att f\u00f6r\u00e4ldrar inte f\u00e5r tvinga sina barn att gifta sig med n\u00e5gon som de inte k\u00e4nner eller inte \u00e4lskar ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Verket vill ocks\u00e5 visa oss att tv\u00e5ngsgifterm\u00e5let \u00e4r en gammal tradition som b\u00f6r \u00e4ndras och att f\u00f6r\u00e4ldrar inte f\u00e5r tvinga sina barn att gifta sig med n\u00e5gon som de inte k\u00e4nner eller inte \u00e4lskar ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Verket vill ocks\u00e5 visa oss att tv\u00e5ngsgifterm\u00e5l \u00e4r en gammal tradition som b\u00f6r \u00e4ndras , och att f\u00f6r\u00e4ldrar inte f\u00e5r tvinga sina barn att gifta sig med n\u00e5gon som de inte k\u00e4nner eller inte \u00e4lskar ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Verket vill ocks\u00e5 visa oss att tv\u00e5ngsgifterm\u00e5l \u00e4r en gammal tradition som b\u00f6r \u00e4ndras och att f\u00f6r\u00e4ldrar inte f\u00e5r tvinga sina barn att gifta sig med n\u00e5gon som de inte k\u00e4nner eller inte \u00e4lskar ."
+                }
+            }
+        },
+        {
+            "original": "Eftersom d\u00e5 var ansikte mot ansikte kommunikation , skickade bud brevv\u00e4xling och fem g\u00e5ngar om dagen fick man post .",
+            "reference": "Eftersom det d\u00e5 var kommunikation ansikte mot ansikte , skickades bud med brev och fem g\u00e5nger om dagen fick man post .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Eftersom d\u00e5 var ansikte mot ansiktekommunikation , skickade budbrevv\u00e4xling och fem g\u00e5ngar om dagen fick man post ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Eftersom det d\u00e5 var kommunikation ansikte mot ansikte , skickades bud med brev och fem g\u00e5nger om dagen fick man post ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Eftersom det d\u00e5 var ansikte mot ansikte med kommunikation , skickade bud och brevv\u00e4xling fem g\u00e5nger om dagen fick man post ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Eftersom det d\u00e5 var kommunikation ansikte mot ansikte s\u00e5 skickades bud med brev och fem g\u00e5nger om dagen fick man post ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Eftersom d\u00e5 var ansikte mot ansikte - kommunikation , skickade man bud och fem g\u00e5nger om dagen fick man post ."
+                }
+            }
+        },
+        {
+            "original": "Konsekvenser av en frivillig svenskundervisning I Finland \u00e4r undervisning i svenska obligatoriskt i slutet av grundskolan och p\u00e5 gymnasiet .",
+            "reference": "Konsekvenser av en frivillig svenskundervisning I Finland \u00e4r undervisning i svenska obligatoriskt i slutet av grundskolan och p\u00e5 gymnasiet .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Konsekvenser av en frivillig svenskundervisning I Finland \u00e4r undervisning i svenska obligatoriskt i slutet av grundskolan och p\u00e5 gymnasiet ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Konsekvenser av en frivillig svenskundervisning : I Finland \u00e4r undervisning i svenska obligatoriskt i slutet av grundskolan och p\u00e5 gymnasiet ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Konsekvenser av en frivillig svenskundervisning I Finland \u00e4r undervisning i svenska obligatoriskt i slutet av grundskolan och p\u00e5 gymnasiet ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Konsekvenser av frivillig svenskundervisning i Finland \u00e4r obligatorisk undervisning i svenska i slutet av grundskolan och p\u00e5 gymnasiet ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Konsekvenserna av en frivillig svenskundervisning i Finland \u00e4r att undervisningen i svenska \u00e4r obligatorisk i slutet av grundskolan och p\u00e5 gymnasiet ."
+                }
+            }
+        },
+        {
+            "original": "Kommunikationens utveckling med tiden tills att den blev ett rent tv\u00e5ng Ganska m\u00e5nga av oss \u00e4r totalt samman v\u00e4xta med v\u00e5ra smarta telefoner att vi knappt kan slita \u00f6gonen fr\u00e5n dem \u00e4ven n\u00e4r det riskerar att hota v\u00e5rt eller andras liv",
+            "reference": "Kommunikationens utveckling genom tiderna tills den blev ett rent tv\u00e5ng Ganska m\u00e5nga av oss \u00e4r s\u00e5 totalt sammanv\u00e4xta med v\u00e5ra smarta telefoner att vi knappt kan slita \u00f6gonen fr\u00e5n dem \u00e4ven n\u00e4r det riskerar att hota v\u00e5rt eller andras liv .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Kommunikationens utveckling med tiden tills att den blev ett rent tv\u00e5ng Ganska m\u00e5nga av oss \u00e4r totalt samman v\u00e4xta med v\u00e5ra smarta telefoner att vi knappt kan slita \u00f6gonen fr\u00e5n dem \u00e4ven n\u00e4r det riskerar att hota v\u00e5rt eller andras liv"
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Kommunikationens utveckling genom tiderna tills den blev ett rent tv\u00e5ng . Ganska m\u00e5nga av oss \u00e4r s\u00e5 sammankopplade med v\u00e5ra smarta telefoner att vi knappt kan slita \u00f6gonen fr\u00e5n dem \u00e4ven n\u00e4r det riskerar att hota v\u00e5rt eller andras liv ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Kommunikationens utveckling med tiden tills att den blev ett rent tv\u00e5ng Ganska m\u00e5nga av oss \u00e4r s\u00e5 totalt samman v\u00e4xta med v\u00e5ra smarta telefoner att vi knappt kan slita \u00f6gonen fr\u00e5n dem \u00e4ven n\u00e4r det riskerar att hota v\u00e5rt eller andras liv ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Kommunikationens utveckling genom tiderna tills den blev ett rent tv\u00e5ng Ganska m\u00e5nga av oss \u00e4r s\u00e5 totalt sammanv\u00e4xta med v\u00e5r smarta telefon att vi knappt kan slita \u00f6gonen fr\u00e5n den \u00e4ven n\u00e4r det riskerar att hota v\u00e5rt eller andras liv ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Kommunikationen har utvecklats med tiden tills den blev ett rent tv\u00e5ng . Ganska m\u00e5nga av oss \u00e4r totalt sammanv\u00e4xta med v\u00e5ra smarta telefoner s\u00e5 att vi knappt kan slita \u00f6gonen fr\u00e5n dem , \u00e4ven n\u00e4r det riskerar att hota v\u00e5rt eller andras liv ."
+                }
+            }
+        },
+        {
+            "original": "Fler och fler minoritetsspr\u00e5k idag h\u00e5ller p\u00e5 att d\u00f6 ut .",
+            "reference": "Fler och fler minoritetsspr\u00e5k idag h\u00e5ller p\u00e5 att d\u00f6 ut .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Fler och fler minoritetsspr\u00e5k idag h\u00e5ller p\u00e5 att d\u00f6 ut ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Fler och fler minoritetsspr\u00e5k idag h\u00e5ller p\u00e5 att d\u00f6 ut ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Fler och fler minoritetsspr\u00e5k h\u00e5ller idag p\u00e5 att d\u00f6 ut ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Fler och fler minoritetsspr\u00e5k h\u00e5ller i dag p\u00e5 att d\u00f6 ut ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Fler och fler minoritetsspr\u00e5k h\u00e5ller p\u00e5 att d\u00f6 ut idag ."
+                }
+            }
+        },
+        {
+            "original": "Med hj\u00e4lp av f\u00f6retag sprider sig teknologi \u00e5t olika h\u00e5ll i v\u00e4rlden och d\u00e5 bli det l\u00e4ttare f\u00f6r folk att skaffa sig b\u00e4ttre liv .",
+            "reference": "Med hj\u00e4lp av f\u00f6retag sprider sig teknologi \u00e5t olika h\u00e5ll i v\u00e4rlden och d\u00e5 blir det l\u00e4ttare f\u00f6r folk att skaffa sig b\u00e4ttre liv .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Med hj\u00e4lp av f\u00f6retag sprider sig teknologi \u00e5t olika h\u00e5ll i v\u00e4rlden och d\u00e5 bli det l\u00e4ttare f\u00f6r folk att skaffa sig b\u00e4ttre liv ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Med hj\u00e4lp av f\u00f6retag sprider sig teknologi \u00e5t olika h\u00e5ll i v\u00e4rlden och d\u00e5 blir det l\u00e4ttare f\u00f6r folk att skaffa sig b\u00e4ttre liv ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Med hj\u00e4lp av f\u00f6retag sprider sig teknologi \u00e5t olika h\u00e5ll i v\u00e4rlden och d\u00e5 blir det l\u00e4ttare f\u00f6r folk att skaffa sig b\u00e4ttre liv ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Med hj\u00e4lp av f\u00f6retag sprider sig teknologi \u00e5t olika h\u00e5ll i v\u00e4rlden och g\u00f6r det l\u00e4ttare f\u00f6r folk att skaffa sig b\u00e4ttre liv ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Med hj\u00e4lp av f\u00f6retag sprids teknologi till olika h\u00e5ll i v\u00e4rlden och det blir d\u00e5 l\u00e4ttare f\u00f6r folk att skaffa sig b\u00e4ttre liv ."
+                }
+            }
+        },
+        {
+            "original": "Det enda som kan bryta f\u00f6rtrollningen \u00e4r en handling av \u00e4kta k\u00e4rlek som systern \u00e4r p\u00e5v\u00e4g att f\u00e5 men v\u00e4ljer i sista sekunden att r\u00e4dda prinsessan fr\u00e5n en f\u00f6r\u00f6vare , ist\u00e4llet f\u00f6r den enda m\u00f6jligheten att r\u00e4dda sig sj\u00e4lv .",
+            "reference": "Det enda som kan bryta f\u00f6rtrollningen \u00e4r en handling av \u00e4kta k\u00e4rlek , vilket systern \u00e4r p\u00e5 v\u00e4g att f\u00e5 , men hon v\u00e4ljer i sista sekunden att r\u00e4dda prinsessan fr\u00e5n en f\u00f6r\u00f6vare , ist\u00e4llet f\u00f6r den enda m\u00f6jligheten att r\u00e4dda sig sj\u00e4lv .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Det enda som kan bryta f\u00f6rtrollningen \u00e4r en handling av \u00e4kta k\u00e4rlek som systern \u00e4r p\u00e5v\u00e4g att f\u00e5 men v\u00e4ljer i sista sekunden att r\u00e4dda prinsessan fr\u00e5n en f\u00f6r\u00f6vare , ist\u00e4llet f\u00f6r den enda m\u00f6jligheten att r\u00e4dda sig sj\u00e4lv ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Det enda som kan bryta f\u00f6rtrollningen \u00e4r en handling av \u00e4kta k\u00e4rlek , vilket systern \u00e4r p\u00e5 v\u00e4g att f\u00e5 . Men hon v\u00e4ljer i sista sekunden att r\u00e4dda prinsessan fr\u00e5n en f\u00f6r\u00f6vare , ist\u00e4llet f\u00f6r den enda m\u00f6jligheten att r\u00e4dda sig sj\u00e4lv ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Det enda som kan bryta f\u00f6rtrollningen \u00e4r en handling av \u00e4kta k\u00e4rlek som systern \u00e4r p\u00e5v\u00e4g att f\u00e5 men v\u00e4ljer i sista sekunden att r\u00e4dda prinsessan fr\u00e5n en f\u00f6r\u00f6vare , ist\u00e4llet f\u00f6r den enda m\u00f6jligheten att r\u00e4dda sig sj\u00e4lv ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Det enda som kan bryta f\u00f6rtrollningen \u00e4r en handling av \u00e4kta k\u00e4rlek , vilket systern \u00e4r p\u00e5 v\u00e4g att f\u00e5 , men hon v\u00e4ljer i sista sekunden att r\u00e4dda prinsessan fr\u00e5n en f\u00f6r\u00f6vare i st\u00e4llet f\u00f6r att utnyttja den enda m\u00f6jligheten att r\u00e4dda sig sj\u00e4lv ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Det enda som kan bryta f\u00f6rtrollningen \u00e4r en handling av \u00e4kta k\u00e4rlek . Systern \u00e4r p\u00e5 v\u00e4g att f\u00e5 den men v\u00e4ljer i sista sekunden att r\u00e4dda prinsessan fr\u00e5n en f\u00f6r\u00f6vare , ist\u00e4llet f\u00f6r den enda m\u00f6jligheten att r\u00e4dda sig sj\u00e4lv ."
+                }
+            }
+        },
+        {
+            "original": "D\u00e4r finns m\u00e5nga fattiga m\u00e4nniskor och jag tror att man d\u00e4r har ens egen syn p\u00e5 lycka \u00e4n man fr\u00e5n Norge .",
+            "reference": "D\u00e4r finns m\u00e5nga fattiga m\u00e4nniskor och jag tror att man d\u00e4r har sin egen syn p\u00e5 lycka j\u00e4mf\u00f6rt med m\u00e4nniskor fr\u00e5n Norge .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "D\u00e4r finns m\u00e5nga fattiga m\u00e4nniskor och jag tror att man d\u00e4r har ens egen syn p\u00e5 lycka \u00e4n man fr\u00e5n Norge ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "D\u00e4r finns m\u00e5nga fattiga m\u00e4nniskor och jag tror att man d\u00e4r har sin egen syn p\u00e5 lycka j\u00e4mf\u00f6rt med m\u00e4nniskor fr\u00e5n Norge ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "D\u00e4r finns m\u00e5nga fattiga m\u00e4nniskor och jag tror att man d\u00e4r har ens egen syn p\u00e5 lycka \u00e4n man fr\u00e5n Norge ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "D\u00e4r finns m\u00e5nga fattiga m\u00e4nniskor och jag tror att man d\u00e4r har sin egen syn p\u00e5 lycka som skiljer sig den som m\u00e4nniskor fr\u00e5n Norge har ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "D\u00e4r finns m\u00e5nga fattiga m\u00e4nniskor och jag tror att man har en annan syn p\u00e5 lycka d\u00e4r \u00e4n man har i Norge ."
+                }
+            }
+        },
+        {
+            "original": "Man f\u00e5r t\u00e4nka s\u00e5 att ingen kan g\u00f6ra allt men alla kan g\u00f6ra n\u00e5got .",
+            "reference": "Man f\u00e5r t\u00e4nka s\u00e5 att ingen kan g\u00f6ra allt men alla kan g\u00f6ra n\u00e5got .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Man f\u00e5r t\u00e4nka s\u00e5 att ingen kan g\u00f6ra allt men alla kan g\u00f6ra n\u00e5got ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Man f\u00e5r t\u00e4nka att ingen kan g\u00f6ra allt men alla kan g\u00f6ra n\u00e5got ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Man f\u00e5r t\u00e4nka s\u00e5 att ingen kan g\u00f6ra allt men alla kan g\u00f6ra n\u00e5got ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Man f\u00e5r t\u00e4nka att ingen kan g\u00f6ra allt men alla kan g\u00f6ra n\u00e5got ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Man m\u00e5ste t\u00e4nka p\u00e5 att ingen kan g\u00f6ra allt , men alla kan g\u00f6ra n\u00e5got ."
+                }
+            }
+        },
+        {
+            "original": "Samtidigt b\u00f6rjade Sverige ocks\u00e5 \u00e4ndras politiskt .",
+            "reference": "Samtidigt b\u00f6rjade Sverige ocks\u00e5 \u00e4ndras politiskt .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Samtidigt b\u00f6rjade Sverige ocks\u00e5 \u00e4ndras politiskt ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Samtidigt b\u00f6rjade Sverige ocks\u00e5 \u00e4ndras politiskt ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Samtidigt b\u00f6rjade Sverige ocks\u00e5 \u00e4ndras politiskt ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Samtidigt b\u00f6rjade Sverige ocks\u00e5 \u00e4ndras politiskt ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Samtidigt b\u00f6rjade Sverige ocks\u00e5 att \u00e4ndra sig politiskt ."
+                }
+            }
+        },
+        {
+            "original": "Att kunna ett spr\u00e5k \u00e4r en av de viktigaste och guldv\u00e4dra egenskap en m\u00e4nniska kan ha s\u00e5 det \u00e4r v\u00e4rt mer \u00e4n vad man tror .",
+            "reference": "Att kunna ett spr\u00e5k \u00e4r en av de viktigaste och v\u00e4rdefullaste egenskaper en m\u00e4nniska kan ha s\u00e5 det \u00e4r v\u00e4rt mer \u00e4n vad man tror .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Att kunna ett spr\u00e5k \u00e4r en av de viktigaste och guldv\u00e4dra egenskap en m\u00e4nniska kan ha s\u00e5 det \u00e4r v\u00e4rt mer \u00e4n vad man tror ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Att kunna ett spr\u00e5k \u00e4r en av de viktigaste och v\u00e4rdefullaste egenskaper en m\u00e4nniska kan ha s\u00e5 det \u00e4r v\u00e4rt mer \u00e4n vad man tror ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Att kunna ett spr\u00e5k \u00e4r en av de viktigaste och guldv\u00e4dra egenskap en m\u00e4nniska kan ha s\u00e5 det \u00e4r v\u00e4rt mer \u00e4n vad man tror ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Att kunna ett spr\u00e5k \u00e4r en av de viktigaste och v\u00e4rdefullaste f\u00f6rm\u00e5gorna en m\u00e4nniska kan ha s\u00e5 det \u00e4r v\u00e4rt mer \u00e4n vad man kan tro ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Att kunna ett spr\u00e5k \u00e4r en av de viktigaste och guldv\u00e4rda egenskaperna en m\u00e4nniska kan ha , s\u00e5 det \u00e4r v\u00e4rt mer \u00e4n vad man tror ."
+                }
+            }
+        },
+        {
+            "original": "Lika viktiga \u00e4r till exempel personliga egenskaper och r\u00e4tt attityd .",
+            "reference": "Lika viktiga \u00e4r till exempel personliga egenskaper och r\u00e4tt attityd .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Lika viktiga \u00e4r till exempel personliga egenskaper och r\u00e4tt attityd ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Lika viktiga \u00e4r till exempel personliga egenskaper och r\u00e4tt attityd ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Lika viktiga \u00e4r till exempel personliga egenskaper och r\u00e4tt attityd ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Lika viktiga \u00e4r till exempel personliga egenskaper och r\u00e4tt attityd ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Lika viktigt \u00e4r till exempel personliga egenskaper och r\u00e4tt attityd ."
+                }
+            }
+        },
+        {
+            "original": "Unders\u00f6kningar visar att unga par funderar mycket \u00f6ver sin l\u00e5ngsiktiga k\u00e4rleksrelation efter gifterm\u00e5l om det skulle verkligen h\u00e5lla eller ej samt om l\u00f6ftet r\u00e4cker till .",
+            "reference": "Unders\u00f6kningar visar att unga par funderar mycket \u00f6ver sin l\u00e5ngsiktiga k\u00e4rleksrelation efter gifterm\u00e5let , om den verkligen ska h\u00e5lla eller ej , samt om l\u00f6ftet r\u00e4cker till .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Unders\u00f6kningar visar att unga par funderar mycket \u00f6ver sin l\u00e5ngsiktiga k\u00e4rleksrelation efter gifterm\u00e5l om det verkligen skulle h\u00e5lla eller ej samt om l\u00f6ftet r\u00e4cker till ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Unders\u00f6kningar visar att unga par funderar mycket \u00f6ver sin l\u00e5ngsiktiga k\u00e4rleksrelation efter gifterm\u00e5let , om den verkligen ska h\u00e5lla eller ej , samt om l\u00f6ftet r\u00e4cker till ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Unders\u00f6kningar visar att unga par funderar mycket \u00f6ver sin l\u00e5ngsiktiga k\u00e4rleksrelation efter gifterm\u00e5l om det verkligen skulle h\u00e5lla eller ej samt om l\u00f6ftet r\u00e4cker till ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Unders\u00f6kningar visar att unga par funderar mycket \u00f6ver sin l\u00e5ngsiktiga k\u00e4rleksrelation efter gifterm\u00e5let , om den verkligen ska h\u00e5lla eller ej , samt om l\u00f6ftet \u00e4r tillr\u00e4ckligt ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Unders\u00f6kningar visar att unga par ofta funderar \u00f6ver sin l\u00e5ngsiktiga k\u00e4rleksrelation efter gifterm\u00e5let - om det verkligen kommer att h\u00e5lla eller inte , och om l\u00f6ftet r\u00e4cker till ."
+                }
+            }
+        },
+        {
+            "original": "N\u00e4r man kan ett extra spr\u00e5k f\u00e5r man nya chanser och m\u00f6jligheter att utforska v\u00e4rlden .",
+            "reference": "N\u00e4r man kan ett extra spr\u00e5k f\u00e5r man nya chanser och m\u00f6jligheter att utforska v\u00e4rlden .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "N\u00e4r man kan ett extra spr\u00e5k f\u00e5r man nya chanser och m\u00f6jligheter att utforska v\u00e4rlden ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "N\u00e4r man kan ett extra spr\u00e5k f\u00e5r man nya chanser och m\u00f6jligheter att utforska v\u00e4rlden ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "N\u00e4r man f\u00e5r ett extra spr\u00e5k f\u00e5r man nya chanser och m\u00f6jligheter att utforska v\u00e4rlden ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "N\u00e4r man kan ett extra spr\u00e5k f\u00e5r man nya chanser och m\u00f6jligheter att utforska v\u00e4rlden ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "N\u00e4r man kan ett extra spr\u00e5k f\u00e5r man nya chanser och m\u00f6jligheter att utforska v\u00e4rlden ."
+                }
+            }
+        },
+        {
+            "original": "\u00a8 . Men prover jag nu ber\u00e4tta ordets betydelse .",
+            "reference": "\u00a8 Men jag provar nu att beskriva ordets betydelse .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "\u00a8 . Men prover jag nu ber\u00e4tta ordets betydelse ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Men jag provar nu att beskriva ordets betydelse ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "\u0308 . Men nu provar jag ber\u00e4tta ordets betydelse ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "\u00a8 Men jag provar nu att beskriva ordets betydelse ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Men jag ska nu ber\u00e4tta betydelsen av ordet ."
+                }
+            }
+        },
+        {
+            "original": "Anna f\u00f6ljde efter f\u00f6r att hitta Elsa , hon ville inte l\u00e4mna sin syster .",
+            "reference": "Anna f\u00f6ljde efter f\u00f6r att hitta Elsa , hon ville inte l\u00e4mna sin syster .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "Anna f\u00f6ljde efter f\u00f6r att hitta Elsa , hon ville inte l\u00e4mna sin syster ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "Anna f\u00f6ljde efter f\u00f6r att hitta Elsa . Hon ville inte l\u00e4mna sin syster ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "Anna f\u00f6ljde efter f\u00f6r att hitta Elsa , hon ville inte l\u00e4mna sin syster ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "Anna f\u00f6ljde efter f\u00f6r att hitta Elsa f\u00f6r hon ville inte l\u00e4mna sin syster ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "Anna f\u00f6ljde efter f\u00f6r att hitta Elsa . Hon ville inte l\u00e4mna sin syster ."
+                }
+            }
+        },
+        {
+            "original": "De tycker ocks\u00e5 att man i vanliga fall m\u00e5ste vara lojal och \u00e4rlig mot samh\u00e4llet som man bor i och att inte betala skatt eller att betala svart f\u00f6r en tj\u00e4nst \u00e4r omoraliskt och det p\u00e5verkar samh\u00e4llet negativt .",
+            "reference": "De flesta tycker ocks\u00e5 att man i vanliga fall m\u00e5ste vara lojal och \u00e4rlig mot samh\u00e4llet som man bor i , och att inte betala skatt eller att betala svart f\u00f6r en tj\u00e4nst \u00e4r omoraliskt och det p\u00e5verkar samh\u00e4llet negativt .",
+            "systems": {
+                "granska": {
+                    "annotators": {},
+                    "output": "De tycker ocks\u00e5 att man i vanliga fall m\u00e5ste vara lojal och \u00e4rlig mot samh\u00e4llet som man bor i och att inte betala skatt eller att betala svart f\u00f6r en tj\u00e4nst \u00e4r omoraliskt och det p\u00e5verkar samh\u00e4llet negativt ."
+                },
+                "mm": {
+                    "annotators": {},
+                    "output": "De flesta tycker ocks\u00e5 att man i vanliga fall m\u00e5ste vara lojal och \u00e4rlig mot samh\u00e4llet som man bor i . Att inte betala skatt eller att betala svart f\u00f6r en tj\u00e4nst \u00e4r omoraliskt och det p\u00e5verkar samh\u00e4llet negativt ."
+                },
+                "mt": {
+                    "annotators": {},
+                    "output": "De tycker ocks\u00e5 att man i vanliga fall m\u00e5ste vara lojal och \u00e4rlig mot samh\u00e4llet som man bor i och att inte betala skatt eller att betala svart f\u00f6r en tj\u00e4nst \u00e4r omoraliskt och det p\u00e5verkar samh\u00e4llet negativt ."
+                },
+                "mw": {
+                    "annotators": {},
+                    "output": "De flesta tycker ocks\u00e5 att man i vanliga fall m\u00e5ste vara lojal och \u00e4rlig mot det samh\u00e4lle man bor i , och att inte betala skatt eller att betala svart f\u00f6r en tj\u00e4nst \u00e4r omoraliskt och p\u00e5verkar samh\u00e4llet negativt ."
+                },
+                "s2": {
+                    "annotators": {},
+                    "output": "De tycker ocks\u00e5 att man i vanliga fall m\u00e5ste vara lojal och \u00e4rlig mot samh\u00e4llet man bor i och att inte betala skatt eller betala svart f\u00f6r en tj\u00e4nst \u00e4r omoraliskt och det p\u00e5verkar samh\u00e4llet negativt ."
+                }
+            }
+        }
+    ],
+    "item_order": [
+        57,
+        62,
+        44,
+        33,
+        43,
+        17,
+        45,
+        24,
+        46,
+        35,
+        18,
+        19,
+        20,
+        23,
+        31,
+        61,
+        47,
+        52,
+        30,
+        16,
+        7,
+        53,
+        59,
+        8,
+        15,
+        12,
+        14,
+        5,
+        41,
+        3,
+        63,
+        28,
+        49,
+        56,
+        22,
+        32,
+        10,
+        13,
+        4,
+        27,
+        50,
+        38,
+        42,
+        6,
+        9,
+        37,
+        11,
+        55,
+        2,
+        21,
+        34,
+        0,
+        39,
+        29,
+        60,
+        26,
+        36,
+        48,
+        1,
+        58,
+        25,
+        54,
+        51,
+        40
+    ],
+    "next_item": 7
+}
