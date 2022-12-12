@@ -211,7 +211,8 @@ class AnnotationResults:
             #for measure, counts in sorted(measure_counts.items()):
                 n_sum = sum(n*c for n, c in counts.items() if n != 0)
                 total = sum(c   for n, c in counts.items() if n != 0)
-                print(f'  {measure:24s} {n_sum/total:.1f} (n={total})')
+                print(f'  {measure:24s} {n_sum/total:.1f} (n={total} + '
+                      f'{counts.get(0, 0)} "other")')
             metrics = system_metrics[system]
             for metric, values in sorted(metrics.items()):
                 mean = statistics.mean(values)
