@@ -114,7 +114,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Min f\u00f6rsta k\u00e4rlek i 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                            "corrected": "Min f\u00f6rsta k\u00e4rlek 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
                         }
                     },
                     "output": "Min f\u00f6rsta k\u00e4rlek i 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
@@ -125,7 +125,7 @@
                             "Fluency": 4,
                             "Grammaticality": 4,
                             "Meaning Preservation": 3,
-                            "corrected": "Min f\u00f6rsta k\u00e4rlek var 1999 ."
+                            "corrected": "Min f\u00f6rsta k\u00e4rlek var 1999 , det var f\u00f6rsta g\u00e5ngen jag var k\u00e4r ."
                         }
                     },
                     "output": "Min f\u00f6rsta k\u00e4rlek var 1999 ."
@@ -158,7 +158,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Min f\u00f6rsta k\u00e4rlek i 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
+                            "corrected": "Min f\u00f6rsta k\u00e4rlek 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
                         }
                     },
                     "output": "Min f\u00f6rsta k\u00e4rlek i 1999 var f\u00f6rsta g\u00e5ngen jag blev k\u00e4r ."
@@ -279,7 +279,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Jag bor i Tuna Kvarnv\u00e4gen 14 ."
+                            "corrected": "Jag bor i Tuna p\u00e5 Kvarnv\u00e4gen 14 ."
                         }
                     },
                     "output": "Jag bor i Tuna Kvarnv\u00e4gen 14 ."
@@ -600,7 +600,7 @@
                             "Fluency": 2,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "F\u00f6rst kan du kommer i tid och du skulle kunna ta p\u00e5 fina kl\u00e4der ."
+                            "corrected": "F\u00f6r det f\u00f6rsta kan du komma i tid , och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
                         }
                     },
                     "output": "F\u00f6rst kan du kommer i tid och du skulle kunna ta p\u00e5 fina kl\u00e4der ."
@@ -611,7 +611,7 @@
                             "Fluency": 3,
                             "Grammaticality": 4,
                             "Meaning Preservation": 4,
-                            "corrected": "F\u00f6rst kan du komma i tid , och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
+                            "corrected": "F\u00f6r det f\u00f6rsta kan du komma i tid , och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
                         }
                     },
                     "output": "F\u00f6rst kan du komma i tid , och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
@@ -622,7 +622,7 @@
                             "Fluency": 3,
                             "Grammaticality": 4,
                             "Meaning Preservation": 4,
-                            "corrected": "F\u00f6rst kan du komma i tid och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
+                            "corrected": "F\u00f6r det f\u00f6rsta kan du komma i tid , och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
                         }
                     },
                     "output": "F\u00f6rst kan du komma i tid och du skulle kunna ta p\u00e5 dig fina kl\u00e4der ."
@@ -1121,7 +1121,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade p\u00e5 oss ."
+                            "corrected": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade han p\u00e5 oss ."
                         }
                     },
                     "output": "Han var min brors v\u00e4n , d\u00e5 och d\u00e5 h\u00e4lsade p\u00e5 oss ."
@@ -1256,7 +1256,7 @@
                             "Fluency": 4,
                             "Grammaticality": 4,
                             "Meaning Preservation": 3,
-                            "corrected": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att jag bodde med min sambo ."
+                            "corrected": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att bo med min sambo ."
                         }
                     },
                     "output": "Jag ska ber\u00e4tta om n\u00e4r jag flyttade till Lundby f\u00f6r att jag bodde med min sambo ."
@@ -1347,7 +1347,7 @@
                             "Fluency": 2,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "D\u00e4r kan du tr\u00e4ffa m\u00e5ngsn\u00e4lla kvinnor och umg\u00e5s med dem ."
+                            "corrected": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med dem ."
                         }
                     },
                     "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5ngsn\u00e4lla kvinnor och umg\u00e5s med dem ."
@@ -1369,7 +1369,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med de ."
+                            "corrected": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med dem ."
                         }
                     },
                     "output": "D\u00e4r kan du tr\u00e4ffa m\u00e5nga sn\u00e4lla kvinnor och umg\u00e5s med de ."
@@ -1460,7 +1460,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "David tycker om att laga mat i sin fritid ."
+                            "corrected": "David tycker om att laga mat p\u00e5 sin fritid ."
                         }
                     },
                     "output": "David tycker om att laga mat i sin fritid ."
@@ -1504,7 +1504,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "David tycker om att laga mat i sin fritid ."
+                            "corrected": "David tycker om att laga mat p\u00e5 sin fritid ."
                         }
                     },
                     "output": "David tycker om att laga mat i sin fritid ."
@@ -1547,7 +1547,7 @@
                             "Fluency": 1,
                             "Grammaticality": 3,
                             "Meaning Preservation": 2,
-                            "corrected": "Det var l\u00e5ng tid jag h\u00f6rde fr\u00e5n dig , jag missar dig mycket ."
+                            "corrected": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket ."
                         }
                     },
                     "output": "Det var l\u00e5ng tid jag h\u00f6rde fr\u00e5n dig , jag missar dig mycket ."
@@ -1569,7 +1569,7 @@
                             "Fluency": 1,
                             "Grammaticality": 3,
                             "Meaning Preservation": 2,
-                            "corrected": "Det var l\u00e4nge jag horde fr\u00e5n dig , jag missar dig mycket ."
+                            "corrected": "Det var l\u00e4nge sedan jag h\u00f6rde fr\u00e5n dig , jag saknar dig mycket ."
                         }
                     },
                     "output": "Det var l\u00e4nge jag horde fr\u00e5n dig , jag missar dig mycket ."
@@ -1868,7 +1868,7 @@
                             "Fluency": 2,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Min fru Emma och min son Peter bor med mig , ibland mormor kommer att stanna med oss flera dagar ."
+                            "corrected": "Min fru Emma och min son Peter bor med mig , ibland kommer mormor och stannar hos oss flera dagar ."
                         }
                     },
                     "output": "Min fru Emma och min son Peter bor med mig , ibland mormor kommer att stanna med oss flera dagar ."
@@ -1890,7 +1890,7 @@
                             "Fluency": 3,
                             "Grammaticality": 4,
                             "Meaning Preservation": 4,
-                            "corrected": "Min fru Emma och min son Peter bor med mig , ibland kommer mormor att stanna med oss flera d\u00e5gar ."
+                            "corrected": "Min fru Emma och min son Peter bor med mig , ibland kommer mormor och stanna hos oss flera d\u00e5gar ."
                         }
                     },
                     "output": "Min fru Emma och min son Peter bor med mig , ibland kommer mormor att stanna med oss flera d\u00e5gar ."
@@ -2116,5 +2116,5 @@
         49,
         10
     ],
-    "next_item": 10
+    "next_item": 12
 }
