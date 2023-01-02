@@ -95,9 +95,10 @@ class AnnotationResults:
         return merged
 
 
-    def get_pairwise_distances(self, metric=nld, filename=None):
+    def get_pairwise_distances(self, metric=nld, filename=None, verbose=False):
         import sklearn.manifold
         from matplotlib import pyplot as plt
+        from matplotlib.lines import Line2D
         distances = defaultdict(list)
         names = set()
         for _, data in self.groups:
@@ -112,6 +113,10 @@ class AnnotationResults:
                         if 'corrected' in annotations:
                             version = f"{system}+{annotator}"
                             versions[version] = annotations['corrected']
+                if verbose:
+                    for v, s in sorted(versions.items(), key=itemgetter(0)):
+                        print(v, s)
+                    print()
                 names |= set(versions.keys())
                 for (v1, s1), (v2, s2) in itertools.combinations(
                         sorted(versions.items(), key=itemgetter(0)), 2):
@@ -130,23 +135,38 @@ class AnnotationResults:
         name_parent = {}
         name_label = {}
         name_ls = {}
+        name_color = {}
         annotator_alias = {'katarina': 'ann1', 'robert': 'ann2'}
-        system_alias = {'s2': 'GPT-3', 'granska': 'Granska', 'mt-base': 'MT'}
+        system_alias = {'s2': 'GPT-3', 'granska': 'Granska', 'mt-base': 'MT',
+                        'mm': 'fluent', 'mw': 'free', 'mt': 'MT'}
         for name in names:
             if '+' in name:
                 system, annotator = name.split('+')
                 # Use visual coding instead
                 #name_label[name] = annotator_alias[annotator]
-                name_ls[name] = '-.' if annotator == 'robert' else '--'
+                name_ls[name] = '--'
+                name_color[name] = 'orange' if name == 'robert' else  'cyan'
                 name_parent[name] = system
             elif name == 'original':
                 name_label[name] = name
             elif name == 'SweLL':
                 name_parent[name] = 'original'
                 name_label[name] = 'grammatical'
+                name_ls[name] = ':'
+                name_color[name] = 'magenta'
             elif name == 'mystery':
                 name_parent[name] = 'SweLL'
                 name_label[name] = 'fluent'
+            elif name == 'mm':
+                name_parent[name] = 'SweLL'
+                name_label[name] = 'fluent'
+                name_color[name] = 'blue'
+                name_ls[name] = ':'
+            elif name == 'mw':
+                name_parent[name] = 'SweLL'
+                name_label[name] = 'free'
+                name_color[name] = 'red'
+                name_ls[name] = ':'
             else:
                 name_parent[name] = 'original'
                 name_label[name] = system_alias[name]
@@ -171,11 +191,20 @@ class AnnotationResults:
             if parent is not None:
                 q = name_vector[parent]
                 plt.plot([q[0], p[0]], [q[1], p[1]],
-                        color='black',
+                        color=name_color.get(name, 'black'),
                         linestyle=name_ls.get(name, '-'))
                 #plt.arrow(q[0], q[1], p[0]-q[0], p[1]-q[1],
                 #        length_includes_head=True, head_width=0,
                 #        head_length=0)
+
+
+        custom_lines = [Line2D([0], [0], ls='-'),
+                        Line2D([0], [0], ls='--'),
+                        Line2D([0], [0], ls=':')]
+        plt.legend(custom_lines, [
+            'GEC transformation',
+            'Human post-GEC correction',
+            'Human normalization'])
 
         if filename is not None:
             plt.savefig(filename)
@@ -202,7 +231,7 @@ class AnnotationResults:
         return system_measure_counts, system_metrics
 
 
-    def summarize(self):
+    def summarize(self, verbose=False):
         system_measure_counts, system_metrics = self.get_scores()
         for system, measure_counts in system_measure_counts.items():
             print(system)
@@ -211,12 +240,18 @@ class AnnotationResults:
             #for measure, counts in sorted(measure_counts.items()):
                 n_sum = sum(n*c for n, c in counts.items() if n != 0)
                 total = sum(c   for n, c in counts.items() if n != 0)
-                print(f'  {measure:24s} {n_sum/total:.1f} (n={total} + '
-                      f'{counts.get(0, 0)} "other")')
+                n_sum_all = sum(n*c for n, c in counts.items())
+                total_all = sum(c   for n, c in counts.items())
+                print(f'  {measure:24s} {n_sum/total:.1f} '
+                      f'(n={total}+'
+                      f'{counts.get(0, 0)} "other")   '
+                      f'{counts[4]:3d} {counts[3]:3d} '
+                      f'{counts[2]:3d} {counts[1]:3d} '
+                      f'({counts[0]}; {n_sum_all/total_all:.1f})')
             metrics = system_metrics[system]
             for metric, values in sorted(metrics.items()):
                 mean = statistics.mean(values)
-                print(f'  {metric:24s} {mean:.2g} (n={len(values)})')
+                print(f'  {metric:24s} {mean:.3f} (n={len(values)})')
             print()
 
 
@@ -284,6 +319,9 @@ def main():
             '--only-differences', action='store_true',
             help='When comparing annotators, only show different annotations')
     parser.add_argument(
+            '--verbose', '-v', action='store_true',
+            help='More verbose output')
+    parser.add_argument(
             '--action', default='summarize',
             choices=('compare', 'summarize', 'pairwise'),
             help='Action to perform: compare pairwise summarize [default]')
@@ -297,11 +335,11 @@ def main():
 
     ar = AnnotationResults(args.input)
     if args.action == 'summarize':
-        ar.summarize()
+        ar.summarize(verbose=args.verbose)
     elif args.action == 'compare':
         ar.compare_differences(show_all=not args.only_differences)
     elif args.action == 'pairwise':
-        ar.get_pairwise_distances(filename=args.output)
+        ar.get_pairwise_distances(filename=args.output, verbose=args.verbose)
     else:
         raise ValueError()
 
