@@ -1352,7 +1352,7 @@
                             "Fluency": 2,
                             "Grammaticality": 2,
                             "Meaning Preservation": 4,
-                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r n\u00e4ra med chefen , skaffade jag heltidsjobb som servitris d\u00e4r."
+                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r n\u00e4ra med chefen , skaffade jag heltidsjobb d\u00e4r som servitris ."
                         }
                     },
                     "output": "Eftersom jag trivs dit och st\u00e5r varandra n\u00e4ra med chefen , skaffade jag heltidjobb dit som servitris ."
@@ -1363,7 +1363,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra , skaffade jag ett heltidsjobb som servitris d\u00e4r."
+                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra , skaffade jag ett heltidsjobb d\u00e4r som servitris ."
                         }
                     },
                     "output": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra   skaffade jag ett heltidsjobb d\u00e4r som servitris ."
@@ -1374,7 +1374,7 @@
                             "Fluency": 2,
                             "Grammaticality": 2,
                             "Meaning Preservation": 3,
-                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra , skaffade jag ett heltidsjobb som servitris d\u00e4r."
+                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra , skaffade jag ett heltidsjobb d\u00e4r som servitris ."
                         }
                     },
                     "output": "Eftersom jag trivs dit och st\u00e5r varandra n\u00e4ra med chefen , skafade jag dit jobb heltid som servitris ."
@@ -1385,7 +1385,7 @@
                             "Fluency": 3,
                             "Grammaticality": 3,
                             "Meaning Preservation": 4,
-                            "corrected": "Eftersom jag trivs d\u00e4r och k\u00e4nner chefen v\u00e4l s\u00e5 skaffade jag ett heltidsjobb som servitris d\u00e4r."
+                            "corrected": "Eftersom jag trivs d\u00e4r och k\u00e4nner chefen v\u00e4l s\u00e5 skaffade jag ett heltidsjobb d\u00e4r som servitris ."
                         }
                     },
                     "output": "Eftersom jag trivs d\u00e4r och k\u00e4nner chefen v\u00f6l s\u00e5 skaffade jag ett heltidsjobb d\u00e4r som servitris ."
@@ -1396,7 +1396,7 @@
                             "Fluency": 3,
                             "Grammaticality": 2,
                             "Meaning Preservation": 4,
-                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra, skaffade jag ett heltidsjobb som servitris d\u00e4r ."
+                            "corrected": "Eftersom jag trivs d\u00e4r och st\u00e5r chefen n\u00e4ra, skaffade jag ett heltidsjobb d\u00e4r som servitris ."
                         }
                     },
                     "output": "Eftersom jag trivs d\u00e4r och st\u00e5r varandra n\u00e4ra med chefen , skaffade jag ett heltidsjobb d\u00e4r som servitris ."
@@ -3971,5 +3971,5 @@
         29,
         62
     ],
-    "next_item": 59
+    "next_item": 4
 }
