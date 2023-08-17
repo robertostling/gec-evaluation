@@ -1,4 +1,4 @@
-# few-shot-gec
+# gec-evaluation
 Data and code for the paper *Evaluation of really good grammatical error
 correction*.
 
