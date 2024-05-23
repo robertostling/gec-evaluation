@@ -1,3 +1,7 @@
+"""
+Few-shot Swedish GEC (may not be compatible with recent openai versions).
+"""
+
 import openai
 import os
 import argparse
