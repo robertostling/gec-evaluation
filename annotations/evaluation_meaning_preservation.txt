@@ -1,0 +1,16 @@
+Robert's evaluation of how many of GPT-3's corrections scored 1 or 2 in
+Meaning Preservation by Katarina that are due to limited context.
+
+Proficiency level A:
+2 of 8
+1 score 0 (noise)
+
+Proficiency level B:
+5 of 17
+3 case of reasonable interpretation
+1 clear mistake in SweLL
+1 score 0 (mistake?)
+
+Proficiency level C:
+1 of 5
+
