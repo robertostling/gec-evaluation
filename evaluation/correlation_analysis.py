@@ -65,6 +65,7 @@ def correlate_scores(scores1, scores2, level='All'):
     r = scipy.stats.pearsonr(x, y)
     bs = scipy.stats.BootstrapMethod(method='BCa', n_resamples=999)
     ci = r.confidence_interval(confidence_level=0.90, method=bs)
+    print('Correlating', x, y, 'r =', r)
     return [r.statistic, ci.low, ci.high]
 
 
